@@ -1,4 +1,234 @@
 {
+  "gmm": {
+    "weapon": [
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 150,
+        "max": 150
+      }
+    ],
+    "armor": [
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "shield": [
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  "gms": {
+    "weapon": [
+      {
+        "prop": "cold-min",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "cold-max",
+        "param": 0,
+        "min": 14,
+        "max": 14
+      },
+      {
+        "prop": "cold-len",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      }
+    ],
+    "armor": [
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 38,
+        "max": 38
+      }
+    ],
+    "shield": [
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  "gme": {
+    "weapon": [
+      {
+        "prop": "pois-min",
+        "param": 0,
+        "min": 143,
+        "max": 143
+      },
+      {
+        "prop": "pois-max",
+        "param": 0,
+        "min": 143,
+        "max": 143
+      },
+      {
+        "prop": "pois-len",
+        "param": 0,
+        "min": 179,
+        "max": 179
+      }
+    ],
+    "armor": [
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "shield": [
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  "gmr": {
+    "weapon": [
+      {
+        "prop": "fire-min",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "fire-max",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "armor": [
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 38,
+        "max": 38
+      }
+    ],
+    "shield": [
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  "gmd": {
+    "weapon": [
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 68,
+        "max": 68
+      }
+    ],
+    "armor": [
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      }
+    ],
+    "shield": [
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 19,
+        "max": 19
+      }
+    ]
+  },
+  "gmt": {
+    "weapon": [
+      {
+        "prop": "ltng-min",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ltng-max",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ],
+    "armor": [
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 24,
+        "max": 24
+      }
+    ],
+    "shield": [
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  "gmk": {
+    "weapon": [
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "armor": [
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 19,
+        "max": 19
+      }
+    ],
+    "shield": [
+      {
+        "prop": "thorns",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
   "gcv": {
     "weapon": [
       {
@@ -1210,10 +1440,10 @@
     ],
     "armor": [
       {
-        "prop": "stamdrain",
+        "prop": "heal-kill",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 5,
+        "max": 5
       }
     ],
     "shield": [

@@ -12,7 +12,7 @@
     "stackable": false
   },
   "hpo": {
-    "name": "hpo",
+    "name": "Healing Potion",
     "type": "hpot",
     "tier": 0,
     "maxSockets": 0,
@@ -24,7 +24,7 @@
     "stackable": false
   },
   "mpo": {
-    "name": "mpo",
+    "name": "Mana Potion",
     "type": "mpot",
     "tier": 0,
     "maxSockets": 0,
@@ -36,7 +36,7 @@
     "stackable": false
   },
   "hpf": {
-    "name": "hpf",
+    "name": "Full Healing Potion",
     "type": "hpot",
     "tier": 0,
     "maxSockets": 0,
@@ -48,7 +48,7 @@
     "stackable": false
   },
   "mpf": {
-    "name": "mpf",
+    "name": "Full Mana Potion",
     "type": "mpot",
     "tier": 0,
     "maxSockets": 0,
@@ -129,7 +129,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "ibk": {
     "name": "Tome of Identify",
@@ -141,13 +141,13 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "amu": {
     "name": "Amulet",
     "type": "amul",
     "tier": 0,
-    "maxSockets": 1,
+    "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
@@ -156,7 +156,7 @@
     "stackable": false
   },
   "vip": {
-    "name": "Top of the Horadric Staff",
+    "name": "Amulet of the Viper",
     "type": "amul",
     "tier": 0,
     "maxSockets": 0,
@@ -165,14 +165,13 @@
     "height": 1,
     "qlevel": 15,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "rin": {
     "name": "Ring",
     "type": "ring",
     "tier": 0,
-    "maxSockets": 1,
+    "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
@@ -190,7 +189,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "bks": {
     "name": "Scroll of Inifuss",
@@ -202,8 +201,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "bkd": {
     "name": "Key to the Cairn Stones",
@@ -215,8 +213,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "aqv": {
     "name": "Arrows",
@@ -228,7 +225,7 @@
     "height": 3,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "tch": {
     "name": "Torch",
@@ -252,7 +249,7 @@
     "height": 3,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "tsc": {
     "name": "Scroll of Town Portal",
@@ -432,7 +429,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "luv": {
     "name": "The Black Tower Key",
@@ -444,11 +441,10 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "xyz": {
-    "name": "Right Click to permanently add 20 to Life\\nPotion of Life",
+    "name": "Potion of Life",
     "type": "ques",
     "tier": 0,
     "maxSockets": 0,
@@ -457,8 +453,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "j34": {
     "name": "A Jade Figurine",
@@ -470,8 +465,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "g34": {
     "name": "The Golden Bird",
@@ -483,8 +477,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "bbb": {
     "name": "Lam Esen's Tome",
@@ -496,8 +489,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "box": {
     "name": "Horadric Cube",
@@ -521,8 +513,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "mss": {
     "name": "Mephisto's Soulstone",
@@ -534,11 +525,10 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "ass": {
-    "name": "Right Click to learn skill of your choice\\nBook of Skill",
+    "name": "Book of Skill",
     "type": "ques",
     "tier": 0,
     "maxSockets": 0,
@@ -547,8 +537,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "qey": {
     "name": "Khalim's Eye",
@@ -560,8 +549,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "qhr": {
     "name": "Khalim's Heart",
@@ -573,8 +561,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "qbr": {
     "name": "Khalim's Brain",
@@ -586,8 +573,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "ear": {
     "name": "Ear",
@@ -599,6 +585,174 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
+    "stackable": false
+  },
+  "gmm": {
+    "name": "Amethyst",
+    "type": "gema",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1am": {
+    "name": "Amethyst Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "gmt": {
+    "name": "Topaz",
+    "type": "gemt",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1tp": {
+    "name": "Topaz Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "gms": {
+    "name": "Sapphire",
+    "type": "gems",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1sa": {
+    "name": "Sapphire Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "gme": {
+    "name": "Emerald",
+    "type": "geme",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1em": {
+    "name": "Emerald Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "gmr": {
+    "name": "Ruby",
+    "type": "gemr",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1rb": {
+    "name": "Ruby Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "gmd": {
+    "name": "Diamond",
+    "type": "gemd",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1di": {
+    "name": "Diamond Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "gmk": {
+    "name": "Skull",
+    "type": "gemz",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "1sk": {
+    "name": "Skull Stack",
+    "type": "gemx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
     "stackable": false
   },
   "gcv": {
@@ -961,6 +1115,66 @@
     "levelReq": 18,
     "stackable": false
   },
+  "skc": {
+    "name": "Chipped Skull",
+    "type": "gemz",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 1,
+    "stackable": false
+  },
+  "skf": {
+    "name": "Flawed Skull",
+    "type": "gemz",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 5,
+    "stackable": false
+  },
+  "sku": {
+    "name": "Skull",
+    "type": "gemz",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 12,
+    "stackable": false
+  },
+  "skl": {
+    "name": "Flawless Skull",
+    "type": "gemz",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 15,
+    "stackable": false
+  },
+  "skz": {
+    "name": "Perfect Skull",
+    "type": "gemz",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 18,
+    "stackable": false
+  },
   "hp1": {
     "name": "Minor Healing Potion",
     "type": "hpot",
@@ -1081,66 +1295,6 @@
     "levelReq": 0,
     "stackable": false
   },
-  "skc": {
-    "name": "Chipped Skull",
-    "type": "gemz",
-    "tier": 0,
-    "maxSockets": 0,
-    "indestructible": true,
-    "width": 1,
-    "height": 1,
-    "qlevel": 0,
-    "levelReq": 1,
-    "stackable": false
-  },
-  "skf": {
-    "name": "Flawed Skull",
-    "type": "gemz",
-    "tier": 0,
-    "maxSockets": 0,
-    "indestructible": true,
-    "width": 1,
-    "height": 1,
-    "qlevel": 0,
-    "levelReq": 5,
-    "stackable": false
-  },
-  "sku": {
-    "name": "Skull",
-    "type": "gemz",
-    "tier": 0,
-    "maxSockets": 0,
-    "indestructible": true,
-    "width": 1,
-    "height": 1,
-    "qlevel": 0,
-    "levelReq": 12,
-    "stackable": false
-  },
-  "skl": {
-    "name": "Flawless Skull",
-    "type": "gemz",
-    "tier": 0,
-    "maxSockets": 0,
-    "indestructible": true,
-    "width": 1,
-    "height": 1,
-    "qlevel": 0,
-    "levelReq": 15,
-    "stackable": false
-  },
-  "skz": {
-    "name": "Perfect Skull",
-    "type": "gemz",
-    "tier": 0,
-    "maxSockets": 0,
-    "indestructible": true,
-    "width": 1,
-    "height": 1,
-    "qlevel": 0,
-    "levelReq": 18,
-    "stackable": false
-  },
   "hrb": {
     "name": "Herb",
     "type": "herb",
@@ -1190,7 +1344,7 @@
     "stackable": false
   },
   "rps": {
-    "name": "rps",
+    "name": "Small Red Potion",
     "type": "hpot",
     "tier": 0,
     "maxSockets": 0,
@@ -1199,10 +1353,10 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "rpl": {
-    "name": "rpl",
+    "name": "Large Red Potion",
     "type": "hpot",
     "tier": 0,
     "maxSockets": 0,
@@ -1211,10 +1365,10 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "bps": {
-    "name": "bps",
+    "name": "Small Blue Potion",
     "type": "mpot",
     "tier": 0,
     "maxSockets": 0,
@@ -1223,10 +1377,10 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "bpl": {
-    "name": "bpl",
+    "name": "Large Blue Potion",
     "type": "mpot",
     "tier": 0,
     "maxSockets": 0,
@@ -1235,7 +1389,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": true
+    "stackable": false
   },
   "r01": {
     "name": "El Rune",
@@ -1646,7 +1800,7 @@
     "stackable": false
   },
   "ice": {
-    "name": "Keep it to thaw Anya\\nMalah's Potion",
+    "name": "Malah's Potion",
     "type": "ques",
     "tier": 0,
     "maxSockets": 0,
@@ -1655,8 +1809,7 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "0sc": {
     "name": "Scroll of Knowledge",
@@ -1671,7 +1824,7 @@
     "stackable": false
   },
   "tr2": {
-    "name": "Right Click to Cast\\nScroll of Resistance",
+    "name": "Scroll of Resistance",
     "type": "ques",
     "tier": 0,
     "maxSockets": 0,
@@ -1680,8 +1833,7 @@
     "height": 2,
     "qlevel": 0,
     "levelReq": 0,
-    "stackable": false,
-    "trackQuestDifficulty": true
+    "stackable": false
   },
   "pk1": {
     "name": "Key of Terror",
@@ -1757,13 +1909,13 @@
   },
   "toa": {
     "name": "Token of Absolution",
-    "type": "ques",
+    "type": "elix",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
-    "qlevel": 0,
+    "qlevel": 1,
     "levelReq": 0,
     "stackable": false
   },
@@ -1780,7 +1932,7 @@
     "stackable": false
   },
   "ceh": {
-    "name": "Charged Essence of Hatred",
+    "name": "Charged Essense of Hatred",
     "type": "ques",
     "tier": 0,
     "maxSockets": 0,
@@ -1817,7 +1969,7 @@
   },
   "std": {
     "name": "Standard of Heroes",
-    "type": "ques",
+    "type": "key",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -1825,6 +1977,930 @@
     "height": 1,
     "qlevel": 90,
     "levelReq": 90,
+    "stackable": false
+  },
+  "cm4": {
+    "name": "t1 Splash Charm",
+    "type": "scha",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 1,
+    "stackable": false
+  },
+  "cm5": {
+    "name": "t9 Splash Charm",
+    "type": "scha",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 1,
+    "stackable": false
+  },
+  "s01": {
+    "name": "El Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 11,
+    "levelReq": 11,
+    "stackable": false
+  },
+  "s02": {
+    "name": "Eld Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 11,
+    "levelReq": 11,
+    "stackable": false
+  },
+  "s03": {
+    "name": "Tir Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 13,
+    "levelReq": 13,
+    "stackable": false
+  },
+  "s04": {
+    "name": "Nef Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 13,
+    "levelReq": 13,
+    "stackable": false
+  },
+  "s05": {
+    "name": "Eth Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 15,
+    "levelReq": 15,
+    "stackable": false
+  },
+  "s06": {
+    "name": "Ith Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 15,
+    "levelReq": 15,
+    "stackable": false
+  },
+  "s07": {
+    "name": "Tal Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 17,
+    "levelReq": 17,
+    "stackable": false
+  },
+  "s08": {
+    "name": "Ral Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 19,
+    "levelReq": 19,
+    "stackable": false
+  },
+  "s09": {
+    "name": "Ort Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 21,
+    "levelReq": 21,
+    "stackable": false
+  },
+  "s10": {
+    "name": "Thul Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 23,
+    "levelReq": 23,
+    "stackable": false
+  },
+  "s11": {
+    "name": "Amn Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 25,
+    "levelReq": 25,
+    "stackable": false
+  },
+  "s12": {
+    "name": "Sol Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 27,
+    "levelReq": 27,
+    "stackable": false
+  },
+  "s13": {
+    "name": "Shael Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 29,
+    "levelReq": 29,
+    "stackable": false
+  },
+  "s14": {
+    "name": "Dol Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 31,
+    "levelReq": 31,
+    "stackable": false
+  },
+  "s15": {
+    "name": "Hel Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 33,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "s16": {
+    "name": "Io Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 35,
+    "levelReq": 35,
+    "stackable": false
+  },
+  "s17": {
+    "name": "Lum Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 37,
+    "levelReq": 37,
+    "stackable": false
+  },
+  "s18": {
+    "name": "Ko Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 39,
+    "levelReq": 39,
+    "stackable": false
+  },
+  "s19": {
+    "name": "Fal Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 41,
+    "levelReq": 41,
+    "stackable": false
+  },
+  "s20": {
+    "name": "Lem Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 43,
+    "levelReq": 43,
+    "stackable": false
+  },
+  "s21": {
+    "name": "Pul Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 45,
+    "levelReq": 45,
+    "stackable": false
+  },
+  "s22": {
+    "name": "Um Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 47,
+    "levelReq": 47,
+    "stackable": false
+  },
+  "s23": {
+    "name": "Mal Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 49,
+    "levelReq": 49,
+    "stackable": false
+  },
+  "s24": {
+    "name": "Ist Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 51,
+    "levelReq": 51,
+    "stackable": false
+  },
+  "s25": {
+    "name": "Gul Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 53,
+    "levelReq": 53,
+    "stackable": false
+  },
+  "s26": {
+    "name": "Vex Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 55,
+    "levelReq": 55,
+    "stackable": false
+  },
+  "s27": {
+    "name": "Ohm Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 57,
+    "levelReq": 57,
+    "stackable": false
+  },
+  "s28": {
+    "name": "Lo Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 59,
+    "levelReq": 59,
+    "stackable": false
+  },
+  "s29": {
+    "name": "Sur Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 61,
+    "levelReq": 61,
+    "stackable": false
+  },
+  "s30": {
+    "name": "Ber Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 63,
+    "levelReq": 63,
+    "stackable": false
+  },
+  "s31": {
+    "name": "Jah Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 65,
+    "levelReq": 65,
+    "stackable": false
+  },
+  "s32": {
+    "name": "Cham Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 67,
+    "levelReq": 67,
+    "stackable": false
+  },
+  "s33": {
+    "name": "Zod Rune Stack",
+    "type": "runx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 69,
+    "levelReq": 69,
+    "stackable": false
+  },
+  "z01": {
+    "name": "Magic Arrows",
+    "type": "mboq",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 3,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "z02": {
+    "name": "Magic Bolts",
+    "type": "mxbq",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 3,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "tws": {
+    "name": "Treehead Woodfist's Soul",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "scs": {
+    "name": "Snapchip's Soul",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "kch": {
+    "name": "Keychain",
+    "type": "stor",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "bag": {
+    "name": "Gem Bag",
+    "type": "stor",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "stt": {
+    "name": "Take Item",
+    "type": "ques",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "agr": {
+    "name": "Amethyst Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "tgr": {
+    "name": "Topaz Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "sgr": {
+    "name": "Sapphire Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "egr": {
+    "name": "Emerald Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "rgr": {
+    "name": "Ruby Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "mgr": {
+    "name": "Diamond Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "kgr": {
+    "name": "Skull Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "tkg": {
+    "name": "Terror Key Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "hkg": {
+    "name": "Hate Key Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "dkg": {
+    "name": "Destruction Key Grabber",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ka3": {
+    "name": "Orb of Corruption",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "1ka": {
+    "name": "Orb of Corruption Stack",
+    "type": "orbx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "oos": {
+    "name": "Orb of Socketing",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "1os": {
+    "name": "Orb of Socketing Stack",
+    "type": "orbx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ooc": {
+    "name": "Orb of Conversion",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "1oc": {
+    "name": "Orb of Conversion Stack",
+    "type": "orbx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ooa": {
+    "name": "Orb of Assemblage",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "1oa": {
+    "name": "Orb of Assemblage Stack",
+    "type": "orbx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ooi": {
+    "name": "Orb of Infusion",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "1oi": {
+    "name": "Orb of Infusion Stack",
+    "type": "orbx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ooe": {
+    "name": "Orb of Shadows",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "1oe": {
+    "name": "Orb of Shadows Stack",
+    "type": "orbx",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "mfp": {
+    "name": "Magic Find Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "xpp": {
+    "name": "Experience Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "fsp": {
+    "name": "Fire Sunder Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "csp": {
+    "name": "Cold Sunder Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "lsp": {
+    "name": "Lightning Sunder Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "psp": {
+    "name": "Poison Sunder Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "msp": {
+    "name": "Magic Sunder Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "php": {
+    "name": "Physical Sunder Potion",
+    "type": "wpot",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "mpa": {
+    "name": "Mephisto's Animus",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "blc": {
+    "name": "Baal's Calamity",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "dia": {
+    "name": "Diablo's Ire",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "rup": {
+    "name": "Rune Pliers",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "jwp": {
+    "name": "Jewel Pliers",
+    "type": "grab",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
     "stackable": false
   }
 }

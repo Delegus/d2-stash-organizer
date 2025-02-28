@@ -1,7 +1,6 @@
 import {
   ModifierRange,
   PROPERTIES,
-  RUNEWORDS,
   SET_ITEMS,
   SKILL_TABS,
   UNIQUE_ITEMS,
@@ -59,7 +58,7 @@ export function computePerfectionScore(item: Item) {
   let ranges: ModifierRange[];
   let allModifiers = item.modifiers;
   if (item.runeword) {
-    ranges = RUNEWORDS[item.runewordId!].modifiers;
+    ranges = []; //RUNEWORDS[item.runewordId!].modifiers; TODO: add search runeword by Codes or do a map.
   } else if (item.quality === ItemQuality.UNIQUE) {
     ranges = UNIQUE_ITEMS[item.unique!].modifiers;
   } else if (item.quality === ItemQuality.SET) {

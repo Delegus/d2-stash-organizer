@@ -1,5 +1,6 @@
 # d2-stash-organizer
 Diablo 2 Plugy stash organizer
+### Updated for Diablo 2 Resurrected Reimagined : https://github.com/D2R-Reimagined/d2r-reimagined-mod
 
 Web-based collection manager, muling utility, stash organizer and grail tracker hosted at: https://youdz.github.io/d2-stash-organizer/
 

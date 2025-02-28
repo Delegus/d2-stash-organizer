@@ -33,6 +33,7 @@ export function describeSingleMod(
   let valueDesc: string | undefined;
   let skill: Skill | undefined;
   let skillTab: SkillTab | undefined;
+  let skillName: string;
   switch (modInfo.descFunc) {
     case 1:
     case 6:
@@ -71,11 +72,18 @@ export function describeSingleMod(
       }`;
       break;
     case 15:
+      skillName = "";
+      if (SKILLS[modifier.spell!] == null) {
+        console.error("NO SKILL FOUND:%s", modifier.spell!);
+      } else {
+        skillName = SKILLS[modifier.spell!].name;
+      }
+
       modDesc = modDesc
         // Extra % because the actual one is doubled to escape it
         .replace("%d%", `${modifier.chance}`)
         .replace("%d", `${modifier.level}`)
-        .replace("%s", `${SKILLS[modifier.spell!].name}`);
+        .replace("%s", `${skillName}`);
       break;
     case 16:
       modDesc = modDesc

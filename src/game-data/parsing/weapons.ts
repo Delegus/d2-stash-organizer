@@ -8,24 +8,24 @@ export async function weaponsToJson() {
   for (const line of table) {
     const code = line[3].trim();
     const tier =
-      code === line[34].trim()
+      code === line[37].trim()
         ? EquipmentTier.NORMAL
-        : code === line[35].trim()
+        : code === line[38].trim()
         ? EquipmentTier.EXCEPTIONAL
         : EquipmentTier.ELITE;
     weapons[code] = {
       name: getString(line[5].trim()),
       type: line[1].trim(),
       tier,
-      maxSockets: Number(line[52]) || 0,
-      indestructible: line[26].trim() === "1",
-      stackable: line[43] === "1",
-      twoHanded: line[13] === "1",
-      width: Number(line[41]),
-      height: Number(line[42]),
-      qlevel: Number(line[27]),
-      levelReq: Number(line[28]),
-      trackQuestDifficulty: line[66] === "1" || undefined,
+      maxSockets: Number(line[55]) || 0,
+      indestructible: line[29].trim() === "1",
+      stackable: line[46] === "1",
+      twoHanded: line[17] === "1",
+      width: Number(line[44]),
+      height: Number(line[45]),
+      qlevel: Number(line[30]),
+      levelReq: Number(line[32]),
+      trackQuestDifficulty: line[69] === "1" || undefined,
     };
   }
   await writeJson("Weapons", weapons);

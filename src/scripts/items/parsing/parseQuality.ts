@@ -6,7 +6,6 @@ import {
   MAGIC_SUFFIXES,
   MISC,
   RARE_NAMES,
-  RUNEWORDS,
   SET_ITEMS,
   UNIQUE_ITEMS,
 } from "../../../game-data";
@@ -82,17 +81,22 @@ export function parseQuality(
     if (item.runewordId === 2691) {
       item.runewordId = 21;
     }
-    item.name = RUNEWORDS[item.runewordId].name;
+    //item.name = RUNEWORDS[item.runewordId].name;
+    // item.name = "RUNEWORD1";
+    // console.log('item='+JSON.stringify(item, null, 3));
     read(4);
   }
 
   if (item.personalized) {
+    // console.warn("personalized:%s", item.personalized);
     let charName = "";
     let charCode: number;
-    while ((charCode = readInt(7)) !== 0) {
+    while ((charCode = readInt(8)) !== 0) {
+      // console.warn("  charCode:%s", charCode);
       charName += String.fromCharCode(charCode);
     }
     item.name = `${charName}'s ${item.name}`;
+    // console.warn("item.name :%s", item.name );
   }
 
   if (MISC[item.code]?.type === "book") {
