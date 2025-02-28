@@ -7,6 +7,9 @@ export async function gemsToJson(skills: Skill[]) {
   const table = await readGameFile("Gems");
   const gems: Record<string, Gem> = {};
   for (const line of table) {
+    if (line[0].trim() == "Expansion") {
+      continue;
+    }
     const code = line[3].trim();
     const gem: Gem = {
       weapon: [],
@@ -17,7 +20,7 @@ export async function gemsToJson(skills: Skill[]) {
       for (let i = 0; i < 3; i++) {
         const modifier = readModifierRange(
           line,
-          5 + 12 * index + 4 * i,
+          4 + 12 * index + 4 * i,
           skills
         );
         if (modifier) {

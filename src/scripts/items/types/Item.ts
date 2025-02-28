@@ -40,7 +40,7 @@ export interface Item {
   picture?: number;
   classSpecificAffix?: number;
   qualityModifier?: number;
-
+  isStack?: boolean;
   unique?: number;
   runewordId?: number;
   perfectionScore?: number;

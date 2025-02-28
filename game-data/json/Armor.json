@@ -1847,7 +1847,7 @@
       50,
       60
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1863,7 +1863,7 @@
       98,
       141
     ],
-    "maxSockets": 2,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1879,7 +1879,7 @@
       101,
       145
     ],
-    "maxSockets": 2,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1895,7 +1895,7 @@
       105,
       149
     ],
-    "maxSockets": 2,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1911,7 +1911,7 @@
       110,
       154
     ],
-    "maxSockets": 2,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1927,7 +1927,7 @@
       114,
       159
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1943,7 +1943,7 @@
       111,
       165
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1959,7 +1959,7 @@
       101,
       154
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2551,7 +2551,7 @@
       100,
       157
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2919,7 +2919,7 @@
       101,
       145
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2935,7 +2935,7 @@
       98,
       147
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2951,7 +2951,7 @@
       107,
       152
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2967,7 +2967,7 @@
       103,
       155
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2983,7 +2983,7 @@
       109,
       159
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2999,7 +2999,7 @@
       102,
       147
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3015,7 +3015,7 @@
       105,
       150
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3031,7 +3031,7 @@
       111,
       156
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3047,7 +3047,7 @@
       114,
       159
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3063,7 +3063,7 @@
       117,
       168
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3229,6 +3229,22 @@
     "height": 2,
     "qlevel": 85,
     "levelReq": 65,
+    "stackable": false
+  },
+  "vf3": {
+    "name": "Quilted Armor",
+    "type": "tors",
+    "tier": 0,
+    "def": [
+      8,
+      11
+    ],
+    "maxSockets": 2,
+    "indestructible": false,
+    "width": 2,
+    "height": 3,
+    "qlevel": 1,
+    "levelReq": 0,
     "stackable": false
   }
 }

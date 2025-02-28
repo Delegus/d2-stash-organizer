@@ -8,6 +8,9 @@ export async function setsToJson(setItems: SetItem[], skills: Skill[]) {
   const sets: Record<string, Set> = {};
   for (const line of setsTable) {
     const setId = line[0].trim();
+    if (setId == "Expansion") {
+      continue;
+    }
     const set: Set = {
       name: getString(line[1].trim()),
       levelReq: setItems
@@ -18,7 +21,7 @@ export async function setsToJson(setItems: SetItem[], skills: Skill[]) {
     for (let i = 0; i < 4; i++) {
       const partial = [];
       for (let j = 0; j < 2; j++) {
-        const modifier = readModifierRange(line, 4 + 4 * (2 * i + j), skills);
+        const modifier = readModifierRange(line, 3 + 4 * (2 * i + j), skills);
         if (modifier) {
           partial.push(modifier);
         }
@@ -27,7 +30,7 @@ export async function setsToJson(setItems: SetItem[], skills: Skill[]) {
     }
     const full = [];
     for (let i = 0; i < 8; i++) {
-      const modifier = readModifierRange(line, 36 + 4 * i, skills);
+      const modifier = readModifierRange(line, 35 + 4 * i, skills);
       if (modifier) {
         full.push(modifier);
       }

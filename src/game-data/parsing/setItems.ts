@@ -9,15 +9,15 @@ export async function setItemsToJson(skills: Skill[]) {
   for (const line of itemsTable) {
     const item: SetItem = {
       name: getString(line[0].trim()),
-      code: line[2].trim(),
-      set: line[1].trim(),
-      qlevel: Number(line[5]),
-      levelReq: Number(line[6]),
+      code: line[3].trim(),
+      set: line[2].trim(),
+      qlevel: Number(line[6]),
+      levelReq: Number(line[7]),
       baseModifiers: [],
       setModifiers: [],
     };
     for (let i = 0; i < 9; i++) {
-      const modifier = readModifierRange(line, 17 + 4 * i, skills);
+      const modifier = readModifierRange(line, 18 + 4 * i, skills);
       if (modifier) {
         item.baseModifiers.push(modifier);
       }
@@ -25,7 +25,7 @@ export async function setItemsToJson(skills: Skill[]) {
     for (let i = 0; i < 5; i++) {
       const partial = [];
       for (let j = 0; j < 2; j++) {
-        const modifier = readModifierRange(line, 53 + 4 * (2 * i + j), skills);
+        const modifier = readModifierRange(line, 54 + 4 * (2 * i + j), skills);
         if (modifier) {
           partial.push(modifier);
         }

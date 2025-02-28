@@ -70,6 +70,7 @@ export interface Runeword {
   name: string;
   enabled: boolean;
   runes: string[];
+  word: string;
   levelReq: number;
   modifiers: ModifierRange[];
 }

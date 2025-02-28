@@ -629,17 +629,17 @@
     "charClass": 4
   },
   {
-    "code": "Sword Mastery",
+    "code": "Melee Mastery",
     "name": "Sword Mastery",
     "charClass": 4
   },
   {
-    "code": "Axe Mastery",
+    "code": "Shield Mastery",
     "name": "Axe Mastery",
     "charClass": 4
   },
   {
-    "code": "Mace Mastery",
+    "code": "Deadly Treasures",
     "name": "Mace Mastery",
     "charClass": 4
   },
@@ -806,8 +806,8 @@
     "name": "MagottLay"
   },
   {
-    "code": "AndrialSpray",
-    "name": "AndrialSpray"
+    "code": "AndarielSpray",
+    "name": "AndarielSpray"
   },
   {
     "code": "Jump",
@@ -1636,5 +1636,197 @@
   {
     "code": "Imp Fire Missile Ex",
     "name": "Imp Fire Missile Ex"
+  },
+  {
+    "code": "Interact",
+    "name": "SkillNameInteract"
+  },
+  {
+    "code": "Loot",
+    "name": "SkillNameLoot"
+  },
+  {
+    "code": "TownPortal",
+    "name": "Scroll of Townportal"
+  },
+  {
+    "code": "EmoteWheel",
+    "name": "SkillNameEmoteWheel"
+  },
+  {
+    "code": "SwapWeapons",
+    "name": "SkillNameSwapWeapons"
+  },
+  {
+    "code": "Map",
+    "name": "SkillNameMap"
+  },
+  {
+    "code": "ShowItems",
+    "name": "SkillNameShowItems"
+  },
+  {
+    "code": "RunToggle",
+    "name": "SkillNameRunToggle"
+  },
+  {
+    "code": "MonHolyFreeze",
+    "name": "MonHolyFreeze"
+  },
+  {
+    "code": "MonLeap",
+    "name": "MonLeap"
+  },
+  {
+    "code": "MonLeapAttack",
+    "name": "MonLeapAttack"
+  },
+  {
+    "code": "MonHolyFire",
+    "name": "MonHolyFire"
+  },
+  {
+    "code": "MonHolyShock",
+    "name": "MonHolyShock"
+  },
+  {
+    "code": "CubeLoot",
+    "name": "SkillNameCubeLoot"
+  },
+  {
+    "code": "Warp",
+    "name": "SkillNameWarp"
+  },
+  {
+    "code": "proc_SplashDamage",
+    "name": "proc_SplashDamage"
+  },
+  {
+    "code": "proc_SplashDamage_Two",
+    "name": "proc_SplashDamage_Two"
+  },
+  {
+    "code": "proc_SplashDamage_Three",
+    "name": "proc_SplashDamage_Three"
+  },
+  {
+    "code": "proc_SplashDamage_Four",
+    "name": "proc_SplashDamage_Four"
+  },
+  {
+    "code": "Mark of the Bear",
+    "name": "SkillnameMetamorphosisBear"
+  },
+  {
+    "code": "Mark of the Wolf",
+    "name": "SkillnameMetamorphosisWolf"
+  },
+  {
+    "code": "proc_SplashDamage_Five",
+    "name": "proc_SplashDamage_Five"
+  },
+  {
+    "code": "Dsum_Twister",
+    "name": "Dsum_Twister"
+  },
+  {
+    "code": "Dsum_Firestorm",
+    "name": "Dsum_Firestorm"
+  },
+  {
+    "code": "Dsum_Shockwave",
+    "name": "Dsum_Shockwave"
+  },
+  {
+    "code": "Dsum_RavenAttack",
+    "name": "Dsum_RavenAttack"
+  },
+  {
+    "code": "Solar_Vine_Attack",
+    "name": "Solar_Vine_Attack"
+  },
+  {
+    "code": "Carrion_Vine_Aura",
+    "name": "Carrion_Vine_Aura"
+  },
+  {
+    "code": "StygianExplosion",
+    "name": "StygianExplosion"
+  },
+  {
+    "code": "ZombiePoisonExplosion",
+    "name": "ZombiePoisonExplosion"
+  },
+  {
+    "code": "Summoner Glacial Spike",
+    "name": "Summoner Glacial Spike"
+  },
+  {
+    "code": "Summoner Frost Nova",
+    "name": "Summoner Frost Nova"
+  },
+  {
+    "code": "MadawcFrozenOrb",
+    "name": "MadawcFrozenOrb"
+  },
+  {
+    "code": "TalicNova",
+    "name": "TalicNova"
+  },
+  {
+    "code": "TalicStaticField",
+    "name": "TalicStaticField"
+  },
+  {
+    "code": "KorlicEruption",
+    "name": "KorlicEruption"
+  },
+  {
+    "code": "Hidden Charm Passive",
+    "name": "Hidden Charm Passive"
+  },
+  {
+    "code": "BloodAura",
+    "name": "BloodAura"
+  },
+  {
+    "code": "FireGolemAura",
+    "name": "FireGolemAura"
+  },
+  {
+    "code": "Merc Fire Bolt",
+    "name": "Merc Fire Bolt"
+  },
+  {
+    "code": "Merc Fire Ball",
+    "name": "Merc Fire Ball"
+  },
+  {
+    "code": "Merc Enchant",
+    "name": "Merc Enchant"
+  },
+  {
+    "code": "Merc Charged Bolt",
+    "name": "Merc Charged Bolt"
+  },
+  {
+    "code": "Merc Static Field",
+    "name": "Merc Static Field"
+  },
+  {
+    "code": "Merc Lightning",
+    "name": "Merc Lightning"
+  },
+  {
+    "code": "Merc Ice Blast",
+    "name": "Merc Ice Blast"
+  },
+  {
+    "code": "Merc Glacial Spike",
+    "name": "Merc Glacial Spike"
+  },
+  {
+    "code": "Merc Chilling Armor",
+    "name": "Merc Chilling Armor"
   }
 ]
