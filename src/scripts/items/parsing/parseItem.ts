@@ -10,6 +10,7 @@ import { ItemsOwner } from "../../save-file/ownership";
 export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
   // https://squeek502.github.io/d2itemreader/formats/d2.html
   const stream = binaryStream(reader);
+
   if (owner.version <= LAST_LEGACY) {
     // This is awkward, but we're juggling between the regular reader and the binary stream
     // In this case, we want to read with the binary stream to make sure the header is included
@@ -19,15 +20,17 @@ export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
       throw new Error(`Unexpected header ${header} for an item`);
     }
   }
-  // const excludeList = ["aqv", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09","s10", "s11", "s12", "s13", "s14", "s15", "s16", "s17", "s18", "s19" ];
-
   const item = parseSimple(stream, owner);
   if (item.isStack && !item.simple) {
-    // console.error(item.code);
     parseQuantified(stream, item);
-    // console.log(`@@@ : `, item);
-    // const charCode: number = stream.readInt(8 * 8);
+    // if(WATCH){
+    // console.log(`item.code=%s, @@@ : `, item.code, item);
+    // }
+
+    // const charCode: number =
     stream.readInt(8 * 8);
+    // console.log(charCode);
+    // stream.readInt(8 * 8);
     // console.log(charCode);
     // while (charCode  != 255 ) {
     //   charCode = stream.readInt(8);

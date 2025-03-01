@@ -16,7 +16,7 @@ export function parseItemList(reader: SaveFileReader, owner: ItemsOwner) {
   let runeWrod = "";
   // After that comes the first item
   while (remainingItems > 0) {
-    // console.warn("remainingItems:%s, %s", remainingItems, owner.filename);
+    console.warn("remainingItems:%s, %s", remainingItems, owner.filename);
     const parsedItem = parseItem(reader, owner);
     if (parsedItem == null) {
       remainingItems--;

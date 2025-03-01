@@ -37,9 +37,6 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
   };
 
   // console.warn(JSON.stringify(item, null, 3));
-  // console.info("identified:%s\nsocketed:%s\nsimple:%s\nethereal:%s\nlocation:%s\nequippedInSlot:%s\ncolumn:%s\nrow:%s\npersonalized:%s\nruneword:%s"
-  // ,item.identified, item.socketed,item.simple,item.ethereal, item.location, item.equippedInSlot,
-  // item.column,item.row,item.personalized, item.runeword);
 
   if (owner.version >= FIRST_D2R) {
     item.code = decodeHuffman(stream, 4).trim();
@@ -53,7 +50,20 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
       readInt(8)
     ).trim();
   }
-
+  // console.info(
+  //   "CODE:%s\nidentified:%s\nsocketed:%s\nsimple:%s\nethereal:%s\nlocation:%s\nequippedInSlot:%s\ncolumn:%s\nrow:%s\npersonalized:%s\nruneword:%s",
+  //   item.code,
+  //   item.identified,
+  //   item.socketed,
+  //   item.simple,
+  //   item.ethereal,
+  //   item.location,
+  //   item.equippedInSlot,
+  //   item.column,
+  //   item.row,
+  //   item.personalized,
+  //   item.runeword
+  // );
   // Checking base for all items, not just simple ones. That way we fail early if something goes wrong.
   const base = getBase(item);
   if (base === undefined) {
@@ -65,7 +75,9 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
   if (base.type === "ques" && base.trackQuestDifficulty) {
     read(2);
   }
-  if (["orbx", "gemx", "runx", "bowq", "key"].includes(base.type)) {
+  if (
+    ["orbx", "gemx", "runx", "bowq", "xboq", "key", "book"].includes(base.type)
+  ) {
     item.isStack = true;
   }
 

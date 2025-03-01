@@ -46,10 +46,11 @@ export function parseQuality(
       item.prefixes = [readInt(11)];
       item.suffixes = [readInt(11)];
       item.name = getBase(item).name;
-      if (item.prefixes[0]) {
+      if (item.prefixes[0] && MAGIC_PREFIXES[item.prefixes[0]] != null) {
+        // console.error("item.prefixes[0]=%s \n ${MAGIC_PREFIXES[item.prefixes[0]] = %s \n item.name = %s",item.prefixes[0], MAGIC_PREFIXES[item.prefixes[0]],item.name)
         item.name = `${MAGIC_PREFIXES[item.prefixes[0]].name} ${item.name}`;
       }
-      if (item.suffixes[0]) {
+      if (item.suffixes[0] && MAGIC_SUFFIXES[item.suffixes[0]] != null) {
         item.name = `${item.name} ${MAGIC_SUFFIXES[item.suffixes[0]].name}`;
       }
       break;
