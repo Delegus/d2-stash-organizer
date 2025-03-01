@@ -28,10 +28,10 @@ export function parseD2rStash(
   reader.peek = false;
 
   // stash.pages.push(parsePage(reader, stash));
-  // let i = 1;
+  let i = 1;
   while (!reader.done) {
-    // i++;
-    // console.log("%s STASH", i);
+    i++;
+    console.log("%s STASH", i);
     stash.pages.push(parsePage(reader, stash));
   }
 
