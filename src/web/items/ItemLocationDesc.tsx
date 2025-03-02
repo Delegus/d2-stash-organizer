@@ -48,6 +48,15 @@ function locationString(item: Item) {
 export function ItemLocationDesc({ item }: ItemLocationDescProps) {
   let positionedItem = item;
   let socket = "";
+  if (item == null) {
+    return (
+      <>
+        {undefined}
+        {undefined}
+        {socket}
+      </>
+    );
+  }
   if (item.location === ItemLocation.SOCKET) {
     positionedItem = item.socketedIn!;
     socket = `, socketed in ${positionedItem.name}`;

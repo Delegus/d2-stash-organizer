@@ -11,6 +11,11 @@
 .missing::after {
   content: " ✘";
 }
+.location {
+  color: #afafaf;
+  font-weight: lighter;
+  font-size: smaller;
+}
 
 #grail-tracker {
   margin-top: 1em;

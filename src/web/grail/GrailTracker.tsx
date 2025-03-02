@@ -4,6 +4,7 @@ import { JSX } from "preact";
 import "./GrailTracker.css";
 import { CollectionContext } from "../store/CollectionContext";
 import { GrailSummary } from "./GrailSummary";
+import { ItemLocationDesc } from "../items/ItemLocationDesc";
 
 const TIER_NAMES = ["Normal", "Exceptional", "Elite"];
 
@@ -11,6 +12,7 @@ const toClassName = (b: boolean) => (b ? "found" : "missing");
 
 export function GrailTracker() {
   const { allItems } = useContext(CollectionContext);
+
   const [filter, setFilter] = useState("all");
 
   const progress = useMemo(() => grailProgress(allItems), [allItems]);
@@ -43,6 +45,13 @@ export function GrailTracker() {
                 <td class={toClassName(ethereal)}>Ethereal</td>
               )}
               <td class={toClassName(perfect)}>Perfect</td>
+              <td class="location">
+                {
+                  <td>
+                    <ItemLocationDesc item={item.item!} />
+                  </td>
+                }{" "}
+              </td>
             </tr>
           );
         }
@@ -54,7 +63,7 @@ export function GrailTracker() {
         sections.push(
           <tbody>
             <tr>
-              <td colSpan={4}>{sectionName}</td>
+              <td colSpan={5}>{sectionName}</td>
             </tr>
             {items}
           </tbody>
