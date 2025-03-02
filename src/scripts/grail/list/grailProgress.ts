@@ -83,6 +83,7 @@ export function grailSummary(items: Item[]) {
     nbEth: 0,
     totalEth: 0,
     nbPerfect: 0,
+    owners: [],
   };
   for (const tiers of grailProgress(items).values()) {
     for (const tier of tiers) {

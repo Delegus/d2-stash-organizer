@@ -1,3 +1,7 @@
+import { Item } from "../scripts/items/types/Item";
+import { ItemLocation } from "../scripts/items/types/ItemLocation";
+import { ItemsOwner } from "../scripts/save-file/ownership";
+
 export const enum EquipmentTier {
   NORMAL,
   EXCEPTIONAL,
@@ -48,6 +52,7 @@ export interface UniqueItem {
   code: string;
   qlevel: number;
   modifiers: ModifierRange[];
+  item?: Item;
 }
 
 export interface SetItem {
@@ -58,6 +63,7 @@ export interface SetItem {
   setModifiers: ModifierRange[][];
   qlevel: number;
   levelReq: number;
+  item?: Item;
 }
 
 export interface Set {
