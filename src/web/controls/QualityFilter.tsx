@@ -11,7 +11,9 @@ export type QualityFilterValue =
   | "set"
   | "runeword"
   | "crafted"
-  | "misc";
+  | "misc"
+  | "dups"
+  | "dupu";
 
 export interface QualityFilterProps {
   value: string;
@@ -38,7 +40,9 @@ export function QualityFilter({ value, onChange }: QualityFilterProps) {
           <option value="magic">Magic</option>
           <option value="rare">Rare</option>
           <option value="unique">Unique</option>
+          <option value="dupu">Duplicates(Unique)</option>
           <option value="set">Set</option>
+          <option value="dups">Duplicates(Set)</option>
           <option value="runeword">Rune word</option>
           <option value="crafted">Crafted</option>
           <option value="misc">Non-equipment</option>
@@ -54,6 +58,28 @@ export function filterItemsByQuality(
 ) {
   if (quality === "all") {
     return items;
+  }
+  console.error(items.length);
+  if (quality === "dups" || quality === "dupu") {
+    console.error(quality);
+    const seen = new Set<string>();
+    const duplicates = new Set<string>();
+    const itemQ = quality === "dupu" ? ItemQuality.UNIQUE : ItemQuality.SET;
+    for (const item of items.filter((item) => {
+      return item.quality === itemQ;
+    })) {
+      if (seen.has(item.name!)) {
+        duplicates.add(item.name!);
+      } else {
+        seen.add(item.name!);
+      }
+    }
+
+    return items
+      .filter((item) => {
+        return item.quality === itemQ && duplicates.has(item.name!);
+      })
+      .sort((a, b) => (a.name! > b.name! ? 1 : -1));
   }
 
   return items.filter((item) => {

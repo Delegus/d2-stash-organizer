@@ -2,6 +2,7 @@ import { Item } from "../../scripts/items/types/Item";
 import { AdditionalInfo } from "./AdditionalInfo";
 import "./Item.css";
 import { ItemTooltip } from "./ItemTooltip";
+import { ItemIsRing } from "./ItemIsRing";
 import { ItemLocationDesc } from "./ItemLocationDesc";
 import { useCallback, useContext } from "preact/hooks";
 import { SelectionContext } from "../transfer/SelectionContext";
@@ -47,6 +48,8 @@ export function Item({
         </td>
       )}
       <th scope="row" aria-label={item.name}>
+        {" "}
+        <ItemIsRing item={item} />
         <ItemTooltip item={item} />
       </th>
       <td>
