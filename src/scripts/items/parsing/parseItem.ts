@@ -51,10 +51,6 @@ export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
         console.error(e.message); // works, `e` narrowed to Error
       }
       console.log(`@@@ couldn't parse item: `, item);
-      // if (e instanceof ItemParsingError) {
-      //   throw e;
-      // }
-      // throw new ItemParsingError(item, (e as Error).message);
     }
   }
 

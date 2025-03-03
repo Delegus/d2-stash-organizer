@@ -65,11 +65,13 @@ export function ItemLocationDesc({ item }: ItemLocationDescProps) {
   const location = locationString(positionedItem);
   const page =
     typeof item.page !== "undefined" ? `, page ${item.page + 1}` : "";
+  const coord = `(${positionedItem.column + 1}, ${positionedItem.row + 1})`;
   return (
     <>
       {location}
       {page}
       {socket}
+      <a class="location">&nbsp;{coord}</a>
     </>
   );
 }

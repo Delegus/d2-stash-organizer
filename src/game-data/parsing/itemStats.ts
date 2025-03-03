@@ -25,6 +25,7 @@ export async function itemStatsToJson() {
       descNeg: getString(line[41].trim()),
       descAdditional: getString(line[42].trim()),
     };
+
     if (
       (item.encode === 2 && (item.size !== 7 || item.paramSize !== 16)) ||
       (item.encode === 3 && (item.size !== 16 || item.paramSize !== 16))

@@ -8,8 +8,8 @@
       3
     ],
     "allEqual": true,
-    "descPos": "to all Attributes",
-    "descNeg": "to all Attributes",
+    "descPos": "%+d to all Attributes",
+    "descNeg": "%+d to all Attributes",
     "descFunc": 1,
     "descVal": 1,
     "descPriority": 67
@@ -23,8 +23,8 @@
       45
     ],
     "allEqual": true,
-    "descPos": "All Resistances +%d",
-    "descNeg": "All Resistances +%d",
+    "descPos": "%+d to All Resistances",
+    "descNeg": "%+d to All Resistances",
     "descFunc": 19,
     "descPriority": 40
   },
@@ -35,8 +35,8 @@
       18
     ],
     "allEqual": true,
-    "descPos": "Enhanced damage",
-    "descNeg": "Enhanced damage",
+    "descPos": "%+d%% Enhanced Weapon Damage",
+    "descNeg": "%+d%% Enhanced Weapon Damage",
     "descFunc": 4,
     "descVal": 1,
     "descPriority": 130
@@ -48,8 +48,8 @@
       22
     ],
     "isRange": true,
-    "descPos": "+%d damage",
-    "descNeg": "Adds %d-%d damage",
+    "descPos": "%+d Weapon Damage",
+    "descNeg": "Adds %d-%d Weapon Damage",
     "descFunc": 100,
     "descPriority": 127
   },
@@ -60,8 +60,8 @@
       24
     ],
     "isRange": true,
-    "descPos": "+%d damage",
-    "descNeg": "Adds %d-%d damage",
+    "descPos": "%+d Weapon Damage",
+    "descNeg": "Adds %d-%d Weapon Damage",
     "descFunc": 100,
     "descPriority": 124
   },
@@ -72,8 +72,8 @@
       49
     ],
     "isRange": true,
-    "descPos": "+%d fire damage",
-    "descNeg": "Adds %d-%d fire damage",
+    "descPos": "%+d Weapon Fire Damage",
+    "descNeg": "Adds %d-%d Weapon Fire Damage",
     "descFunc": 100,
     "descPriority": 102
   },
@@ -84,8 +84,8 @@
       51
     ],
     "isRange": true,
-    "descPos": "+%d lightning damage",
-    "descNeg": "Adds %d-%d lightning damage",
+    "descPos": "%+d Weapon Lightning Damage",
+    "descNeg": "Adds %d-%d Weapon Lightning Damage",
     "descFunc": 100,
     "descPriority": 99
   },
@@ -96,8 +96,8 @@
       53
     ],
     "isRange": true,
-    "descPos": "+%d magic damage",
-    "descNeg": "Adds %d-%d magic damage",
+    "descPos": "%+d Weapon Magic Damage",
+    "descNeg": "Adds %d-%d Weapon Magic Damage",
     "descFunc": 100,
     "descPriority": 104
   },
@@ -109,8 +109,8 @@
       56
     ],
     "isRange": true,
-    "descPos": "+%d cold damage",
-    "descNeg": "Adds %d-%d cold damage",
+    "descPos": "%+d Weapon Cold Damage",
+    "descNeg": "Adds %d-%d Weapon Cold Damage",
     "descFunc": 100,
     "descPriority": 96
   },
@@ -122,8 +122,8 @@
       59
     ],
     "isRange": true,
-    "descPos": "+%d poison damage over %d seconds",
-    "descNeg": "Adds %d-%d poison damage over %d seconds",
+    "descPos": "%+d Weapon Poison Damage over %d seconds",
+    "descNeg": "Adds %d-%d Weapon Poison Damage over %d seconds",
     "descFunc": 101,
     "descPriority": 92
   },
@@ -134,8 +134,8 @@
       23
     ],
     "allEqual": true,
-    "descPos": "to Minimum Damage",
-    "descNeg": "to Minimum Damage",
+    "descPos": "%+d to Minimum Weapon Damage",
+    "descNeg": "%+d to Minimum Weapon Damage",
     "descFunc": 1,
     "descVal": 1,
     "descPriority": 127
@@ -147,8 +147,8 @@
       24
     ],
     "allEqual": true,
-    "descPos": "to Maximum Damage",
-    "descNeg": "to Maximum Damage",
+    "descPos": "%+d to Maximum Weapon Damage",
+    "descNeg": "%+d to Maximum Weapon Damage",
     "descFunc": 1,
     "descVal": 1,
     "descPriority": 126

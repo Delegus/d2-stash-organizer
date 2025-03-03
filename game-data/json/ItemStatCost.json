@@ -9,8 +9,8 @@
     "descPriority": 67,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Strength",
-    "descNeg": "to Strength",
+    "descPos": "%+d to Strength",
+    "descNeg": "%+d to Strength",
     "descAdditional": ""
   },
   {
@@ -23,8 +23,8 @@
     "descPriority": 61,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Energy",
-    "descNeg": "to Energy",
+    "descPos": "%+d to Energy",
+    "descNeg": "%+d to Energy",
     "descAdditional": ""
   },
   {
@@ -37,8 +37,8 @@
     "descPriority": 65,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Dexterity",
-    "descNeg": "to Dexterity",
+    "descPos": "%+d to Dexterity",
+    "descNeg": "%+d to Dexterity",
     "descAdditional": ""
   },
   {
@@ -51,8 +51,8 @@
     "descPriority": 63,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Vitality",
-    "descNeg": "to Vitality",
+    "descPos": "%+d to Vitality",
+    "descNeg": "%+d to Vitality",
     "descAdditional": ""
   },
   {
@@ -107,8 +107,8 @@
     "descPriority": 59,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Life",
-    "descNeg": "to Life",
+    "descPos": "%+d to Life",
+    "descNeg": "%+d to Life",
     "descAdditional": ""
   },
   {
@@ -135,8 +135,8 @@
     "descPriority": 55,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Mana",
-    "descNeg": "to Mana",
+    "descPos": "%+d to Mana",
+    "descNeg": "%+d to Mana",
     "descAdditional": ""
   },
   {
@@ -163,8 +163,8 @@
     "descPriority": 51,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Maximum Stamina",
-    "descNeg": "Maximum Stamina",
+    "descPos": "%+d Maximum Stamina",
+    "descNeg": "%+d Maximum Stamina",
     "descAdditional": ""
   },
   {
@@ -232,8 +232,8 @@
     "descPriority": 74,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Defense",
-    "descNeg": "Enhanced Defense",
+    "descPos": "%+d%% Enhanced Defense",
+    "descNeg": "%+d%% Enhanced Defense",
     "descAdditional": ""
   },
   {
@@ -245,8 +245,8 @@
     "descPriority": 129,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Maximum Damage",
-    "descNeg": "Enhanced Maximum Damage",
+    "descPos": "%+d%% Enhanced Maximum Weapon Damage",
+    "descNeg": "%+d%% Enhanced Maximum Weapon Damage",
     "descAdditional": "",
     "followedBy": 18
   },
@@ -259,8 +259,8 @@
     "descPriority": 130,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Minimum Damage",
-    "descNeg": "Enhanced Minimum Damage",
+    "descPos": "%+d%% Enhanced Minimum Weapon Damage",
+    "descNeg": "%+d%% Enhanced Minimum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -272,8 +272,8 @@
     "descPriority": 115,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Attack Rating",
-    "descNeg": "to Attack Rating",
+    "descPos": "%+d to Attack Rating",
+    "descNeg": "%+d to Attack Rating",
     "descAdditional": ""
   },
   {
@@ -285,8 +285,8 @@
     "descPriority": 134,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Increased Chance of Blocking",
-    "descNeg": "Increased Chance of Blocking",
+    "descPos": "%d%% Increased Chance of Blocking",
+    "descNeg": "%d%% Increased Chance of Blocking",
     "descAdditional": ""
   },
   {
@@ -298,8 +298,8 @@
     "descPriority": 127,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Damage",
-    "descNeg": "to Minimum Damage",
+    "descPos": "%+d to Minimum Weapon Damage",
+    "descNeg": "%+d to Minimum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -311,8 +311,8 @@
     "descPriority": 126,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Damage",
-    "descNeg": "to Maximum Damage",
+    "descPos": "%+d to Maximum Weapon Damage",
+    "descNeg": "%+d to Maximum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -324,8 +324,8 @@
     "descPriority": 124,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Damage",
-    "descNeg": "to Minimum Damage",
+    "descPos": "%+d to Minimum Weapon Damage",
+    "descNeg": "%+d to Minimum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -337,8 +337,8 @@
     "descPriority": 123,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Damage",
-    "descNeg": "to Maximum Damage",
+    "descPos": "%+d to Maximum Weapon Damage",
+    "descNeg": "%+d to Maximum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -376,8 +376,8 @@
     "descPriority": 52,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Regenerate Mana",
-    "descNeg": "Regenerate Mana",
+    "descPos": "%+d%% Mana Regeneration",
+    "descNeg": "%+d%% Mana Regeneration",
     "descAdditional": ""
   },
   {
@@ -389,8 +389,8 @@
     "descPriority": 48,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Heal Stamina Plus",
-    "descNeg": "Heal Stamina Plus",
+    "descPos": "Heal Stamina Plus %d%%",
+    "descNeg": "Heal Stamina Plus %d%%",
     "descAdditional": ""
   },
   {
@@ -428,8 +428,8 @@
     "descPriority": 71,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Defense",
-    "descNeg": "Defense",
+    "descPos": "%+d Defense",
+    "descNeg": "%+d Defense",
     "descAdditional": ""
   },
   {
@@ -441,8 +441,8 @@
     "descPriority": 69,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Defense vs. Missile",
-    "descNeg": "Defense vs. Missile",
+    "descPos": "%+d Defense vs. Missile",
+    "descNeg": "%+d Defense vs. Missile",
     "descAdditional": ""
   },
   {
@@ -454,8 +454,8 @@
     "descPriority": 70,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Defense vs. Melee",
-    "descNeg": "Defense vs. Melee",
+    "descPos": "%+d Defense vs. Melee",
+    "descNeg": "%+d Defense vs. Melee",
     "descAdditional": ""
   },
   {
@@ -467,8 +467,8 @@
     "descPriority": 22,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage Reduced by",
-    "descNeg": "Damage Reduced by",
+    "descPos": "Physical Damage Reduced By %d",
+    "descNeg": "Physical Damage Reduced By %d",
     "descAdditional": ""
   },
   {
@@ -480,8 +480,8 @@
     "descPriority": 21,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Magic Damage Reduced by",
-    "descNeg": "Magic Damage Reduced by",
+    "descPos": "Magic Damage Reduced By %d",
+    "descNeg": "Magic Damage Reduced By %d",
     "descAdditional": ""
   },
   {
@@ -493,8 +493,8 @@
     "descPriority": 22,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStr2uPercent",
-    "descNeg": "ModStr2uPercent",
+    "descPos": "%+d%% Physical Damage Reduction",
+    "descNeg": "%+d%% Physical Damage Reduction",
     "descAdditional": ""
   },
   {
@@ -506,8 +506,8 @@
     "descPriority": 41,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Magic Resist",
-    "descNeg": "Magic Resist",
+    "descPos": "%+d%% Magic Resistance",
+    "descNeg": "%+d%% Magic Resistance",
     "descAdditional": ""
   },
   {
@@ -519,8 +519,8 @@
     "descPriority": 46,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Magic Resist",
-    "descNeg": "to Maximum Magic Resist",
+    "descPos": "%+d%% to Maximum Magic Resistance",
+    "descNeg": "%+d%% to Maximum Magic Resistance",
     "descAdditional": ""
   },
   {
@@ -532,8 +532,8 @@
     "descPriority": 36,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Fire Resist",
-    "descNeg": "Fire Resist",
+    "descPos": "%+d%% Fire Resistance",
+    "descNeg": "%+d%% Fire Resistance",
     "descAdditional": ""
   },
   {
@@ -545,8 +545,8 @@
     "descPriority": 42,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Fire Resist",
-    "descNeg": "to Maximum Fire Resist",
+    "descPos": "%+d%% to Maximum Fire Resistance",
+    "descNeg": "%+d%% to Maximum Fire Resistance",
     "descAdditional": ""
   },
   {
@@ -558,8 +558,8 @@
     "descPriority": 38,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Lightning Resist",
-    "descNeg": "Lightning Resist",
+    "descPos": "%+d%% Lightning Resistance",
+    "descNeg": "%+d%% Lightning Resistance",
     "descAdditional": ""
   },
   {
@@ -571,8 +571,8 @@
     "descPriority": 43,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Lightning Resist",
-    "descNeg": "to Maximum Lightning Resist",
+    "descPos": "%+d%% to Maximum Lightning Resistance",
+    "descNeg": "%+d%% to Maximum Lightning Resistance",
     "descAdditional": ""
   },
   {
@@ -584,8 +584,8 @@
     "descPriority": 40,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Cold Resist",
-    "descNeg": "Cold Resist",
+    "descPos": "%+d%% Cold Resistance",
+    "descNeg": "%+d%% Cold Resistance",
     "descAdditional": ""
   },
   {
@@ -597,8 +597,8 @@
     "descPriority": 44,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Cold Resist",
-    "descNeg": "to Maximum Cold Resist",
+    "descPos": "%+d%% to Maximum Cold Resistance",
+    "descNeg": "%+d%% to Maximum Cold Resistance",
     "descAdditional": ""
   },
   {
@@ -610,8 +610,8 @@
     "descPriority": 34,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Poison Resist",
-    "descNeg": "Poison Resist",
+    "descPos": "%+d%% Poison Resistance",
+    "descNeg": "%+d%% Poison Resistance",
     "descAdditional": ""
   },
   {
@@ -623,8 +623,8 @@
     "descPriority": 45,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Poison Resist",
-    "descNeg": "to Maximum Poison Resist",
+    "descPos": "%+d%% to Maximum Poison Resistance",
+    "descNeg": "%+d%% to Maximum Poison Resistance",
     "descAdditional": ""
   },
   {
@@ -649,8 +649,8 @@
     "descPriority": 102,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Fire Damage",
-    "descNeg": "to Minimum Fire Damage",
+    "descPos": "%+d to Weapon Minimum Fire Damage",
+    "descNeg": "%+d to Weapon Minimum Fire Damage",
     "descAdditional": "",
     "followedBy": 49
   },
@@ -663,8 +663,8 @@
     "descPriority": 101,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Fire Damage",
-    "descNeg": "to Maximum Fire Damage",
+    "descPos": "%+d to Weapon Maximum Fire Damage",
+    "descNeg": "%+d to Weapon Maximum Fire Damage",
     "descAdditional": ""
   },
   {
@@ -676,8 +676,8 @@
     "descPriority": 99,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Lightning Damage",
-    "descNeg": "to Minimum Lightning Damage",
+    "descPos": "%+d to Weapon Minimum Lightning Damage",
+    "descNeg": "%+d to Weapon Minimum Lightning Damage",
     "descAdditional": "",
     "followedBy": 51
   },
@@ -690,8 +690,8 @@
     "descPriority": 98,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Lightning Damage",
-    "descNeg": "to Maximum Lightning Damage",
+    "descPos": "%+d to Weapon Maximum Lightning Damage",
+    "descNeg": "%+d to Weapon Maximum Lightning Damage",
     "descAdditional": ""
   },
   {
@@ -703,8 +703,8 @@
     "descPriority": 104,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "+%d magic damage",
-    "descNeg": "+%d magic damage",
+    "descPos": "%+d Weapon Magic Damage",
+    "descNeg": "%+d Weapon Magic Damage",
     "descAdditional": "",
     "followedBy": 53
   },
@@ -717,8 +717,8 @@
     "descPriority": 103,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "+%d magic damage",
-    "descNeg": "+%d magic damage",
+    "descPos": "%+d Weapon Magic Damage",
+    "descNeg": "%+d Weapon Magic Damage",
     "descAdditional": ""
   },
   {
@@ -730,8 +730,8 @@
     "descPriority": 96,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Cold Damage",
-    "descNeg": "to Minimum Cold Damage",
+    "descPos": "%+d to Weapon Minimum Cold Damage",
+    "descNeg": "%+d to Weapon Minimum Cold Damage",
     "descAdditional": "",
     "followedBy": 55
   },
@@ -744,8 +744,8 @@
     "descPriority": 95,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Cold Damage",
-    "descNeg": "to Maximum Cold Damage",
+    "descPos": "%+d to Weapon Maximum Cold Damage",
+    "descNeg": "%+d to Weapon Maximum Cold Damage",
     "descAdditional": "",
     "followedBy": 56
   },
@@ -771,8 +771,8 @@
     "descPriority": 92,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Poison Damage",
-    "descNeg": "to Minimum Poison Damage",
+    "descPos": "%+d to Weapon Minimum Poison Damage",
+    "descNeg": "%+d to Weapon Minimum Poison Damage",
     "descAdditional": "",
     "followedBy": 58
   },
@@ -785,8 +785,8 @@
     "descPriority": 91,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Poison Damage",
-    "descNeg": "to Maximum Poison Damage",
+    "descPos": "%+d to Weapon Maximum Poison Damage",
+    "descNeg": "%+d to Weapon Maximum Poison Damage",
     "descAdditional": "",
     "followedBy": 59
   },
@@ -812,8 +812,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Life stolen per hit",
-    "descNeg": "Life stolen per hit",
+    "descPos": "%d%% Life stolen per hit",
+    "descNeg": "%d%% Life stolen per hit",
     "descAdditional": ""
   },
   {
@@ -838,8 +838,8 @@
     "descPriority": 89,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Mana stolen per hit",
-    "descNeg": "Mana stolen per hit",
+    "descPos": "%d%% Mana stolen per hit",
+    "descNeg": "%d%% Mana stolen per hit",
     "descAdditional": ""
   },
   {
@@ -994,8 +994,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Replenish Life",
-    "descNeg": "Drain Life",
+    "descPos": "Replenish Life %+d",
+    "descNeg": "Drain Life %d",
     "descAdditional": ""
   },
   {
@@ -1007,8 +1007,8 @@
     "descPriority": 3,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Increase Maximum Durability",
-    "descNeg": "Increase Maximum Durability",
+    "descPos": "%+d%% Increased Maximum Durability",
+    "descNeg": "%+d%% Increased Maximum Durability",
     "descAdditional": ""
   },
   {
@@ -1020,8 +1020,8 @@
     "descPriority": 58,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Increase Maximum Life",
-    "descNeg": "Increase Maximum Life",
+    "descPos": "%+d%% Increased Maximum Life",
+    "descNeg": "%+d%% Increased Maximum Life",
     "descAdditional": ""
   },
   {
@@ -1033,8 +1033,8 @@
     "descPriority": 54,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Increase Maximum Mana",
-    "descNeg": "Increase Maximum Mana",
+    "descPos": "%+d%% Increased Maximum Mana",
+    "descNeg": "%+d%% Increased Maximum Mana",
     "descAdditional": ""
   },
   {
@@ -1046,8 +1046,8 @@
     "descPriority": 13,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Attacker Takes Damage of",
-    "descNeg": "Attacker Takes Damage of",
+    "descPos": "Attacker Takes Damage of %d",
+    "descNeg": "Attacker Takes Damage of %d",
     "descAdditional": ""
   },
   {
@@ -1059,8 +1059,8 @@
     "descPriority": 10,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Extra Gold from Monsters",
-    "descNeg": "Extra Gold from Monsters",
+    "descPos": "%+d%% Extra Gold from Monsters",
+    "descNeg": "%+d%% Extra Gold from Monsters",
     "descAdditional": ""
   },
   {
@@ -1072,8 +1072,8 @@
     "descPriority": 8,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Better Chance of Getting Magic Items",
-    "descNeg": "Better Chance of Getting Magic Items",
+    "descPos": "%+d%% Chance Items Roll Magic or Better",
+    "descNeg": "%+d%% Chance Items Roll Magic or Better",
     "descAdditional": ""
   },
   {
@@ -1111,8 +1111,8 @@
     "descPriority": 150,
     "descFunc": 13,
     "descVal": 0,
-    "descPos": "to Amazon Skill Levels",
-    "descNeg": "to Amazon Skill Levels",
+    "descPos": "%+d to Amazon Skill Levels",
+    "descNeg": "%+d to Amazon Skill Levels",
     "descAdditional": ""
   },
   {
@@ -1137,8 +1137,8 @@
     "descPriority": 11,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Experience Gained",
-    "descNeg": "to Experience Gained",
+    "descPos": "%+d%% to Experience Gained",
+    "descNeg": "%+d%% to Experience Gained",
     "descAdditional": ""
   },
   {
@@ -1150,8 +1150,8 @@
     "descPriority": 16,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Life after each Kill",
-    "descNeg": "Life after each Kill",
+    "descPos": "%+d Life after each Kill",
+    "descNeg": "%+d Life after each Kill",
     "descAdditional": ""
   },
   {
@@ -1163,8 +1163,8 @@
     "descPriority": 8,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Reduces all Vendor Prices",
-    "descNeg": "Reduces all Vendor Prices",
+    "descPos": "Vendor Prices Reduced By %d%%",
+    "descNeg": "Vendor Prices Reduced By %d%%",
     "descAdditional": ""
   },
   {
@@ -1189,8 +1189,8 @@
     "descPriority": 6,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Light Radius",
-    "descNeg": "to Light Radius",
+    "descPos": "%+d to Light Radius",
+    "descNeg": "%+d to Light Radius",
     "descAdditional": ""
   },
   {
@@ -1215,8 +1215,8 @@
     "descPriority": 2,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStr3h2",
-    "descNeg": "Requirements",
+    "descPos": "Requirements Increased By %d%%",
+    "descNeg": "Requirements Reduced By %d%%",
     "descAdditional": ""
   },
   {
@@ -1228,8 +1228,8 @@
     "descPriority": 2,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ItemStats2p",
-    "descNeg": "ItemStats2p",
+    "descPos": "%+d to Required Level",
+    "descNeg": "%+d to Required Level",
     "descAdditional": ""
   },
   {
@@ -1241,8 +1241,8 @@
     "descPriority": 145,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Increased Attack Speed",
-    "descNeg": "Increased Attack Speed",
+    "descPos": "%+d%% Increased Attack Speed",
+    "descNeg": "%+d%% Increased Attack Speed",
     "descAdditional": ""
   },
   {
@@ -1280,8 +1280,8 @@
     "descPriority": 148,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Faster Run/Walk",
-    "descNeg": "Faster Run/Walk",
+    "descPos": "%+d%% Faster Run/Walk Speed",
+    "descNeg": "%+d%% Faster Run/Walk Speed",
     "descAdditional": ""
   },
   {
@@ -1319,8 +1319,8 @@
     "descPriority": 139,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Faster Hit Recovery",
-    "descNeg": "Faster Hit Recovery",
+    "descPos": "%+d%% Faster Hit Recovery",
+    "descNeg": "%+d%% Faster Hit Recovery",
     "descAdditional": ""
   },
   {
@@ -1358,8 +1358,8 @@
     "descPriority": 136,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Faster Block Rate",
-    "descNeg": "Faster Block Rate",
+    "descPos": "%+d%% Faster Block Rate",
+    "descNeg": "%+d%% Faster Block Rate",
     "descAdditional": ""
   },
   {
@@ -1397,8 +1397,8 @@
     "descPriority": 142,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Faster Cast Rate",
-    "descNeg": "Faster Cast Rate",
+    "descPos": "%+d%% Faster Cast Rate",
+    "descNeg": "%+d%% Faster Cast Rate",
     "descAdditional": ""
   },
   {
@@ -1423,8 +1423,8 @@
     "descPriority": 81,
     "descFunc": 27,
     "descVal": 0,
-    "descPos": "ItemModifierClassSkill",
-    "descNeg": "ItemModifierClassSkill",
+    "descPos": "%+d to %s %s",
+    "descNeg": "%+d to %s %s",
     "descAdditional": ""
   },
   {
@@ -1462,8 +1462,8 @@
     "descPriority": 18,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Poison Length Reduced by",
-    "descNeg": "Poison Length Reduced by",
+    "descPos": "Poison Length Reduced by %d%%",
+    "descNeg": "Poison Length Reduced by %d%%",
     "descAdditional": ""
   },
   {
@@ -1475,8 +1475,8 @@
     "descPriority": 122,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage",
-    "descNeg": "Damage",
+    "descPos": "%+d Weapon Damage",
+    "descNeg": "%+d Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -1488,8 +1488,8 @@
     "descPriority": 79,
     "descFunc": 5,
     "descVal": 0,
-    "descPos": "Hit Causes Monster to Flee",
-    "descNeg": "Hit Causes Monster to Flee",
+    "descPos": "%+d%% Hits Cause Monsters to Flee",
+    "descNeg": "%+d%% Hits Cause Monsters to Flee",
     "descAdditional": ""
   },
   {
@@ -1514,8 +1514,8 @@
     "descPriority": 11,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage Taken Goes To Mana",
-    "descNeg": "Damage Taken Goes To Mana",
+    "descPos": "%+d%% Damage Taken Goes To Mana",
+    "descNeg": "%+d%% Damage Taken Goes To Mana",
     "descAdditional": ""
   },
   {
@@ -1540,8 +1540,8 @@
     "descPriority": 118,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Target Defense",
-    "descNeg": "Target Defense",
+    "descPos": "-%d%% Target Defense",
+    "descNeg": "-%d%% Target Defense",
     "descAdditional": ""
   },
   {
@@ -1579,8 +1579,8 @@
     "descPriority": 117,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Bonus to Attack Rating",
-    "descNeg": "Bonus to Attack Rating",
+    "descPos": "%+d%% Bonus to Attack Rating",
+    "descNeg": "%+d%% Bonus to Attack Rating",
     "descAdditional": ""
   },
   {
@@ -1592,8 +1592,8 @@
     "descPriority": 75,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Monster Defense Per Hit",
-    "descNeg": "to Monster Defense Per Hit",
+    "descPos": "%d to Monster Defense Per Hit",
+    "descNeg": "%d to Monster Defense Per Hit",
     "descAdditional": ""
   },
   {
@@ -1605,8 +1605,8 @@
     "descPriority": 112,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage to Demons",
-    "descNeg": "Damage to Demons",
+    "descPos": "%+d%% Damage to Demons",
+    "descNeg": "%+d%% Damage to Demons",
     "descAdditional": ""
   },
   {
@@ -1618,8 +1618,8 @@
     "descPriority": 108,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage to Undead",
-    "descNeg": "Damage to Undead",
+    "descPos": "%+d%% Damage to Undead",
+    "descNeg": "%+d%% Damage to Undead",
     "descAdditional": ""
   },
   {
@@ -1631,8 +1631,8 @@
     "descPriority": 110,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Attack Rating against Demons",
-    "descNeg": "to Attack Rating against Demons",
+    "descPos": "%+d to Attack Rating against Demons",
+    "descNeg": "%+d to Attack Rating against Demons",
     "descAdditional": ""
   },
   {
@@ -1644,8 +1644,8 @@
     "descPriority": 106,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Attack Rating against Undead",
-    "descNeg": "to Attack Rating against Undead",
+    "descPos": "%+d to Attack Rating against Undead",
+    "descNeg": "%+d to Attack Rating against Undead",
     "descAdditional": ""
   },
   {
@@ -1683,8 +1683,8 @@
     "descPriority": 158,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to All Skills",
-    "descNeg": "to All Skills",
+    "descPos": "%+d to All Skills",
+    "descNeg": "%+d to All Skills",
     "descAdditional": ""
   },
   {
@@ -1696,8 +1696,8 @@
     "descPriority": 14,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Attacker Takes Lightning Damage of",
-    "descNeg": "Attacker Takes Lightning Damage of",
+    "descPos": "Attacker Takes Lightning Damage of %d",
+    "descNeg": "Attacker Takes Lightning Damage of %d",
     "descAdditional": ""
   },
   {
@@ -1787,8 +1787,8 @@
     "descPriority": 83,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Chance of Open Wounds",
-    "descNeg": "Chance of Open Wounds",
+    "descPos": "%+d%% Chance of Open Wounds",
+    "descNeg": "%+d%% Chance of Open Wounds",
     "descAdditional": ""
   },
   {
@@ -1800,8 +1800,8 @@
     "descPriority": 87,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Chance of Crushing Blow",
-    "descNeg": "Chance of Crushing Blow",
+    "descPos": "%+d%% Chance of Crushing Blow",
+    "descNeg": "%+d%% Chance of Crushing Blow",
     "descAdditional": ""
   },
   {
@@ -1813,8 +1813,8 @@
     "descPriority": 121,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Kick Damage",
-    "descNeg": "Kick Damage",
+    "descPos": "%+d Kick Damage",
+    "descNeg": "%+d Kick Damage",
     "descAdditional": ""
   },
   {
@@ -1826,8 +1826,8 @@
     "descPriority": 16,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Mana after each Kill",
-    "descNeg": "to Mana after each Kill",
+    "descPos": "%+d to Mana after each Kill",
+    "descNeg": "%+d to Mana after each Kill",
     "descAdditional": ""
   },
   {
@@ -1839,8 +1839,8 @@
     "descPriority": 15,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Life after each Demon Kill",
-    "descNeg": "Life after each Demon Kill",
+    "descPos": "%+d Life after each Demon Kill",
+    "descNeg": "%+d Life after each Demon Kill",
     "descAdditional": ""
   },
   {
@@ -1865,8 +1865,8 @@
     "descPriority": 85,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Deadly Strike",
-    "descNeg": "Deadly Strike",
+    "descPos": "%+d%% Deadly Strike",
+    "descNeg": "%+d%% Deadly Strike",
     "descAdditional": ""
   },
   {
@@ -1878,8 +1878,8 @@
     "descPriority": 23,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Fire Absorb",
-    "descNeg": "Fire Absorb",
+    "descPos": "%+d%% Fire Damage Absorbed",
+    "descNeg": "%+d%% Fire Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1891,8 +1891,8 @@
     "descPriority": 27,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Fire Absorb",
-    "descNeg": "Fire Absorb",
+    "descPos": "%+d Fire Damage Absorbed",
+    "descNeg": "%+d Fire Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1904,8 +1904,8 @@
     "descPriority": 24,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Lightning Absorb",
-    "descNeg": "Lightning Absorb",
+    "descPos": "%+d%% Lightning Damage Absorbed",
+    "descNeg": "%+d%% Lightning Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1917,8 +1917,8 @@
     "descPriority": 29,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Lightning Absorb",
-    "descNeg": "Lightning Absorb",
+    "descPos": "%+d Lightning Damage Absorbed",
+    "descNeg": "%+d Lightning Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1930,8 +1930,8 @@
     "descPriority": 26,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Magic Absorb",
-    "descNeg": "Magic Absorb",
+    "descPos": "%+d%% Magic Damage Absorbed",
+    "descNeg": "%+d%% Magic Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1943,8 +1943,8 @@
     "descPriority": 33,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Magic Absorb",
-    "descNeg": "Magic Absorb",
+    "descPos": "%+d Magic Damage Absorbed",
+    "descNeg": "%+d Magic Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1956,8 +1956,8 @@
     "descPriority": 25,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Cold Absorb",
-    "descNeg": "Cold Absorb",
+    "descPos": "%+d%% Cold Damage Absorbed",
+    "descNeg": "%+d%% Cold Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1969,8 +1969,8 @@
     "descPriority": 31,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Cold Absorb",
-    "descNeg": "Cold Absorb",
+    "descPos": "%+d Cold Damage Absorbed",
+    "descNeg": "%+d Cold Damage Absorbed",
     "descAdditional": ""
   },
   {
@@ -1982,8 +1982,8 @@
     "descPriority": 77,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Slows Target by",
-    "descNeg": "Slows Target by",
+    "descPos": "Slows Target by %d%%",
+    "descNeg": "Slows Target by %d%%",
     "descAdditional": ""
   },
   {
@@ -2034,8 +2034,8 @@
     "descPriority": 49,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Slower Stamina Drain",
-    "descNeg": "Slower Stamina Drain",
+    "descPos": "%d%% Slower Stamina Drain",
+    "descNeg": "%d%% Slower Stamina Drain",
     "descAdditional": ""
   },
   {
@@ -2047,8 +2047,8 @@
     "descPriority": 17,
     "descFunc": 23,
     "descVal": 0,
-    "descPos": "Reanimate as:",
-    "descNeg": "Reanimate as:",
+    "descPos": "%0%% Reanimate as: %1",
+    "descNeg": "%0%% Reanimate as: %1",
     "descAdditional": ""
   },
   {
@@ -2060,8 +2060,8 @@
     "descPriority": 132,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Piercing Attack",
-    "descNeg": "Piercing Attack",
+    "descPos": "%+d%% Piercing Attack",
+    "descNeg": "%+d%% Piercing Attack",
     "descAdditional": ""
   },
   {
@@ -2359,8 +2359,8 @@
     "descPriority": 108,
     "descFunc": 22,
     "descVal": 0,
-    "descPos": "to Attack Rating versus",
-    "descNeg": "to Attack Rating versus",
+    "descPos": "%d%% to Attack Rating versus",
+    "descNeg": "%d%% to Attack Rating versus",
     "descAdditional": ""
   },
   {
@@ -2372,8 +2372,8 @@
     "descPriority": 106,
     "descFunc": 22,
     "descVal": 0,
-    "descPos": "to Damage versus",
-    "descNeg": "to Damage versus",
+    "descPos": "%d%% to Damage versus",
+    "descNeg": "%d%% to Damage versus",
     "descAdditional": ""
   },
   {
@@ -2385,8 +2385,8 @@
     "descPriority": 1,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "fadeDescription",
-    "descNeg": "fadeDescription",
+    "descPos": "ÿcKYou feel incorporeal...ÿc3",
+    "descNeg": "ÿcKYou feel incorporeal...ÿc3",
     "descAdditional": ""
   },
   {
@@ -2463,8 +2463,8 @@
     "descPriority": 100,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModItemMonColdSunder",
-    "descNeg": "ModItemMonColdSunder",
+    "descPos": "ÿc4Monster Cold Immunity is Sunderedÿc3",
+    "descNeg": "ÿc4Monster Cold Immunity is Sunderedÿc3",
     "descAdditional": ""
   },
   {
@@ -2476,8 +2476,8 @@
     "descPriority": 151,
     "descFunc": 14,
     "descVal": 0,
-    "descPos": "+%d to Javelin and Spear Skills",
-    "descNeg": "+%d to Javelin and Spear Skills",
+    "descPos": "%+d to Javelin and Spear Skills",
+    "descNeg": "%+d to Javelin and Spear Skills",
     "descAdditional": ""
   },
   {
@@ -2489,8 +2489,8 @@
     "descPriority": 300,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModItemMonFireSunder",
-    "descNeg": "ModItemMonFireSunder",
+    "descPos": "ÿc4Monster Fire Immunity is Sunderedÿc3",
+    "descNeg": "ÿc4Monster Fire Immunity is Sunderedÿc3",
     "descAdditional": ""
   },
   {
@@ -2502,8 +2502,8 @@
     "descPriority": 300,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModItemMonLightSunder",
-    "descNeg": "ModItemMonLightSunder",
+    "descPos": "ÿc4Monster Lightning Immunity is Sunderedÿc3",
+    "descNeg": "ÿc4Monster Lightning Immunity is Sunderedÿc3",
     "descAdditional": ""
   },
   {
@@ -2515,8 +2515,8 @@
     "descPriority": 300,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModItemMonPoisonSunder",
-    "descNeg": "ModItemMonPoisonSunder",
+    "descPos": "ÿc4Monster Poison Immunity is Sunderedÿc3",
+    "descNeg": "ÿc4Monster Poison Immunity is Sunderedÿc3",
     "descAdditional": ""
   },
   {
@@ -2528,8 +2528,8 @@
     "descPriority": 300,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModItemMonPhysicalSunder",
-    "descNeg": "ModItemMonPhysicalSunder",
+    "descPos": "ÿc4Monster Physical Immunity is Sunderedÿc3",
+    "descNeg": "ÿc4Monster Physical Immunity is Sunderedÿc3",
     "descAdditional": ""
   },
   {
@@ -2541,8 +2541,8 @@
     "descPriority": 300,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModItemMonMagicSunder",
-    "descNeg": "ModItemMonMagicSunder",
+    "descPos": "ÿc4Monster Magic Immunity is Sunderedÿc3",
+    "descNeg": "ÿc4Monster Magic Immunity is Sunderedÿc3",
     "descAdditional": ""
   },
   {
@@ -2632,8 +2632,8 @@
     "descPriority": 298,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStr6k",
-    "descNeg": "ModStr6k",
+    "descPos": "ÿc4%+d%% chance for finishing moves to not consume chargesÿc3",
+    "descNeg": "ÿc4%+d%% chance for finishing moves to not consume chargesÿc3",
     "descAdditional": ""
   },
   {
@@ -2672,8 +2672,8 @@
     "descPriority": 3,
     "descFunc": 24,
     "descVal": 0,
-    "descPos": "(%d/%d Charges)",
-    "descNeg": "(%d/%d Charges)",
+    "descPos": "Level %d %s (%d/%d Charges)",
+    "descNeg": "Level %d %s (%d/%d Charges)",
     "descAdditional": ""
   },
   {
@@ -2685,8 +2685,8 @@
     "descPriority": 4,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStr6j",
-    "descNeg": "ModStr6j",
+    "descPos": "%+d%% Chance to not consume Quantity",
+    "descNeg": "%+d%% Chance to not consume Quantity",
     "descAdditional": ""
   },
   {
@@ -2742,8 +2742,8 @@
     "descPriority": 72,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Defense",
-    "descNeg": "Defense",
+    "descPos": "%+d Defense",
+    "descNeg": "%+d Defense",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2755,8 +2755,8 @@
     "descPriority": 73,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Defense",
-    "descNeg": "Enhanced Defense",
+    "descPos": "%+d%% Enhanced Defense",
+    "descNeg": "%+d%% Enhanced Defense",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2768,8 +2768,8 @@
     "descPriority": 57,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Life",
-    "descNeg": "to Life",
+    "descPos": "%+d to Life",
+    "descNeg": "%+d to Life",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2781,8 +2781,8 @@
     "descPriority": 53,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Mana",
-    "descNeg": "to Mana",
+    "descPos": "%+d to Mana",
+    "descNeg": "%+d to Mana",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2794,8 +2794,8 @@
     "descPriority": 125,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Damage",
-    "descNeg": "to Maximum Damage",
+    "descPos": "%+d to Maximum Weapon Damage",
+    "descNeg": "%+d to Maximum Weapon Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2807,8 +2807,8 @@
     "descPriority": 128,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Maximum Damage",
-    "descNeg": "Enhanced Maximum Damage",
+    "descPos": "%+d%% Enhanced Maximum Weapon Damage",
+    "descNeg": "%+d%% Enhanced Maximum Weapon Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2820,8 +2820,8 @@
     "descPriority": 66,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Strength",
-    "descNeg": "to Strength",
+    "descPos": "%+d to Strength",
+    "descNeg": "%+d to Strength",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2833,8 +2833,8 @@
     "descPriority": 64,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Dexterity",
-    "descNeg": "to Dexterity",
+    "descPos": "%+d to Dexterity",
+    "descNeg": "%+d to Dexterity",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2846,8 +2846,8 @@
     "descPriority": 60,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Energy",
-    "descNeg": "to Energy",
+    "descPos": "%+d to Energy",
+    "descNeg": "%+d to Energy",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2859,8 +2859,8 @@
     "descPriority": 62,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Vitality",
-    "descNeg": "to Vitality",
+    "descPos": "%+d to Vitality",
+    "descNeg": "%+d to Vitality",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2872,8 +2872,8 @@
     "descPriority": 114,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Attack Rating",
-    "descNeg": "to Attack Rating",
+    "descPos": "%+d to Attack Rating",
+    "descNeg": "%+d to Attack Rating",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2885,8 +2885,8 @@
     "descPriority": 116,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Bonus to Attack Rating",
-    "descNeg": "Bonus to Attack Rating",
+    "descPos": "%+d%% Bonus to Attack Rating",
+    "descNeg": "%+d%% Bonus to Attack Rating",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2898,8 +2898,8 @@
     "descPriority": 94,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Cold Damage",
-    "descNeg": "to Maximum Cold Damage",
+    "descPos": "%+d to Weapon Maximum Cold Damage",
+    "descNeg": "%+d to Weapon Maximum Cold Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2911,8 +2911,8 @@
     "descPriority": 100,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Fire Damage",
-    "descNeg": "to Maximum Fire Damage",
+    "descPos": "%+d to Weapon Maximum Fire Damage",
+    "descNeg": "%+d to Weapon Maximum Fire Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2924,8 +2924,8 @@
     "descPriority": 97,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Lightning Damage",
-    "descNeg": "to Maximum Lightning Damage",
+    "descPos": "%+d to Weapon Maximum Lightning Damage",
+    "descNeg": "%+d to Weapon Maximum Lightning Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2937,8 +2937,8 @@
     "descPriority": 90,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Maximum Poison Damage",
-    "descNeg": "to Maximum Poison Damage",
+    "descPos": "%+d to Weapon Maximum Poison Damage",
+    "descNeg": "%+d to Weapon Maximum Poison Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2950,8 +2950,8 @@
     "descPriority": 39,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Cold Resist",
-    "descNeg": "Cold Resist",
+    "descPos": "%+d%% Cold Resistance",
+    "descNeg": "%+d%% Cold Resistance",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2963,8 +2963,8 @@
     "descPriority": 35,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Fire Resist",
-    "descNeg": "Fire Resist",
+    "descPos": "%+d%% Fire Resistance",
+    "descNeg": "%+d%% Fire Resistance",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2976,8 +2976,8 @@
     "descPriority": 37,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Lightning Resist",
-    "descNeg": "Lightning Resist",
+    "descPos": "%+d%% Lightning Resistance",
+    "descNeg": "%+d%% Lightning Resistance",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -2989,8 +2989,8 @@
     "descPriority": 33,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Poison Resist",
-    "descNeg": "Poison Resist",
+    "descPos": "%+d%% Poison Resistance",
+    "descNeg": "%+d%% Poison Resistance",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3002,8 +3002,8 @@
     "descPriority": 32,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Absorbs Cold Damage",
-    "descNeg": "Absorbs Cold Damage",
+    "descPos": "Absorbs %d Cold Damage",
+    "descNeg": "Absorbs %d Cold Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3015,8 +3015,8 @@
     "descPriority": 28,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Absorbs Fire Damage",
-    "descNeg": "Absorbs Fire Damage",
+    "descPos": "Absorbs %d Fire Damage",
+    "descNeg": "Absorbs %d Fire Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3028,8 +3028,8 @@
     "descPriority": 30,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Absorbs Lightning Damage",
-    "descNeg": "Absorbs Lightning Damage",
+    "descPos": "Absorbs %d Lightning Damage",
+    "descNeg": "Absorbs %d Lightning Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3054,8 +3054,8 @@
     "descPriority": 12,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Attacker Takes Damage of",
-    "descNeg": "Attacker Takes Damage of",
+    "descPos": "Attacker Takes Damage of %d",
+    "descNeg": "Attacker Takes Damage of %d",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3067,8 +3067,8 @@
     "descPriority": 9,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Extra Gold from Monsters",
-    "descNeg": "Extra Gold from Monsters",
+    "descPos": "%+d%% Extra Gold from Monsters",
+    "descNeg": "%+d%% Extra Gold from Monsters",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3080,8 +3080,8 @@
     "descPriority": 7,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Better Chance of Getting Magic Items",
-    "descNeg": "Better Chance of Getting Magic Items",
+    "descPos": "%+d%% Chance Items Roll Magic or Better",
+    "descNeg": "%+d%% Chance Items Roll Magic or Better",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3093,8 +3093,8 @@
     "descPriority": 47,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Heal Stamina Plus",
-    "descNeg": "Heal Stamina Plus",
+    "descPos": "Heal Stamina Plus %d%%",
+    "descNeg": "Heal Stamina Plus %d%%",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3106,8 +3106,8 @@
     "descPriority": 50,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Maximum Stamina",
-    "descNeg": "Maximum Stamina",
+    "descPos": "%+d Maximum Stamina",
+    "descNeg": "%+d Maximum Stamina",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3119,8 +3119,8 @@
     "descPriority": 111,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage to Demons",
-    "descNeg": "Damage to Demons",
+    "descPos": "%+d%% Damage to Demons",
+    "descNeg": "%+d%% Damage to Demons",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3132,8 +3132,8 @@
     "descPriority": 107,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Damage to Undead",
-    "descNeg": "Damage to Undead",
+    "descPos": "%+d%% Damage to Undead",
+    "descNeg": "%+d%% Damage to Undead",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3145,8 +3145,8 @@
     "descPriority": 109,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Attack Rating against Demons",
-    "descNeg": "to Attack Rating against Demons",
+    "descPos": "%+d to Attack Rating against Demons",
+    "descNeg": "%+d to Attack Rating against Demons",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3158,8 +3158,8 @@
     "descPriority": 105,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Attack Rating against Undead",
-    "descNeg": "to Attack Rating against Undead",
+    "descPos": "%+d to Attack Rating against Undead",
+    "descNeg": "%+d to Attack Rating against Undead",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3171,8 +3171,8 @@
     "descPriority": 86,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Chance of Crushing Blow",
-    "descNeg": "Chance of Crushing Blow",
+    "descPos": "%+d%% Chance of Crushing Blow",
+    "descNeg": "%+d%% Chance of Crushing Blow",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3184,8 +3184,8 @@
     "descPriority": 82,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Chance of Open Wounds",
-    "descNeg": "Chance of Open Wounds",
+    "descPos": "%+d%% Chance of Open Wounds",
+    "descNeg": "%+d%% Chance of Open Wounds",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3197,8 +3197,8 @@
     "descPriority": 120,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Kick Damage",
-    "descNeg": "Kick Damage",
+    "descPos": "%+d Kick Damage",
+    "descNeg": "%+d Kick Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3210,8 +3210,8 @@
     "descPriority": 84,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Deadly Strike",
-    "descNeg": "Deadly Strike",
+    "descPos": "%+d%% Deadly Strike",
+    "descNeg": "%+d%% Deadly Strike",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -3481,8 +3481,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Cold Resistance",
-    "descNeg": "to Enemy Cold Resistance",
+    "descPos": "-%d%% to Enemy Cold Resistance",
+    "descNeg": "-%d%% to Enemy Cold Resistance",
     "descAdditional": ""
   },
   {
@@ -3494,8 +3494,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Fire Resistance",
-    "descNeg": "to Enemy Fire Resistance",
+    "descPos": "-%d%% to Enemy Fire Resistance",
+    "descNeg": "-%d%% to Enemy Fire Resistance",
     "descAdditional": ""
   },
   {
@@ -3507,8 +3507,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Lightning Resistance",
-    "descNeg": "to Enemy Lightning Resistance",
+    "descPos": "-%d%% to Enemy Lightning Resistance",
+    "descNeg": "-%d%% to Enemy Lightning Resistance",
     "descAdditional": ""
   },
   {
@@ -3520,8 +3520,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Poison Resistance",
-    "descNeg": "to Enemy Poison Resistance",
+    "descPos": "-%d%% to Enemy Poison Resistance",
+    "descNeg": "-%d%% to Enemy Poison Resistance",
     "descAdditional": ""
   },
   {
@@ -3793,8 +3793,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Fire Skill Damage",
-    "descNeg": "to Fire Skill Damage",
+    "descPos": "%+d%% to Fire Skill Damage",
+    "descNeg": "%+d%% to Fire Skill Damage",
     "descAdditional": ""
   },
   {
@@ -3806,8 +3806,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Lightning Skill Damage",
-    "descNeg": "to Lightning Skill Damage",
+    "descPos": "%+d%% to Lightning Skill Damage",
+    "descNeg": "%+d%% to Lightning Skill Damage",
     "descAdditional": ""
   },
   {
@@ -3819,8 +3819,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Cold Skill Damage",
-    "descNeg": "to Cold Skill Damage",
+    "descPos": "%+d%% to Cold Skill Damage",
+    "descNeg": "%+d%% to Cold Skill Damage",
     "descAdditional": ""
   },
   {
@@ -3832,8 +3832,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Poison Skill Damage",
-    "descNeg": "to Poison Skill Damage",
+    "descPos": "%+d%% to Poison Skill Damage",
+    "descNeg": "%+d%% to Poison Skill Damage",
     "descAdditional": ""
   },
   {
@@ -3845,8 +3845,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Fire Resistance",
-    "descNeg": "to Enemy Fire Resistance",
+    "descPos": "-%d%% to Enemy Fire Resistance",
+    "descNeg": "-%d%% to Enemy Fire Resistance",
     "descAdditional": ""
   },
   {
@@ -3858,8 +3858,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Lightning Resistance",
-    "descNeg": "to Enemy Lightning Resistance",
+    "descPos": "-%d%% to Enemy Lightning Resistance",
+    "descNeg": "-%d%% to Enemy Lightning Resistance",
     "descAdditional": ""
   },
   {
@@ -3871,8 +3871,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Cold Resistance",
-    "descNeg": "to Enemy Cold Resistance",
+    "descPos": "-%d%% to Enemy Cold Resistance",
+    "descNeg": "-%d%% to Enemy Cold Resistance",
     "descAdditional": ""
   },
   {
@@ -3884,8 +3884,8 @@
     "descPriority": 88,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Enemy Poison Resistance",
-    "descNeg": "to Enemy Poison Resistance",
+    "descPos": "-%d%% to Enemy Poison Resistance",
+    "descNeg": "-%d%% to Enemy Poison Resistance",
     "descAdditional": ""
   },
   {
@@ -4209,8 +4209,8 @@
     "descPriority": 300,
     "descFunc": 20,
     "descVal": 0,
-    "descPos": "Corrupted",
-    "descNeg": "Corrupted",
+    "descPos": "ÿc1Corruptedÿc3",
+    "descNeg": "ÿc1Corruptedÿc3",
     "descAdditional": ""
   },
   {
@@ -4235,8 +4235,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "splash3",
-    "descNeg": "splash3",
+    "descPos": "50%% Melee Splash Damage",
+    "descNeg": "50%% Melee Splash Damage",
     "descAdditional": ""
   },
   {
@@ -4248,8 +4248,8 @@
     "descPriority": 129,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Maximum Damage",
-    "descNeg": "Enhanced Maximum Damage",
+    "descPos": "%+d%% Enhanced Maximum Weapon Damage",
+    "descNeg": "%+d%% Enhanced Maximum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -4261,8 +4261,8 @@
     "descPriority": 130,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Enhanced Minimum Damage",
-    "descNeg": "Enhanced Minimum Damage",
+    "descPos": "%+d%% Enhanced Minimum Weapon Damage",
+    "descNeg": "%+d%% Enhanced Minimum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -4274,8 +4274,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "Replenish Life",
-    "descNeg": "Drain Life",
+    "descPos": "Replenish Life %+d",
+    "descNeg": "Drain Life %d",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -4287,8 +4287,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedTerrorKey",
-    "descNeg": "StackedTerrorKey",
+    "descPos": "ÿc8Terror Keys: ÿc1%d",
+    "descNeg": "ÿc8Terror Keys: ÿc1%d",
     "descAdditional": ""
   },
   {
@@ -4300,8 +4300,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedHateKey",
-    "descNeg": "StackedHateKey",
+    "descPos": "ÿc8Hate Keys: ÿc1%d",
+    "descNeg": "ÿc8Hate Keys: ÿc1%d",
     "descAdditional": ""
   },
   {
@@ -4313,8 +4313,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedDestructionKey",
-    "descNeg": "StackedDestructionKey",
+    "descPos": "ÿc8Destruction Keys: ÿc1%d",
+    "descNeg": "ÿc8Destruction Keys: ÿc1%d",
     "descAdditional": ""
   },
   {
@@ -4326,8 +4326,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemTopaz",
-    "descNeg": "StackedGemTopaz",
+    "descPos": "ÿc9Topaz Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc9Topaz Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4339,8 +4339,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemAmethyst",
-    "descNeg": "StackedGemAmethyst",
+    "descPos": "ÿc;Amethyst Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc;Amethyst Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4352,8 +4352,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemSapphire",
-    "descNeg": "StackedGemSapphire",
+    "descPos": "ÿc3Sapphire Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc3Sapphire Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4365,8 +4365,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemDiamond",
-    "descNeg": "StackedGemDiamond",
+    "descPos": "ÿc0Diamond Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc0Diamond Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4378,8 +4378,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemEmerald",
-    "descNeg": "StackedGemEmerald",
+    "descPos": "ÿc2Emerald Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc2Emerald Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4391,8 +4391,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemSkull",
-    "descNeg": "StackedGemSkull",
+    "descPos": "ÿc5Skull Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc5Skull Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4404,8 +4404,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGemRuby",
-    "descNeg": "StackedGemRuby",
+    "descPos": "ÿc1Ruby Credits: ÿc1%d / 65,535",
+    "descNeg": "ÿc1Ruby Credits: ÿc1%d / 65,535",
     "descAdditional": ""
   },
   {
@@ -4417,8 +4417,8 @@
     "descPriority": 16,
     "descFunc": 1,
     "descVal": 1,
-    "descPos": "healperhit",
-    "descNeg": "healperhit",
+    "descPos": "Life Per Hit",
+    "descNeg": "Life Per Hit",
     "descAdditional": ""
   },
   {
@@ -4430,8 +4430,8 @@
     "descPriority": 298,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "extraspear",
-    "descNeg": "extraspear",
+    "descPos": "ÿc4+%d Bone Spear Projectilesÿc3",
+    "descNeg": "ÿc4+%d Bone Spear Projectilesÿc3",
     "descAdditional": ""
   },
   {
@@ -4443,8 +4443,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "splash4",
-    "descNeg": "splash4",
+    "descPos": "55%% Melee Splash Damage",
+    "descNeg": "55%% Melee Splash Damage",
     "descAdditional": ""
   },
   {
@@ -4456,8 +4456,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "splash5",
-    "descNeg": "splash5",
+    "descPos": "65%% Melee Splash Damage",
+    "descNeg": "65%% Melee Splash Damage",
     "descAdditional": ""
   },
   {
@@ -4469,8 +4469,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "splash6",
-    "descNeg": "splash6",
+    "descPos": "75%% Melee Splash Damage",
+    "descNeg": "75%% Melee Splash Damage",
     "descAdditional": ""
   },
   {
@@ -4482,8 +4482,8 @@
     "descPriority": 298,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "extraholybolt",
-    "descNeg": "extraholybolt",
+    "descPos": "ÿc4+%d Holy Bolt Projectilesÿc3",
+    "descNeg": "ÿc4+%d Holy Bolt Projectilesÿc3",
     "descAdditional": ""
   },
   {
@@ -4495,8 +4495,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "splash7",
-    "descNeg": "splash7",
+    "descPos": "85%% Melee Splash Damage",
+    "descNeg": "85%% Melee Splash Damage",
     "descAdditional": ""
   },
   {
@@ -4508,8 +4508,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "mod_weight",
-    "descNeg": "mod_weight",
+    "descPos": "ÿc=Charm Weight: %dÿc3",
+    "descNeg": "ÿc=Charm Weight: %dÿc3",
     "descAdditional": ""
   },
   {
@@ -4521,8 +4521,8 @@
     "descPriority": 2,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "weightsystem",
-    "descNeg": "weightsystem",
+    "descPos": "ÿc1Mana set to 0 if you exceed 40 Charm Weight!",
+    "descNeg": "ÿc1Mana set to 0 if you exceed 40 Charm Weight!",
     "descAdditional": ""
   },
   {
@@ -4534,8 +4534,8 @@
     "descPriority": 56,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "StackedGem",
-    "descNeg": "StackedGem",
+    "descPos": "ÿcTGems: %d",
+    "descNeg": "ÿcTGems: %d",
     "descAdditional": ""
   },
   {
@@ -4547,8 +4547,8 @@
     "descPriority": 150,
     "descFunc": 28,
     "descVal": 0,
-    "descPos": "ItemModifierNonClassSkill",
-    "descNeg": "ItemModifierNonClassSkill",
+    "descPos": "%+d to %s",
+    "descNeg": "%+d to %s",
     "descAdditional": ""
   },
   {
@@ -4560,8 +4560,8 @@
     "descPriority": 298,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ravensetwolf",
-    "descNeg": "ravensetwolf",
+    "descPos": "+ Max Ravens, - Max Wolves",
+    "descNeg": "+ Max Ravens, - Max Wolves",
     "descAdditional": ""
   },
   {
@@ -4573,8 +4573,8 @@
     "descPriority": 298,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ravenhits",
-    "descNeg": "ravenhits",
+    "descPos": "+%d to Raven Hits",
+    "descNeg": "+%d to Raven Hits",
     "descAdditional": ""
   },
   {
@@ -4586,8 +4586,8 @@
     "descPriority": 298,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ravendmg",
-    "descNeg": "ravendmg",
+    "descPos": "+50%% to Raven Damage",
+    "descNeg": "+50%% to Raven Damage",
     "descAdditional": ""
   },
   {
@@ -4599,8 +4599,8 @@
     "descPriority": 126,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Minimum Damage",
-    "descNeg": "to Minimum Damage",
+    "descPos": "%+d to Minimum Weapon Damage",
+    "descNeg": "%+d to Minimum Weapon Damage",
     "descAdditional": "(Based on Character Level)"
   },
   {
@@ -4612,8 +4612,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "MinorUpgrades",
-    "descNeg": "MinorUpgrades",
+    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 2ÿc0",
+    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 2ÿc0",
     "descAdditional": ""
   },
   {
@@ -4625,8 +4625,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "MediumUpgrades",
-    "descNeg": "MediumUpgrades",
+    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 3ÿc0",
+    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 3ÿc0",
     "descAdditional": ""
   },
   {
@@ -4638,8 +4638,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "MajorUpgrades",
-    "descNeg": "MajorUpgrades",
+    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 5ÿc0",
+    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 5ÿc0",
     "descAdditional": ""
   },
   {
@@ -4651,8 +4651,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "UberUpgrades",
-    "descNeg": "UberUpgrades",
+    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 10ÿc0",
+    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 10ÿc0",
     "descAdditional": ""
   },
   {
@@ -4664,8 +4664,8 @@
     "descPriority": 2,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "uber_weight",
-    "descNeg": "uber_weight",
+    "descPos": "ÿc1Carrying more than one Torch or Soulstone sets your HP to 1!ÿc0",
+    "descNeg": "ÿc1Carrying more than one Torch or Soulstone sets your HP to 1!ÿc0",
     "descAdditional": ""
   },
   {
@@ -4677,8 +4677,8 @@
     "descPriority": 2,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "uber_mod",
-    "descNeg": "uber_mod",
+    "descPos": "ÿcKThe weight of evil...ÿc1",
+    "descNeg": "ÿcKThe weight of evil...ÿc1",
     "descAdditional": ""
   },
   {
@@ -4690,8 +4690,8 @@
     "descPriority": 2,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "uber_mod",
-    "descNeg": "uber_mod",
+    "descPos": "ÿcKThe weight of evil...ÿc1",
+    "descNeg": "ÿcKThe weight of evil...ÿc1",
     "descAdditional": ""
   },
   {
@@ -4703,8 +4703,8 @@
     "descPriority": 157,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "to Fire Skills",
-    "descNeg": "to Fire Skills",
+    "descPos": "%+d to Fire Skills",
+    "descNeg": "%+d to Fire Skills",
     "descAdditional": ""
   },
   {
@@ -4716,8 +4716,8 @@
     "descPriority": 157,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrcoldskill",
-    "descNeg": "ModStrcoldskill",
+    "descPos": "+%d to Cold Skills",
+    "descNeg": "+%d to Cold Skills",
     "descAdditional": ""
   },
   {
@@ -4729,8 +4729,8 @@
     "descPriority": 157,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrlightningskill",
-    "descNeg": "ModStrlightningskill",
+    "descPos": "+%d to Lightning Skills",
+    "descNeg": "+%d to Lightning Skills",
     "descAdditional": ""
   },
   {
@@ -4742,8 +4742,8 @@
     "descPriority": 157,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrpoisonskill",
-    "descNeg": "ModStrpoisonskill",
+    "descPos": "+%d to Poison Skills",
+    "descNeg": "+%d to Poison Skills",
     "descAdditional": ""
   },
   {
@@ -4755,8 +4755,8 @@
     "descPriority": 157,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrmagicskill",
-    "descNeg": "ModStrmagicskill",
+    "descPos": "+%d to Magic Skills",
+    "descNeg": "+%d to Magic Skills",
     "descAdditional": ""
   }
 ]

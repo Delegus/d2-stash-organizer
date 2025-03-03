@@ -20,7 +20,7 @@ const ENHANCED_DEF_STATS = [
 function parseModsList({ readInt }: BinaryStream, item: Item) {
   const mods: Modifier[] = [];
   let modId = readInt(9);
-  let cnt = 0;
+  // let cnt = 0;
   // console.warn("size(%s);", ITEM_STATS.length)
   // console.warn("ITEM_STATS[384]=%s;", ITEM_STATS[384])
   // console.log(JSON.stringify(ITEM_STATS, null, 4));
@@ -29,20 +29,20 @@ function parseModsList({ readInt }: BinaryStream, item: Item) {
     let modInfo = ITEM_STATS[modId];
     if (modInfo == null || modInfo == undefined) {
       // throw new ItemParsingError(item, `Unknown mod ${modId}`);
-      cnt++;
+      // cnt++;
       modId = readInt(9);
       modInfo = ITEM_STATS[modId];
-      if (cnt > 1000) {
-        throw new ItemParsingError(item, `Unknown mod ${modId}`);
-      }
+      // if (cnt > 1000) {
+      throw new ItemParsingError(item, `Unknown mod ${modId}`);
+      // }
     }
     if (modId > 403) {
-      cnt++;
+      // cnt++;
       modId = readInt(9);
       modInfo = ITEM_STATS[modId];
-      if (cnt > 1000) {
-        throw new ItemParsingError(item, `Unknown mod ${modId}`);
-      }
+      // if (cnt > 1000) {
+      throw new ItemParsingError(item, `Unknown mod ${modId}`);
+      // }
     }
     if (modInfo == null) {
       return mods;
