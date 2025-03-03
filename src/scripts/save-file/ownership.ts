@@ -4,7 +4,7 @@ import { D2rStash } from "../d2r-stash/types";
 
 export const PLUGY_SHARED_STASH_NAME = "PlugY shared stash";
 export const NON_PLUGY_SHARED_STASH_NAME = "Offline stash";
-export const D2R_SHARED_STASH_NAME = "D2R shared stash";
+export const D2R_SHARED_STASH_NAME = "Shared";
 
 export type ItemsOwner = Character | D2rStash | PlugyStash;
 
