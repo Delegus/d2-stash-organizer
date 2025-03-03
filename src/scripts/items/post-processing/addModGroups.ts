@@ -47,6 +47,7 @@ function addGroup(group: StatGroup, allModifiers: Modifier[]) {
     values: mods.map(({ value }) => value ?? 0),
   };
   extraMod.description = describeSingleMod(extraMod, group);
+  // console.error("  extraMod.description =%s",   extraMod.description );
   if (group.allEqual) {
     extraMod.range = mods[0].range;
   }

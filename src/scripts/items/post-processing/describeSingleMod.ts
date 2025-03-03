@@ -30,15 +30,21 @@ export function describeSingleMod(
   }
 
   let modDesc = (modValue ?? 0) < 0 ? modInfo.descNeg : modInfo.descPos;
-  let valueDesc: string | undefined;
+
   let skill: Skill | undefined;
+  let valueDesc: string | undefined;
   let skillTab: SkillTab | undefined;
   let skillName: string;
+  modDesc = modDesc.replace("d%", "d").replace(/(ÿc)[\w=]/g, "*");
+  // console.warn("modDesc=%s", modDesc);
+  // console.info("modInfo.descFunc=%s", modInfo.descFunc);
   switch (modInfo.descFunc) {
     case 1:
     case 6:
     case 12:
       valueDesc = (modValue ?? 0) < 0 ? `${modValue}` : `+${modValue}`;
+      //console.info("valueDesc %s",valueDesc);
+
       break;
     case 2:
     case 7:
@@ -50,7 +56,7 @@ export function describeSingleMod(
       break;
     case 4:
     case 8:
-      valueDesc = (modValue ?? 0) < 0 ? `${modValue}%` : `+${modValue}%`;
+      valueDesc = (modValue ?? 0) < 0 ? `${modValue}` : `+${modValue}`;
       break;
     case 5:
       valueDesc = `${Math.floor((modValue! * 100) / 128)}%`;
@@ -61,6 +67,7 @@ export function describeSingleMod(
     case 13:
       modDesc = CHAR_CLASSES[modifier.param!].skillsMod;
       valueDesc = `+${modValue}`;
+      modDesc = modDesc.replace("%+d", valueDesc);
       break;
     case 14:
       skillTab = SKILL_TABS.find(({ id }) => id === modifier.param);
@@ -81,7 +88,7 @@ export function describeSingleMod(
 
       modDesc = modDesc
         // Extra % because the actual one is doubled to escape it
-        .replace("%d%", `${modifier.chance}`)
+        .replace("%d%%", `${modifier.chance}`)
         .replace("%d", `${modifier.level}`)
         .replace("%s", `${skillName}`);
       break;
@@ -91,7 +98,11 @@ export function describeSingleMod(
         .replace("%s", `${SKILLS[modifier.param!].name}`);
       break;
     case 19:
-      modDesc = modDesc.replace("%d", `${modValue}`);
+      // console.error("modValue=======%s", modValue);
+      modDesc = modDesc
+        .replace("%+d", `+${modValue}`)
+        .replace("%d", `${modValue}`)
+        .replace("%d", `${modValue}`);
       break;
     case 20:
       valueDesc = `${-modValue!}%`;
@@ -105,11 +116,10 @@ export function describeSingleMod(
       // We need to do the monster, but I can't find a single item with this.
       break;
     case 24:
-      modDesc = `Level ${modifier.level} ${
-        SKILLS[modifier.spell!].name
-      } ${modDesc
-        .replace("%d", `${modifier.charges}`)
-        .replace("%d", `${modifier.maxCharges}`)}`;
+      modDesc = `${modDesc
+        .replace("%d/%d", `${modifier.charges}/${modifier.maxCharges}`)
+        .replace("%s", SKILLS[modifier.spell!].name)
+        .replace("%d", `${modifier.level}`)} `;
       break;
     case 27:
       skill = SKILLS[modifier.param!];
@@ -155,9 +165,11 @@ export function describeSingleMod(
   }
 
   if (modDesc) {
+    modDesc = modDesc.replace("%d", "").replace("%+d", "");
     let fullDesc = "";
     switch (modInfo.descVal) {
       case 1:
+        // console.error(`${valueDesc} ${modDesc}`);
         fullDesc = `${valueDesc} ${modDesc}`;
         break;
       case 2:
@@ -169,6 +181,7 @@ export function describeSingleMod(
     if (6 <= modInfo.descFunc && modInfo.descFunc <= 9) {
       fullDesc += ` ${modInfo.descAdditional}`;
     }
+
     return fullDesc;
   }
 }

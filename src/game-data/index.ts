@@ -14,6 +14,7 @@ import {
   CharacterClass,
   StatGroup,
   Gem,
+  StringsD2rr,
 } from "./types";
 
 import armors from "../../game-data/json/Armor.json";
@@ -22,6 +23,7 @@ import misc from "../../game-data/json/Misc.json";
 import uniqueItems from "../../game-data/json/UniqueItems.json";
 import setItems from "../../game-data/json/SetItems.json";
 import sets from "../../game-data/json/Sets.json";
+import stringsNew from "../../game-data/json/item-modifiers.json";
 import properties from "../../game-data/json/Properties.json";
 import itemStats from "../../game-data/json/ItemStatCost.json";
 import statGroups from "../../game-data/json/ItemStatGroups.json";
@@ -41,6 +43,7 @@ export const MISC: Record<string, Misc | undefined> = misc;
 export const UNIQUE_ITEMS: UniqueItem[] = uniqueItems;
 export const SET_ITEMS: SetItem[] = setItems;
 export const SETS: Record<string, Set> = sets;
+export const STRINGS_NEW: StringsD2rr[] = stringsNew;
 export const PROPERTIES = properties as Record<string, Property>;
 export const ITEM_STATS: (ItemStat | null)[] = itemStats;
 export const STAT_GROUPS: StatGroup[] = statGroups;

@@ -3460,7 +3460,7 @@
   "ItemStats1q": "Points:",
   "ItemStatsrejuv1": "Heals 35% Life and Mana",
   "ItemStatsrejuv2": "Heals 100% Life and Mana",
-  "ModStr1a": "to Strength",
+  "ModStr1a": "%d to Strength",
   "ModStr1b": "to Dexterity",
   "ModStr1c": "to Vitality",
   "ModStr1d": "to Energy",

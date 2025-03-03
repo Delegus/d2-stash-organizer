@@ -72,6 +72,24 @@ export interface Set {
   modifiers: ModifierRange[][];
 }
 
+export interface StringsD2rr {
+  id: number;
+  Key: string;
+  enUS: string;
+  zhTW: string;
+  deDE: string;
+  esES: string;
+  frFR: string;
+  itIT: string;
+  koKR: string;
+  plPL: string;
+  esMX: string;
+  jaJP: string;
+  ptBR: string;
+  ruRU: string;
+  zhCN: string;
+}
+
 export interface Runeword {
   name: string;
   enabled: boolean;

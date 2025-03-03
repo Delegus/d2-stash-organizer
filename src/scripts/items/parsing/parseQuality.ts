@@ -99,7 +99,6 @@ export function parseQuality(
     item.name = `${charName}'s ${item.name}`;
     // console.warn("item.name :%s", item.name );
   }
-
   if (MISC[item.code]?.type === "book") {
     // Skip 5 unknown bits for tomes
     read(5);
