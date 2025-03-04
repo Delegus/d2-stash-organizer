@@ -2,7 +2,6 @@ import { BinaryStream } from "../../save-file/binary";
 import { Item } from "../types/Item";
 import { ItemQuality } from "../types/ItemQuality";
 import { ITEM_STATS } from "../../../game-data";
-import { ItemParsingError } from "../../errors/ItemParsingError";
 import { Modifier } from "../types/Modifier";
 
 const ENHANCED_DEF_STATS = [
@@ -25,7 +24,6 @@ function parseModsList({ readInt }: BinaryStream, item: Item) {
   // console.warn("ITEM_STATS[384]=%s;", ITEM_STATS[384])
   // console.log(JSON.stringify(ITEM_STATS, null, 4));
   while (modId != 511) {
-    // console.warn("modId:%s",modId);
     let modInfo = ITEM_STATS[modId];
     if (modInfo == null || modInfo == undefined) {
       // throw new ItemParsingError(item, `Unknown mod ${modId}`);
@@ -33,7 +31,7 @@ function parseModsList({ readInt }: BinaryStream, item: Item) {
       modId = readInt(9);
       modInfo = ITEM_STATS[modId];
       // if (cnt > 1000) {
-      throw new ItemParsingError(item, `Unknown mod ${modId}`);
+      // throw new ItemParsingError(item, `Unknown mod ${modId}`);
       // }
     }
     if (modId > 403) {
@@ -41,7 +39,7 @@ function parseModsList({ readInt }: BinaryStream, item: Item) {
       modId = readInt(9);
       modInfo = ITEM_STATS[modId];
       // if (cnt > 1000) {
-      throw new ItemParsingError(item, `Unknown mod ${modId}`);
+      // throw new ItemParsingError(item, `Unknown mod ${modId}`);
       // }
     }
     if (modInfo == null) {
