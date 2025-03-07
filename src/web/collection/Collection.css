@@ -24,3 +24,6 @@
 #collection tbody tr:hover td:not(:first-child) {
   color: #6fb76f;
 }
+tr:has(td input:checked) { border: solid;
+  outline: 1px dotted rgb(19, 67, 99);
+  background-color: #071d09;  }
