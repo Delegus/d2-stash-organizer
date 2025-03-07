@@ -1,4 +1,4 @@
-import { SetItem, UniqueItem } from "../../../game-data";
+import { SetItem, UniqueItem, UniqueSetItem } from "../../../game-data";
 import { Item } from "../../items/types/Item";
 import { Position } from "./position";
 
@@ -11,7 +11,7 @@ export type LayoutType =
   | "set"
   | "runes";
 
-export type LayoutItem = UniqueItem | SetItem | Item;
+export type LayoutItem = UniqueSetItem | UniqueItem | SetItem | Item;
 
 export interface LayoutResult<T extends LayoutItem = LayoutItem> {
   nbPages: number;

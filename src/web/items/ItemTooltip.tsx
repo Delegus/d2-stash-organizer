@@ -1,9 +1,16 @@
 import { Item } from "../../scripts/items/types/Item";
-import "./ItemTooltip.css";
-import { getBase } from "../../scripts/items/getBase";
-import { colorClass } from "../collection/utils/colorClass";
-import { useState } from "preact/hooks";
 
+import "./ItemTooltip.css";
+import { colorClass } from "../collection/utils/colorClass";
+import { getBase } from "../../scripts/items/getBase";
+import { useState } from "preact/hooks";
+import { UniqueSetItem } from "../../game-data";
+import { generateFixedMods } from "../../scripts/items/post-processing/generateFixedMods";
+
+import { consolidateMods } from "../../scripts/items/post-processing/consolidateMods";
+import { addSetMods } from "../../scripts/items/post-processing/addSetModifiers";
+
+import { describeMods } from "../../scripts/items/post-processing/describeMods";
 let UNIQUE_ID = 0;
 
 function Range({ range }: { range?: [number, number] }) {
@@ -13,14 +20,58 @@ function Range({ range }: { range?: [number, number] }) {
   return <span class="sidenote"> [{range.join(" - ")}]</span>;
 }
 
-export function ItemTooltip({ item }: { item: Item }) {
+export function ItemTooltip({
+  item,
+  noItem,
+}: {
+  item: Item;
+  noItem?: UniqueSetItem;
+}) {
   const [tooltipId] = useState(() => `item-tooltip-${UNIQUE_ID++}`);
+  if (!noItem) {
+    noItem = {} as UniqueSetItem;
+  }
+  if (item == null) {
+    const newItem = {} as Item;
+    newItem.code = noItem.code;
+    newItem.name = noItem.name;
+    // It's either unique or set item at this point
+    newItem.quality = noItem.setModifiers ? 5 : 7;
+
+    if (noItem.modifiers != null) {
+      newItem.modifiers = generateFixedMods(noItem.modifiers);
+    }
+    if (noItem.baseModifiers != null) {
+      newItem.modifiers = generateFixedMods(noItem.baseModifiers);
+    }
+    if (newItem.modifiers != null) {
+      consolidateMods(newItem.modifiers);
+      // Generate descriptions only after consolidating
+      if (newItem.modifiers) {
+        describeMods(newItem, newItem.modifiers);
+      }
+    }
+
+    if (noItem.setModifiers) {
+      newItem.setItemModifiers?.forEach((mods, i) => {
+        describeMods(newItem, mods, ` (${i + 2} items)`);
+      });
+
+      addSetMods(newItem);
+
+      newItem.setGlobalModifiers?.forEach((mods, i) => {
+        describeMods(newItem, mods, i >= 4 ? "" : ` (${i + 2} items)`);
+      });
+    }
+    item = newItem;
+  }
+
+  // const className = noItem.setModifiers == null ? "unique" : "set";
   const className = colorClass(item);
 
   if (item.simple) {
     return <span class={className}>{item.name}</span>;
   }
-
   const base = getBase(item);
 
   const magicMods =

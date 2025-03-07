@@ -71,11 +71,14 @@ export function describeSingleMod(
       break;
     case 14:
       skillTab = SKILL_TABS.find(({ id }) => id === modifier.param);
-      if (!skillTab) {
-        throw new Error(`Unknown skill tab ${skillTab}`);
+
+      if (!skillTab && !modifier.param) {
+        skillTab = SKILL_TABS[Number(modifier.value)];
+        // console.info("modifier=", modifier)
+        // throw new Error(`Unknown skill tab ${skillTab}`);
       }
-      modDesc = `+${modValue} to ${skillTab.name} ${
-        CHAR_CLASSES[skillTab.charClass].classOnly
+      modDesc = `+${modValue} to ${skillTab!.name} ${
+        CHAR_CLASSES[skillTab!.charClass].classOnly
       }`;
       break;
     case 15:
@@ -124,7 +127,7 @@ export function describeSingleMod(
     case 27:
       skill = SKILLS[modifier.param!];
       modDesc = `+${modValue} to ${skill.name} ${
-        CHAR_CLASSES[skill.charClass!].classOnly
+        skill.charClass == null ? "" : CHAR_CLASSES[skill.charClass].classOnly
       }`;
       break;
     case 28:

@@ -8,6 +8,11 @@ import {
   QualityFilter,
   QualityFilterValue,
 } from "../controls/QualityFilter";
+import {
+  filterItemsByType,
+  TypeFilter,
+  TypeFilterValue,
+} from "../controls/TypeFilter";
 import { ItemsTable } from "./ItemsTable";
 import { SelectAll } from "../controls/SelectAll";
 
@@ -15,11 +20,19 @@ export function Collection() {
   const { allItems } = useContext(CollectionContext);
   const [search, setSearch] = useState("");
   const [quality, setQuality] = useState<QualityFilterValue>("all");
+  const [type, setType] = useState<TypeFilterValue>("all");
   const [pageSize, setPageSize] = useState(20);
 
   const filteredItems = useMemo(
-    () => filterItemsByQuality(searchItems(allItems, search), quality),
-    [allItems, search, quality]
+    () =>
+      filterItemsByQuality(
+        searchItems(
+          filterItemsByType(searchItems(allItems, search), type),
+          search
+        ),
+        quality
+      ),
+    [allItems, search, quality, type]
   );
 
   return (
@@ -29,6 +42,7 @@ export function Collection() {
           Search for an item:
         </Search>
         <QualityFilter value={quality} onChange={setQuality} />
+        <TypeFilter value={type} onChange={setType} />
         <div>
           <p>
             <label for="page-size-select">Items per page:</label>

@@ -128,3 +128,19 @@ for (const category of UNIQUES_ORDER) {
     }
   }
 }
+
+type HashTable = Record<string, string>;
+const flattenedItems = UNIQUES_ORDER.flat();
+// console.warn("flattenedItems = ################ flattenedItems, ", flattenedItems);
+const hashTable: HashTable = flattenedItems.reduce<Record<string, string>>(
+  (acc, item) => {
+    const key = item.shortName;
+    const value =
+      item.shortName.charAt(0).toUpperCase() + item.shortName.slice(1);
+    acc[key] = value;
+    return acc;
+  },
+  {}
+);
+
+export const TYPES_MAP = hashTable;

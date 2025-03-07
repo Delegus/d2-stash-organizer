@@ -20,6 +20,5 @@ export function GitHubLink() {
         ></path>
       </svg>
     </a>
-   
   );
 }

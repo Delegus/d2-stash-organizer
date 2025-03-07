@@ -1,11 +1,11 @@
 import { Item } from "../../scripts/items/types/Item";
 import { AdditionalInfo } from "./AdditionalInfo";
 import "./Item.css";
-import { ItemTooltip } from "./ItemTooltip";
 import { ItemIsRing } from "./ItemIsRing";
 import { ItemLocationDesc } from "./ItemLocationDesc";
 import { useCallback, useContext } from "preact/hooks";
 import { SelectionContext } from "../transfer/SelectionContext";
+import { ItemTooltip } from "./ItemTooltip";
 
 export interface ItemProps {
   item: Item;

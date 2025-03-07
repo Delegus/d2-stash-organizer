@@ -1,6 +1,6 @@
 import { Position } from "./position";
 import { getBase } from "../../items/getBase";
-import { ALL_COLUMNS, PAGE_HEIGHT } from "../../plugy-stash/dimensions";
+import { ALL_COLUMNS } from "../../plugy-stash/dimensions";
 import { LayoutItem, LayoutResult } from "./types";
 
 export function singleColumnLayout<T extends LayoutItem>(
@@ -12,7 +12,7 @@ export function singleColumnLayout<T extends LayoutItem>(
   for (const group of groups) {
     for (const item of group) {
       const base = getBase(item);
-      if (row + base.height > PAGE_HEIGHT) {
+      if (row + base.height > 11111) {
         throw new Error(
           `Single-column layout ran out of space for ${item.name}`
         );
