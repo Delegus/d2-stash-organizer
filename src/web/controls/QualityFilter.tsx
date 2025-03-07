@@ -80,26 +80,28 @@ export function filterItemsByQuality(
       .sort((a, b) => (a.name! > b.name! ? 1 : -1));
   }
 
-  return items.filter((item) => {
-    switch (quality) {
-      case "normal":
-        return (item.quality ?? 10) <= ItemQuality.SUPERIOR && !item.runeword;
-      case "superior":
-        return item.quality === ItemQuality.SUPERIOR && !item.runeword;
-      case "magic":
-        return item.quality === ItemQuality.MAGIC;
-      case "rare":
-        return item.quality === ItemQuality.RARE;
-      case "unique":
-        return item.quality === ItemQuality.UNIQUE;
-      case "set":
-        return item.quality === ItemQuality.SET;
-      case "runeword":
-        return item.runeword;
-      case "crafted":
-        return item.quality === ItemQuality.CRAFTED;
-      case "misc":
-        return item.simple;
-    }
-  });
+  return items
+    .filter((item) => {
+      switch (quality) {
+        case "normal":
+          return (item.quality ?? 10) <= ItemQuality.SUPERIOR && !item.runeword;
+        case "superior":
+          return item.quality === ItemQuality.SUPERIOR && !item.runeword;
+        case "magic":
+          return item.quality === ItemQuality.MAGIC;
+        case "rare":
+          return item.quality === ItemQuality.RARE;
+        case "unique":
+          return item.quality === ItemQuality.UNIQUE;
+        case "set":
+          return item.quality === ItemQuality.SET;
+        case "runeword":
+          return item.runeword;
+        case "crafted":
+          return item.quality === ItemQuality.CRAFTED;
+        case "misc":
+          return item.simple;
+      }
+    })
+    .sort((a, b) => (a.name! > b.name! ? 1 : -1));
 }
