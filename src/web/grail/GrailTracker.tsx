@@ -5,7 +5,9 @@ import "./GrailTracker.css";
 import { CollectionContext } from "../store/CollectionContext";
 import { GrailSummary } from "./GrailSummary";
 import { ItemLocationDesc } from "../items/ItemLocationDesc";
-
+import { ItemTooltip } from "../items/ItemTooltip";
+// import { ItemTooltip } from "./ItemTooltip";
+// import { ItemIsRing } from "./ItemIsRing";
 const TIER_NAMES = ["Normal", "Exceptional", "Elite"];
 
 const toClassName = (b: boolean) => (b ? "found" : "missing");
@@ -33,8 +35,8 @@ export function GrailTracker() {
           }
           items.push(
             <tr>
-              <th scope="row" class={"set" in item ? "set" : "unique"}>
-                {item.name}
+              <th scope="row" aria-label={item.name}>
+                <ItemTooltip item={item.item!} noItem={item} />
               </th>
               <td class={toClassName(normal)}>Normal</td>
               {typeof ethereal === "undefined" ? (

@@ -5,13 +5,14 @@ import {
   MISC,
   SetItem,
   UniqueItem,
+  UniqueSetItem,
   Weapon,
   WEAPONS,
 } from "../../game-data";
 import { Item } from "./types/Item";
 
 export function getBase(
-  item: UniqueItem | SetItem | Item
+  item: UniqueSetItem | UniqueItem | SetItem | Item
 ): Armor | Weapon | Misc {
   const base = ARMORS[item.code] || WEAPONS[item.code] || MISC[item.code];
   if (!base) {

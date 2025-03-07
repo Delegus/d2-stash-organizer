@@ -54,6 +54,16 @@ export interface UniqueItem {
   modifiers: ModifierRange[];
   item?: Item;
 }
+export interface UniqueSetItem {
+  name: string;
+  enabled?: boolean;
+  code: string;
+  qlevel: number;
+  modifiers?: ModifierRange[];
+  baseModifiers?: ModifierRange[];
+  setModifiers?: ModifierRange[][];
+  item?: Item;
+}
 
 export interface SetItem {
   name: string;

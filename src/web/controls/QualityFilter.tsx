@@ -59,9 +59,7 @@ export function filterItemsByQuality(
   if (quality === "all") {
     return items;
   }
-  console.error(items.length);
   if (quality === "dups" || quality === "dupu") {
-    console.error(quality);
     const seen = new Set<string>();
     const duplicates = new Set<string>();
     const itemQ = quality === "dupu" ? ItemQuality.UNIQUE : ItemQuality.SET;

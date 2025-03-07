@@ -4,6 +4,7 @@ import { getBase } from "../getBase";
 import { FIRST_D2R } from "../../character/parsing/versions";
 import { decodeHuffman } from "./huffman";
 import { ItemsOwner } from "../../save-file/ownership";
+import { TYPES_TO_UNIQUES_SECTION } from "../../grail/list/uniquesOrder";
 
 export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
   const { read, readBool, readInt, skip } = stream;
@@ -53,6 +54,16 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
 
   // Checking base for all items, not just simple ones. That way we fail early if something goes wrong.
   const base = getBase(item);
+
+  TYPES_TO_UNIQUES_SECTION.forEach((e) => {
+    if (e.types.flat().includes(base.type)) {
+      item.itemType = e.shortName;
+    }
+  });
+
+  // console.error("base = @", base);
+  // console.info("    item.itemType = @", item.itemType);
+
   if (base === undefined) {
     console.error("base  === undefined");
     read(2);
@@ -66,6 +77,7 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
     ["orbx", "gemx", "runx", "bowq", "xboq", "key", "book"].includes(base.type)
   ) {
     item.isStack = true;
+    item.name = base.name;
   }
 
   item.nbFilledSockets = readInt(item.simple ? 1 : 3);

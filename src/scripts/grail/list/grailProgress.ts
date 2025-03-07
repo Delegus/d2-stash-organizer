@@ -1,4 +1,4 @@
-import { Set, SET_ITEMS, SetItem, UniqueItem } from "../../../game-data";
+import { Set, SET_ITEMS, UniqueSetItem } from "../../../game-data";
 import { Item } from "../../items/types/Item";
 import { getGrailItem } from "./getGrailItem";
 import { UniqueSection } from "./uniquesOrder";
@@ -7,14 +7,14 @@ import { groupBySet } from "./groupSets";
 import { canBeEthereal } from "./canBeEthereal";
 
 export interface GrailStatus {
-  item: UniqueItem | SetItem;
+  item: UniqueSetItem;
   normal: boolean;
   // Undefined means not applicable
   ethereal?: boolean;
   perfect: boolean;
 }
 
-function addToGrail(found: Map<UniqueItem | SetItem, Item[]>, item: Item) {
+function addToGrail(found: Map<UniqueSetItem, Item[]>, item: Item) {
   const grailItem = getGrailItem(item);
   if (grailItem) {
     let existing = found.get(grailItem);
@@ -27,7 +27,7 @@ function addToGrail(found: Map<UniqueItem | SetItem, Item[]>, item: Item) {
 }
 
 export function grailProgress(items: Item[]) {
-  const found = new Map<UniqueItem | SetItem, Item[]>();
+  const found = new Map<UniqueSetItem, Item[]>();
 
   for (const item of items) {
     addToGrail(found, item);
@@ -46,7 +46,7 @@ export function grailProgress(items: Item[]) {
       uniques.map((tier) =>
         tier.map((item) => {
           return {
-            item,
+            item: item || tier,
             normal: !!found.get(item),
             ethereal: canBeEthereal(item)
               ? !!found.get(item)?.some(({ ethereal }) => ethereal)

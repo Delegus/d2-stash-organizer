@@ -80,7 +80,8 @@ export function generateFixedMods(ranges: ModifierRange[]) {
         case "other":
           if (min !== max) {
             // throw new Error(`Unexpected range modifier ${prop}: ${min}-${max}`);
-            console.error(`Unexpected range modifier ${prop}: ${min}-${max}`);
+            // console.error(`Unexpected range modifier ${prop}: ${min}-${max}`);
+            null;
           }
           modifiers.push({
             ...shared,

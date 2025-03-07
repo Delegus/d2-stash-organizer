@@ -1,6 +1,6 @@
 import { PlugyStash } from "../../plugy-stash/types";
 import { Item } from "../../items/types/Item";
-import { SetItem, UniqueItem } from "../../../game-data";
+import { UniqueSetItem } from "../../../game-data";
 import { LayoutResult } from "../layout";
 import { getGrailItem } from "../list/getGrailItem";
 import { moveItem } from "../../items/moving/safeMove";
@@ -8,10 +8,10 @@ import { moveItem } from "../../items/moving/safeMove";
 export function fillTemplate(
   stash: PlugyStash,
   items: Item[],
-  { positions }: LayoutResult<UniqueItem | SetItem>,
+  { positions }: LayoutResult<UniqueSetItem>,
   pageOffset: number
 ) {
-  const done = new Map<UniqueItem | SetItem, number>();
+  const done = new Map<UniqueSetItem, number>();
   // Items we could not position
   const remaining = [];
 

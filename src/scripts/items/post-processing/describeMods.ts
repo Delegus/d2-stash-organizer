@@ -14,7 +14,7 @@ function sortByPriority(modifiers: Modifier[]) {
 export function describeMods(item: Item, mods: Modifier[], append = "") {
   for (const mod of mods) {
     mod.description = describeSingleMod(mod);
-    // console.error(" mod.description = %s @@@",  mod.description, mod);
+    //  console.error(" mod.description = %s @@@",  mod.description, mod);
     if (mod.description && append) {
       mod.description += append;
     }

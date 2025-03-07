@@ -32,3 +32,29 @@
   text-align: center;
   padding-top: 1em;
 }
+#collection {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2em;
+}
+/* 
+#grail-tracker thead th {
+  padding-bottom: 0.4em;
+}
+
+#grail-tracker .item td:not(:first-child) {
+  padding: 0 2em;
+}
+
+#grail-tracker tbody .item th,
+#grail-tracker tbody .item th {
+  padding-top: 0.3em;
+}
+
+#grail-tracker tr {
+  border-bottom: 1px solid #222;
+}
+
+#grail-tracker tbody tr:hover td:not(:first-child) {
+  color: #6fb76f;
+} */

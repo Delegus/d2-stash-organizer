@@ -62,6 +62,8 @@ export interface Item {
   // Searcheable description of the item. Right now it's only mods.
   search: string;
 
+  itemType?: string;
+
   // Additional pre-computed fields for easier display
   extraDurability?: number;
   enhancedDefense?: boolean;
