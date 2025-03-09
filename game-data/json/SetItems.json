@@ -17606,14 +17606,20 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 35,
-        "max": 50
+        "min": 15,
+        "max": 25
       },
       {
         "prop": "ac%",
         "param": 0,
         "min": 155,
         "max": 185
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 40,
+        "max": 50
       }
     ],
     "setModifiers": [
@@ -20546,28 +20552,16 @@
         {
           "prop": "mag%",
           "param": 0,
-          "min": 200,
-          "max": 200
-        },
-        {
-          "prop": "regen",
-          "param": 0,
-          "min": -20,
-          "max": -20
+          "min": 50,
+          "max": 50
         }
       ],
       [
         {
-          "prop": "regen",
-          "param": 0,
-          "min": -15,
-          "max": -15
-        },
-        {
           "prop": "extra-fire",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 40,
+          "max": 40
         }
       ],
       [],
@@ -20598,30 +20592,18 @@
     "setModifiers": [
       [
         {
-          "prop": "mag%",
+          "prop": "gold%",
           "param": 0,
-          "min": 200,
-          "max": 200
-        },
-        {
-          "prop": "regen",
-          "param": 0,
-          "min": -20,
-          "max": -20
+          "min": 100,
+          "max": 100
         }
       ],
       [
         {
-          "prop": "regen",
-          "param": 0,
-          "min": -15,
-          "max": -15
-        },
-        {
           "prop": "extra-ltng",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 40,
+          "max": 40
         }
       ],
       [],
@@ -20652,30 +20634,18 @@
     "setModifiers": [
       [
         {
-          "prop": "mag%",
-          "param": 0,
-          "min": 200,
-          "max": 200
-        },
-        {
-          "prop": "regen",
-          "param": 0,
-          "min": -20,
-          "max": -20
+          "prop": "gethit-skill",
+          "param": 137,
+          "min": 10,
+          "max": 20
         }
       ],
       [
         {
-          "prop": "regen",
-          "param": 0,
-          "min": -15,
-          "max": -15
-        },
-        {
           "prop": "extra-cold",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 40,
+          "max": 40
         }
       ],
       [],
