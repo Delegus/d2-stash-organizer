@@ -2902,5 +2902,113 @@
     "qlevel": 1,
     "levelReq": 0,
     "stackable": false
+  },
+  "dwd": {
+    "name": "White Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "abd": {
+    "name": "Black Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "bdd": {
+    "name": "Blue Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ird": {
+    "name": "Red Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ngd": {
+    "name": "Green Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "cyd": {
+    "name": "Yellow Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "ryd": {
+    "name": "Purple Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "hod": {
+    "name": "Orange Dye",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "drm": {
+    "name": "Dye Remover",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
   }
 }

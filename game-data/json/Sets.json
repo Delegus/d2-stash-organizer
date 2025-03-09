@@ -5620,8 +5620,8 @@
         {
           "prop": "regen",
           "param": 0,
-          "min": -15,
-          "max": -15
+          "min": -50,
+          "max": -50
         }
       ],
       [],
@@ -5629,22 +5629,22 @@
       [],
       [
         {
-          "prop": "regen",
+          "prop": "res-all",
           "param": 0,
-          "min": -45,
-          "max": -45
+          "min": -50,
+          "max": -50
         },
         {
           "prop": "addxp",
           "param": 0,
-          "min": -90,
-          "max": -90
+          "min": -40,
+          "max": -40
         },
         {
           "prop": "extra-pois",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 40,
+          "max": 40
         },
         {
           "prop": "mag%",
@@ -5655,8 +5655,8 @@
         {
           "prop": "allskills",
           "param": 0,
-          "min": 10,
-          "max": 10
+          "min": 5,
+          "max": 5
         }
       ]
     ]

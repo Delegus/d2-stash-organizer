@@ -17218,38 +17218,38 @@
       {
         "prop": "balance2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 40
       },
       {
-        "prop": "red-dmg",
+        "prop": "ease",
         "param": 0,
-        "min": 9,
-        "max": 14
+        "min": -25,
+        "max": -25
       },
       {
-        "prop": "res-cold",
-        "param": 0,
-        "min": 40,
-        "max": 60
-      },
-      {
-        "prop": "regen-mana",
+        "prop": "red-dmg%",
         "param": 0,
         "min": 10,
         "max": 15
       },
       {
-        "prop": "rep-dur",
-        "param": 5,
-        "min": 0,
-        "max": 0
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 10,
+        "max": 15
       },
       {
         "prop": "gethit-skill",
-        "param": 76,
+        "param": 8,
+        "min": 10,
+        "max": 12
+      },
+      {
+        "prop": "aura",
+        "param": 103,
         "min": 8,
-        "max": 6
+        "max": 10
       }
     ]
   },
@@ -18594,22 +18594,22 @@
         "max": 35
       },
       {
-        "prop": "crush",
-        "param": 0,
-        "min": 10,
-        "max": 10
+        "prop": "oskill",
+        "param": 139,
+        "min": 5,
+        "max": 5
       },
       {
-        "prop": "sock",
+        "prop": "healperhit",
         "param": 0,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 4
       },
       {
-        "prop": "knock",
+        "prop": "att",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 180,
+        "max": 220
       }
     ]
   },
@@ -25655,10 +25655,10 @@
         "max": 5
       },
       {
-        "prop": "oskill",
-        "param": 63,
-        "min": 3,
-        "max": 5
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 35,
+        "max": 40
       },
       {
         "prop": "res-ltng",
@@ -29477,18 +29477,12 @@
       {
         "prop": "extra-fire",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 35
       },
       {
         "prop": "oskill",
         "param": 51,
-        "min": 8,
-        "max": 12
-      },
-      {
-        "prop": "oskill",
-        "param": 61,
         "min": 8,
         "max": 12
       },
@@ -34909,10 +34903,10 @@
         "max": 15
       },
       {
-        "prop": "oskill",
-        "param": 61,
-        "min": 3,
-        "max": 6
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 35,
+        "max": 40
       },
       {
         "prop": "oskill",
@@ -44243,10 +44237,10 @@
         "max": 2
       },
       {
-        "prop": "oskill",
-        "param": 61,
-        "min": 2,
-        "max": 2
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 20,
+        "max": 25
       },
       {
         "prop": "oskill_hide",
@@ -46913,20 +46907,26 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 15,
+        "max": 20
       },
       {
         "prop": "res-all",
         "param": 0,
-        "min": 50,
-        "max": 75
+        "min": 30,
+        "max": 40
       },
       {
         "prop": "rep-dur",
         "param": 20,
         "min": 0,
         "max": 0
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 30
       }
     ]
   },
@@ -47808,7 +47808,7 @@
         "prop": "res-all",
         "param": 0,
         "min": 35,
-        "max": 65
+        "max": 50
       },
       {
         "prop": "red-dmg%",
@@ -50621,8 +50621,8 @@
       {
         "prop": "light",
         "param": 0,
-        "min": -10,
-        "max": -10
+        "min": -4,
+        "max": -4
       }
     ]
   },
@@ -63237,7 +63237,7 @@
       {
         "prop": "gethit-skill",
         "param": 62,
-        "min": 3,
+        "min": 10,
         "max": 30
       },
       {
@@ -63249,14 +63249,14 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 15,
+        "max": 25
       },
       {
         "prop": "res-all",
         "param": 0,
-        "min": 50,
-        "max": 75
+        "min": 35,
+        "max": 50
       },
       {
         "prop": "skill-rand",
@@ -70362,7 +70362,7 @@
     "name": "Tiger Eye",
     "enabled": true,
     "code": "jew",
-    "qlevel": 5,
+    "qlevel": 58,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -70388,7 +70388,7 @@
     "name": "Jade Facet",
     "enabled": true,
     "code": "jew",
-    "qlevel": 18,
+    "qlevel": 58,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -70414,7 +70414,7 @@
     "name": "Topaz Facet",
     "enabled": true,
     "code": "jew",
-    "qlevel": 27,
+    "qlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-ltng",

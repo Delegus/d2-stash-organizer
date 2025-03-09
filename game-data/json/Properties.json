@@ -3254,5 +3254,117 @@
         "type": "other"
       }
     ]
+  },
+  "extra-elem": {
+    "stats": [
+      {
+        "stat": "passive_fire_mastery",
+        "type": "other"
+      },
+      {
+        "stat": "passive_ltng_mastery",
+        "type": "all"
+      },
+      {
+        "stat": "passive_cold_mastery",
+        "type": "all"
+      },
+      {
+        "stat": "passive_pois_mastery",
+        "type": "all"
+      }
+    ]
+  },
+  "pierce-elem": {
+    "stats": [
+      {
+        "stat": "passive_fire_pierce",
+        "type": "other"
+      },
+      {
+        "stat": "passive_ltng_pierce",
+        "type": "all"
+      },
+      {
+        "stat": "passive_cold_pierce",
+        "type": "all"
+      },
+      {
+        "stat": "passive_pois_pierce",
+        "type": "all"
+      }
+    ]
+  },
+  "Dye-White": {
+    "stats": [
+      {
+        "stat": "Dye_White",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Black": {
+    "stats": [
+      {
+        "stat": "Dye_Black",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Blue": {
+    "stats": [
+      {
+        "stat": "Dye_Blue",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Red": {
+    "stats": [
+      {
+        "stat": "Dye_Red",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Green": {
+    "stats": [
+      {
+        "stat": "Dye_Green",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Yellow": {
+    "stats": [
+      {
+        "stat": "Dye_Yellow",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Purple": {
+    "stats": [
+      {
+        "stat": "Dye_Purple",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Orange": {
+    "stats": [
+      {
+        "stat": "Dye_Orange",
+        "type": "param"
+      }
+    ]
+  },
+  "Dye-Tracker": {
+    "stats": [
+      {
+        "stat": "Dye_Tracker",
+        "type": "param"
+      }
+    ]
   }
 }
