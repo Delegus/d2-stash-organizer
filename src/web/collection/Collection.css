@@ -27,3 +27,8 @@
 tr:has(td input:checked) { border: solid;
   outline: 1px dotted rgb(19, 67, 99);
   background-color: #071d09;  }
+
+#collection th,
+#collection td {
+  text-align: left;
+}

@@ -4,6 +4,11 @@ import { groupItems } from "../items/groupItems";
 import { Pagination } from "../controls/Pagination";
 import { Item } from "../items/Item";
 
+enum SortOrder {
+  Ascending = "ASC",
+  Descending = "DESC",
+}
+
 export interface ItemsTableProps {
   items: ItemType[];
   pageSize: number;
@@ -12,11 +17,44 @@ export interface ItemsTableProps {
 
 export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
   const [firstItem, setFirstItem] = useState(0);
-
-  // We group simple items together with a quantity, leave others alone
+  const [sortColumn, setSortColumn] = useState<string | null>("name");
+  const [sortOrder, setSortOrder] = useState<SortOrder>(SortOrder.Ascending);
   const groupedItems = useMemo(() => groupItems(items), [items]);
 
-  // Reset to the first page when the list of items changes
+  const handleSortClick = (column: string) => {
+    if (sortColumn === column) {
+      setSortOrder(
+        sortOrder === SortOrder.Ascending
+          ? SortOrder.Descending
+          : SortOrder.Ascending
+      );
+    } else {
+      setSortColumn(column);
+      setSortOrder(SortOrder.Ascending);
+    }
+  };
+
+  const sortedGroupedItems = useMemo(() => {
+    if (!sortColumn) return groupedItems;
+
+    const comparator = (a: ItemType[], b: ItemType[]) => {
+      switch (sortColumn) {
+        case "name":
+          return a[0].name!.localeCompare(b[0].name!);
+        case "location":
+          return JSON.stringify(a[0].location).localeCompare(
+            JSON.stringify(b[0].location)
+          );
+        default:
+          return 0;
+      }
+    };
+
+    return [...groupedItems].sort((a, b) =>
+      sortOrder === SortOrder.Ascending ? comparator(a, b) : comparator(b, a)
+    );
+  }, [groupedItems, sortColumn, sortOrder]);
+
   useEffect(() => {
     setFirstItem(0);
   }, [items]);
@@ -24,14 +62,14 @@ export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
   return (
     <>
       <Pagination
-        nbEntries={groupedItems.length}
+        nbEntries={sortedGroupedItems.length}
         pageSize={pageSize}
         currentEntry={firstItem}
         onChange={setFirstItem}
         text={(first, last) => (
           <>
-            Items {first} - {last} out of {groupedItems.length}{" "}
-            <span class="sidenote">({items.length} with duplicates)</span>
+            Items {first} - {last} out of {sortedGroupedItems.length}{" "}
+            <span class="sidenote">(with duplicates)</span>
           </>
         )}
       />
@@ -41,13 +79,13 @@ export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
             <th>
               <span class="sr-only">Select</span>
             </th>
-            <th>Item</th>
+            <th onClick={() => handleSortClick("name")}>Item</th>
             <th>Characteristics</th>
-            <th>Location</th>
+            <th onClick={() => handleSortClick("location")}>Location</th>
           </tr>
         </thead>
         <tbody>
-          {groupedItems
+          {sortedGroupedItems
             .slice(firstItem, firstItem + pageSize)
             .map((items, index) => (
               <Item

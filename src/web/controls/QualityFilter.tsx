@@ -1,5 +1,7 @@
 import { Item } from "../../scripts/items/types/Item";
 import { ItemQuality } from "../../scripts/items/types/ItemQuality";
+import { SettingsContext } from "../settings/SettingsContext";
+import { useContext } from "preact/hooks";
 
 export type QualityFilterValue =
   | "all"
@@ -52,10 +54,11 @@ export function QualityFilter({ value, onChange }: QualityFilterProps) {
   );
 }
 
-export function filterItemsByQuality(
+export function FilterItemsByQuality(
   items: Item[],
   quality: QualityFilterValue
 ) {
+  const { excludeAccessories } = useContext(SettingsContext);
   if (quality === "all") {
     return items;
   }
@@ -73,35 +76,37 @@ export function filterItemsByQuality(
       }
     }
 
-    return items
-      .filter((item) => {
-        return item.quality === itemQ && duplicates.has(item.name!);
-      })
-      .sort((a, b) => (a.name! > b.name! ? 1 : -1));
+    const excludedList = ["amulets", "rings", "charms"];
+    return items.filter((item) => {
+      if (!excludeAccessories && excludedList.includes(item.itemType!)) {
+        return false;
+      }
+      return item.quality === itemQ && duplicates.has(item.name!);
+    });
+    // .sort((a, b) => (a.name! > b.name! ? 1 : -1))
   }
 
-  return items
-    .filter((item) => {
-      switch (quality) {
-        case "normal":
-          return (item.quality ?? 10) <= ItemQuality.SUPERIOR && !item.runeword;
-        case "superior":
-          return item.quality === ItemQuality.SUPERIOR && !item.runeword;
-        case "magic":
-          return item.quality === ItemQuality.MAGIC;
-        case "rare":
-          return item.quality === ItemQuality.RARE;
-        case "unique":
-          return item.quality === ItemQuality.UNIQUE;
-        case "set":
-          return item.quality === ItemQuality.SET;
-        case "runeword":
-          return item.runeword;
-        case "crafted":
-          return item.quality === ItemQuality.CRAFTED;
-        case "misc":
-          return item.simple;
-      }
-    })
-    .sort((a, b) => (a.name! > b.name! ? 1 : -1));
+  return items.filter((item) => {
+    switch (quality) {
+      case "normal":
+        return (item.quality ?? 10) <= ItemQuality.SUPERIOR && !item.runeword;
+      case "superior":
+        return item.quality === ItemQuality.SUPERIOR && !item.runeword;
+      case "magic":
+        return item.quality === ItemQuality.MAGIC;
+      case "rare":
+        return item.quality === ItemQuality.RARE;
+      case "unique":
+        return item.quality === ItemQuality.UNIQUE;
+      case "set":
+        return item.quality === ItemQuality.SET;
+      case "runeword":
+        return item.runeword;
+      case "crafted":
+        return item.quality === ItemQuality.CRAFTED;
+      case "misc":
+        return item.simple;
+    }
+  });
+  // .sort((a, b) => (a.name! > b.name! ? 1 : -1))
 }

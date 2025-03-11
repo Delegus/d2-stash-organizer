@@ -6,7 +6,7 @@ import { CollectionContext } from "../store/CollectionContext";
 import { Search, searchItems } from "../controls/Search";
 import "../controls/Controls.css";
 import {
-  filterItemsByQuality,
+  FilterItemsByQuality,
   QualityFilter,
   QualityFilterValue,
 } from "../controls/QualityFilter";
@@ -51,7 +51,7 @@ export function StashView() {
         .map((page, index) => ({
           ...page,
           name: pageName(page).replace("#", `${index + 1}`),
-          items: filterItemsByQuality(
+          items: FilterItemsByQuality(
             searchItems(page.items, search, "name" in page ? page.name : ""),
             quality
           ),
