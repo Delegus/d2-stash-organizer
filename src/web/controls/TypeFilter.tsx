@@ -40,11 +40,6 @@ export function filterItemsByType(items: Item[], type: TypeFilterValue) {
   }
 
   return items.filter((item) => {
-    // console.error("items.length!#@$#!# !@# @!# @!#", type.includes(item.itemType!), item.itemType!, type);
     return type.includes(item.itemType!);
-    // switch (type) {
-    //   case "belt":
-    //     return item.itemType === "belts";
-    // }
   });
 }
