@@ -5,6 +5,7 @@ import { D2rStash } from "../types";
 export function d2rStashToSaveFile(stash: D2rStash) {
   const writer = new SaveFileWriter();
   for (const page of stash.pages) {
+    console.error("stash:", stash);
     const pageStart = writer.nextIndex;
     writer.writeInt32LE(parseInt("aa55aa55", 16));
     writer.skip(4);

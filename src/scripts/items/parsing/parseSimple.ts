@@ -37,12 +37,8 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
     isStack: false,
   };
 
-  // console.warn(JSON.stringify(item, null, 3));
-
   if (owner.version >= FIRST_D2R) {
     item.code = decodeHuffman(stream, 4).trim();
-    // console.log('ItemCode: %s',item.code)
-    // console.log(JSON.stringify(item, null, 3));
   } else {
     item.code = String.fromCharCode(
       readInt(8),
@@ -60,9 +56,6 @@ export function parseSimple(stream: BinaryStream, owner: ItemsOwner) {
       item.itemType = e.shortName;
     }
   });
-
-  // console.error("base = @", base);
-  // console.info("    item.itemType = @", item.itemType);
 
   if (base === undefined) {
     console.error("base  === undefined");

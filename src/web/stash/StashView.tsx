@@ -18,10 +18,12 @@ import {
 import { characterPages } from "./characterPages";
 import { SelectAll } from "../controls/SelectAll";
 
-const PAGE_SIZE = 10;
+import { SettingsContext } from "../settings/SettingsContext";
 
 export function StashView() {
   const { owners, lastActivePlugyStashPage } = useContext(CollectionContext);
+
+  const { pageSize } = useContext(SettingsContext);
   const [ownerIndex, setOwnerIndex] = useState(() =>
     Math.max(
       0,
@@ -73,7 +75,7 @@ export function StashView() {
   const pagination = (
     <Pagination
       nbEntries={filteredPages.length}
-      pageSize={PAGE_SIZE}
+      pageSize={pageSize}
       currentEntry={currentPage}
       onChange={setCurrentPage}
       text={(first, last) =>
@@ -113,7 +115,7 @@ export function StashView() {
       {/* Need an extra div because Preact doesn't seem to like maps flat with non-mapped elements */}
       <div>
         {filteredPages
-          .slice(currentPage, currentPage + PAGE_SIZE)
+          .slice(currentPage, currentPage + pageSize)
           .map((page, index) => (
             <Page key={index} page={page} index={index + currentPage} />
           ))}

@@ -69,7 +69,6 @@ export function organizeUniques(stash: PlugyStash, items: Item[]) {
 
       // Handle non-eth first so that eth versions don't take non-eth spots unless necessary
       itemsInSection?.sort((a, b) => Number(a.ethereal) - Number(b.ethereal));
-
       // Position one instance of each item in its normal spot
       let remaining = fillTemplate(
         stash,

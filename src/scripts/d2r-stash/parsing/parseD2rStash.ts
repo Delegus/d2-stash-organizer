@@ -24,14 +24,12 @@ export function parseD2rStash(
     version: reader.readInt32LE(8),
     pages: [],
   };
-  // console.warn("D2rStash="+JSON.stringify(stash, null, 4));
   reader.peek = false;
 
   // stash.pages.push(parsePage(reader, stash));
-  let i = 1;
+  //let i = 1;
   while (!reader.done) {
-    i++;
-    console.log("%s STASH", i);
+    // i++;
     stash.pages.push(parsePage(reader, stash));
   }
 

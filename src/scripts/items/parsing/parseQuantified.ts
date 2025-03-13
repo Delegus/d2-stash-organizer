@@ -23,7 +23,6 @@ export function parseQuantified({ read, readInt }: BinaryStream, item: Item) {
       read(1);
     }
   }
-
   if (baseArmor?.stackable || baseWeapon?.stackable || baseMisc?.stackable) {
     item.quantity = readInt(9);
   }
