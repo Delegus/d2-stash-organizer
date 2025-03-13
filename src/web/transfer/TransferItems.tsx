@@ -17,6 +17,7 @@ import { organize } from "../../scripts/grail/organize";
 import { OwnerSelector } from "../save-files/OwnerSelector";
 import { updateCharacterStashes } from "../store/plugyDuplicates";
 import { bulkTransfer } from "../../scripts/items/moving/bulkTransfer";
+import { SettingsContext } from "../settings/SettingsContext";
 
 export function TransferItems() {
   const { lastActivePlugyStashPage } = useContext(CollectionContext);
@@ -27,6 +28,7 @@ export function TransferItems() {
   const [error, setError] = useState<string>();
   const [success, setSuccess] = useState<string>();
 
+  const { pageSize } = useContext(SettingsContext);
   const [withOrganize, setWithOrganize] = useState<boolean>(false);
   const [skipPages, setSkipPages] = useState(0);
 
@@ -99,6 +101,10 @@ export function TransferItems() {
         You have currently selected <span class="magic">{items.length}</span>{" "}
         items (full list below).
       </p>
+      <h3>
+        MAKE A BACKUP OF SAVE FILES BEFORE REPLACING! Do not transfer unique
+        charms to Offline stash - it breaks the savefile. Still need to fix it.
+      </h3>
       <p>Select where you want to transfer them:</p>
       <div class="selectors">
         <OwnerSelector selected={target} onChange={setTarget} />
@@ -177,7 +183,7 @@ export function TransferItems() {
       </p>
 
       <h4>Selected items</h4>
-      <ItemsTable items={items} selectable={false} pageSize={10} />
+      <ItemsTable items={items} selectable={false} pageSize={pageSize} />
     </div>
   );
 }

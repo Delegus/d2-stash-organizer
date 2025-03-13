@@ -4,9 +4,7 @@ import { canBeEthereal } from "./canBeEthereal";
 
 export function listGrailUniques(eth = false) {
   // Ignore disabled and quest items
-  let collectible = UNIQUE_ITEMS.filter(
-    (item) => item.enabled && item.qlevel > 0
-  );
+  let collectible = UNIQUE_ITEMS.filter((item) => item.qlevel > 0);
   if (eth) {
     // Ignore indestructible items for the eth version
     collectible = collectible.filter(canBeEthereal);

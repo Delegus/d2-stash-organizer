@@ -72,6 +72,7 @@ export function transferItem(
   storageType = ItemStorageType.STASH,
   pageIndex?: number
 ) {
+  // console.error("item TRANSFER:", item);
   // Try to position first, so we don't reach a state with no owner if there is no room
   if (isStash(to)) {
     const page = to.pages[pageIndex ?? 0];

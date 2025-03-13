@@ -12,7 +12,6 @@ export function singleLineLayout<T extends LayoutItem>(
   for (const group of groups) {
     for (const item of group) {
       const base = getBase(item);
-      console.warn(`base ${base.name} w: ${base.width}, col: ${col}`);
       if (col + base.width > 2000) {
         throw new Error(
           `Single-line layout ran out of space for ${item.name} ${col} + ${base.width} > ${PAGE_WIDTH}`

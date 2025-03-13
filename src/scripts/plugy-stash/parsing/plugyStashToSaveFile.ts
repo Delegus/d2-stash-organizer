@@ -14,7 +14,6 @@ export function plugyStashToSaveFile(stash: PlugyStash) {
     writer.writeInt32LE(stash.gold);
   }
   writer.writeInt32LE(stash.pages.length);
-
   for (const page of stash.pages) {
     writer.writeString("ST");
     if (stash.pageFlags) {

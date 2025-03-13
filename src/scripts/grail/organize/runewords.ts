@@ -9,7 +9,9 @@ import { addPage } from "../../plugy-stash/addPage";
 import { moveItem } from "../../items/moving/safeMove";
 
 function runewordsOrder(a: Item, b: Item) {
-  return RUNEWORDS[a.runewordId!].levelReq - RUNEWORDS[b.runewordId!].levelReq;
+  const aRuneLevel = RUNEWORDS.find((r) => r.word == a.name)?.levelReq;
+  const bRuneLevel = RUNEWORDS.find((r) => r.word == b.name)?.levelReq;
+  return aRuneLevel! - bRuneLevel! || 0;
 }
 
 function basesOrder(a: Item, b: Item) {

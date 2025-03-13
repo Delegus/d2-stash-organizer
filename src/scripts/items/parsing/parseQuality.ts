@@ -4,7 +4,6 @@ import { ItemQuality } from "../types/ItemQuality";
 import {
   MAGIC_PREFIXES,
   MAGIC_SUFFIXES,
-  MISC,
   RARE_NAMES,
   SET_ITEMS,
   UNIQUE_ITEMS,
@@ -17,6 +16,7 @@ export function parseQuality(
   item: Item
 ) {
   item.id = readInt(32);
+  // console.info("item.id=", item.id);
   item.level = readInt(7);
   item.quality = readInt(4);
 
@@ -99,10 +99,10 @@ export function parseQuality(
     item.name = `${charName}'s ${item.name}`;
     // console.warn("item.name :%s", item.name );
   }
-  if (MISC[item.code]?.type === "book") {
-    // Skip 5 unknown bits for tomes
-    read(5);
-  }
+  // if (MISC[item.code]?.type === "book") {
+  //   // Skip 5 unknown bits for tomes
+  //   read(5);
+  // }
 
   // Skip unknown "timestamp" bit
   read(1);

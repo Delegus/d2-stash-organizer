@@ -11,7 +11,7 @@ export function parseItemList(reader: SaveFileReader, owner: ItemsOwner) {
   }
 
   let remainingItems = reader.readInt16LE();
-  console.warn("Total Items:%s", remainingItems);
+  // console.warn("Total Items:%s", remainingItems);
   const items: Item[] = [];
   let runeWrod = "";
   // After that comes the first item

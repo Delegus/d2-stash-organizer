@@ -11,6 +11,7 @@ export const enum ItemStorageType {
   INVENTORY = 1,
   CUBE = 4,
   STASH = 5,
+  OFFLINE = 7,
 }
 
 export const enum ItemEquipSlot {

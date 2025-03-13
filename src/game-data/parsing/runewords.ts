@@ -15,7 +15,6 @@ export async function runewordsToJson(
       .slice(16, 22)
       .map((rune) => rune.trim())
       .filter((rune) => !!rune);
-    // console.log(runes);
     const runeword: Runeword = {
       name: getString(line[0].trim()),
       enabled: line[2].trim() === "1",

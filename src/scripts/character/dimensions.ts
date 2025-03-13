@@ -2,17 +2,17 @@ import { ItemStorageType } from "../items/types/ItemLocation";
 import { Character } from "./types";
 import { LAST_LEGACY } from "./parsing/versions";
 
-export const INVENTORY_HEIGHT = 4;
+export const INVENTORY_HEIGHT = 8;
 export const INVENTORY_WIDTH = 10;
 
-export const CUBE_HEIGHT = 4;
-export const CUBE_WIDTH = 3;
+export const CUBE_HEIGHT = 13;
+export const CUBE_WIDTH = 16;
 
 // TODO: classic stash
-export const D2_STASH_HEIGHT = 8;
-export const D2_STASH_WIDTH = 6;
-export const D2R_STASH_HEIGHT = 10;
-export const D2R_STASH_WIDTH = 10;
+export const D2_STASH_HEIGHT = 13;
+export const D2_STASH_WIDTH = 16;
+export const D2R_STASH_HEIGHT = 13;
+export const D2R_STASH_WIDTH = 16;
 
 export function getDimensions(
   storageType: ItemStorageType,
