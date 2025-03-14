@@ -1,8 +1,8 @@
 import { Item } from "../../scripts/items/types/Item";
 import { ItemQuality } from "../../scripts/items/types/ItemQuality";
 import { SettingsContext } from "../settings/SettingsContext";
-import { useContext } from "preact/hooks";
-
+import { useContext, useEffect, useRef } from "preact/hooks";
+import { selectMaxItems } from "./SelectDupItems";
 export type QualityFilterValue =
   | "all"
   | "normal"
@@ -23,6 +23,17 @@ export interface QualityFilterProps {
 }
 
 export function QualityFilter({ value, onChange }: QualityFilterProps) {
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (buttonRef.current) {
+      if (value === "dupu" || value === "dups") {
+        buttonRef.current.style.display = "block";
+      } else {
+        buttonRef.current.style.display = "none";
+      }
+    }
+  }, [value]);
   return (
     <div>
       <p>
@@ -50,6 +61,9 @@ export function QualityFilter({ value, onChange }: QualityFilterProps) {
           <option value="misc">Non-equipment</option>
         </select>
       </p>
+      <button ref={buttonRef} class="button" onClick={() => selectMaxItems()}>
+        Auto select dups
+      </button>
     </div>
   );
 }
@@ -83,7 +97,6 @@ export function FilterItemsByQuality(
       }
       return item.quality === itemQ && duplicates.has(item.name!);
     });
-    // .sort((a, b) => (a.name! > b.name! ? 1 : -1))
   }
 
   return items.filter((item) => {
@@ -108,5 +121,4 @@ export function FilterItemsByQuality(
         return item.simple;
     }
   });
-  // .sort((a, b) => (a.name! > b.name! ? 1 : -1))
 }
