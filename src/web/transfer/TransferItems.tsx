@@ -76,6 +76,45 @@ export function TransferItems() {
     lastActivePlugyStashPage,
   ]);
 
+  const deleteItems = useCallback(async () => {
+    setError(undefined);
+    try {
+      for (const item of items) {
+        if (!item.owner) {
+          return;
+        }
+        if (isStash(item.owner)) {
+          for (const page of item.owner.pages) {
+            const index = page.items.indexOf(item);
+            if (index >= 0) {
+              page.items.splice(index, 1);
+              break;
+            }
+          }
+        } else {
+          const index = item.owner.items.indexOf(item);
+          if (index >= 0) {
+            item.owner.items.splice(index, 1);
+          }
+        }
+      }
+
+      if (lastActivePlugyStashPage) {
+        updateCharacterStashes(lastActivePlugyStashPage);
+      }
+      await updateAllFiles(target!);
+      setSuccess(`${items.length} items deleted!`);
+    } catch (e) {
+      if (e instanceof Error) {
+        setError(e.message);
+        await rollback();
+        setTarget(undefined);
+      } else {
+        throw e;
+      }
+    }
+  }, [items, target, updateAllFiles, rollback, lastActivePlugyStashPage]);
+
   if (items.length === 0 && !error && !success) {
     return (
       <p>
@@ -180,8 +219,10 @@ export function TransferItems() {
         </button>
         <span class="error danger">{error}</span>
         <span class="success">{success}</span>
+        <button class="button" onClick={deleteItems}>
+          DELETE my items
+        </button>
       </p>
-
       <h4>Selected items</h4>
       <ItemsTable items={items} selectable={false} pageSize={pageSize} />
     </div>
