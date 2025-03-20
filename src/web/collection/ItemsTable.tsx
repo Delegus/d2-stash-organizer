@@ -16,6 +16,29 @@ export interface ItemsTableProps {
 }
 
 export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      const toolTips = document.querySelectorAll(
+        'span[class="tooltip-container"]'
+      );
+      for (const toolTip of toolTips) {
+        toolTip.addEventListener("mouseover", () => {
+          const rect = toolTip.getBoundingClientRect();
+          const tooltipContent = toolTip.querySelector(
+            'div[role="tooltip"]'
+          ) as HTMLDivElement;
+          if (!tooltipContent) return;
+
+          if (rect.top + tooltipContent.offsetHeight > window.innerHeight) {
+            tooltipContent.style.bottom = "auto";
+            tooltipContent.style.top = `${
+              window.innerHeight - rect.top - tooltipContent.offsetHeight
+            }px`;
+          }
+        });
+      }
+    }, 1000);
+  });
   const [firstItem, setFirstItem] = useState(0);
   const [sortColumn, setSortColumn] = useState<string | null>("name");
   const [sortOrder, setSortOrder] = useState<SortOrder>(SortOrder.Ascending);
