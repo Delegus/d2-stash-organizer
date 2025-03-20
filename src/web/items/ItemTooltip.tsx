@@ -4,7 +4,7 @@ import "./ItemTooltip.css";
 import { colorClass } from "../collection/utils/colorClass";
 import { getBase } from "../../scripts/items/getBase";
 import { useState } from "preact/hooks";
-import { UniqueSetItem } from "../../game-data";
+import { SET_ITEMS, UniqueSetItem } from "../../game-data";
 import { generateFixedMods } from "../../scripts/items/post-processing/generateFixedMods";
 
 import { consolidateMods } from "../../scripts/items/post-processing/consolidateMods";
@@ -31,6 +31,7 @@ export function ItemTooltip({
   if (!noItem) {
     noItem = {} as UniqueSetItem;
   }
+
   if (item == null) {
     const newItem = {} as Item;
     newItem.code = noItem.code;
@@ -51,7 +52,6 @@ export function ItemTooltip({
         describeMods(newItem, newItem.modifiers);
       }
     }
-
     if (noItem.setModifiers) {
       newItem.setItemModifiers?.forEach((mods, i) => {
         describeMods(newItem, mods, ` (${i + 2} items)`);
@@ -65,8 +65,10 @@ export function ItemTooltip({
     }
     item = newItem;
   }
-
-  // const className = noItem.setModifiers == null ? "unique" : "set";
+  let setName = "";
+  if (item.unique != null && item.quality == 5) {
+    setName = SET_ITEMS[item.unique].set;
+  }
   const className = colorClass(item);
 
   if (item.simple) {
@@ -147,6 +149,9 @@ export function ItemTooltip({
         {/* TODO: requirements */}
         {magicMods}
         {setItemMods}
+        <p>
+          <b>{setName}</b>
+        </p>
         {setGlobalMods}
       </div>
     </span>

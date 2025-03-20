@@ -15,14 +15,8 @@ const WATCH = !!process.env.ROLLUP_WATCH;
 
 const ANALYTICS_SCRIPT = `
 <script>
-    window.addEventListener('hashchange', function(e) {
-        window.goatcounter.count({
-            path: location.pathname + location.search + location.hash,
-        })
-    })
+    
 </script>
-<script data-goatcounter="https://eudes.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 `;
 
 export default {

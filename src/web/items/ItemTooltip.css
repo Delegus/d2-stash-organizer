@@ -2,30 +2,56 @@
   position: relative;
 }
 
-.tooltip-trigger {
-  cursor: pointer;
-}
 
 .tooltip-content {
-  position: fixed;
-  height: 1px;
-  width: 1px;
-  bottom: -1px;
-  overflow: hidden;
   white-space: nowrap;
   text-align: center;
-  margin-left: 150px;
-  margin-bottom: -50px;
+  margin-left: 200px;
+  display: none;
+  position: absolute; 
+  top: 100%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  background-color: #333; 
+  color: #fff;
+  padding: 10px; 
+  border-radius: 3px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75); 
+  z-index: 9999; 
 }
 
 .tooltip-container:hover .tooltip-content,
 .tooltip-container:focus-within .tooltip-content {
-  position: absolute;
-  height: auto;
-  width: auto;
-  bottom: calc(50% + 0.4em);
-  left: 0;
+  display: block;
+  background: rgba(34, 34, 34, 0.95);
+
   border: 2px solid white;
   padding: 0.4em 0.8em;
-  background: rgba(0, 0, 0, 0.9);
+}
+
+.tooltip-content {
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container[data-position="top"] .tooltip-content {
+  top: auto;
+  bottom: 100%;
+  transform: translateX(-50%) translateY(calc(-100% - 10px));
+}
+
+.tooltip-container[data-position="left"] .tooltip-content {
+  left: auto;
+  right: 100%;
+  transform: translateY(-50%) translateX(calc(-100% - 10px));
+}
+
+.tooltip-container[data-position="right"] .tooltip-content {
+  left: 100%;
+  transform: translateY(-50%) translateX(calc(100% + 10px));
 }
