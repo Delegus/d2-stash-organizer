@@ -14,6 +14,8 @@
   overflow: hidden;
   white-space: nowrap;
   text-align: center;
+  margin-left: 150px;
+  margin-bottom: -50px;
 }
 
 .tooltip-container:hover .tooltip-content,
