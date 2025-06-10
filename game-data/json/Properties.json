@@ -2078,7 +2078,6 @@
     "stats": [
       {
         "stat": "item_addclassskills",
-        "param": 3,
         "type": "other"
       }
     ]
@@ -3364,6 +3363,18 @@
       {
         "stat": "Dye_Tracker",
         "type": "param"
+      }
+    ]
+  },
+  "dmg3%": {
+    "stats": [
+      {
+        "stat": "pl_minthrowdmg_percent",
+        "type": "min"
+      },
+      {
+        "stat": "pl_maxthrowdmg_percent",
+        "type": "max"
       }
     ]
   }

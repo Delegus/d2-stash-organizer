@@ -1708,10 +1708,10 @@
     "modifiers": [
       [
         {
-          "prop": "res-pois",
-          "param": 0,
-          "min": 25,
-          "max": 25
+          "prop": "oskill",
+          "param": 139,
+          "min": 10,
+          "max": 10
         },
         {
           "prop": "ac",
@@ -1725,10 +1725,10 @@
       [],
       [
         {
-          "prop": "stam",
-          "param": 0,
-          "min": 100,
-          "max": 100
+          "prop": "state",
+          "param": -1,
+          "min": 1,
+          "max": 1
         },
         {
           "prop": "str",
@@ -1769,8 +1769,8 @@
         {
           "prop": "allskills",
           "param": 0,
-          "min": 1,
-          "max": 1
+          "min": 2,
+          "max": 3
         }
       ]
     ]
@@ -5808,6 +5808,87 @@
           "param": 0,
           "min": 30,
           "max": 30
+        }
+      ]
+    ]
+  },
+  "Panda's Polar Adventure": {
+    "name": "Panda's Polar Adventure",
+    "levelReq": 80,
+    "modifiers": [
+      [
+        {
+          "prop": "pierce-cold",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "prop": "extra-cold",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      [
+        {
+          "prop": "oskill",
+          "param": 406,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "prop": "oskill",
+          "param": 405,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      [
+        {
+          "prop": "pierce-cold",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "prop": "extra-cold",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      [],
+      [
+        {
+          "prop": "extra-cold",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        },
+        {
+          "prop": "oskill",
+          "param": 406,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "prop": "pierce-cold",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        },
+        {
+          "prop": "oskill",
+          "param": 405,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "prop": "res-all",
+          "param": 0,
+          "min": 25,
+          "max": 25
         }
       ]
     ]

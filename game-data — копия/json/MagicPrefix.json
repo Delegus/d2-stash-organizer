@@ -1,0 +1,3077 @@
+[
+  {
+    "name": ""
+  },
+  {
+    "name": "Jagged"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Vicious"
+  },
+  {
+    "name": "Brutal"
+  },
+  {
+    "name": "Massive"
+  },
+  {
+    "name": "Savage"
+  },
+  {
+    "name": "Heartless"
+  },
+  {
+    "name": "Merciless"
+  },
+  {
+    "name": "Merciless"
+  },
+  {
+    "name": "Ferocious"
+  },
+  {
+    "name": "Ferocious"
+  },
+  {
+    "name": "Cruel"
+  },
+  {
+    "name": "Cruel"
+  },
+  {
+    "name": "Jagged"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Vicious"
+  },
+  {
+    "name": "Cinnabar"
+  },
+  {
+    "name": "Rusty"
+  },
+  {
+    "name": "Realgar"
+  },
+  {
+    "name": "Ruby"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Sharp"
+  },
+  {
+    "name": "Sharp"
+  },
+  {
+    "name": "Sharp"
+  },
+  {
+    "name": "Sharp"
+  },
+  {
+    "name": "Fine"
+  },
+  {
+    "name": "Fine"
+  },
+  {
+    "name": "Fine"
+  },
+  {
+    "name": "Fine"
+  },
+  {
+    "name": "Mastersmith's"
+  },
+  {
+    "name": "Mastersmith's"
+  },
+  {
+    "name": "Mastersmith's"
+  },
+  {
+    "name": "Mastersmith's"
+  },
+  {
+    "name": "Warrior's"
+  },
+  {
+    "name": "Warrior's"
+  },
+  {
+    "name": "Warrior's"
+  },
+  {
+    "name": "Warrior's"
+  },
+  {
+    "name": "Soldier's"
+  },
+  {
+    "name": "Soldier's"
+  },
+  {
+    "name": "Soldier's"
+  },
+  {
+    "name": "Soldier's"
+  },
+  {
+    "name": "Crusader's"
+  },
+  {
+    "name": "Crusader's"
+  },
+  {
+    "name": "Crusader's"
+  },
+  {
+    "name": "Crusader's"
+  },
+  {
+    "name": "Knight's"
+  },
+  {
+    "name": "Knight's"
+  },
+  {
+    "name": "Knight's"
+  },
+  {
+    "name": "Knight's"
+  },
+  {
+    "name": "Lord's"
+  },
+  {
+    "name": "Lord's"
+  },
+  {
+    "name": "Lord's"
+  },
+  {
+    "name": "Lord's"
+  },
+  {
+    "name": "Overlord's"
+  },
+  {
+    "name": "Overlord's"
+  },
+  {
+    "name": "Overlord's"
+  },
+  {
+    "name": "Overlord's"
+  },
+  {
+    "name": "King's"
+  },
+  {
+    "name": "King's"
+  },
+  {
+    "name": "King's"
+  },
+  {
+    "name": "King's"
+  },
+  {
+    "name": "Master's"
+  },
+  {
+    "name": "Master's"
+  },
+  {
+    "name": "Master's"
+  },
+  {
+    "name": "Master's"
+  },
+  {
+    "name": "Highmaster's"
+  },
+  {
+    "name": "Highmaster's"
+  },
+  {
+    "name": "Highmaster's"
+  },
+  {
+    "name": "Highmaster's"
+  },
+  {
+    "name": "Grandmaster's"
+  },
+  {
+    "name": "Grandmaster's"
+  },
+  {
+    "name": "Grandmaster's"
+  },
+  {
+    "name": "Grandmaster's"
+  },
+  {
+    "name": "Stout"
+  },
+  {
+    "name": "Stout"
+  },
+  {
+    "name": "Stout"
+  },
+  {
+    "name": "Burly"
+  },
+  {
+    "name": "Burly"
+  },
+  {
+    "name": "Burly"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Loremaster's1"
+  },
+  {
+    "name": "Sage's"
+  },
+  {
+    "name": "Sage's"
+  },
+  {
+    "name": "Master Sage's"
+  },
+  {
+    "name": "Ghostly"
+  },
+  {
+    "name": "Spectral1"
+  },
+  {
+    "name": "Phantom1"
+  },
+  {
+    "name": "Wraithly1"
+  },
+  {
+    "name": "Lunar"
+  },
+  {
+    "name": "Arcadian"
+  },
+  {
+    "name": "Unearthly"
+  },
+  {
+    "name": "Astral"
+  },
+  {
+    "name": "Elysian"
+  },
+  {
+    "name": "Celestial"
+  },
+  {
+    "name": "Diamond"
+  },
+  {
+    "name": "Consecrated"
+  },
+  {
+    "name": "Pure"
+  },
+  {
+    "name": "Sacred"
+  },
+  {
+    "name": "Hallowed"
+  },
+  {
+    "name": "Divine"
+  },
+  {
+    "name": "Pearl"
+  },
+  {
+    "name": "Bronze"
+  },
+  {
+    "name": "Iron"
+  },
+  {
+    "name": "Steel"
+  },
+  {
+    "name": "Silver"
+  },
+  {
+    "name": "Gold"
+  },
+  {
+    "name": "Platinum"
+  },
+  {
+    "name": "Meteoric"
+  },
+  {
+    "name": "Strange"
+  },
+  {
+    "name": "Weird"
+  },
+  {
+    "name": "Nickel"
+  },
+  {
+    "name": "Tin"
+  },
+  {
+    "name": "Silver"
+  },
+  {
+    "name": "Argent"
+  },
+  {
+    "name": "Robineye"
+  },
+  {
+    "name": "Sparroweye"
+  },
+  {
+    "name": "Falconeye"
+  },
+  {
+    "name": "Hawkeye"
+  },
+  {
+    "name": "Eagleeye"
+  },
+  {
+    "name": "Precise1"
+  },
+  {
+    "name": "Precise1"
+  },
+  {
+    "name": "Fastidious1"
+  },
+  {
+    "name": "Meticulous1"
+  },
+  {
+    "name": "Veracious1"
+  },
+  {
+    "name": "Visionary"
+  },
+  {
+    "name": "Scarlet"
+  },
+  {
+    "name": "Crimson"
+  },
+  {
+    "name": "Carbuncle"
+  },
+  {
+    "name": "Carmine"
+  },
+  {
+    "name": "Vermilion"
+  },
+  {
+    "name": "Red"
+  },
+  {
+    "name": "Sanguinary"
+  },
+  {
+    "name": "Bloody"
+  },
+  {
+    "name": "Knave's"
+  },
+  {
+    "name": "Jack's"
+  },
+  {
+    "name": "Jester's"
+  },
+  {
+    "name": "Joker's"
+  },
+  {
+    "name": "Fool's"
+  },
+  {
+    "name": "Alarming"
+  },
+  {
+    "name": "Calling"
+  },
+  {
+    "name": "Yelling"
+  },
+  {
+    "name": "Howling"
+  },
+  {
+    "name": "Grinding"
+  },
+  {
+    "name": "Blanched"
+  },
+  {
+    "name": "Eburine"
+  },
+  {
+    "name": "Bone"
+  },
+  {
+    "name": "Ivory"
+  },
+  {
+    "name": "Enlightened"
+  },
+  {
+    "name": "Enlightened"
+  },
+  {
+    "name": "Honorable"
+  },
+  {
+    "name": "Honorable"
+  },
+  {
+    "name": "Righteous"
+  },
+  {
+    "name": "Righteous"
+  },
+  {
+    "name": "Faithful"
+  },
+  {
+    "name": "Faithful"
+  },
+  {
+    "name": "Sturdy"
+  },
+  {
+    "name": "Sturdy"
+  },
+  {
+    "name": "Strong"
+  },
+  {
+    "name": "Glorious"
+  },
+  {
+    "name": "Blessed"
+  },
+  {
+    "name": "Consecrated"
+  },
+  {
+    "name": "Saintly"
+  },
+  {
+    "name": "Holy"
+  },
+  {
+    "name": "Hallowed"
+  },
+  {
+    "name": "Godly"
+  },
+  {
+    "name": "Godly"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Paradox"
+  },
+  {
+    "name": "Ghostly"
+  },
+  {
+    "name": "Spectral1"
+  },
+  {
+    "name": "Phantom1"
+  },
+  {
+    "name": "Wraithly1"
+  },
+  {
+    "name": "Strengthened1"
+  },
+  {
+    "name": "Reinforced1"
+  },
+  {
+    "name": "Fortified"
+  },
+  {
+    "name": "Hardened1"
+  },
+  {
+    "name": "Tempered1"
+  },
+  {
+    "name": "Treated1"
+  },
+  {
+    "name": "Invulnerable1"
+  },
+  {
+    "name": "Sage's"
+  },
+  {
+    "name": "Sage's"
+  },
+  {
+    "name": "Omniscient"
+  },
+  {
+    "name": "Maiden's"
+  },
+  {
+    "name": "Maiden's"
+  },
+  {
+    "name": "Valkyrie's"
+  },
+  {
+    "name": "Valkyrie's"
+  },
+  {
+    "name": "Maiden's"
+  },
+  {
+    "name": "Valkyrie's"
+  },
+  {
+    "name": "Monk's"
+  },
+  {
+    "name": "Monk's"
+  },
+  {
+    "name": "Priest's"
+  },
+  {
+    "name": "Priest's"
+  },
+  {
+    "name": "Monk's"
+  },
+  {
+    "name": "Priest's"
+  },
+  {
+    "name": "Monk's"
+  },
+  {
+    "name": "Priest's"
+  },
+  {
+    "name": "Summoner's"
+  },
+  {
+    "name": "Summoner's"
+  },
+  {
+    "name": "Necromancer's"
+  },
+  {
+    "name": "Necromancer's"
+  },
+  {
+    "name": "Summoner's"
+  },
+  {
+    "name": "Necromancer's"
+  },
+  {
+    "name": "Angel's"
+  },
+  {
+    "name": "Angel's"
+  },
+  {
+    "name": "Arch-Angel's"
+  },
+  {
+    "name": "Arch-Angel's"
+  },
+  {
+    "name": "Angel's"
+  },
+  {
+    "name": "Arch-Angel's"
+  },
+  {
+    "name": "Slayer's"
+  },
+  {
+    "name": "Slayer's"
+  },
+  {
+    "name": "Berserker's"
+  },
+  {
+    "name": "Berserker's"
+  },
+  {
+    "name": "Slayer's"
+  },
+  {
+    "name": "Berserker's"
+  },
+  {
+    "name": "Slayer's"
+  },
+  {
+    "name": "Berserker's"
+  },
+  {
+    "name": "Shaman's"
+  },
+  {
+    "name": "Shaman's"
+  },
+  {
+    "name": "Hierophant's"
+  },
+  {
+    "name": "Hierophant's"
+  },
+  {
+    "name": "Shaman's"
+  },
+  {
+    "name": "Hierophant's"
+  },
+  {
+    "name": "Magekiller's"
+  },
+  {
+    "name": "Magekiller's"
+  },
+  {
+    "name": "Witch-hunter's"
+  },
+  {
+    "name": "Witch-hunter's"
+  },
+  {
+    "name": "Magekiller's"
+  },
+  {
+    "name": "Witch-hunter's"
+  },
+  {
+    "name": "Fletcher's"
+  },
+  {
+    "name": "Bowyer's"
+  },
+  {
+    "name": "Archer's"
+  },
+  {
+    "name": "Acrobatic"
+  },
+  {
+    "name": "Gymnastic"
+  },
+  {
+    "name": "Athletic"
+  },
+  {
+    "name": "Harpoonist's"
+  },
+  {
+    "name": "Spearmaiden's"
+  },
+  {
+    "name": "Lancer's"
+  },
+  {
+    "name": "Burning"
+  },
+  {
+    "name": "Blazing"
+  },
+  {
+    "name": "Volcanic"
+  },
+  {
+    "name": "Sparking"
+  },
+  {
+    "name": "Charged"
+  },
+  {
+    "name": "Powered"
+  },
+  {
+    "name": "Chilling"
+  },
+  {
+    "name": "Freezing"
+  },
+  {
+    "name": "Glacial"
+  },
+  {
+    "name": "Hexing"
+  },
+  {
+    "name": "Blighting"
+  },
+  {
+    "name": "Cursing"
+  },
+  {
+    "name": "Fungal"
+  },
+  {
+    "name": "Noxious"
+  },
+  {
+    "name": "Venomous"
+  },
+  {
+    "name": "Graverobber's"
+  },
+  {
+    "name": "Mojo"
+  },
+  {
+    "name": "Golemlord's"
+  },
+  {
+    "name": "Lion Branded"
+  },
+  {
+    "name": "Hawk Branded"
+  },
+  {
+    "name": "Rose Branded"
+  },
+  {
+    "name": "Captain's"
+  },
+  {
+    "name": "Commander's"
+  },
+  {
+    "name": "Marshal's"
+  },
+  {
+    "name": "Preserver's"
+  },
+  {
+    "name": "Warden's"
+  },
+  {
+    "name": "Guardian's"
+  },
+  {
+    "name": "Expert's"
+  },
+  {
+    "name": "Veteran's"
+  },
+  {
+    "name": "Master's"
+  },
+  {
+    "name": "Fanatic"
+  },
+  {
+    "name": "Raging"
+  },
+  {
+    "name": "Furious"
+  },
+  {
+    "name": "Sounding"
+  },
+  {
+    "name": "Resonant"
+  },
+  {
+    "name": "Echoing"
+  },
+  {
+    "name": "Trainer's"
+  },
+  {
+    "name": "Caretaker's"
+  },
+  {
+    "name": "Keeper's"
+  },
+  {
+    "name": "Spiritual"
+  },
+  {
+    "name": "Feral"
+  },
+  {
+    "name": "Communal"
+  },
+  {
+    "name": "Natural"
+  },
+  {
+    "name": "Terrene"
+  },
+  {
+    "name": "Gaean"
+  },
+  {
+    "name": "Entrapping"
+  },
+  {
+    "name": "Trickster's"
+  },
+  {
+    "name": "Cunning"
+  },
+  {
+    "name": "Mentalist's"
+  },
+  {
+    "name": "Psychic"
+  },
+  {
+    "name": "Shadow"
+  },
+  {
+    "name": "Shogukusha's"
+  },
+  {
+    "name": "Sensei's"
+  },
+  {
+    "name": "Kenshi's"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "gnostics1"
+  },
+  {
+    "name": "Snowy"
+  },
+  {
+    "name": "Shivering"
+  },
+  {
+    "name": "Boreal"
+  },
+  {
+    "name": "Hibernal"
+  },
+  {
+    "name": "Fiery"
+  },
+  {
+    "name": "Smoldering"
+  },
+  {
+    "name": "Smoking"
+  },
+  {
+    "name": "Flaming"
+  },
+  {
+    "name": "Condensing"
+  },
+  {
+    "name": "Static"
+  },
+  {
+    "name": "Glowing"
+  },
+  {
+    "name": "Buzzing"
+  },
+  {
+    "name": "Arcing"
+  },
+  {
+    "name": "Shocking"
+  },
+  {
+    "name": "Septic"
+  },
+  {
+    "name": "Foul"
+  },
+  {
+    "name": "Corrosive"
+  },
+  {
+    "name": "Toxic"
+  },
+  {
+    "name": "Pestilent"
+  },
+  {
+    "name": "Azure"
+  },
+  {
+    "name": "Lapis"
+  },
+  {
+    "name": "Lapis"
+  },
+  {
+    "name": "Cobalt"
+  },
+  {
+    "name": "Cobalt"
+  },
+  {
+    "name": "Sapphire"
+  },
+  {
+    "name": "Lapis Lazuli"
+  },
+  {
+    "name": "Sapphire"
+  },
+  {
+    "name": "Russet"
+  },
+  {
+    "name": "Russet"
+  },
+  {
+    "name": "Garnet"
+  },
+  {
+    "name": "Garnet"
+  },
+  {
+    "name": "Ruby"
+  },
+  {
+    "name": "Garnet"
+  },
+  {
+    "name": "Ruby"
+  },
+  {
+    "name": "Tangerine"
+  },
+  {
+    "name": "Ocher"
+  },
+  {
+    "name": "Ocher"
+  },
+  {
+    "name": "Coral"
+  },
+  {
+    "name": "Coral"
+  },
+  {
+    "name": "Amber"
+  },
+  {
+    "name": "Camphor"
+  },
+  {
+    "name": "Ambergris"
+  },
+  {
+    "name": "Beryl"
+  },
+  {
+    "name": "Viridian"
+  },
+  {
+    "name": "Viridian"
+  },
+  {
+    "name": "Jade"
+  },
+  {
+    "name": "Jade"
+  },
+  {
+    "name": "Emerald"
+  },
+  {
+    "name": "Beryl"
+  },
+  {
+    "name": "Jade"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Rainbow"
+  },
+  {
+    "name": "Scintillating"
+  },
+  {
+    "name": "Prismatic"
+  },
+  {
+    "name": "Chromatic"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Rainbow"
+  },
+  {
+    "name": "Scintillating"
+  },
+  {
+    "name": "Prismatic"
+  },
+  {
+    "name": "Chromatic"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Rainbow"
+  },
+  {
+    "name": "Scintillating"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Scintillating"
+  },
+  {
+    "name": "Lizard's"
+  },
+  {
+    "name": "Snake's"
+  },
+  {
+    "name": "Serpent's"
+  },
+  {
+    "name": "Serpent's"
+  },
+  {
+    "name": "Drake's"
+  },
+  {
+    "name": "Dragon's"
+  },
+  {
+    "name": "Dragon's"
+  },
+  {
+    "name": "Wyrm's"
+  },
+  {
+    "name": "Great Wyrm's"
+  },
+  {
+    "name": "Bahamut's"
+  },
+  {
+    "name": "Zircon"
+  },
+  {
+    "name": "Jacinth"
+  },
+  {
+    "name": "Turquoise"
+  },
+  {
+    "name": "Mnemonic"
+  },
+  {
+    "name": "Triumphant"
+  },
+  {
+    "name": "Victorious"
+  },
+  {
+    "name": "Aureolic"
+  },
+  {
+    "name": "Vulpine"
+  },
+  {
+    "name": "Dun"
+  },
+  {
+    "name": "Glimmering"
+  },
+  {
+    "name": "Glowing"
+  },
+  {
+    "name": "Bright"
+  },
+  {
+    "name": "Felicitous"
+  },
+  {
+    "name": "Fortuitous"
+  },
+  {
+    "name": "Emerald"
+  },
+  {
+    "name": "Mechanic's"
+  },
+  {
+    "name": "Artisan's"
+  },
+  {
+    "name": "Jeweler's"
+  },
+  {
+    "name": "Compact"
+  },
+  {
+    "name": "Thin"
+  },
+  {
+    "name": "Dense"
+  },
+  {
+    "name": "Devious"
+  },
+  {
+    "name": "Void"
+  },
+  {
+    "name": "Null"
+  },
+  {
+    "name": "Antimagic"
+  },
+  {
+    "name": "Devious"
+  },
+  {
+    "name": "Void"
+  },
+  {
+    "name": "Null"
+  },
+  {
+    "name": "Antimagic"
+  },
+  {
+    "name": "Screaming"
+  },
+  {
+    "name": "Howling"
+  },
+  {
+    "name": "Wailing"
+  },
+  {
+    "name": "Screaming"
+  },
+  {
+    "name": "Howling"
+  },
+  {
+    "name": "Wailing"
+  },
+  {
+    "name": "Impacting1"
+  },
+  {
+    "name": "Fracturing1"
+  },
+  {
+    "name": "Crushing1"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Lethal"
+  },
+  {
+    "name": "Fatal"
+  },
+  {
+    "name": "Elemental1"
+  },
+  {
+    "name": "Elemental1"
+  },
+  {
+    "name": "Elemental1"
+  },
+  {
+    "name": "Elemental1"
+  },
+  {
+    "name": "Loremaster's1"
+  },
+  {
+    "name": "Loremaster's1"
+  },
+  {
+    "name": "Sage's"
+  },
+  {
+    "name": "Sage's"
+  },
+  {
+    "name": "Master Sage's"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Brutal"
+  },
+  {
+    "name": "Brutal"
+  },
+  {
+    "name": "Savage"
+  },
+  {
+    "name": "Savage"
+  },
+  {
+    "name": "Bronze-Wrought"
+  },
+  {
+    "name": "Iron-Wrought"
+  },
+  {
+    "name": "Steel-Wrought"
+  },
+  {
+    "name": "Silver-Wrought"
+  },
+  {
+    "name": "Platimum-Wrought"
+  },
+  {
+    "name": "Titanium-Wrought"
+  },
+  {
+    "name": "Mithril-Wrought"
+  },
+  {
+    "name": "Adamantine-Wrought"
+  },
+  {
+    "name": "Bronze-Wrought"
+  },
+  {
+    "name": "Iron-Wrought"
+  },
+  {
+    "name": "Steel-Wrought"
+  },
+  {
+    "name": "Silver-Wrought"
+  },
+  {
+    "name": "Platimum-Wrought"
+  },
+  {
+    "name": "Titanium-Wrought"
+  },
+  {
+    "name": "Mithril-Wrought"
+  },
+  {
+    "name": "Adamantine-Wrought"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Aureole"
+  },
+  {
+    "name": "Pyromaniac's2"
+  },
+  {
+    "name": "Pyromaniac's2"
+  },
+  {
+    "name": "Pyromaniac's2"
+  },
+  {
+    "name": "Frost Wyrm's2"
+  },
+  {
+    "name": "Frost Wyrm's2"
+  },
+  {
+    "name": "Frost Wyrm's2"
+  },
+  {
+    "name": "Zeus's2"
+  },
+  {
+    "name": "Zeus's2"
+  },
+  {
+    "name": "Zeus's2"
+  },
+  {
+    "name": "Manticore's2"
+  },
+  {
+    "name": "Manticore's2"
+  },
+  {
+    "name": "Manticore's2"
+  },
+  {
+    "name": "Pyromaniac's2"
+  },
+  {
+    "name": "Pyromaniac's2"
+  },
+  {
+    "name": "Pyromaniac's2"
+  },
+  {
+    "name": "Frost Wyrm's2"
+  },
+  {
+    "name": "Frost Wyrm's2"
+  },
+  {
+    "name": "Frost Wyrm's2"
+  },
+  {
+    "name": "Zeus's2"
+  },
+  {
+    "name": "Zeus's2"
+  },
+  {
+    "name": "Zeus's2"
+  },
+  {
+    "name": "Manticore's2"
+  },
+  {
+    "name": "Manticore's2"
+  },
+  {
+    "name": "Manticore's2"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Charged1"
+  },
+  {
+    "name": "Burning"
+  },
+  {
+    "name": "Sparking"
+  },
+  {
+    "name": "Chilling"
+  },
+  {
+    "name": "Hexing"
+  },
+  {
+    "name": "Fungal"
+  },
+  {
+    "name": "Graverobber's"
+  },
+  {
+    "name": "Lion Branded"
+  },
+  {
+    "name": "Captain's"
+  },
+  {
+    "name": "Preserver's"
+  },
+  {
+    "name": "Expert's"
+  },
+  {
+    "name": "Fanatic"
+  },
+  {
+    "name": "Sounding"
+  },
+  {
+    "name": "Trainer's"
+  },
+  {
+    "name": "Spiritual"
+  },
+  {
+    "name": "Natural"
+  },
+  {
+    "name": "Strengthened1"
+  },
+  {
+    "name": "Reinforced1"
+  },
+  {
+    "name": "Fortified"
+  },
+  {
+    "name": "Strengthened1"
+  },
+  {
+    "name": "Reinforced1"
+  },
+  {
+    "name": "Fortified"
+  },
+  {
+    "name": "Impenetrable"
+  },
+  {
+    "name": "Impregnable"
+  },
+  {
+    "name": "Impervious"
+  },
+  {
+    "name": "Aspirant's"
+  },
+  {
+    "name": "Sorcerer's"
+  },
+  {
+    "name": "Mage's"
+  },
+  {
+    "name": "Magical"
+  },
+  {
+    "name": "Mana Tap"
+  },
+  {
+    "name": "Arcane"
+  },
+  {
+    "name": "Wyrm's"
+  },
+  {
+    "name": "Great Wyrm's"
+  },
+  {
+    "name": "Bahamut's"
+  },
+  {
+    "name": "Breathing"
+  },
+  {
+    "name": "Living"
+  },
+  {
+    "name": "Thriving"
+  },
+  {
+    "name": "Heartened"
+  },
+  {
+    "name": "Invigorated"
+  },
+  {
+    "name": "Venerable"
+  },
+  {
+    "name": "Blooming"
+  },
+  {
+    "name": "Lifegiving"
+  },
+  {
+    "name": "Lifebinder's"
+  },
+  {
+    "name": "Weathered"
+  },
+  {
+    "name": "Wizened"
+  },
+  {
+    "name": "Ancient"
+  },
+  {
+    "name": "Regenerating"
+  },
+  {
+    "name": "Reconstructing"
+  },
+  {
+    "name": "Recreating"
+  },
+  {
+    "name": "Inspiring"
+  },
+  {
+    "name": "Elated"
+  },
+  {
+    "name": "Exhilirating"
+  },
+  {
+    "name": "Energized"
+  },
+  {
+    "name": "Thrilling"
+  },
+  {
+    "name": "Breathtaking"
+  },
+  {
+    "name": "Refreshing"
+  },
+  {
+    "name": "Recharging"
+  },
+  {
+    "name": "Rejuvinating"
+  },
+  {
+    "name": "Leeching"
+  },
+  {
+    "name": "Parasitic"
+  },
+  {
+    "name": "Bloodsucking"
+  },
+  {
+    "name": "Consuming"
+  },
+  {
+    "name": "Overflowing"
+  },
+  {
+    "name": "Overwhelming"
+  },
+  {
+    "name": "Fiendish"
+  },
+  {
+    "name": "Malignant Skull"
+  },
+  {
+    "name": "Vampiric"
+  },
+  {
+    "name": "Hector"
+  },
+  {
+    "name": "Achilles"
+  },
+  {
+    "name": "Hercules"
+  },
+  {
+    "name": "Warm"
+  },
+  {
+    "name": "Temperate"
+  },
+  {
+    "name": "Summery"
+  },
+  {
+    "name": "Electric"
+  },
+  {
+    "name": "Voltaic"
+  },
+  {
+    "name": "Galvanic"
+  },
+  {
+    "name": "Ice"
+  },
+  {
+    "name": "Numbing"
+  },
+  {
+    "name": "Freezing"
+  },
+  {
+    "name": "Poison"
+  },
+  {
+    "name": "Toxic"
+  },
+  {
+    "name": "Venom"
+  },
+  {
+    "name": "Psychic"
+  },
+  {
+    "name": "Clairvoyant"
+  },
+  {
+    "name": "Prophetic"
+  },
+  {
+    "name": "Uncontrolled"
+  },
+  {
+    "name": "Fissured"
+  },
+  {
+    "name": "Volcanic"
+  },
+  {
+    "name": "Incessant"
+  },
+  {
+    "name": "Unceasing"
+  },
+  {
+    "name": "Interminable"
+  },
+  {
+    "name": "Ambivalent"
+  },
+  {
+    "name": "Polarised"
+  },
+  {
+    "name": "Dichotic"
+  },
+  {
+    "name": "Retain"
+  },
+  {
+    "name": "Memorize"
+  },
+  {
+    "name": "Master"
+  },
+  {
+    "name": "Lucky"
+  },
+  {
+    "name": "Lucky"
+  },
+  {
+    "name": "Lucky"
+  },
+  {
+    "name": "Prickly"
+  },
+  {
+    "name": "Heartened"
+  },
+  {
+    "name": "Heartened"
+  },
+  {
+    "name": "Heartened"
+  },
+  {
+    "name": "Onslaught"
+  },
+  {
+    "name": "Incanting"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Wounding"
+  },
+  {
+    "name": "Crushing1"
+  },
+  {
+    "name": "Piercing"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Apprentice"
+  },
+  {
+    "name": "Barbed"
+  },
+  {
+    "name": "Strengthened1"
+  },
+  {
+    "name": "Strengthened1"
+  },
+  {
+    "name": "Strengthened1"
+  },
+  {
+    "name": "Onslaught"
+  },
+  {
+    "name": "Incanting"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Wounding"
+  },
+  {
+    "name": "Crushing1"
+  },
+  {
+    "name": "Piercing"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Adept"
+  },
+  {
+    "name": "Porcupine"
+  },
+  {
+    "name": "Bolstered"
+  },
+  {
+    "name": "Bolstered"
+  },
+  {
+    "name": "Bolstered"
+  },
+  {
+    "name": "Onslaught"
+  },
+  {
+    "name": "Incanting"
+  },
+  {
+    "name": "Deadly"
+  },
+  {
+    "name": "Wounding"
+  },
+  {
+    "name": "Crushing1"
+  },
+  {
+    "name": "Piercing"
+  },
+  {
+    "name": "Matriarchal"
+  },
+  {
+    "name": "Templar"
+  },
+  {
+    "name": "Archlich"
+  },
+  {
+    "name": "Guardian's"
+  },
+  {
+    "name": "Battlemaster"
+  },
+  {
+    "name": "Cenarion"
+  },
+  {
+    "name": "Shadowed"
+  },
+  {
+    "name": "Cataclysm"
+  },
+  {
+    "name": "Cataclysm"
+  },
+  {
+    "name": "Cataclysm"
+  },
+  {
+    "name": "Cataclysm"
+  },
+  {
+    "name": "Gaian"
+  },
+  {
+    "name": "Gaian"
+  },
+  {
+    "name": "Gaian"
+  },
+  {
+    "name": "Gaian"
+  },
+  {
+    "name": "Jagged"
+  },
+  {
+    "name": "Forked"
+  },
+  {
+    "name": "Serrated"
+  },
+  {
+    "name": "Bronze"
+  },
+  {
+    "name": "Bronze"
+  },
+  {
+    "name": "Bronze"
+  },
+  {
+    "name": "Iron"
+  },
+  {
+    "name": "Iron"
+  },
+  {
+    "name": "Iron"
+  },
+  {
+    "name": "Steel"
+  },
+  {
+    "name": "Steel"
+  },
+  {
+    "name": "Steel"
+  },
+  {
+    "name": "Fine"
+  },
+  {
+    "name": "Fine"
+  },
+  {
+    "name": "Sharp"
+  },
+  {
+    "name": "Red"
+  },
+  {
+    "name": "Red"
+  },
+  {
+    "name": "Sanguinary"
+  },
+  {
+    "name": "Sanguinary"
+  },
+  {
+    "name": "Bloody"
+  },
+  {
+    "name": "Jagged"
+  },
+  {
+    "name": "Jagged"
+  },
+  {
+    "name": "Jagged"
+  },
+  {
+    "name": "Forked"
+  },
+  {
+    "name": "Forked"
+  },
+  {
+    "name": "Serrated"
+  },
+  {
+    "name": "Serrated"
+  },
+  {
+    "name": "Red"
+  },
+  {
+    "name": "Sanguinary"
+  },
+  {
+    "name": "Bloody"
+  },
+  {
+    "name": "Stout"
+  },
+  {
+    "name": "Stout"
+  },
+  {
+    "name": "Stout"
+  },
+  {
+    "name": "Burly"
+  },
+  {
+    "name": "Burly"
+  },
+  {
+    "name": "Burly"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Stalwart"
+  },
+  {
+    "name": "Fletcher's"
+  },
+  {
+    "name": "Acrobatic"
+  },
+  {
+    "name": "Harpoonist's"
+  },
+  {
+    "name": "Burning"
+  },
+  {
+    "name": "Sparking"
+  },
+  {
+    "name": "Chilling"
+  },
+  {
+    "name": "Hexing"
+  },
+  {
+    "name": "Fungal"
+  },
+  {
+    "name": "Graverobber's"
+  },
+  {
+    "name": "Lion Branded"
+  },
+  {
+    "name": "Captain's"
+  },
+  {
+    "name": "Preserver's"
+  },
+  {
+    "name": "Expert's"
+  },
+  {
+    "name": "Fanatic"
+  },
+  {
+    "name": "Sounding"
+  },
+  {
+    "name": "Trainer's"
+  },
+  {
+    "name": "Spiritual"
+  },
+  {
+    "name": "Natural"
+  },
+  {
+    "name": "Entrapping"
+  },
+  {
+    "name": "Mentalist's"
+  },
+  {
+    "name": "Shogukusha's"
+  },
+  {
+    "name": "Snowy"
+  },
+  {
+    "name": "Shivering"
+  },
+  {
+    "name": "Boreal"
+  },
+  {
+    "name": "Boreal"
+  },
+  {
+    "name": "Boreal"
+  },
+  {
+    "name": "Fiery"
+  },
+  {
+    "name": "Smoldering"
+  },
+  {
+    "name": "Smoking"
+  },
+  {
+    "name": "Flaming"
+  },
+  {
+    "name": "Static"
+  },
+  {
+    "name": "Glowing"
+  },
+  {
+    "name": "Arcing"
+  },
+  {
+    "name": "Shocking"
+  },
+  {
+    "name": "Septic"
+  },
+  {
+    "name": "Foul"
+  },
+  {
+    "name": "Toxic"
+  },
+  {
+    "name": "Pestilent"
+  },
+  {
+    "name": "Avatar"
+  },
+  {
+    "name": "Avatar"
+  },
+  {
+    "name": "Avatar"
+  },
+  {
+    "name": "Hulking"
+  },
+  {
+    "name": "Hulking"
+  },
+  {
+    "name": "Hulking"
+  },
+  {
+    "name": "Azure"
+  },
+  {
+    "name": "Lapis"
+  },
+  {
+    "name": "Cobalt"
+  },
+  {
+    "name": "Sapphire"
+  },
+  {
+    "name": "Crimson"
+  },
+  {
+    "name": "Russet"
+  },
+  {
+    "name": "Garnet"
+  },
+  {
+    "name": "Ruby"
+  },
+  {
+    "name": "Tangerine"
+  },
+  {
+    "name": "Ocher"
+  },
+  {
+    "name": "Coral"
+  },
+  {
+    "name": "Amber"
+  },
+  {
+    "name": "Beryl"
+  },
+  {
+    "name": "Viridian"
+  },
+  {
+    "name": "Jade"
+  },
+  {
+    "name": "Emerald"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Shimmering"
+  },
+  {
+    "name": "Lizard's"
+  },
+  {
+    "name": "Lizard's"
+  },
+  {
+    "name": "Lizard's"
+  },
+  {
+    "name": "Snake's"
+  },
+  {
+    "name": "Snake's"
+  },
+  {
+    "name": "Snake's"
+  },
+  {
+    "name": "Serpent's"
+  },
+  {
+    "name": "Serpent's"
+  },
+  {
+    "name": "Serpent's"
+  },
+  {
+    "name": "Lucky"
+  },
+  {
+    "name": "Lucky"
+  },
+  {
+    "name": "Lucky"
+  }
+]

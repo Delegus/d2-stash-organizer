@@ -12100,6 +12100,12 @@
         "max": 33
       },
       {
+        "prop": "rep-quant",
+        "param": 100,
+        "min": 0,
+        "max": 0
+      },
+      {
         "prop": "oskill_hide",
         "param": 393,
         "min": 1,
@@ -12214,7 +12220,7 @@
         "max": 35
       },
       {
-        "prop": "dmg-throw",
+        "prop": "dmg-norm",
         "param": 0,
         "min": 20,
         "max": 50
@@ -16986,6 +16992,12 @@
         "max": 1
       },
       {
+        "prop": "rep-quant",
+        "param": 100,
+        "min": 0,
+        "max": 0
+      },
+      {
         "prop": "oskill_hide",
         "param": 393,
         "min": 1,
@@ -17003,7 +17015,7 @@
       ],
       [
         {
-          "prop": "dmg-throw",
+          "prop": "dmg-norm",
           "param": 0,
           "min": 25,
           "max": 75
@@ -17166,8 +17178,8 @@
       {
         "prop": "dmg-norm",
         "param": 0,
-        "min": 25,
-        "max": 100
+        "min": 50,
+        "max": 200
       },
       {
         "prop": "stack",
@@ -17176,16 +17188,16 @@
         "max": 200
       },
       {
-        "prop": "dmg-throw",
-        "param": 0,
-        "min": 25,
-        "max": 100
-      },
-      {
         "prop": "dmg%",
         "param": 0,
         "min": 150,
         "max": 180
+      },
+      {
+        "prop": "rep-quant",
+        "param": 100,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "oskill_hide",
@@ -20499,6 +20511,12 @@
         "max": 2
       },
       {
+        "prop": "rep-quant",
+        "param": 100,
+        "min": 0,
+        "max": 0
+      },
+      {
         "prop": "oskill_hide",
         "param": 393,
         "min": 1,
@@ -20702,14 +20720,7 @@
           "max": 5
         }
       ],
-      [
-        {
-          "prop": "skill",
-          "param": 84,
-          "min": 5,
-          "max": 5
-        }
-      ],
+      [],
       [],
       []
     ]
@@ -20790,17 +20801,17 @@
       {
         "prop": "vit",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "enr",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 25,
+        "max": 25
       },
       {
-        "prop": "hp%",
+        "prop": "mana%",
         "param": 0,
         "min": 10,
         "max": 15
@@ -20937,13 +20948,13 @@
         "prop": "block",
         "param": 0,
         "min": 20,
-        "max": 50
+        "max": 35
       },
       {
         "prop": "block2",
         "param": 0,
         "min": 20,
-        "max": 50
+        "max": 35
       },
       {
         "prop": "ac%",
@@ -20960,22 +20971,8 @@
     ],
     "setModifiers": [
       [],
-      [
-        {
-          "prop": "skill",
-          "param": 85,
-          "min": 5,
-          "max": 5
-        }
-      ],
-      [
-        {
-          "prop": "skill",
-          "param": 79,
-          "min": 5,
-          "max": 5
-        }
-      ],
+      [],
+      [],
       [
         {
           "prop": "extra_bonespears",
@@ -21022,14 +21019,7 @@
           "max": 30
         }
       ],
-      [
-        {
-          "prop": "skill",
-          "param": 221,
-          "min": 5,
-          "max": 5
-        }
-      ],
+      [],
       [
         {
           "prop": "cast2",
@@ -21240,14 +21230,7 @@
           "max": 10
         }
       ],
-      [
-        {
-          "prop": "skill",
-          "param": 221,
-          "min": 5,
-          "max": 5
-        }
-      ],
+      [],
       [
         {
           "prop": "ravenhits",
@@ -21507,6 +21490,230 @@
           "max": 30
         }
       ],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Panda's Pelt",
+    "code": "dr6",
+    "set": "Panda's Polar Adventure",
+    "qlevel": 30,
+    "levelReq": 55,
+    "baseModifiers": [
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "oskill",
+        "param": 406,
+        "min": 2,
+        "max": 4
+      },
+      {
+        "prop": "move3",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 3
+      }
+    ],
+    "setModifiers": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Panda's Mitts",
+    "code": "ulg",
+    "set": "Panda's Polar Adventure",
+    "qlevel": 25,
+    "levelReq": 45,
+    "baseModifiers": [
+      {
+        "prop": "oskill",
+        "param": 405,
+        "min": 2,
+        "max": 5
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "setModifiers": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Panda's Coat",
+    "code": "uui",
+    "set": "Panda's Polar Adventure",
+    "qlevel": 70,
+    "levelReq": 80,
+    "baseModifiers": [
+      {
+        "prop": "oskill",
+        "param": 37,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "res-cold-max",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "setModifiers": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Panda's Sash",
+    "code": "lbl",
+    "set": "Panda's Polar Adventure",
+    "qlevel": 6,
+    "levelReq": 12,
+    "baseModifiers": [
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 245,
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "setModifiers": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Panda's Sled",
+    "code": "uow",
+    "set": "Panda's Polar Adventure",
+    "qlevel": 50,
+    "levelReq": 60,
+    "baseModifiers": [
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -30,
+        "max": -30
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "oskill",
+        "param": 227,
+        "min": 5,
+        "max": 8
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "oskill_hide",
+        "param": 393,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "setModifiers": [
+      [],
+      [],
       [],
       [],
       []

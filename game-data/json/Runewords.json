@@ -418,7 +418,7 @@
     ]
   },
   {
-    "name": "Bone Reimagined",
+    "name": "Rathma's Husk",
     "enabled": true,
     "runes": [
       "r30",
@@ -428,46 +428,46 @@
     "levelReq": 63,
     "modifiers": [
       {
-        "prop": "nec",
+        "prop": "poisonskill",
         "param": 0,
         "min": 2,
         "max": 2
       },
       {
-        "prop": "skilltab",
-        "param": 7,
-        "min": 4,
-        "max": 4
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 15
       },
       {
         "prop": "skill",
-        "param": 68,
-        "min": 3,
-        "max": 3
+        "param": 73,
+        "min": 2,
+        "max": 2
       },
       {
         "prop": "skill",
-        "param": 78,
-        "min": 3,
-        "max": 3
+        "param": 83,
+        "min": 2,
+        "max": 2
       },
       {
-        "prop": "skill",
-        "param": 84,
-        "min": 3,
-        "max": 3
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
       },
       {
-        "prop": "skill",
-        "param": 88,
-        "min": 3,
-        "max": 3
-      },
-      {
-        "prop": "skill",
-        "param": 93,
-        "min": 3,
-        "max": 3
+        "prop": "ac%",
+        "param": 0,
+        "min": 200,
+        "max": 250
       }
     ]
   },
@@ -614,12 +614,6 @@
         "param": 0,
         "min": 1,
         "max": 1
-      },
-      {
-        "prop": "kill-skill",
-        "param": 92,
-        "min": 50,
-        "max": 20
       },
       {
         "prop": "dmg%",
@@ -1236,7 +1230,7 @@
       },
       {
         "prop": "oskill",
-        "param": 54,
+        "param": 371,
         "min": 1,
         "max": 1
       },
@@ -1500,6 +1494,63 @@
         "param": 0,
         "min": 6,
         "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Doom",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r27",
+      "r22",
+      "r28",
+      "r32"
+    ],
+    "word": "r15r27r22r28r32",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "aura",
+        "param": 114,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 40,
+        "max": 60
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 235,
+        "min": 5,
+        "max": 18
       }
     ]
   },
@@ -1942,7 +1993,7 @@
     ]
   },
   {
-    "name": "Enlightenment Reimagined",
+    "name": "Mantle of Lazarus",
     "enabled": true,
     "runes": [
       "r03",
@@ -1954,16 +2005,16 @@
     "levelReq": 61,
     "modifiers": [
       {
-        "prop": "dru",
+        "prop": "sor",
         "param": 0,
         "min": 2,
         "max": 2
       },
       {
-        "prop": "skill-rand",
-        "param": 3,
-        "min": 221,
-        "max": 250
+        "prop": "cast2",
+        "param": 0,
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "regen-mana",
@@ -1972,25 +2023,25 @@
         "max": 75
       },
       {
-        "prop": "skilltab",
-        "param": 17,
-        "min": 2,
-        "max": 2
+        "prop": "mana%",
+        "param": 0,
+        "min": 5,
+        "max": 5
       },
       {
-        "prop": "gethit-skill",
-        "param": 235,
-        "min": 30,
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 20,
         "max": 20
       },
       {
-        "prop": "red-dmg%",
+        "prop": "extra-cold",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 20,
+        "max": 20
       },
       {
-        "prop": "block2",
+        "prop": "extra-ltng",
         "param": 0,
         "min": 20,
         "max": 20
@@ -2431,6 +2482,19 @@
         "max": 25
       }
     ]
+  },
+  {
+    "name": "Fortitude (Dummy)",
+    "enabled": true,
+    "runes": [
+      "r01",
+      "r12",
+      "r14",
+      "r28"
+    ],
+    "word": "r01r12r14r28",
+    "levelReq": 59,
+    "modifiers": []
   },
   {
     "name": "Fortune's Favor",
@@ -4663,13 +4727,13 @@
     "modifiers": [
       {
         "prop": "hit-skill",
-        "param": 376,
+        "param": 377,
         "min": 100,
         "max": 1
       },
       {
         "prop": "hit-skill",
-        "param": 377,
+        "param": 378,
         "min": 100,
         "max": 1
       },
@@ -4919,60 +4983,52 @@
     ]
   },
   {
-    "name": "Myth Reimagined",
+    "name": "Qual-Kehk's Oath",
     "enabled": true,
     "runes": [
       "r19",
       "r32",
       "r30",
-      "r15",
-      "r03",
-      "r08"
+      "r15"
     ],
-    "word": "r19r32r30r15r03r08",
+    "word": "r19r32r30r15",
     "levelReq": 67,
     "modifiers": [
       {
-        "prop": "levelreq",
+        "prop": "bar",
         "param": 0,
-        "min": 8,
-        "max": 8
-      },
-      {
-        "prop": "dmg-norm",
-        "param": 0,
-        "min": 200,
-        "max": 400
-      },
-      {
-        "prop": "rep-dur",
-        "param": 15,
-        "min": 0,
-        "max": 0
+        "min": 2,
+        "max": 2
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 80,
-        "max": 120
+        "min": 200,
+        "max": 250
       },
       {
-        "prop": "allskills",
+        "prop": "ac%",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 200,
+        "max": 250
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "res-all",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 30,
+        "max": 30
       },
       {
-        "prop": "death-skill",
-        "param": 48,
-        "min": 100,
-        "max": 60
+        "prop": "hit-skill",
+        "param": 87,
+        "min": 9,
+        "max": 8
       }
     ]
   },
@@ -5514,57 +5570,57 @@
     ]
   },
   {
-    "name": "Peace Reimagined",
+    "name": "Mail of the Askari",
     "enabled": true,
     "runes": [
-      "r03",
-      "r05",
-      "r01"
+      "r30",
+      "r23",
+      "r28"
     ],
-    "word": "r03r05r01",
-    "levelReq": 15,
+    "word": "r30r23r28",
+    "levelReq": 63,
     "modifiers": [
       {
-        "prop": "levelreq",
+        "prop": "ama",
         "param": 0,
-        "min": 6,
-        "max": 6
-      },
-      {
-        "prop": "dmg-norm",
-        "param": 0,
-        "min": 20,
-        "max": 40
-      },
-      {
-        "prop": "swing1",
-        "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 2,
+        "max": 2
       },
       {
         "prop": "balance2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
-        "prop": "block2",
+        "prop": "dex",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 40,
+        "max": 40
       },
       {
-        "prop": "fade",
+        "prop": "dmg%",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 150,
+        "max": 200
       },
       {
         "prop": "res-all",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "aura",
+        "param": 115,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 200,
+        "max": 250
       }
     ]
   },
@@ -5680,46 +5736,46 @@
     "levelReq": 39,
     "modifiers": [
       {
-        "prop": "dmg-pois",
-        "param": 100,
-        "min": 800,
-        "max": 800
-      },
-      {
-        "prop": "noheal",
+        "prop": "poisonskill",
         "param": 0,
         "min": 1,
         "max": 1
       },
       {
-        "prop": "mag%",
-        "param": 0,
-        "min": 20,
-        "max": 35
+        "prop": "skill",
+        "param": 73,
+        "min": 3,
+        "max": 3
       },
       {
-        "prop": "dmg%",
-        "param": 0,
-        "min": 188,
-        "max": 188
-      },
-      {
-        "prop": "extra-pois",
-        "param": 0,
-        "min": 20,
-        "max": 20
-      },
-      {
-        "prop": "oskill",
+        "prop": "skill",
         "param": 83,
         "min": 3,
         "max": 3
       },
       {
-        "prop": "res-pois-len",
+        "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 150,
+        "max": 175
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -5946,7 +6002,7 @@
     ]
   },
   {
-    "name": "Plague Reimagined",
+    "name": "Eclipse",
     "enabled": true,
     "runes": [
       "r29",
@@ -5959,46 +6015,46 @@
     "levelReq": 61,
     "modifiers": [
       {
-        "prop": "levelreq",
-        "param": 0,
-        "min": 10,
-        "max": 10
+        "prop": "hit-skill",
+        "param": 66,
+        "min": 8,
+        "max": 5
       },
       {
-        "prop": "hit-skill",
-        "param": 92,
-        "min": 15,
-        "max": 27
+        "prop": "oskill",
+        "param": 127,
+        "min": 1,
+        "max": 1
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 250
-      },
-      {
-        "prop": "dmg-pois",
-        "param": 125,
-        "min": 1024,
-        "max": 1024
+        "min": 300,
+        "max": 350
       },
       {
         "prop": "deadly",
-        "param": 0,
-        "min": 50,
-        "max": 50
-      },
-      {
-        "prop": "res-pois-max",
         "param": 0,
         "min": 10,
         "max": 10
       },
       {
-        "prop": "res-pois",
+        "prop": "crush",
         "param": 0,
-        "min": 80,
-        "max": 80
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 5,
+        "max": 5
       }
     ]
   },
@@ -6170,40 +6226,40 @@
     ]
   },
   {
-    "name": "Principle Reimagined",
+    "name": "Akarat's Devotion",
     "enabled": true,
     "runes": [
-      "r13",
+      "r31",
       "r19",
       "r18",
       "r13"
     ],
-    "word": "r13r19r18r13",
-    "levelReq": 41,
+    "word": "r31r19r18r13",
+    "levelReq": 65,
     "modifiers": [
       {
-        "prop": "dmg%",
+        "prop": "aura",
+        "param": 124,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "pal",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
         "param": 0,
         "min": 200,
-        "max": 260
-      },
-      {
-        "prop": "rip",
-        "param": 0,
-        "min": 1,
-        "max": 1
-      },
-      {
-        "prop": "addxp",
-        "param": 0,
-        "min": 2,
-        "max": 2
-      },
-      {
-        "prop": "ama",
-        "param": 0,
-        "min": 2,
-        "max": 2
+        "max": 250
       },
       {
         "prop": "res-all",
@@ -6212,16 +6268,16 @@
         "max": 35
       },
       {
-        "prop": "charged",
-        "param": 57,
-        "min": 10,
-        "max": 20
+        "prop": "skill",
+        "param": 112,
+        "min": 3,
+        "max": 3
       },
       {
-        "prop": "charged",
-        "param": 235,
-        "min": 22,
-        "max": 10
+        "prop": "str",
+        "param": 0,
+        "min": 40,
+        "max": 40
       }
     ]
   },
@@ -6586,7 +6642,7 @@
     ]
   },
   {
-    "name": "Rain Reimagined",
+    "name": "Bark of the Great Oak",
     "enabled": true,
     "runes": [
       "r30",
@@ -6597,28 +6653,22 @@
     "levelReq": 67,
     "modifiers": [
       {
-        "prop": "levelreq",
-        "param": 0,
-        "min": 22,
-        "max": 22
+        "prop": "aura",
+        "param": 104,
+        "min": 18,
+        "max": 18
       },
       {
-        "prop": "allskills",
+        "prop": "dru",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 2,
+        "max": 2
       },
       {
-        "prop": "hp",
+        "prop": "balance2",
         "param": 0,
-        "min": 100,
-        "max": 150
-      },
-      {
-        "prop": "mana",
-        "param": 0,
-        "min": 60,
-        "max": 100
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "all-stats",
@@ -6627,16 +6677,22 @@
         "max": 25
       },
       {
-        "prop": "regen",
+        "prop": "res-all",
         "param": 0,
         "min": 20,
         "max": 20
       },
       {
-        "prop": "regen-mana",
+        "prop": "swing1",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 200,
+        "max": 250
       }
     ]
   },
@@ -6690,7 +6746,7 @@
       },
       {
         "prop": "skill-rand",
-        "param": 8,
+        "param": 4,
         "min": 36,
         "max": 65
       }
@@ -7971,7 +8027,7 @@
       },
       {
         "prop": "skill-rand",
-        "param": 3,
+        "param": 4,
         "min": 66,
         "max": 95
       },
@@ -8574,42 +8630,54 @@
     "name": "Venom",
     "enabled": true,
     "runes": [
-      "r07",
+      "r30",
       "r14",
       "r23"
     ],
-    "word": "r07r14r23",
-    "levelReq": 49,
+    "word": "r30r14r23",
+    "levelReq": 63,
     "modifiers": [
       {
-        "prop": "dmg-pois",
-        "param": 175,
-        "min": 312,
-        "max": 312
+        "prop": "poisonskill",
+        "param": 0,
+        "min": 2,
+        "max": 2
       },
       {
-        "prop": "ignore-ac",
+        "prop": "aura",
+        "param": 109,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "extra-pois",
         "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "oskill",
+        "param": 278,
         "min": 1,
         "max": 1
       },
       {
-        "prop": "charged",
-        "param": 83,
-        "min": 27,
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
         "max": 15
       },
       {
-        "prop": "charged",
-        "param": 92,
-        "min": 11,
-        "max": 13
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 5,
+        "max": 5
       },
       {
-        "prop": "manasteal",
+        "prop": "pierce-pois",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 15,
+        "max": 15
       }
     ]
   },
@@ -9141,9 +9209,9 @@
       },
       {
         "prop": "oskill",
-        "param": 54,
-        "min": 8,
-        "max": 8
+        "param": 371,
+        "min": 1,
+        "max": 1
       },
       {
         "prop": "aura",
@@ -9221,32 +9289,32 @@
     ]
   },
   {
-    "name": "Wisdom Reimagined",
+    "name": "Arcane2",
     "enabled": true,
     "runes": [
-      "r31",
+      "r26",
       "r17"
     ],
-    "word": "r31r17",
-    "levelReq": 65,
+    "word": "r26r17",
+    "levelReq": 55,
     "modifiers": [
       {
         "prop": "allskills",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 3
       },
       {
-        "prop": "regen",
+        "prop": "cast2",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 50,
+        "max": 50
       },
       {
-        "prop": "mana/lvl",
-        "param": 16,
-        "min": 0,
-        "max": 0
+        "prop": "mana%",
+        "param": 0,
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "regen-mana",
@@ -9255,22 +9323,22 @@
         "max": 75
       },
       {
-        "prop": "res-mag",
-        "param": 0,
-        "min": 20,
-        "max": 20
+        "prop": "oskill",
+        "param": 37,
+        "min": 1,
+        "max": 1
       },
       {
         "prop": "addxp",
         "param": 0,
-        "min": 3,
-        "max": 5
+        "min": 5,
+        "max": 10
       },
       {
-        "prop": "cheap",
+        "prop": "mana",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 100,
+        "max": 100
       }
     ]
   },
@@ -9826,7 +9894,7 @@
     ]
   },
   {
-    "name": "Blood Moon",
+    "name": "Searing Moon",
     "enabled": true,
     "runes": [
       "r13",
@@ -10090,6 +10158,97 @@
         "param": 0,
         "min": -100,
         "max": -100
+      }
+    ]
+  },
+  {
+    "name": "Natalya's Shroud",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r22",
+      "r14"
+    ],
+    "word": "r26r22r14",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "ass",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 200,
+        "max": 250
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Duriel's Fang",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r03"
+    ],
+    "word": "r13r03",
+    "levelReq": 29,
+    "modifiers": [
+      {
+        "prop": "poisonskill",
+        "param": 0,
+        "min": 1,
+        "max": 2
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "pierce-pois",
+        "param": 0,
+        "min": 5,
+        "max": 8
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 50,
+        "max": 50
       }
     ]
   }

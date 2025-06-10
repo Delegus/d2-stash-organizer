@@ -664,7 +664,7 @@
     "charClass": 4
   },
   {
-    "code": "Pole Arm Mastery",
+    "code": "Unstoppable Force",
     "name": "Pole Arm Mastery",
     "charClass": 4
   },
@@ -674,7 +674,7 @@
     "charClass": 4
   },
   {
-    "code": "Spear Mastery",
+    "code": "Winters Gambit",
     "name": "Spear Mastery",
     "charClass": 4
   },
@@ -699,7 +699,7 @@
     "charClass": 4
   },
   {
-    "code": "Increased Stamina",
+    "code": "Chasm Break",
     "name": "Increased Stamina",
     "charClass": 4
   },
@@ -744,7 +744,7 @@
     "charClass": 4
   },
   {
-    "code": "Grim Ward",
+    "code": "Madawcs Fury",
     "name": "Grim Ward",
     "charClass": 4
   },
@@ -1714,16 +1714,16 @@
     "name": "proc_SplashDamage_Four"
   },
   {
+    "code": "proc_SplashDamage_Five",
+    "name": "proc_SplashDamage_Five"
+  },
+  {
     "code": "Mark of the Bear",
     "name": "SkillnameMetamorphosisBear"
   },
   {
     "code": "Mark of the Wolf",
     "name": "SkillnameMetamorphosisWolf"
-  },
-  {
-    "code": "proc_SplashDamage_Five",
-    "name": "proc_SplashDamage_Five"
   },
   {
     "code": "Dsum_Twister",
@@ -1828,5 +1828,13 @@
   {
     "code": "Merc Chilling Armor",
     "name": "Merc Chilling Armor"
+  },
+  {
+    "code": "Polar Claws",
+    "name": "Skillname420"
+  },
+  {
+    "code": "Polar Bear",
+    "name": "Polar Bear"
   }
 ]

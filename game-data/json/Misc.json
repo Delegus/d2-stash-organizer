@@ -3010,5 +3010,17 @@
     "qlevel": 1,
     "levelReq": 0,
     "stackable": false
+  },
+  "1gc": {
+    "name": "Gem Cluster",
+    "type": "elix",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
   }
 }

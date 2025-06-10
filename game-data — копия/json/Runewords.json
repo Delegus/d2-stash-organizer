@@ -1,0 +1,10096 @@
+[
+  {
+    "name": "Friendship",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r11"
+    ],
+    "word": "r15r11",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": -3,
+        "max": -3
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 133,
+        "max": 133
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 66,
+        "max": 66
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 34,
+        "max": 34
+      }
+    ]
+  },
+  {
+    "name": "Ancient's Pledge",
+    "enabled": true,
+    "runes": [
+      "r08",
+      "r09",
+      "r07"
+    ],
+    "word": "r08r09r07",
+    "levelReq": 21,
+    "modifiers": [
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 13,
+        "max": 13
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "dmg-to-mana",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Armageddon",
+    "enabled": true,
+    "runes": [
+      "r08",
+      "r09",
+      "r10",
+      "r32",
+      "r30",
+      "r15"
+    ],
+    "word": "r08r09r10r32r30r15",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 13,
+        "max": 13
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 275,
+        "max": 350
+      },
+      {
+        "prop": "dmg-elem",
+        "param": 200,
+        "min": 50,
+        "max": 300
+      },
+      {
+        "prop": "hit-skill",
+        "param": 59,
+        "min": 40,
+        "max": 20
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 53,
+        "min": 40,
+        "max": 20
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      }
+    ]
+  },
+  {
+    "name": "Authority",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r33",
+      "r30"
+    ],
+    "word": "r32r33r30",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "mag%/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 160,
+        "max": 200
+      },
+      {
+        "prop": "hit-skill",
+        "param": 72,
+        "min": 16,
+        "max": 9
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Beast",
+    "enabled": true,
+    "runes": [
+      "r30",
+      "r03",
+      "r22",
+      "r23",
+      "r17"
+    ],
+    "word": "r30r03r22r23r17",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "aura",
+        "param": 122,
+        "min": 9,
+        "max": 9
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 240,
+        "max": 270
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 25,
+        "max": 40
+      },
+      {
+        "prop": "charged",
+        "param": 247,
+        "min": 5,
+        "max": 13
+      },
+      {
+        "prop": "oskill",
+        "param": 228,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "oskill",
+        "param": 224,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Beauty",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r14"
+    ],
+    "word": "r03r14",
+    "levelReq": 31,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 30,
+        "max": 60
+      },
+      {
+        "prop": "knock",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Black",
+    "enabled": true,
+    "runes": [
+      "r10",
+      "r16",
+      "r04"
+    ],
+    "word": "r10r16r04",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 120,
+        "max": 120
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      },
+      {
+        "prop": "charged",
+        "param": 74,
+        "min": 12,
+        "max": 4
+      }
+    ]
+  },
+  {
+    "name": "Blood",
+    "enabled": true,
+    "runes": [
+      "r23",
+      "r13"
+    ],
+    "word": "r23r13",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 18,
+        "max": 18
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 250
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 125,
+        "max": 175
+      },
+      {
+        "prop": "bloody",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Bone Reimagined",
+    "enabled": true,
+    "runes": [
+      "r30",
+      "r22"
+    ],
+    "word": "r30r22",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "nec",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skilltab",
+        "param": 7,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "skill",
+        "param": 68,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 78,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 84,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 88,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 93,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Bramble",
+    "enabled": true,
+    "runes": [
+      "r08",
+      "r27",
+      "r29",
+      "r05"
+    ],
+    "word": "r08r27r29r05",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "aura",
+        "param": 103,
+        "min": 15,
+        "max": 21
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 13,
+        "max": 13
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      },
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "charged",
+        "param": 246,
+        "min": 33,
+        "max": 13
+      }
+    ]
+  },
+  {
+    "name": "Brand",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r28",
+      "r23",
+      "r25"
+    ],
+    "word": "r31r28r23r25",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 66,
+        "min": 35,
+        "max": 14
+      },
+      {
+        "prop": "hit-skill",
+        "param": 84,
+        "min": 100,
+        "max": 18
+      },
+      {
+        "prop": "explosivearrow",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 260,
+        "max": 340
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 280,
+        "max": 330
+      },
+      {
+        "prop": "knock",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Breath of the Dying",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r15",
+      "r01",
+      "r02",
+      "r33",
+      "r05"
+    ],
+    "word": "r26r15r01r02r33r05",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 125,
+        "max": 125
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 12,
+        "max": 15
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "kill-skill",
+        "param": 92,
+        "min": 50,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 350,
+        "max": 400
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Broken Promise",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r26",
+      "r11",
+      "r13",
+      "r28"
+    ],
+    "word": "r32r26r11r13r28",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 350,
+        "max": 400
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 24,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": -5,
+        "max": -5
+      },
+      {
+        "prop": "hit-skill",
+        "param": 93,
+        "min": 18,
+        "max": 18
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      }
+    ]
+  },
+  {
+    "name": "Bulwark",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r16",
+      "r12"
+    ],
+    "word": "r13r16r12",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 4,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Call to Arms",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r08",
+      "r23",
+      "r24",
+      "r27"
+    ],
+    "word": "r11r08r23r24r27",
+    "levelReq": 57,
+    "modifiers": [
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 240
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "oskill",
+        "param": 155,
+        "min": 2,
+        "max": 6
+      },
+      {
+        "prop": "oskill",
+        "param": 149,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "prop": "oskill",
+        "param": 146,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 12,
+        "max": 12
+      }
+    ]
+  },
+  {
+    "name": "Chains of Honor",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r22",
+      "r30",
+      "r24"
+    ],
+    "word": "r14r22r30r24",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 70,
+        "max": 70
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Chance",
+    "enabled": true,
+    "runes": [
+      "r05",
+      "r06",
+      "r03"
+    ],
+    "word": "r05r06r03",
+    "levelReq": 15,
+    "modifiers": [
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      }
+    ]
+  },
+  {
+    "name": "Chaos",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r27",
+      "r22"
+    ],
+    "word": "r19r27r22",
+    "levelReq": 57,
+    "modifiers": [
+      {
+        "prop": "demon-heal",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 240,
+        "max": 290
+      },
+      {
+        "prop": "dmg-mag",
+        "param": 0,
+        "min": 216,
+        "max": 471
+      },
+      {
+        "prop": "oskill",
+        "param": 151,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "hit-skill",
+        "param": 64,
+        "min": 9,
+        "max": 11
+      },
+      {
+        "prop": "hit-skill",
+        "param": 38,
+        "min": 11,
+        "max": 9
+      }
+    ]
+  },
+  {
+    "name": "Crescent Moon",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r03"
+    ],
+    "word": "r13r22r03",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "pierce-ltng",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 180,
+        "max": 220
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 9,
+        "max": 11
+      },
+      {
+        "prop": "charged",
+        "param": 227,
+        "min": 30,
+        "max": 18
+      },
+      {
+        "prop": "hit-skill",
+        "param": 42,
+        "min": 15,
+        "max": 13
+      },
+      {
+        "prop": "hit-skill",
+        "param": 53,
+        "min": 20,
+        "max": 17
+      }
+    ]
+  },
+  {
+    "name": "Cure",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r16",
+      "r07"
+    ],
+    "word": "r13r16r07",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "aura",
+        "param": 109,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Darkness",
+    "enabled": true,
+    "runes": [
+      "r33",
+      "r11",
+      "r26"
+    ],
+    "word": "r33r11r26",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "ass",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 75,
+        "max": 150
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "mag%/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Daylight",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r19",
+      "r22"
+    ],
+    "word": "r31r19r22",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "aura",
+        "param": 123,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "charged",
+        "param": 91,
+        "min": 33,
+        "max": 18
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Death",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r01",
+      "r26",
+      "r09",
+      "r25"
+    ],
+    "word": "r15r01r26r09r25",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "death-skill",
+        "param": 53,
+        "min": 100,
+        "max": 44
+      },
+      {
+        "prop": "att-skill",
+        "param": 55,
+        "min": 25,
+        "max": 18
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 300,
+        "max": 385
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "deadly/lvl",
+        "param": 4,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "charged",
+        "param": 85,
+        "min": 15,
+        "max": 22
+      }
+    ]
+  },
+  {
+    "name": "Deception",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r14",
+      "r17"
+    ],
+    "word": "r16r14r17",
+    "levelReq": 37,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 165,
+        "max": 205
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "oskill",
+        "param": 54,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "charged",
+        "param": 56,
+        "min": 150,
+        "max": 18
+      }
+    ]
+  },
+  {
+    "name": "Delirium",
+    "enabled": true,
+    "runes": [
+      "r20",
+      "r24",
+      "r16"
+    ],
+    "word": "r20r24r16",
+    "levelReq": 51,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 81,
+        "min": 11,
+        "max": 18
+      },
+      {
+        "prop": "charged",
+        "param": 86,
+        "min": 60,
+        "max": 17
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 77,
+        "min": 14,
+        "max": 13
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 261,
+        "max": 261
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 273,
+        "min": 6,
+        "max": 14
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 350,
+        "min": 1,
+        "max": 50
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Desire",
+    "enabled": true,
+    "runes": [
+      "r01",
+      "r03",
+      "r01"
+    ],
+    "word": "r01r03r01",
+    "levelReq": 13,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 20,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Despair",
+    "enabled": true,
+    "runes": [
+      "r25",
+      "r23",
+      "r13",
+      "r13",
+      "r01"
+    ],
+    "word": "r25r23r13r13r01",
+    "levelReq": 53,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 260,
+        "max": 300
+      },
+      {
+        "prop": "hit-skill",
+        "param": 72,
+        "min": 32,
+        "max": 6
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "oskill",
+        "param": 30,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 9,
+        "max": 9
+      }
+    ]
+  },
+  {
+    "name": "Destruction",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r28",
+      "r30",
+      "r31",
+      "r18"
+    ],
+    "word": "r26r28r30r31r18",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 244,
+        "min": 23,
+        "max": 12
+      },
+      {
+        "prop": "hit-skill",
+        "param": 229,
+        "min": 5,
+        "max": 23
+      },
+      {
+        "prop": "death-skill",
+        "param": 56,
+        "min": 100,
+        "max": 45
+      },
+      {
+        "prop": "att-skill",
+        "param": 48,
+        "min": 15,
+        "max": 22
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 350,
+        "max": 350
+      },
+      {
+        "prop": "dmg-mag",
+        "param": 0,
+        "min": 100,
+        "max": 180
+      }
+    ]
+  },
+  {
+    "name": "Distortion",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r10",
+      "r06"
+    ],
+    "word": "r09r10r06",
+    "levelReq": 23,
+    "modifiers": [
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "oskill",
+        "param": 371,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 6,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Doom",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r27",
+      "r22",
+      "r28",
+      "r32"
+    ],
+    "word": "r15r27r22r28r32",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 280,
+        "max": 320
+      },
+      {
+        "prop": "aura",
+        "param": 114,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 45,
+        "max": 45
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 40,
+        "max": 60
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hit-skill",
+        "param": 244,
+        "min": 5,
+        "max": 18
+      }
+    ]
+  },
+  {
+    "name": "Dragon",
+    "enabled": true,
+    "runes": [
+      "r29",
+      "r28",
+      "r12"
+    ],
+    "word": "r29r28r12",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 278,
+        "min": 20,
+        "max": 18
+      },
+      {
+        "prop": "hit-skill",
+        "param": 62,
+        "min": 12,
+        "max": 15
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 360,
+        "max": 360
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 230,
+        "max": 230
+      },
+      {
+        "prop": "str/lvl",
+        "param": 3,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "aura",
+        "param": 102,
+        "min": 14,
+        "max": 14
+      }
+    ]
+  },
+  {
+    "name": "Dread",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r01",
+      "r06"
+    ],
+    "word": "r14r01r06",
+    "levelReq": 31,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 100,
+        "max": 125
+      },
+      {
+        "prop": "hit-skill",
+        "param": 38,
+        "min": 13,
+        "max": 13
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 6,
+        "max": 8
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "str/lvl",
+        "param": 4,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "dex/lvl",
+        "param": 4,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Dream",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r31",
+      "r21"
+    ],
+    "word": "r16r31r21",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 81,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "aura",
+        "param": 118,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 150,
+        "max": 220
+      },
+      {
+        "prop": "mana/lvl",
+        "param": 5,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 5,
+        "max": 20
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Duress",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r10"
+    ],
+    "word": "r13r22r10",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 75,
+        "min": 37,
+        "max": 133
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 150,
+        "max": 200
+      }
+    ]
+  },
+  {
+    "name": "Edge",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r07",
+      "r11"
+    ],
+    "word": "r03r07r11",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "aura",
+        "param": 103,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 320,
+        "max": 380
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 280,
+        "max": 280
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cheap",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 8,
+        "max": 9
+      }
+    ]
+  },
+  {
+    "name": "Elation",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r04",
+      "r32",
+      "r10",
+      "r26"
+    ],
+    "word": "r13r04r32r10r26",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "dmg-min",
+        "param": 0,
+        "min": 40,
+        "max": 75
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 18,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "hit-skill",
+        "param": 48,
+        "min": 100,
+        "max": 8
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "death-skill",
+        "param": 48,
+        "min": 100,
+        "max": 60
+      },
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 20,
+        "max": 25
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 20,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Enigma",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r06",
+      "r30"
+    ],
+    "word": "r31r06r30",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 750,
+        "max": 775
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 14,
+        "max": 14
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 45,
+        "max": 45
+      },
+      {
+        "prop": "str/lvl",
+        "param": 6,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "mag%/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "oskill",
+        "param": 54,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Enlightenment Reimagined",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r22",
+      "r17",
+      "r29"
+    ],
+    "word": "r03r22r17r29",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "dru",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skill-rand",
+        "param": 3,
+        "min": 221,
+        "max": 250
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "skilltab",
+        "param": 17,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 235,
+        "min": 30,
+        "max": 20
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Envy",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r18",
+      "r17",
+      "r16"
+    ],
+    "word": "r19r18r17r16",
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 222,
+        "max": 222
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Eternity",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r30",
+      "r24",
+      "r12",
+      "r29"
+    ],
+    "word": "r11r30r24r12r29",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 260,
+        "max": 310
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "charged",
+        "param": 95,
+        "min": 88,
+        "max": 8
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Exile",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r27",
+      "r24",
+      "r14"
+    ],
+    "word": "r26r27r24r14",
+    "levelReq": 57,
+    "modifiers": [
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 220,
+        "max": 260
+      },
+      {
+        "prop": "aura",
+        "param": 104,
+        "min": 13,
+        "max": 16
+      },
+      {
+        "prop": "skilltab",
+        "param": 10,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hit-skill",
+        "param": 82,
+        "min": 15,
+        "max": 5
+      },
+      {
+        "prop": "rep-dur",
+        "param": 25,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Faith",
+    "enabled": true,
+    "runes": [
+      "r27",
+      "r31",
+      "r20",
+      "r02"
+    ],
+    "word": "r27r31r20r02",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 280,
+        "max": 280
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 120,
+        "max": 120
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "aura",
+        "param": 122,
+        "min": 12,
+        "max": 15
+      },
+      {
+        "prop": "reanimate",
+        "param": 1,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Famine",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r27",
+      "r09",
+      "r31"
+    ],
+    "word": "r19r27r09r31",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 270,
+        "max": 320
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg-mag",
+        "param": 0,
+        "min": 180,
+        "max": 200
+      },
+      {
+        "prop": "dmg-elem",
+        "param": 100,
+        "min": 50,
+        "max": 200
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Flame",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r08",
+      "r18"
+    ],
+    "word": "r26r08r18",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 47,
+        "min": 20,
+        "max": 19
+      },
+      {
+        "prop": "hit-skill",
+        "param": 234,
+        "min": 8,
+        "max": 13
+      },
+      {
+        "prop": "aura",
+        "param": 102,
+        "min": 17,
+        "max": 17
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      },
+      {
+        "prop": "abs-fire",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Flickering Flame",
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r21",
+      "r26"
+    ],
+    "word": "r04r21r26",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "fireskill",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "aura",
+        "param": 100,
+        "min": 4,
+        "max": 8
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 50,
+        "max": 75
+      },
+      {
+        "prop": "half-freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Fortitude",
+    "enabled": true,
+    "runes": [
+      "r01",
+      "r12",
+      "r14",
+      "r28"
+    ],
+    "word": "r01r12r14r28",
+    "levelReq": 59,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 60,
+        "min": 20,
+        "max": 15
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      },
+      {
+        "prop": "hp/lvl",
+        "param": 0,
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 30
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Fortune's Favor",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r16"
+    ],
+    "word": "r19r16",
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "mag%/lvl",
+        "param": 16,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      }
+    ]
+  },
+  {
+    "name": "Fury",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r25",
+      "r05"
+    ],
+    "word": "r31r25r05",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 209,
+        "max": 209
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 66,
+        "max": 66
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "skill",
+        "param": 147,
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Gloom",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r22",
+      "r21"
+    ],
+    "word": "r19r22r21",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 170,
+        "max": 230
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 71,
+        "min": 15,
+        "max": 3
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dmg-to-mana",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": -3,
+        "max": -3
+      },
+      {
+        "prop": "half-freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Glory",
+    "enabled": true,
+    "runes": [
+      "r24",
+      "r24",
+      "r24",
+      "r24"
+    ],
+    "word": "r24r24r24r24",
+    "levelReq": 51,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 125
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -30,
+        "max": -30
+      }
+    ]
+  },
+  {
+    "name": "Grief",
+    "enabled": true,
+    "runes": [
+      "r05",
+      "r03",
+      "r28",
+      "r23",
+      "r08"
+    ],
+    "word": "r05r03r28r23r08",
+    "levelReq": 59,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 278,
+        "min": 20,
+        "max": 15
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 30,
+        "max": 40
+      },
+      {
+        "prop": "dmg",
+        "param": 0,
+        "min": 250,
+        "max": 300
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg-dem/lvl",
+        "param": 15,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "pierce-pois",
+        "param": 0,
+        "min": 20,
+        "max": 25
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 11,
+        "max": 11
+      }
+    ]
+  },
+  {
+    "name": "Ground",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r16",
+      "r09"
+    ],
+    "word": "r13r16r09",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "abs-ltng%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Hand of Justice",
+    "enabled": true,
+    "runes": [
+      "r29",
+      "r32",
+      "r11",
+      "r28"
+    ],
+    "word": "r29r32r11r28",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 280,
+        "max": 330
+      },
+      {
+        "prop": "aura",
+        "param": 102,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "levelup-skill",
+        "param": 46,
+        "min": 100,
+        "max": 36
+      },
+      {
+        "prop": "death-skill",
+        "param": 56,
+        "min": 100,
+        "max": 48
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Harmony",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r06",
+      "r12",
+      "r18"
+    ],
+    "word": "r03r06r12r18",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "aura",
+        "param": 115,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 275
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 55,
+        "max": 160
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 75,
+        "min": 55,
+        "max": 160
+      },
+      {
+        "prop": "oskill",
+        "param": 32,
+        "min": 2,
+        "max": 6
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "charged",
+        "param": 95,
+        "min": 25,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Hatred",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r10"
+    ],
+    "word": "r16r10",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 140,
+        "max": 190
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "knock",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "freeze",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 100,
+        "max": 200
+      }
+    ]
+  },
+  {
+    "name": "Hearth",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r16",
+      "r10"
+    ],
+    "word": "r13r16r10",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "abs-cold%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Heart of the Oak",
+    "enabled": true,
+    "runes": [
+      "r18",
+      "r26",
+      "r21",
+      "r10"
+    ],
+    "word": "r18r26r21r10",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "charged",
+        "param": 226,
+        "min": 25,
+        "max": 4
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 30,
+        "max": 40
+      },
+      {
+        "prop": "charged",
+        "param": 221,
+        "min": 60,
+        "max": 14
+      }
+    ]
+  },
+  {
+    "name": "Heaven's Will",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r02"
+    ],
+    "word": "r14r02",
+    "levelReq": 31,
+    "modifiers": [
+      {
+        "prop": "pal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "block3",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "skill",
+        "param": 121,
+        "min": 6,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Holy Tears",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r03",
+      "r13"
+    ],
+    "word": "r16r03r13",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 160,
+        "max": 200
+      },
+      {
+        "prop": "hit-skill",
+        "param": 121,
+        "min": 16,
+        "max": 9
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "oskill",
+        "param": 106,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Holy Thunder",
+    "enabled": true,
+    "runes": [
+      "r05",
+      "r08",
+      "r09",
+      "r07"
+    ],
+    "word": "r05r08r09r07",
+    "levelReq": 21,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 20,
+        "max": 60
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "res-ltng-max",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "skill",
+        "param": 118,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "charged",
+        "param": 53,
+        "min": 60,
+        "max": 7
+      }
+    ]
+  },
+  {
+    "name": "Honor",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r01",
+      "r06",
+      "r03",
+      "r12"
+    ],
+    "word": "r11r01r06r03r12",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 160,
+        "max": 160
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Humility",
+    "enabled": true,
+    "runes": [
+      "r33",
+      "r22",
+      "r06",
+      "r32"
+    ],
+    "word": "r33r22r06r32",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 17,
+        "max": 17
+      },
+      {
+        "prop": "oskill",
+        "param": 138,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "prop": "oskill",
+        "param": 149,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "prop": "oskill",
+        "param": 155,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "prop": "oskill",
+        "param": 50,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "prop": "oskill",
+        "param": 32,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "aura",
+        "param": 125,
+        "min": 3,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Hunger",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r15"
+    ],
+    "word": "r11r15",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 15,
+        "max": 30
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": -1,
+        "max": -1
+      }
+    ]
+  },
+  {
+    "name": "Hustle (Torso)",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r18",
+      "r02"
+    ],
+    "word": "r13r18r02",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 65,
+        "max": 65
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "oskill",
+        "param": 29,
+        "min": 6,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Hustle (Weapon)",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r18",
+      "r02"
+    ],
+    "word": "r13r18r02",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 258,
+        "min": 5,
+        "max": 1
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 180,
+        "max": 200
+      },
+      {
+        "prop": "aura",
+        "param": 122,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Ice",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r13",
+      "r31",
+      "r28"
+    ],
+    "word": "r11r13r31r28",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "levelup-skill",
+        "param": 59,
+        "min": 100,
+        "max": 40
+      },
+      {
+        "prop": "hit-skill",
+        "param": 44,
+        "min": 25,
+        "max": 22
+      },
+      {
+        "prop": "aura",
+        "param": 114,
+        "min": 18,
+        "max": 18
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 140,
+        "max": 210
+      },
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 25,
+        "max": 30
+      },
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "gold%/lvl",
+        "param": 25,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Infinity",
+    "enabled": true,
+    "runes": [
+      "r30",
+      "r23",
+      "r30",
+      "r24"
+    ],
+    "word": "r30r23r30r24",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 255,
+        "max": 325
+      },
+      {
+        "prop": "move3",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "vit/lvl",
+        "param": 4,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "aura",
+        "param": 123,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "kill-skill",
+        "param": 53,
+        "min": 50,
+        "max": 20
+      },
+      {
+        "prop": "pierce-ltng",
+        "param": 0,
+        "min": 45,
+        "max": 55
+      },
+      {
+        "prop": "charged",
+        "param": 235,
+        "min": 30,
+        "max": 21
+      }
+    ]
+  },
+  {
+    "name": "Innocence",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r20",
+      "r24"
+    ],
+    "word": "r26r20r24",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 190,
+        "max": 240
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "rep-dur",
+        "param": 15,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": -3,
+        "max": -3
+      }
+    ]
+  },
+  {
+    "name": "Insight",
+    "enabled": true,
+    "runes": [
+      "r08",
+      "r03",
+      "r07",
+      "r12"
+    ],
+    "word": "r08r03r07r12",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 260
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 180,
+        "max": 250
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 23,
+        "max": 23
+      },
+      {
+        "prop": "oskill",
+        "param": 9,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "aura",
+        "param": 120,
+        "min": 12,
+        "max": 17
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Jealousy",
+    "enabled": true,
+    "runes": [
+      "r07",
+      "r02"
+    ],
+    "word": "r07r02",
+    "levelReq": 17,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 122,
+        "max": 122
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "prop": "oskill",
+        "param": 10,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "oskill",
+        "param": 127,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Judgement",
+    "enabled": true,
+    "runes": [
+      "r22",
+      "r15",
+      "r22"
+    ],
+    "word": "r22r15r22",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "pal",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 117,
+        "min": 2,
+        "max": 35
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 87,
+        "min": 50,
+        "max": 5
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "King's Grace",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r08",
+      "r10"
+    ],
+    "word": "r11r08r10",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 150,
+        "max": 150
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "att-demon",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "att-undead",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Kingslayer",
+    "enabled": true,
+    "runes": [
+      "r23",
+      "r22",
+      "r25",
+      "r19"
+    ],
+    "word": "r23r22r25r19",
+    "levelReq": 53,
+    "modifiers": [
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 230,
+        "max": 270
+      },
+      {
+        "prop": "reduce-ac",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "oskill",
+        "param": 111,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  {
+    "name": "Knight's Vigil",
+    "enabled": true,
+    "runes": [
+      "r30",
+      "r20",
+      "r22",
+      "r24"
+    ],
+    "word": "r30r20r22r24",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "pal",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "aura",
+        "param": 120,
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Knowledge",
+    "enabled": true,
+    "runes": [
+      "r01",
+      "r01",
+      "r01"
+    ],
+    "word": "r01r01r01",
+    "levelReq": 11,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 11,
+        "max": 11
+      }
+    ]
+  },
+  {
+    "name": "Last Wish",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r23",
+      "r31",
+      "r29",
+      "r31",
+      "r30"
+    ],
+    "word": "r32r23r31r29r31r30",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 267,
+        "min": 6,
+        "max": 11
+      },
+      {
+        "prop": "hit-skill",
+        "param": 82,
+        "min": 10,
+        "max": 18
+      },
+      {
+        "prop": "att-skill",
+        "param": 38,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "aura",
+        "param": 98,
+        "min": 17,
+        "max": 17
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 350,
+        "max": 400
+      },
+      {
+        "prop": "dmg-min",
+        "param": 0,
+        "min": 40,
+        "max": 50
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 80,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Law",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r15"
+    ],
+    "word": "r15r15",
+    "levelReq": 0,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 26,
+        "max": 26
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 120,
+        "max": 170
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 48,
+        "max": 48
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 24,
+        "max": 24
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Lawbringer",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r20",
+      "r18"
+    ],
+    "word": "r11r20r18",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 87,
+        "min": 20,
+        "max": 15
+      },
+      {
+        "prop": "aura",
+        "param": 119,
+        "min": 18,
+        "max": 18
+      },
+      {
+        "prop": "reduce-ac",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 150,
+        "max": 220
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 75,
+        "min": 130,
+        "max": 180
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 200,
+        "max": 250
+      }
+    ]
+  },
+  {
+    "name": "Leaf",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r08"
+    ],
+    "word": "r03r08",
+    "levelReq": 19,
+    "modifiers": [
+      {
+        "prop": "fireskill",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "ac/lvl",
+        "param": 0,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "skill",
+        "param": 41,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 36,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 37,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Lightning",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r09",
+      "r11"
+    ],
+    "word": "r09r09r11",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 175
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hit-skill",
+        "param": 49,
+        "min": 15,
+        "max": 9
+      },
+      {
+        "prop": "aura",
+        "param": 118,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "abs-ltng",
+        "param": 0,
+        "min": 8,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Lionheart",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r17",
+      "r19"
+    ],
+    "word": "r15r17r19",
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Lore",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r12"
+    ],
+    "word": "r09r12",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Love",
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r15",
+      "r01"
+    ],
+    "word": "r21r15r01",
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "ama",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "explosivearrow",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Loyalty",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r14"
+    ],
+    "word": "r26r14",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "aura",
+        "param": 103,
+        "min": 5,
+        "max": 9
+      },
+      {
+        "prop": "res-ltng-max",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "res-cold-max",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "res-pois-max",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 40,
+        "max": 50
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Lust",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r23"
+    ],
+    "word": "r13r23",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "nec",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      },
+      {
+        "prop": "aura",
+        "param": 118,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 80,
+        "max": 120
+      }
+    ]
+  },
+  {
+    "name": "Madness",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r05",
+      "r14"
+    ],
+    "word": "r16r05r14",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 81,
+        "min": 9,
+        "max": 5
+      },
+      {
+        "prop": "hit-skill",
+        "param": 77,
+        "min": 12,
+        "max": 16
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Malice",
+    "enabled": true,
+    "runes": [
+      "r06",
+      "r01",
+      "r05"
+    ],
+    "word": "r06r01r05",
+    "levelReq": 15,
+    "modifiers": [
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "dmg-ac",
+        "param": 0,
+        "min": -100,
+        "max": -100
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": -1,
+        "max": -1
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": -5,
+        "max": -5
+      }
+    ]
+  },
+  {
+    "name": "Melody",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r18",
+      "r04"
+    ],
+    "word": "r13r18r04",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "skilltab",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 9,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 13,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 17,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      }
+    ]
+  },
+  {
+    "name": "Memory",
+    "enabled": true,
+    "runes": [
+      "r17",
+      "r16",
+      "r12",
+      "r05"
+    ],
+    "word": "r17r16r12r05",
+    "levelReq": 37,
+    "modifiers": [
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 58,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 42,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Metamorphosis",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r32",
+      "r19"
+    ],
+    "word": "r16r32r19",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 376,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "hit-skill",
+        "param": 377,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "skilltab",
+        "param": 16,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 50,
+        "max": 80
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Mist",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r13",
+      "r25",
+      "r10",
+      "r06"
+    ],
+    "word": "r32r13r25r10r06",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 325,
+        "max": 375
+      },
+      {
+        "prop": "aura",
+        "param": 113,
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 24,
+        "max": 24
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  {
+    "name": "Morning Dew",
+    "enabled": true,
+    "runes": [
+      "r23",
+      "r06",
+      "r30",
+      "r32",
+      "r33",
+      "r24"
+    ],
+    "word": "r23r06r30r32r33r24",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 300,
+        "max": 360
+      },
+      {
+        "prop": "dru",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "oskill",
+        "param": 127,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "kill-skill",
+        "param": 42,
+        "min": 100,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Mosaic",
+    "enabled": true,
+    "runes": [
+      "r23",
+      "r25",
+      "r11"
+    ],
+    "word": "r23r25r11",
+    "levelReq": 53,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 20,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "charge-noconsume",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 250
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 8,
+        "max": 15
+      },
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 8,
+        "max": 15
+      },
+      {
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 8,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Mystery",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r33",
+      "r25"
+    ],
+    "word": "r13r33r25",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "dru",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "aura",
+        "param": 113,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Myth Reimagined",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r32",
+      "r30",
+      "r15",
+      "r03",
+      "r08"
+    ],
+    "word": "r19r32r30r15r03r08",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 200,
+        "max": 400
+      },
+      {
+        "prop": "rep-dur",
+        "param": 15,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 80,
+        "max": 120
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "death-skill",
+        "param": 48,
+        "min": 100,
+        "max": 60
+      }
+    ]
+  },
+  {
+    "name": "Nadir",
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r03"
+    ],
+    "word": "r04r03",
+    "levelReq": 13,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": -3,
+        "max": -3
+      },
+      {
+        "prop": "charged",
+        "param": 264,
+        "min": 9,
+        "max": 13
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": -33,
+        "max": -33
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Nature's Kingdom",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r06"
+    ],
+    "word": "r11r06",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "dru",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 40,
+        "max": 60
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Night",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r28",
+      "r27"
+    ],
+    "word": "r15r28r27",
+    "levelReq": 59,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 150,
+        "max": 300
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 40,
+        "max": 70
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 200,
+        "max": 300
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 70,
+        "max": 100
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Oath",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r21",
+      "r23",
+      "r17"
+    ],
+    "word": "r13r21r23r17",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 93,
+        "min": 30,
+        "max": 20
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 210,
+        "max": 340
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "charged",
+        "param": 236,
+        "min": 20,
+        "max": 16
+      },
+      {
+        "prop": "charged",
+        "param": 90,
+        "min": 14,
+        "max": 17
+      }
+    ]
+  },
+  {
+    "name": "Obedience",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r18",
+      "r10",
+      "r05",
+      "r19"
+    ],
+    "word": "r15r18r10r05r19",
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 370,
+        "max": 370
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "kill-skill",
+        "param": 52,
+        "min": 30,
+        "max": 21
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 200,
+        "max": 300
+      },
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Oblivion",
+    "enabled": true,
+    "runes": [
+      "r22",
+      "r19",
+      "r18"
+    ],
+    "word": "r22r19r18",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "bar",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 115,
+        "max": 160
+      },
+      {
+        "prop": "skill-rand",
+        "param": 3,
+        "min": 126,
+        "max": 155
+      },
+      {
+        "prop": "hit-skill",
+        "param": 66,
+        "min": 12,
+        "max": 9
+      },
+      {
+        "prop": "hp/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Obsession",
+    "enabled": true,
+    "runes": [
+      "r33",
+      "r24",
+      "r20",
+      "r17",
+      "r16",
+      "r04"
+    ],
+    "word": "r33r24r20r17r16r04",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 72,
+        "min": 24,
+        "max": 10
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 65,
+        "max": 65
+      },
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 60,
+        "max": 70
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 15,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Passion",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r09",
+      "r02",
+      "r20"
+    ],
+    "word": "r14r09r02r20",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 160,
+        "max": 210
+      },
+      {
+        "prop": "oskill",
+        "param": 106,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 50,
+        "max": 80
+      },
+      {
+        "prop": "oskill",
+        "param": 152,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "charged",
+        "param": 236,
+        "min": 12,
+        "max": 3
+      },
+      {
+        "prop": "stupidity",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Patience",
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r02",
+      "r08"
+    ],
+    "word": "r04r02r08",
+    "levelReq": 19,
+    "modifiers": [
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 20,
+        "max": 25
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Pattern",
+    "enabled": true,
+    "runes": [
+      "r07",
+      "r09",
+      "r10"
+    ],
+    "word": "r07r09r10",
+    "levelReq": 23,
+    "modifiers": [
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 40,
+        "max": 80
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 12,
+        "max": 32
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Peace Reimagined",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r05",
+      "r01"
+    ],
+    "word": "r03r05r01",
+    "levelReq": 15,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "fade",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Penitence",
+    "enabled": true,
+    "runes": [
+      "r06",
+      "r03"
+    ],
+    "word": "r06r03",
+    "levelReq": 15,
+    "modifiers": [
+      {
+        "prop": "block1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "balance1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "rep-dur",
+        "param": 10,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "half-freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Peril",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r28",
+      "r30",
+      "r30",
+      "r28",
+      "r32"
+    ],
+    "word": "r32r28r30r30r28r32",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 11,
+        "max": 11
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 250,
+        "max": 250
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 25,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "mag%/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Pestilence",
+    "enabled": true,
+    "runes": [
+      "r12",
+      "r18",
+      "r16"
+    ],
+    "word": "r12r18r16",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "dmg-pois",
+        "param": 100,
+        "min": 800,
+        "max": 800
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 20,
+        "max": 35
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 188,
+        "max": 188
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "oskill",
+        "param": 83,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r26",
+      "r28",
+      "r31"
+    ],
+    "word": "r26r26r28r31",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "levelup-skill",
+        "param": 46,
+        "min": 100,
+        "max": 40
+      },
+      {
+        "prop": "hit-skill",
+        "param": 225,
+        "min": 40,
+        "max": 22
+      },
+      {
+        "prop": "aura",
+        "param": 124,
+        "min": 13,
+        "max": 13
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 350,
+        "max": 400
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 28,
+        "max": 28
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 350,
+        "max": 400
+      },
+      {
+        "prop": "abs-fire",
+        "param": 0,
+        "min": 15,
+        "max": 21
+      }
+    ]
+  },
+  {
+    "name": "Piety",
+    "enabled": true,
+    "runes": [
+      "r20",
+      "r04",
+      "r13"
+    ],
+    "word": "r20r04r13",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 90,
+        "max": 125
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "mana/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Pillar of Faith",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r19",
+      "r22",
+      "r11"
+    ],
+    "word": "r19r19r22r11",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 230,
+        "max": 230
+      },
+      {
+        "prop": "rep-dur",
+        "param": 20,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 400,
+        "max": 500
+      },
+      {
+        "prop": "aura",
+        "param": 109,
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "abs-fire%",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Plague",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r13",
+      "r22"
+    ],
+    "word": "r32r13r22",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 220,
+        "max": 320
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 91,
+        "min": 20,
+        "max": 12
+      },
+      {
+        "prop": "hit-skill",
+        "param": 92,
+        "min": 25,
+        "max": 15
+      },
+      {
+        "prop": "pierce-pois",
+        "param": 0,
+        "min": 23,
+        "max": 23
+      },
+      {
+        "prop": "deadly/lvl",
+        "param": 3,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "aura",
+        "param": 109,
+        "min": 13,
+        "max": 17
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Plague Reimagined",
+    "enabled": true,
+    "runes": [
+      "r29",
+      "r22",
+      "r23",
+      "r13",
+      "r13"
+    ],
+    "word": "r29r22r23r13r13",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "hit-skill",
+        "param": 92,
+        "min": 15,
+        "max": 27
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 250
+      },
+      {
+        "prop": "dmg-pois",
+        "param": 125,
+        "min": 1024,
+        "max": 1024
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "res-pois-max",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": 80,
+        "max": 80
+      }
+    ]
+  },
+  {
+    "name": "Praise",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r25",
+      "r27",
+      "r13"
+    ],
+    "word": "r19r25r27r13",
+    "levelReq": 57,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 280,
+        "max": 350
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "death-skill",
+        "param": 64,
+        "min": 100,
+        "max": 47
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 55,
+        "min": 100,
+        "max": 10
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 40,
+        "max": 60
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Prayer",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r05",
+      "r10"
+    ],
+    "word": "r15r05r10",
+    "levelReq": 23,
+    "modifiers": [
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 50,
+        "max": 100
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "aura",
+        "param": 99,
+        "min": 10,
+        "max": 14
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Pride",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r29",
+      "r16",
+      "r28"
+    ],
+    "word": "r32r29r16r28",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "dmg-dem/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 50,
+        "max": 280
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 260,
+        "max": 300
+      },
+      {
+        "prop": "aura",
+        "param": 113,
+        "min": 16,
+        "max": 20
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 51,
+        "min": 25,
+        "max": 17
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "gold%/lvl",
+        "param": 15,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Principle Reimagined",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r19",
+      "r18",
+      "r13"
+    ],
+    "word": "r13r19r18r13",
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 260
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "ama",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "charged",
+        "param": 57,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "charged",
+        "param": 235,
+        "min": 22,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Prowess in Battle",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r24",
+      "r19"
+    ],
+    "word": "r31r24r19",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "bar",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "aura",
+        "param": 122,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "ac/lvl",
+        "param": 24,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Prudence",
+    "enabled": true,
+    "runes": [
+      "r23",
+      "r03"
+    ],
+    "word": "r23r03",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 140,
+        "max": 170
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "rep-dur",
+        "param": 25,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Punishment",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r14",
+      "r11"
+    ],
+    "word": "r09r14r11",
+    "levelReq": 31,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 135,
+        "max": 135
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": -3,
+        "max": -3
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": -2,
+        "max": -2
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "levelup-skill",
+        "param": 57,
+        "min": 100,
+        "max": 35
+      },
+      {
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Purity",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r24",
+      "r13",
+      "r33"
+    ],
+    "word": "r31r24r13r33",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 55,
+        "max": 55
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 68,
+        "min": 10,
+        "max": 19
+      },
+      {
+        "prop": "hit-skill",
+        "param": 71,
+        "min": 35,
+        "max": 8
+      },
+      {
+        "prop": "ac/lvl",
+        "param": 32,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Question",
+    "enabled": true,
+    "runes": [
+      "r18",
+      "r04"
+    ],
+    "word": "r18r04",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "mag%/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "gold%/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "str/lvl",
+        "param": 6,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "dex/lvl",
+        "param": 6,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "vit/lvl",
+        "param": 6,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "enr/lvl",
+        "param": 6,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": -10,
+        "max": -10
+      }
+    ]
+  },
+  {
+    "name": "Radiance",
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r12",
+      "r06"
+    ],
+    "word": "r04r12r06",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      }
+    ]
+  },
+  {
+    "name": "Rain",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r23",
+      "r06"
+    ],
+    "word": "r09r23r06",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 240,
+        "min": 5,
+        "max": 15
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 235,
+        "min": 5,
+        "max": 15
+      },
+      {
+        "prop": "dru",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 100,
+        "max": 150
+      }
+    ]
+  },
+  {
+    "name": "Rain Reimagined",
+    "enabled": true,
+    "runes": [
+      "r30",
+      "r32",
+      "r30"
+    ],
+    "word": "r30r32r30",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 22,
+        "max": 22
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 100,
+        "max": 150
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 60,
+        "max": 100
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Reason",
+    "enabled": true,
+    "runes": [
+      "r17",
+      "r17",
+      "r33",
+      "r03"
+    ],
+    "word": "r17r17r33r03",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "aura",
+        "param": 120,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg-to-mana",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "skill-rand",
+        "param": 8,
+        "min": 36,
+        "max": 65
+      }
+    ]
+  },
+  {
+    "name": "Red",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r08",
+      "r08",
+      "r15"
+    ],
+    "word": "r16r08r08r15",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 155,
+        "max": 155
+      },
+      {
+        "prop": "rep-dur",
+        "param": 20,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      },
+      {
+        "prop": "abs-fire%",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": -20,
+        "max": -20
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "hit-skill",
+        "param": 56,
+        "min": 8,
+        "max": 4
+      }
+    ]
+  },
+  {
+    "name": "Revenge",
+    "enabled": true,
+    "runes": [
+      "r10",
+      "r02"
+    ],
+    "word": "r10r02",
+    "levelReq": 23,
+    "modifiers": [
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 50,
+        "max": 75
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 60,
+        "max": 70
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Rhyme",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r05"
+    ],
+    "word": "r13r05",
+    "levelReq": 29,
+    "modifiers": [
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Rift",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r18",
+      "r20",
+      "r25"
+    ],
+    "word": "r15r18r20r25",
+    "levelReq": 53,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 245,
+        "min": 20,
+        "max": 16
+      },
+      {
+        "prop": "att-skill",
+        "param": 64,
+        "min": 16,
+        "max": 21
+      },
+      {
+        "prop": "dmg-mag",
+        "param": 0,
+        "min": 160,
+        "max": 250
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 60,
+        "max": 180
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "dmg-to-mana",
+        "param": 0,
+        "min": 38,
+        "max": 38
+      },
+      {
+        "prop": "charged",
+        "param": 76,
+        "min": 40,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Sanctuary",
+    "enabled": true,
+    "runes": [
+      "r18",
+      "r18",
+      "r23"
+    ],
+    "word": "r18r18r23",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 130,
+        "max": 160
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 250,
+        "max": 250
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 50,
+        "max": 70
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "charged",
+        "param": 17,
+        "min": 60,
+        "max": 12
+      }
+    ]
+  },
+  {
+    "name": "Serendipity",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r11"
+    ],
+    "word": "r11r11",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 120,
+        "max": 120
+      },
+      {
+        "prop": "hit-skill",
+        "param": 8,
+        "min": 50,
+        "max": 2
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Shadow",
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r12",
+      "r13",
+      "r12"
+    ],
+    "word": "r21r12r13r12",
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 166,
+        "max": 166
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 0,
+        "min": 80,
+        "max": 140
+      },
+      {
+        "prop": "cold-len",
+        "param": 0,
+        "min": 75,
+        "max": 256
+      },
+      {
+        "prop": "move3",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 264,
+        "min": 25,
+        "max": 12
+      },
+      {
+        "prop": "charged",
+        "param": 78,
+        "min": 50,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Shadow of Doubt",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r14"
+    ],
+    "word": "r16r14",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 6,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "skilltab",
+        "param": 7,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "skilltab",
+        "param": 8,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Silence",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r02",
+      "r15",
+      "r24",
+      "r03",
+      "r26"
+    ],
+    "word": "r14r02r15r24r03r26",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "stupidity",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 200
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Siren's Song",
+    "enabled": true,
+    "runes": [
+      "r20",
+      "r13",
+      "r29",
+      "r29"
+    ],
+    "word": "r20r13r29r29",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 81,
+        "min": 44,
+        "max": 3
+      },
+      {
+        "prop": "ac/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Smoke",
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r17"
+    ],
+    "word": "r04r17",
+    "levelReq": 37,
+    "modifiers": [
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 250,
+        "max": 250
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": -1,
+        "max": -1
+      },
+      {
+        "prop": "charged",
+        "param": 72,
+        "min": 18,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Sorrow",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r15"
+    ],
+    "word": "r13r15",
+    "levelReq": 29,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 160,
+        "max": 200
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "charged",
+        "param": 75,
+        "min": 5,
+        "max": 20
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 6,
+        "max": 9
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": -2,
+        "max": -2
+      }
+    ]
+  },
+  {
+    "name": "Spirit",
+    "enabled": true,
+    "runes": [
+      "r07",
+      "r10",
+      "r09",
+      "r11"
+    ],
+    "word": "r07r10r09r11",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 55,
+        "max": 55
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 89,
+        "max": 112
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 250,
+        "max": 250
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 22,
+        "max": 22
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 3,
+        "max": 8
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Splendor",
+    "enabled": true,
+    "runes": [
+      "r05",
+      "r17"
+    ],
+    "word": "r05r17",
+    "levelReq": 37,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 60,
+        "max": 100
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Starlight",
+    "enabled": true,
+    "runes": [
+      "r33",
+      "r15",
+      "r24",
+      "r01"
+    ],
+    "word": "r33r15r24r01",
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 35,
+        "max": 140
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 100,
+        "max": 200
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -80,
+        "max": -80
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 150,
+        "max": 300
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "balance3",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Stealth",
+    "enabled": true,
+    "runes": [
+      "r07",
+      "r05"
+    ],
+    "word": "r07r05",
+    "levelReq": 17,
+    "modifiers": [
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Steel",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r01"
+    ],
+    "word": "r03r01",
+    "levelReq": 13,
+    "modifiers": [
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "dmg-min",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Still Water",
+    "enabled": true,
+    "runes": [
+      "r25",
+      "r22",
+      "r23",
+      "r04"
+    ],
+    "word": "r25r22r23r04",
+    "levelReq": 53,
+    "modifiers": [
+      {
+        "prop": "ama",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 30,
+        "max": 150
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 80,
+        "max": 120
+      },
+      {
+        "prop": "skilltab",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 300,
+        "min": 100,
+        "max": 150
+      }
+    ]
+  },
+  {
+    "name": "Sting",
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r07",
+      "r05"
+    ],
+    "word": "r04r07r05",
+    "levelReq": 17,
+    "modifiers": [
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 25,
+        "max": 40
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 5,
+        "max": 8
+      },
+      {
+        "prop": "oskill",
+        "param": 12,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "oskill",
+        "param": 21,
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Stone",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r21",
+      "r17"
+    ],
+    "word": "r13r22r21r17",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 220,
+        "max": 260
+      },
+      {
+        "prop": "charged",
+        "param": 75,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "charged",
+        "param": 229,
+        "min": 80,
+        "max": 16
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 16,
+        "max": 16
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  {
+    "name": "Storm",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r22",
+      "r27",
+      "r09",
+      "r04"
+    ],
+    "word": "r31r22r27r09r04",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 333,
+        "max": 333
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hit-skill",
+        "param": 49,
+        "min": 16,
+        "max": 21
+      },
+      {
+        "prop": "oskill",
+        "param": 57,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "abs-ltng%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Strength",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r03"
+    ],
+    "word": "r11r03",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Temper",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r16",
+      "r08"
+    ],
+    "word": "r13r16r08",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "abs-fire%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Tempest",
+    "enabled": true,
+    "runes": [
+      "r20",
+      "r10"
+    ],
+    "word": "r20r10",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "dmg-cold",
+        "param": 0,
+        "min": 30,
+        "max": 70
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 100,
+        "max": 200
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 1,
+        "max": 300
+      },
+      {
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "ass",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skilltab",
+        "param": 18,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 140,
+        "max": 190
+      }
+    ]
+  },
+  {
+    "name": "Temptation",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r04",
+      "r01"
+    ],
+    "word": "r09r04r01",
+    "levelReq": 21,
+    "modifiers": [
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 176,
+        "max": 176
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": -10,
+        "max": -10
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Terror",
+    "enabled": true,
+    "runes": [
+      "r17",
+      "r23"
+    ],
+    "word": "r17r23",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 77,
+        "min": 100,
+        "max": 10
+      },
+      {
+        "prop": "nec",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skill-rand",
+        "param": 3,
+        "min": 66,
+        "max": 95
+      },
+      {
+        "prop": "ac/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "mag%/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "oskill",
+        "param": 122,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Thirst",
+    "enabled": true,
+    "runes": [
+      "r12",
+      "r10",
+      "r08"
+    ],
+    "word": "r12r10r08",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 125,
+        "max": 150
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 2,
+        "max": 5
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Thought",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r17",
+      "r24"
+    ],
+    "word": "r03r17r24",
+    "levelReq": 51,
+    "modifiers": [
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "pierce-ltng",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Thunder",
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r20",
+      "r18",
+      "r19"
+    ],
+    "word": "r21r20r18r19",
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 235,
+        "max": 235
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 1,
+        "max": 444
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 57,
+        "min": 10,
+        "max": 22
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": -25,
+        "max": -25
+      },
+      {
+        "prop": "oskill",
+        "param": 42,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Time",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r11"
+    ],
+    "word": "r31r11",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 160,
+        "max": 220
+      },
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 48,
+        "min": 100,
+        "max": 25
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "oskill",
+        "param": 54,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Tradition",
+    "enabled": true,
+    "runes": [
+      "r29",
+      "r28",
+      "r27",
+      "r25",
+      "r24"
+    ],
+    "word": "r29r28r27r25r24",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "ama",
+        "param": 0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 325,
+        "max": 400
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "pierce-ltng",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Treachery",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r10",
+      "r20"
+    ],
+    "word": "r13r10r20",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 278,
+        "min": 25,
+        "max": 15
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 267,
+        "min": 5,
+        "max": 15
+      },
+      {
+        "prop": "ass",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 45,
+        "max": 45
+      }
+    ]
+  },
+  {
+    "name": "Trust",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r27",
+      "r19"
+    ],
+    "word": "r11r27r19",
+    "levelReq": 57,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 125,
+        "max": 200
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 15,
+        "max": 30
+      },
+      {
+        "prop": "death-skill",
+        "param": 48,
+        "min": 100,
+        "max": 57
+      }
+    ]
+  },
+  {
+    "name": "Truth",
+    "enabled": true,
+    "runes": [
+      "r12",
+      "r06"
+    ],
+    "word": "r12r06",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Unbending Will",
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r16",
+      "r06",
+      "r02",
+      "r01",
+      "r15"
+    ],
+    "word": "r19r16r06r02r01r15",
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 12,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "hit-skill",
+        "param": 137,
+        "min": 18,
+        "max": 18
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 300,
+        "max": 350
+      },
+      {
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 8,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Valor",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r03",
+      "r14",
+      "r32",
+      "r29",
+      "r22"
+    ],
+    "word": "r13r03r14r32r29r22",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dmg-min",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 20,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "charged",
+        "param": 149,
+        "min": 15,
+        "max": 40
+      }
+    ]
+  },
+  {
+    "name": "Vengeance",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r04"
+    ],
+    "word": "r14r04",
+    "levelReq": 31,
+    "modifiers": [
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 35,
+        "max": 70
+      },
+      {
+        "prop": "death-skill",
+        "param": 92,
+        "min": 100,
+        "max": 55
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "ass",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Venom",
+    "enabled": true,
+    "runes": [
+      "r07",
+      "r14",
+      "r23"
+    ],
+    "word": "r07r14r23",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "dmg-pois",
+        "param": 175,
+        "min": 312,
+        "max": 312
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "charged",
+        "param": 83,
+        "min": 27,
+        "max": 15
+      },
+      {
+        "prop": "charged",
+        "param": 92,
+        "min": 11,
+        "max": 13
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      }
+    ]
+  },
+  {
+    "name": "Victory",
+    "enabled": true,
+    "runes": [
+      "r27",
+      "r27",
+      "r24",
+      "r20",
+      "r27",
+      "r27"
+    ],
+    "word": "r27r27r24r20r27r27",
+    "levelReq": 57,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 24,
+        "max": 24
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 20,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "rep-dur",
+        "param": 10,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -50,
+        "max": -50
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg-elem",
+        "param": 125,
+        "min": 1,
+        "max": 300
+      }
+    ]
+  },
+  {
+    "name": "Voice",
+    "enabled": true,
+    "runes": [
+      "r22",
+      "r06",
+      "r11",
+      "r15"
+    ],
+    "word": "r22r06r11r15",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 7,
+        "max": 10
+      },
+      {
+        "prop": "mana/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Voice of Reason",
+    "enabled": true,
+    "runes": [
+      "r20",
+      "r18",
+      "r01",
+      "r02"
+    ],
+    "word": "r20r18r01r02",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 64,
+        "min": 15,
+        "max": 13
+      },
+      {
+        "prop": "hit-skill",
+        "param": 45,
+        "min": 18,
+        "max": 20
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 220,
+        "max": 350
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 280,
+        "max": 300
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 75,
+        "min": 100,
+        "max": 220
+      },
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 24,
+        "max": 24
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Void",
+    "enabled": true,
+    "runes": [
+      "r12",
+      "r11"
+    ],
+    "word": "r12r11",
+    "levelReq": 27,
+    "modifiers": [
+      {
+        "prop": "bar",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 3,
+        "max": 6
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 3,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "War",
+    "enabled": true,
+    "runes": [
+      "r16",
+      "r15",
+      "r21"
+    ],
+    "word": "r16r15r21",
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 70,
+        "max": 110
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 35,
+        "max": 50
+      },
+      {
+        "prop": "swing3",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 25
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Water",
+    "enabled": true,
+    "runes": [
+      "r18",
+      "r13",
+      "r15"
+    ],
+    "word": "r18r13r15",
+    "levelReq": 39,
+    "modifiers": [
+      {
+        "prop": "dmg-cold",
+        "param": 150,
+        "min": 33,
+        "max": 122
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 175,
+        "max": 175
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "levelup-skill",
+        "param": 149,
+        "min": 100,
+        "max": 25
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Wealth",
+    "enabled": true,
+    "runes": [
+      "r20",
+      "r18",
+      "r03"
+    ],
+    "word": "r20r18r03",
+    "levelReq": 43,
+    "modifiers": [
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 250,
+        "max": 250
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Whisper",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r13",
+      "r13"
+    ],
+    "word": "r13r13r13",
+    "levelReq": 29,
+    "modifiers": [
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 25,
+        "max": 75
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "prop": "reduce-ac",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -25,
+        "max": -25
+      }
+    ]
+  },
+  {
+    "name": "White",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r16"
+    ],
+    "word": "r14r16",
+    "levelReq": 35,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 7,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 13,
+        "max": 13
+      },
+      {
+        "prop": "skill",
+        "param": 68,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 84,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skill",
+        "param": 69,
+        "min": 4,
+        "max": 4
+      }
+    ]
+  },
+  {
+    "name": "Wind",
+    "enabled": true,
+    "runes": [
+      "r29",
+      "r01"
+    ],
+    "word": "r29r01",
+    "levelReq": 61,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 120,
+        "max": 160
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "reduce-ac",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "hit-skill",
+        "param": 245,
+        "min": 10,
+        "max": 9
+      },
+      {
+        "prop": "charged",
+        "param": 240,
+        "min": 127,
+        "max": 13
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Wings of Hope",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r32"
+    ],
+    "word": "r32r32",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "dmg-min",
+        "param": 0,
+        "min": 60,
+        "max": 100
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 150,
+        "max": 200
+      },
+      {
+        "prop": "oskill",
+        "param": 54,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "aura",
+        "param": 125,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "hit-skill",
+        "param": 84,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Wisdom",
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r06",
+      "r02"
+    ],
+    "word": "r21r06r02",
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 4,
+        "max": 8
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Wisdom Reimagined",
+    "enabled": true,
+    "runes": [
+      "r31",
+      "r17"
+    ],
+    "word": "r31r17",
+    "levelReq": 65,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "mana/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "cheap",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Woe",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r03",
+      "r13"
+    ],
+    "word": "r32r03r13",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "levelreq",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 53,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 47,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 59,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "all-stats",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 80,
+        "max": 80
+      }
+    ]
+  },
+  {
+    "name": "Wonder",
+    "enabled": true,
+    "runes": [
+      "r26",
+      "r11",
+      "r13",
+      "r11",
+      "r26"
+    ],
+    "word": "r26r11r13r11r26",
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 275,
+        "max": 275
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 100,
+        "max": 140
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 60,
+        "max": 80
+      },
+      {
+        "prop": "hp/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Wrath",
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r17",
+      "r30",
+      "r23"
+    ],
+    "word": "r21r17r30r23",
+    "levelReq": 63,
+    "modifiers": [
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 250,
+        "max": 300
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 41,
+        "max": 240
+      },
+      {
+        "prop": "dmg-mag",
+        "param": 0,
+        "min": 85,
+        "max": 120
+      },
+      {
+        "prop": "hit-skill",
+        "param": 82,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "hit-skill",
+        "param": 87,
+        "min": 30,
+        "max": 1
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Youth",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r05"
+    ],
+    "word": "r09r05",
+    "levelReq": 21,
+    "modifiers": [
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 30,
+        "max": 35
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 30,
+        "max": 35
+      },
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": 30,
+        "max": 35
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 90,
+        "max": 120
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 8,
+        "max": 10
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 85,
+        "max": 85
+      },
+      {
+        "prop": "hit-skill",
+        "param": 72,
+        "min": 9,
+        "max": 4
+      }
+    ]
+  },
+  {
+    "name": "Zephyr",
+    "enabled": true,
+    "runes": [
+      "r09",
+      "r05"
+    ],
+    "word": "r09r05",
+    "levelReq": 21,
+    "modifiers": [
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 66,
+        "max": 66
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 240,
+        "min": 7,
+        "max": 1
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Bone",
+    "enabled": true,
+    "runes": [
+      "r12",
+      "r22",
+      "r22"
+    ],
+    "word": "r12r22r22",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 84,
+        "min": 15,
+        "max": 10
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 68,
+        "min": 15,
+        "max": 10
+      },
+      {
+        "prop": "nec",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 100,
+        "max": 150
+      }
+    ]
+  },
+  {
+    "name": "Enlightenment",
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r08",
+      "r12"
+    ],
+    "word": "r21r08r12",
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 47,
+        "min": 5,
+        "max": 15
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 46,
+        "min": 5,
+        "max": 15
+      },
+      {
+        "prop": "sor",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "oskill",
+        "param": 37,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Myth",
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r11",
+      "r04"
+    ],
+    "word": "r15r11r04",
+    "levelReq": 25,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 137,
+        "min": 10,
+        "max": 1
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 130,
+        "min": 3,
+        "max": 1
+      },
+      {
+        "prop": "bar",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Peace",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r10",
+      "r11"
+    ],
+    "word": "r13r10r11",
+    "levelReq": 29,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 32,
+        "min": 2,
+        "max": 15
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 17,
+        "min": 4,
+        "max": 5
+      },
+      {
+        "prop": "ama",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "oskill",
+        "param": 9,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Principle",
+    "enabled": true,
+    "runes": [
+      "r08",
+      "r25",
+      "r02"
+    ],
+    "word": "r08r25r02",
+    "levelReq": 53,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 101,
+        "min": 100,
+        "max": 5
+      },
+      {
+        "prop": "pal",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 100,
+        "max": 150
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Snowdrop",
+    "enabled": true,
+    "runes": [
+      "r03",
+      "r10"
+    ],
+    "word": "r03r10",
+    "levelReq": 23,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 5,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "mana/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "skill",
+        "param": 50,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 55,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 37,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 44,
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Scout",
+    "enabled": true,
+    "runes": [
+      "r01",
+      "r04"
+    ],
+    "word": "r01r04",
+    "levelReq": 13,
+    "modifiers": [
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 11,
+        "max": 11
+      },
+      {
+        "prop": "oskill",
+        "param": 13,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Blood Moon",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r08"
+    ],
+    "word": "r13r22r08",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 180,
+        "max": 220
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 9,
+        "max": 11
+      },
+      {
+        "prop": "charged",
+        "param": 227,
+        "min": 30,
+        "max": 18
+      },
+      {
+        "prop": "hit-skill",
+        "param": 56,
+        "min": 15,
+        "max": 13
+      },
+      {
+        "prop": "hit-skill",
+        "param": 47,
+        "min": 20,
+        "max": 17
+      }
+    ]
+  },
+  {
+    "name": "Winter Moon",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r10"
+    ],
+    "word": "r13r22r10",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 180,
+        "max": 220
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 9,
+        "max": 11
+      },
+      {
+        "prop": "charged",
+        "param": 227,
+        "min": 30,
+        "max": 18
+      },
+      {
+        "prop": "hit-skill",
+        "param": 59,
+        "min": 15,
+        "max": 13
+      },
+      {
+        "prop": "hit-skill",
+        "param": 55,
+        "min": 20,
+        "max": 17
+      }
+    ]
+  },
+  {
+    "name": "Harvest Moon",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r07"
+    ],
+    "word": "r13r22r07",
+    "levelReq": 47,
+    "modifiers": [
+      {
+        "prop": "pierce-pois",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 180,
+        "max": 220
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 9,
+        "max": 11
+      },
+      {
+        "prop": "charged",
+        "param": 227,
+        "min": 30,
+        "max": 18
+      },
+      {
+        "prop": "hit-skill",
+        "param": 74,
+        "min": 15,
+        "max": 13
+      },
+      {
+        "prop": "hit-skill",
+        "param": 92,
+        "min": 20,
+        "max": 17
+      }
+    ]
+  },
+  {
+    "name": "Full Moon",
+    "enabled": true,
+    "runes": [
+      "r13",
+      "r22",
+      "r23"
+    ],
+    "word": "r13r22r23",
+    "levelReq": 49,
+    "modifiers": [
+      {
+        "prop": "aura",
+        "param": 119,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "ignore-ac",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 180,
+        "max": 220
+      },
+      {
+        "prop": "abs-mag",
+        "param": 0,
+        "min": 9,
+        "max": 11
+      },
+      {
+        "prop": "charged",
+        "param": 227,
+        "min": 30,
+        "max": 18
+      },
+      {
+        "prop": "hit-skill",
+        "param": 112,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hit-skill",
+        "param": 84,
+        "min": 15,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Old Ben's Walking Stick",
+    "enabled": true,
+    "runes": [
+      "r01",
+      "r03"
+    ],
+    "word": "r01r03",
+    "levelReq": 13,
+    "modifiers": [
+      {
+        "prop": "regen2",
+        "param": 0,
+        "min": -30,
+        "max": -30
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "charged",
+        "param": 54,
+        "min": 5,
+        "max": 1
+      },
+      {
+        "prop": "levelup-skill",
+        "param": 258,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": -100,
+        "max": -100
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": -100,
+        "max": -100
+      }
+    ]
+  }
+]

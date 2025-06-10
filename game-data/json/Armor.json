@@ -2247,12 +2247,12 @@
       119,
       135
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 3,
     "qlevel": 64,
-    "levelReq": 48,
+    "levelReq": 54,
     "stackable": false
   },
   "uit": {
@@ -2567,7 +2567,7 @@
       158,
       173
     ],
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2887,7 +2887,7 @@
       50,
       64
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2903,7 +2903,7 @@
       58,
       70
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3159,7 +3159,7 @@
       95,
       139
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3175,7 +3175,7 @@
       96,
       141
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3191,7 +3191,7 @@
       98,
       142
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3207,7 +3207,7 @@
       100,
       146
     ],
-    "maxSockets": 2,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3223,28 +3223,12 @@
       103,
       148
     ],
-    "maxSockets": 2,
+    "maxSockets": 4,
     "indestructible": false,
     "width": 2,
     "height": 2,
     "qlevel": 85,
     "levelReq": 65,
-    "stackable": false
-  },
-  "vf3": {
-    "name": "Quilted Armor",
-    "type": "tors",
-    "tier": 0,
-    "def": [
-      8,
-      11
-    ],
-    "maxSockets": 2,
-    "indestructible": false,
-    "width": 2,
-    "height": 3,
-    "qlevel": 1,
-    "levelReq": 0,
     "stackable": false
   }
 }

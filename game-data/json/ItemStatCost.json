@@ -4248,8 +4248,8 @@
     "descPriority": 129,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "%+d%% Enhanced Maximum Weapon Damage",
-    "descNeg": "%+d%% Enhanced Maximum Weapon Damage",
+    "descPos": "ModStrPlayerMinDmgPercent",
+    "descNeg": "ModStrPlayerMinDmgPercent",
     "descAdditional": ""
   },
   {
@@ -4261,8 +4261,8 @@
     "descPriority": 130,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "%+d%% Enhanced Minimum Weapon Damage",
-    "descNeg": "%+d%% Enhanced Minimum Weapon Damage",
+    "descPos": "ModStrPlayerMaxDmgPercent",
+    "descNeg": "ModStrPlayerMaxDmgPercent",
     "descAdditional": ""
   },
   {
@@ -4768,8 +4768,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeWhite",
-    "descNeg": "DyeWhite",
+    "descPos": "ÿc4Color Dyed: ÿc0Divine White",
+    "descNeg": "ÿc4Color Dyed: ÿc0Divine White",
     "descAdditional": ""
   },
   {
@@ -4781,8 +4781,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeBlack",
-    "descNeg": "DyeBlack",
+    "descPos": "ÿc4Color Dyed: ÿc5Abyssal Black",
+    "descNeg": "ÿc4Color Dyed: ÿc5Abyssal Black",
     "descAdditional": ""
   },
   {
@@ -4794,8 +4794,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeBlue",
-    "descNeg": "DyeBlue",
+    "descPos": "ÿc4Color Dyed: ÿc3Ancient Blue",
+    "descNeg": "ÿc4Color Dyed: ÿc3Ancient Blue",
     "descAdditional": ""
   },
   {
@@ -4807,8 +4807,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeRed",
-    "descNeg": "DyeRed",
+    "descPos": "ÿc4Color Dyed: ÿcEInfernal Red",
+    "descNeg": "ÿc4Color Dyed: ÿcEInfernal Red",
     "descAdditional": ""
   },
   {
@@ -4820,8 +4820,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeGreen",
-    "descNeg": "DyeGreen",
+    "descPos": "ÿc4Color Dyed: ÿcANahantu Green",
+    "descNeg": "ÿc4Color Dyed: ÿcANahantu Green",
     "descAdditional": ""
   },
   {
@@ -4833,8 +4833,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeYellow",
-    "descNeg": "DyeYellow",
+    "descPos": "ÿc4Color Dyed: ÿcRCaldeum Yellow",
+    "descNeg": "ÿc4Color Dyed: ÿcRCaldeum Yellow",
     "descAdditional": ""
   },
   {
@@ -4846,8 +4846,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyePurple",
-    "descNeg": "DyePurple",
+    "descPos": "ÿc4Color Dyed: ÿc;Royal Purple",
+    "descNeg": "ÿc4Color Dyed: ÿc;Royal Purple",
     "descAdditional": ""
   },
   {
@@ -4859,8 +4859,8 @@
     "descPriority": 999,
     "descFunc": 3,
     "descVal": 0,
-    "descPos": "DyeOrange",
-    "descNeg": "DyeOrange",
+    "descPos": "ÿc4Color Dyed: ÿc8Herald Orange",
+    "descNeg": "ÿc4Color Dyed: ÿc8Herald Orange",
     "descAdditional": ""
   },
   {
@@ -4874,6 +4874,84 @@
     "descVal": 0,
     "descPos": "",
     "descNeg": "",
+    "descAdditional": ""
+  },
+  {
+    "stat": "item_strength_percent",
+    "encode": 0,
+    "size": 7,
+    "bias": 63,
+    "paramSize": 0,
+    "descPriority": 67,
+    "descFunc": 19,
+    "descVal": 0,
+    "descPos": "ModAttStrPercent",
+    "descNeg": "ModAttStrPercent",
+    "descAdditional": ""
+  },
+  {
+    "stat": "item_dexterity_percent",
+    "encode": 0,
+    "size": 7,
+    "bias": 63,
+    "paramSize": 0,
+    "descPriority": 67,
+    "descFunc": 19,
+    "descVal": 0,
+    "descPos": "ModAttDexPercent",
+    "descNeg": "ModAttDexPercent",
+    "descAdditional": ""
+  },
+  {
+    "stat": "item_vitality_percent",
+    "encode": 0,
+    "size": 7,
+    "bias": 63,
+    "paramSize": 0,
+    "descPriority": 67,
+    "descFunc": 19,
+    "descVal": 0,
+    "descPos": "ModAttVitPercent",
+    "descNeg": "ModAttVitPercent",
+    "descAdditional": ""
+  },
+  {
+    "stat": "item_energy_percent",
+    "encode": 0,
+    "size": 7,
+    "bias": 63,
+    "paramSize": 0,
+    "descPriority": 67,
+    "descFunc": 19,
+    "descVal": 0,
+    "descPos": "ModAttEnrPercent",
+    "descNeg": "ModAttEnrPercent",
+    "descAdditional": ""
+  },
+  {
+    "stat": "pl_maxthrowdmg_percent",
+    "encode": 0,
+    "size": 9,
+    "bias": 100,
+    "paramSize": 0,
+    "descPriority": 129,
+    "descFunc": 19,
+    "descVal": 0,
+    "descPos": "ModStrPlayerMinThrowDmgPercent",
+    "descNeg": "ModStrPlayerMinThrowDmgPercent",
+    "descAdditional": ""
+  },
+  {
+    "stat": "pl_minthrowdmg_percent",
+    "encode": 0,
+    "size": 9,
+    "bias": 100,
+    "paramSize": 0,
+    "descPriority": 130,
+    "descFunc": 19,
+    "descVal": 0,
+    "descPos": "ModStrPlayerMaxThrowDmgPercent",
+    "descNeg": "ModStrPlayerMaxThrowDmgPercent",
     "descAdditional": ""
   }
 ]
