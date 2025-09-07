@@ -2,7 +2,7 @@ String Index	Text
 A4Q2ExpansionSuccessTyrael	40\nPraise be to the Light! You have \naccomplished the impossible!\n \nDiablo and Mephisto have been \nbanished back into the Black Abyss \nthat spawned them, and the corrupted \nSoulstones are no more.\n \nHowever, while you were fighting here, \nBaal remained behind in the mortal \nrealm, building an army of hellish \nminions. Now, Baal's army is searching \nfor the Worldstone, the ancient source \nof all the Soulstones and their power, \nwhile leaving behind a wake of \ndestruction. They have forged deeply \ninto the Barbarian homelands, heading \ndirectly for the summit of Mount \nArreat!\n \nBaal knows, mortal hero! That is the \nvery site of the blessed Worldstone!\n \nNow, enter the portal I have opened for \nyou. It will take you to the Barbarian \ncity of Harrogath, the last bastion of \nOrder on the slopes of Arreat.\n
 A4Q2ExpansionSuccessCain	40\nI knew there was great potential in you, \nmy friend. You've done a fantastic job.\n \nThough my ancestors often struggled \nagainst the Three Evils and their \nminions, I've always lived a shut-in, \nscholarly life. I'm glad that my wisdom \naided you.\n \nNow, I wish to leave this place. Though \nHeaven's Gates are a marvel to behold, \nI hope I won't have to see them again \nfor many, many years.\n \nPlease talk to Tyrael about leaving this \nplace now!\n
 AncientsAct5IntroGossip1	35\nWe are the spirits of the Nephalem, the \nAncient Ones. We have been chosen to \nguard sacred Mount Arreat, wherein \nthe Worldstone rests. Few are worthy \nto stand in its presence; fewer still can \ncomprehend its true purpose.\n \nBefore you enter, you must defeat us.\n
-CainAct5IntroGossip1	39\nI am amazed to find this place so \nuntouched. Everything else in the path \nof Baal the Lord of Destruction lies in \nruin. \n \nThese Barbarians must indeed be the \nlegendary guardians of Mount Arreat. \nThey are a proud, hardy people. Don't \nexpect to be greeted warmly -- \nstrangers here rarely are.\n \nPerhaps I can gain their trust. I'll spend \nsome time with the townsfolk and try \nto understand them better. I'll let you \nknow what I discover.\n
+CainAct5IntroGossip1	39\nI am amazed to find this place so \nuntouched. Everything else in the path \nof Baal the Lord of Destruction lies in \nruin.\n \nThese Barbarians must indeed be the \nlegendary guardians of Mount Arreat. \nThey are a proud, hardy people. Don't \nexpect to be greeted warmly -- \nstrangers here rarely are.\n \nPerhaps I can gain their trust. I'll spend \nsome time with the townsfolk and try \nto understand them better. I'll let you \nknow what I discover.\n
 CainAct5Gossip1	52\nWith hellspawn, size is no measure of \ntheir threat. Demons half the size of \nmen can kill with a gesture, while \nhellish pack animals trample any who \nstand in their way.\n
 CainAct5Gossip2	55\nThough these Barbarians are known \nthroughout the kingdoms as ferocious \nfighters, they are also capable of great \ncompassion.\n \nThey have trained throughout history \nfor a battle their legends foretell will \ndecide the fate of the world.\n
 CainAct5Gossip3	55\nThe angel Tyrael has watched over the \nguardians of Arreat throughout \nhistory. I do not believe that Baal and \nTyrael have come to fight over a paltry \nfew souls.\n \nThey are here to settle a conflict as old \nas time itself.\n
@@ -537,7 +537,7 @@ Runeword28	Dread
 Runeword29	Dream
 Runeword30	Duress
 Runeword31	Edge
-Runeword32	Elation
+Runeword32	Destiny's Daughter
 Runeword33	Enigma
 Runeword34	Enlightenment
 Runeword35	Envy
@@ -547,8 +547,8 @@ Runeword38	Faith
 Runeword39	Famine
 Runeword40	Flame
 Runeword41	Fortitude
-Runeword42	Fortune
-Runeword43	Friendship
+Runeword42	Fortune's Favor
+Runeword43	Sorrow
 Runeword44	Fury
 Runeword45	Gloom
 Runeword46	Glory
@@ -561,7 +561,7 @@ Runeword52	Heaven's Will
 Runeword53	Holy Tears
 Runeword54	Holy Thunder
 Runeword55	Honor
-Runeword56	Revenge
+Runeword56	Dweomer
 Runeword57	Humility
 Runeword58	Hunger
 Runeword59	Ice
@@ -573,7 +573,7 @@ Runeword64	Judgement
 Runeword65	King's Grace
 Runeword66	Kingslayer
 Runeword67	Knight's Vigil
-Runeword68	Knowledge
+Runeword68	Thirst For Knowledge
 Runeword69	Last Wish
 Runeword70	Law
 Runeword71	Lawbringer
@@ -589,12 +589,12 @@ Runeword81	Malice
 Runeword82	Melody
 Runeword83	Memory
 Runeword84	Mist
-Runeword85	Morning
+Runeword85	Morning Dew
 Runeword86	Mystery
 Runeword87	Myth
 Runeword88	Nadir
 Runeword89	Nature's Kingdom
-Runeword90	Night
+Runeword90	Midnight Bloom
 Runeword91	Oath
 Runeword92	Obedience
 Runeword93	Oblivion
@@ -623,7 +623,7 @@ Runeword115	Question
 Runeword116	Radiance
 Runeword117	Rain
 Runeword118	Reason
-Runeword119	Red
+Runeword119	Red Dragon
 Runeword120	Rhyme
 Runeword121	Rift
 Runeword122	Sanctuary
@@ -633,7 +633,7 @@ Runeword125	Shadow of Doubt
 Runeword126	Silence
 Runeword127	Siren's Song
 Runeword128	Smoke
-Runeword129	Sorrow
+Runeword129	Depression
 Runeword130	Spirit
 Runeword131	Splendor
 Runeword132	Starlight
@@ -1204,8 +1204,8 @@ Of self-repair	Self-Repair
 of Dawn	of Dawn
 of Inertia	of Inertia
 of Joyfulness	of Joyfulness
-ModStre8a	to Druid Skills
-ModStre8b	to Assassin Skills
+ModStre8a	%d to Druid Skills
+ModStre8b	%d to Assassin Skills
 ModStre8c	 Sockets
 ModStre8d	 to Attack Rating vs. Demons
 ModStre8e	 to Attack Rating vs. Undead
@@ -1843,7 +1843,7 @@ Immortal King's Stone Crusher	Immortal King's Stone Crusher
 Immortal King's Pillar	Immortal King's Pillar
 Immortal King's Forge	Immortal King's Forge
 Immortal King's Detail	Immortal King's Detail
-Immortal King's Soul Cage 	Immortal King's Soul Cage
+Immortal King's Soul Cage	Immortal King's Soul Cage
 Immortal King's Will	Immortal King's Will
 Immortal King	Immortal King
 Aldur's Gauntlet	Aldur's Rhythm
@@ -1881,7 +1881,7 @@ McAuley's Paragon	Sander's Paragon
 McAuley's Folly	Sander's Folly
 x	Expansion Disc
 qstsa5q62b	Kill Baal's Minions.
-x	© Copyright 2001 Blizzard Entertainment
+x	Â© Copyright 2001 Blizzard Entertainment
 of the Plague	of the Plague
 Go South	return to hell
 ItemExpansiveChancX	%d%% Chance to cast level %d %s on attack
@@ -2263,7 +2263,7 @@ Skillld277	or explodes nearby corpses laying waste to more enemies\ntrap that sh
 Skillan277	Death Sentry
 Skillname278	Blade Shield
 Skillsd278	spinning blades of defense
-Skillld278	who stray too close\nspinning blades slice enemies
+Skillld278	blades surround user cutting enemies who get to close
 Skillan278	Blade Shield
 Skillname279	Venom
 Skillsd279	poison your weapon
@@ -2817,3 +2817,1828 @@ MercX164	Alban
 MercX165	Barloc
 MercX166	Bill
 MercX167	Theodoric
+Moon Blade	Moon Blade
+Werewolf Slayer	Werewolf Slayer
+Rabbit Slayer	Rabbit Slayer
+Krakken	Krakken
+King's Bounty	King's Bounty
+Call Of Heroes	Call Of Heroes
+Blade Of Mythos	Blade Of Mythos
+Vorpal Blade	Vorpal Blade
+Holy Avenger	Holy Avenger
+Fist of Lachdonnan	Fist of Lachdonnan
+Wrath Of Heaven	Wrath of Heaven
+Fall Of Myth Drannor	Fall Of Myth Drannor
+Breath Of Fire	Breath Of Fire
+Spirit Light	Spirit Light
+Kydra's Judgement	Kydra's Judgement
+Dreadfear	Dreadfear
+Jadrik's Torment	Jadrik's Torment
+Gorgon Strength	Gorgon Strength
+Sanctuary	Sanctuary
+Darkmantle	Darkmantle
+Specral Immage	Specral Immage
+Black Widow	Black Widow
+Razor Strike	Razor Strike
+Death Shade	Death Shade
+Phantom Pegasus	Phantom Pegasus
+Celestial Strike	Celestial Strike
+Grey Render	Grey Render
+Stone Eater	Stone Eater
+Luck Chaser	Luck Chaser
+Pridebreaker	Pridebreaker
+Mind Creche	Mind Creche
+Baba Yaga's Needle	Baba Yaga's Needle
+Severalkill	Several Kill
+Trump of Jericho	Trump of Jericho
+Hatemonger	Hatemonger
+Warbreeder	Warbreeder
+Bowel Twister	Bowel Twister
+Arc of the Rainbow	Arc of the Rainbow
+Summerstrike	Summerstrike
+Solstice Edge	Solstice Edge
+Spleen Feaster	Spleen Feaster
+Brainraver	Brainraver
+Splinterbeam	Splinterbeam
+Dead Scoffer	Dead Scoffer
+Shard of the North Star	Shard of the North Star
+Pain Harvester	Pain Harvester
+Crescent of Secrets	Crescent of Secrets
+Aprhodite's Girdle	Aprhodite's Girdle
+Feathering Mithril	Feathering Mithril
+Golden Lotus	Golden Lotus
+Tarrasque Hide	Tarrasque Hide
+Gray God's Mantle	Gray God's Mantle
+Lunatic Fringe	Lunatic Fringe
+Pride of the Barony	Pride of the Barony
+Slaver's Price	Slaver's Price
+Judas Kiss	Judas Kiss
+Sorcerer's Cache	Sorcerer's Cache
+Charon's Token	Charon's Token
+Sun Tormenter	Sun Tormenter
+Safewarden	Safewarden
+Griefspawn	Griefspawn
+Hellhunger	Hellhunger
+Stallion Hooves	Stallion Hooves
+Lustwander	Lustwander
+Ecstacy of Ishtar	Ecstacy of Ishtar
+Ogre's Embrace	Ogre's Embrace
+Angelsong	Angelsong
+Ragnarok Sliver	Ragnarok Sliver
+Adamantine Leaf	Adamantine Leaf
+Quicksilver	Quicksilver
+Raptorshaft	Raptorshaft
+Hawkfire	Hawkfire
+Sepia Shard	Sepia Shard
+Silverdawn	Silverdawn
+Manticore's Retort	Manticore's Retort
+Sparrow's Trill	Sparrow's Trill
+Flicker Cinch	Flicker Cinch
+Soul Stinger	Soul Stinger
+Thought Splinter	Thought Splinter
+Eternity Cable	Eternity Cable
+Dreamsplitter	Dreamsplitter
+Seafarer's Security	Seafarer's Security
+Murdering Shard	Murdering Shard
+Dawn Shadow	Dawn Shadow
+Desecration Sigil	Desecration Sigil
+Haven of Light	Haven of Light
+Soul Of The Tanar'Ri	Soul Of The Tanar'Ri
+Athena's Tirade	Athena's Tirade
+Goblin Grin	Goblin Grin
+Death's Witness	Death's Witness
+Scalphunter	Scalp Hunter
+Sinister Smile	Sinister Smile
+Chiaroscuro Visage	Chiaroscuro Visage
+Janus' Face	Janus' Face
+Carrion Comfort	Carrion Comfort
+Reaper's Trophy	Reaper's Trophy
+Rictus of the Joker	Rictus of the Joker
+Dreamsender	Dreamweaver
+Dreadmother	Dreadmother
+Basilisk's Kiss	Basilisk's Kiss
+Grip of the Gorgon	Grip of the Gorgon
+Secret of Steel	Secret of Steel
+Hellchatter	Hellchatter
+Devourer of Worlds	Devourer of Worlds
+Twilight Presence	Twilight Presence
+Voice of the Prophet	Voice of the Prophet
+Fortress of Morpheus	Fortress of Morpheus
+Dawnfall	Dawnfall
+Black Rain	Black Rain
+Cleric's Rebuke	Cleric's Rebuke
+Grand Inquisitor	Grand Inquisitor
+Chaos Kin	Chaos Kin
+Darkhunger	Darkhunger
+Dragonkin	Dragon Mask
+Blood Dancer	Blood Dancer
+Chimera's Chaos	Chimera's Chaos
+Deadgaze	Deadgaze
+Gambler's Glory	Gambler's Glory
+Slayer's Glee	Slayer's Glee
+Hellraiser's Casque	Hellraiser's Casque
+Conscience of the King	Conscience of the King
+Foul Embrace	Foul Embrace
+The King's Heart	The King's Heart
+Blood Brother	Blood Brother
+Wraith Whisper	Wraith Whisper
+Silverskin	Silverskin
+Eye of Heaven	Eye of Heaven
+Copperbite	Copperbite
+Sanctuary's Scion	Sanctuary's Scion
+Falcon Sharp	Falcon Sharp
+Night Prowler	Night Prowler
+Creeper's Canopy	Creeper's Canopy
+Stone Feather	Stone Feather
+Crimson Cry	Crimson Cry
+Simpleton's Shadow	Simpleton's Shadow
+Murdering Bloom	Murdering Bloom
+Liege Reaver	Liege Reaver
+Winterquick	Winterquick
+Bladespan	Bladespan
+Troll's Touch	Troll's Touch
+Corpseflayer	Corpseflayer
+Dusk Ray	Dusk Ray
+Scarab Cleaver	Scarab Cleaver
+Slithertongue	Slithertongue
+Werewolf Talons	Werewolf Talons
+Glitterkill	Glitterkill
+Iniquity Razor	Iniquity Razor
+Talisman of Hades	Talisman of Hades
+Silent Shank	Silent Shank
+Torturer's Trust	Torturer's Trust
+Peacemaker	Peacemaker
+Azurewrath1	Simpering Sword
+Legacy of the Eternals	Legacy of the Eternals
+Sin Sister	Sin Sister
+Autumn's Avatar	Autumn's Avatar
+Remembrance of Glory	Remembrance of Glory
+Argo's Anchor	Argo's Anchor
+Ogre King's Bowl	Ogre King's Bowl
+Lifesever	Life & Death
+Thronegranter	Throne Of power
+Nightdrifter	Nightshade
+Queenscall	Queen's Call
+Faerie Ring	Faerie Ring
+Jackal's Laughter	Jackal's Laughter
+Thief of Dreams	Thief of Dreams
+Golem's Might	Golem's Might
+Knell of Discord	Knell of Discord
+Nameless Fear	Nameless Fear
+Stone Of Jordan*	Stone of Jordan
+Psyche Shroud	Psyche Shroud
+Cryptking	Cryptking
+Rat Lord's Gate	Rat Lord's Curse
+The Vanquisher	The Vanquisher
+Veil of Despair	Sigil of Hope
+Steelflesh	Steelflesh
+Ashenwrath	Ashenwrath
+Gemini Coat	Gemini Coat
+JuJu Flame	JuJu Flame
+Mandrake's Bloom	Mandrake's Bloom
+Russetfire	Russetfire
+Stinkshroud	Stinkshroud
+Xanadu Dreams	Xanadu Dreams
+Shattering Blow	Shattering Blow
+Celestial Revelation	Celestial Revelation
+Madness of Chthulu	Madness of Chthulu
+Killing Blow	Killing Blow
+Ion Storm	Ion Storm
+Golem's Gain 	Golem's Gain
+Halcyon Shroud	Halcyon Shroud
+Tiger Eye	Tiger Eye
+Jade Facet	Jade Facet
+Diamond Facet	Diamond Facet
+Saphire Facet	Saphire Facet
+Emerald Facet	Emerald Facet
+Topaz Facet	Topaz Facet
+Star Facet	Star Facet
+Heaven Facet	Heaven Facet
+Deviljack	Deviljack
+Briarblade	Briarblade
+Chromablade	Chronablade
+Fiendslayer	Fiendslayer
+Irksome Edge	Irksome Edge
+Vanquisher	The Vanquisher
+Winterswipe	Winterswipe
+Warrior Untamed	Warrior Untamed
+Gangrene Reaper	Gangrene Reaper
+Deathflake	Deathflake
+Goreflood	Goreflood
+Lungreaver	Lungreaver
+Occam's Razor	Occam's Razor
+Gracehunter	Gracehunter
+Mirth Bringer	Mirth Bringer
+Sandking	Sandking
+Nova Spine	Nova Spine
+Arctic Edge	Arctic Edge
+Curseweaver	Curseweaver
+Deathlust	Deathlust
+Coaldark	Coaldark
+Hellmessenger	Hellmessenger
+Oldfather	Elder Curse
+Warrior's Challenge	Warrior's Challenge
+Oakheart	Oakheart
+Quickfeint	Quickfeint
+Stunhummer	Stunhummer
+Spiritcrusher	Spirit Crusher
+Vilifier	Vilifier
+Lesson in Pain	Lesson in Pain
+Endless Sleep	Endless Sleep
+Quickening	The Quickening
+Ambercall	Ambercall
+Angel's Grace	Angel's Grace
+Dawnskein	Dawnskein
+Darkflayer	Darkflayer
+Prisoner's Anguish	Prisoner's Anguish
+Zenkiller	Zenkiller
+Deathprick	Deathprick
+Zealot's Branch	Zealot's Branch
+Deceiver's Device	Deceiver's Device
+Fangtree	Fangtree
+Woodclaw	Woodclaw
+Ruemonger	Ruemonger
+Slayer's Debt	Slayer's Debt
+Landsplitter	Landsplitter
+Knave's Ascendence	Knave's Ascendence
+Oreseeker	Oreseeker
+Rebuker	Rebuker
+Ripskin	Ripskin
+Puzzler's Mystery	Puzzler's Mystery
+Riddlesolver	Riddlesolver
+Puppeteer's Staff	Puppeteer's Staff
+Sage's Retort	Sage's Retort
+Strange Alchemy	Strange Alchemy
+Bitter Sorrow	Bitter Sorrow
+Ire of Astaroth	Ire of Astaroth
+Child's Laughter	Child's Laughter
+Scream of Despair	Scream of Despair
+Violetwing	Violetwing
+Beeswarm	Beeswarm
+Carrion Wing	Carrion Wing
+Finalflight	Final Flight
+Gale Song	Gale Song
+Ranger's Sting	Ranger's Sting
+Warpwind	Warpwind
+Willowsting	Willowsting
+King's Nail	King's Nail
+Spikethrower 	Spikethrower 
+Nail Flinger	Nail Flinger
+Janglebright	Janglebright
+Leafrazor	Leafrazor
+Skyglow	Skyglow
+Splinterfreeze	Splinterfreeze
+Teeth of Infinity	Teeth of Infinity
+Sting of Humiliation	Sting of Humiliation
+Tonguecutter	Tonguecutter
+Timbersplitter	Timbersplitter
+Subtle Slice	Subtle Slice
+Initiator	Tidrik's Initiator
+Equinox Visor	Equinox Visor
+Crown of Thorns	Crown of Thorns
+Trickster's Guise	Trickster's Guise
+Devourer of Dreams	Devourer of Dreams
+Freedom's Facade	Freedom's Facade
+Hindsight	Cursed Hindsight
+Morning's Tears	Morning's Tears
+Muddled Thoughts	Muddled Thoughts
+Treachery's Allure	Treachery's Allure
+Threatspeaker	Threatspeaker
+Traitor's Mark	Traitor's Mark
+Skein of Deceit	Skein of Deceit
+Lepertouch	Lepertouch
+Cacophony	Cacophony
+Debtfinisher	Debt Finisher
+Killhunger	Killhunger
+Knight's Dawn	Knight's Dawn
+Shield of Osirus	Shield of Osirus
+Green God's Bracers	Green God's Bracers
+Goblin Touch	Goblin Touch
+Fiendfeast	Fiendfeast
+Firesign	Firesign
+Skein of Pain	Skein of Pain
+Angel's Tread	Angel's Tread
+Marathon Slipper	Marathon Slipper
+Lilith's Heels	Lilith's Heels
+Bonemesh	Bonemesh
+Grimleaper	Grimleaper
+Ivywrap	Ivywrap
+Leash of Cerebus	Leash of Cerebus
+Spiritseeker	Spiritseeker
+Wreath of Suffering	Wreath of Suffering
+Pirate's Faith	Pirate's Faith
+Bleeding Branch	Bleeding Branch
+Elvenbrand	Elvenbrand
+Hastemaster	Hastemaster
+Hooves of Satan	Hooves of Satan
+Bloodyearn	Bloodyearn
+Murder's Mistress	Murder's Mistress
+Ancients' Epiphany	Ancients' Epiphany
+Angelic Sympathy	Angelic Sympathy
+Archnemesis	Arch-Nemesis
+Archon's Ache	Archon's Ache
+Auburnfire	Auburn Fire
+Avalanche Strike	Avalanche Strike
+Biteblade	Biteblade
+Blasthammer	Blasthammer
+Blightsummoner	Blightsummoner
+Blindman's Bluff	Blindman's Bluff
+Blindsight	Blindsight
+Blisterpain	Blisterpain
+Bloodrune	Bloodrune
+Brightmangler	Brightmangler
+Call of the Kindred	Call of the Kindred
+Celestial Judgment	Celestial Judgment
+Chaos Wail	Chaos Wail
+Chaoskiller	Chaos Flight
+Chorus of the Cursed	Chorus of the Cursed
+Cold Comfort	Cold Comfort
+Cry of the Wretched	Cry of the Wretched
+Cyanstrike	Cyanstrike
+Dark Nemesis	Dark Nemesis
+Dawn Blesser	Dawn Blesser
+Devil's Advocate	Devil's Advocate
+Devil's Invocation	Devil's Invocation
+Doomhedge	Doom Hedge
+Doom's Mirror	Doom's Mirror
+Doubtraiser	Doubtraiser
+Dreadfury	Dreadfury
+Deepwander	Deepwander
+Drunken Fury	Drunken Fury
+Duskwreath	Duskwreath
+Easebringer	Easebringer
+Elflord's Victory	Elflord's Victory
+Epoch's End	Epoch's End
+Everkeeper	Everkeeper
+Fairweather	Fair Weather
+Fellowship's Hope	Fellowship's Hope
+Foulsigil	Foul Sigil
+Frostshiver	Frostshiver
+Fullsuffering	Full Suffering
+Gainsayer	Gainsayer
+Gatecleaver	Gatecleaver
+Ghoulslayer	Ghoulslayer
+Ghoulspawner	Ghoul Spawner
+Grandmaster's Glory	Grandmaster's Glory
+Groundshatter	Groundshatter
+Harper's Call	Harper's Call
+Heavenly Wrath	Heavenly Wrath
+Heaven's Treasure	Heaven's Treasure
+Hecuba's Tresses	Hecuba's Tresses
+Hellshifter	Hellshifter
+Iceskin	Iceskin
+Iceweaver	Iceweaver
+Insight of the Ancients	Insight of the Ancients
+Invoker	Invoker
+Hungerpang	Hungerpang
+Hushmaker	Hushmaker
+Instigator	Instigator
+Jouster's Boast	Jouster's Boast
+Killerwatch	Killer's Watch
+Lashfire	Lashfire
+Lichward	Lichward
+Lilt of the Dryad	Lilt of the Dryad
+Longsuffering	Long Suffering
+Luck Sigil	Luck Sigil
+Madman's Bluster	Madman's Bluster
+Malefactor's Reward	Malefactor's Reward
+Moonshadow	Moonshadow
+Morning After	Morning After
+Nightwrath	Nightwrath
+Nullwand	Nullwand
+Ocean's Embrace	Ocean's Embrace
+Nameweaver	Nameweaver
+Liespreader	Lie Spreader
+Lightreaper	Light Reaper
+Oracle's Riddle	Oracle's Riddle
+Paingiver	Paingiver
+Pandemonium	Pandemonium
+Panic of Thousands	Panic of Thousands
+Phoenix Fall	Phoenix Fall
+Pitykiller	Pitykiller
+Pleasures of the Perverse	Pleasures of the Perverse
+Prancing Pike	Prancing Pike
+Pride's Paradox	Pride's Paradox
+Pull of Darkness	Pull of Darkness
+Quandry of the Queen	Quandry of the Queen
+Queasespreader	Queasespreader
+Rapturous Blessings	Rapturous Blessings
+Ravings of the Mad	Ravings of the Mad
+Revoker	Revoker
+Road to Perdition	Road to Perdition
+Rubydawn	Ruby Dawn
+Seaflame	Seaflame
+Serendipity	Serendipity
+Serpent's Sharp	Serpent's Sharp
+Song of the Damned	Song of the Damned
+Soulgatherer	Soulgatherer
+Spellbreaker	Spellbreaker
+Starbreaker	Starbreaker
+Shadowtrick	Shadowtrick
+Succulent Sin	Succulent Sin
+Summoner's Risk	Summoner's Risk
+Sunderblight	Sunderblight
+Sweetwhisper	Sweet Whisper
+Terminus Rod	Terminus Rod
+Tonstrike	Tonstrike
+Unity of Mind	Unity of Mind
+Unseeing Eye	Unseeing Eye
+Utterance of Power	Utterance of Power
+Validator	Validator
+Valorsong	Valorsong
+Vanguard	Vanguard
+Vengeance of the Wronged	Vengeance of the Wronged
+Voice of Reason	Voice of Reason
+Warsummoner	Warsummoner
+Wave Whipper	Wave Whipper
+Weakling's Whimper	Weakling's Whimper
+Wintershock	Wintershock
+Wishgranter	Wishgranter
+Woundripper	Woundripper
+Wraithwatch	Wraithwatch
+Wraithshadow	Wraithshadow
+Wrathshifter	Wrathshifter
+Xenophobe	Xenophobe
+Zapcaster	Zapcaster
+Zebrastride	Zebrastride
+Zero Effect	Zero Effect
+Conspiracy of Thieves	Conspiracy of Thieves
+Shadowy Places	Shadowy Places
+Fearsome Rumors	Fearsome Rumors
+Dread of the Blade	Dread Blade
+Dark Descent	Dark Descent
+Wrath of the Seraphim	Wrath of the Seraphim
+Demise of the Weak	Demise of the Weak
+Fortress of Solitude	Fortress of Solitude
+God's Word	God's Word
+Faith's Promise	Faith's Promise
+Mystery of Life	Mystery of Life
+Sweet Agony	Sweet Agony
+Sudden Epiphany	Sudden Epiphany
+Burning Desire	Burning Desire
+Readiness for War	Readiness for War
+Frantic Distress	Frantic Distress
+Trial by Fire	Trial by Fire
+Survival Instinct	Survival Instinct
+Survivor's Sonata	Survivor's Sonata
+Braced for Battle	Braced for Battle
+Threat of Retribution	Threat of Retribution
+Vow of Revenge	Vow of Revenge
+Wisdom of Thoth	Wisdom of Thoth
+Light of Ra	Light of Ra
+Grace of Isis	Grace of Isis
+Blessings of Osiris	Blessings of Osiris
+Blessed One	Blessed One
+Cursed One	Cursed One
+Weeping at the Gate	Weeping at the Gate
+Death of a Thousand Cuts	Death of a Thousand Cuts
+Imperial Passion	Imperial Passion
+Dreams of Empire	Dreams of Empire
+Fear and Loathing	Fear and Loathing
+The Quick and the Dead	The Quick and the Dead
+Demand for Justice	Demand for Justice
+No Quarter Given	No Quarter Given
+Bane of All Gods	Bane of All Gods
+Silence of the Sphinx	Silence of the Sphinx
+Patron of Perversity	Patron of Perversity
+Dead to the World	Dead World
+Damsel of Destruction	Damsel of Destruction
+Lady of the Lake	Lady of the Lake
+Sister of the Sun	Sister of the Sun
+Father of Nations	Father of Nations
+Path of the Nightwalker	Path of the Nightwalker
+Heat of Summer	Heat of Summer
+Cold of Winter	Cold of Winter
+Storms of Spring	Storms of Spring
+Sequence of Seasons	Sequence of Seasons
+Road to Perdition	Road to Perdition
+Shattered Dreams	Shattered Dreams
+Call of the Wild	Call of the Wild
+Widow's Refrain	Widow's Refrain
+Wild Horses	Wild Horses
+Dance of the Cobra	Dance of the Cobra
+Lion's Pride	Lion's Pride
+Leader of the Pack	Leader of the Pack
+Key to the Madhouse	Key to the Madhouse
+Dark Demense	Dark Demense
+Keys to Hell	Key to Hell
+Chains of the Abyss	Chains of the Abyss
+Star of David	Star of David
+Star of Bethlehem	Star of Bethlehem
+Manna from Heaven	Manna from Heaven
+Blanket of Stars	Blanket of Stars
+Evening Sky	Evening Sky
+Edge of Forever	Edge of Forever
+Pure Rancor	Pure Rancor
+Harvest of Souls	Harvest of Souls
+Usurper's Ambition	Usurper's Ambition
+Gathering of Hawks	Gathering of Hawks
+Death to the Soul	Death to the Soul
+Prayer for the Dying	Prayer for the Dying
+The Four Winds	The Four Winds
+Conqueror's Feast	Conqueror's Feast
+Stairway to Heaven	Stairway to Heaven
+Fortune's Fool	Fortune's Fool
+Whirling Dervish	Whirling Dervish
+Ranger's Path	Ranger's Path
+Crimson Crusade	Crimson Crusade
+Lady in Waiting	Lady in Waiting
+The Art of War	Art of War
+Antics of the Jester	Antics of the Jester
+Threat of Storms	Threat of Storms
+Grandiose Dreams	Grandiose Dreams
+Troubled Thoughts	Troubled Thoughts
+Embracing Solitude	Embracing Solitude
+Scars of the Forefathers	Scars of the Forefathers
+Mother's Milk	Mother's Milk
+Disparate Paths	Disparate Paths
+Broken Earth	Broken Earth
+Shadazar's Answer	Shadazar's Answer
+Bloody Scalp	Bloody Scalp
+Slayer of Trents	Slayer of Trents
+Woodland Beast	Woodland Beast
+Cryohydra	Cryohydra
+Cornugon	Cornugon
+Couatl	Couatl
+Nightcrawler	Nightcrawler
+Marilith	Marilith Edge
+Death Slaad	Death Slaad
+Beholder	Beholder
+Undead Beholder	Undead Beholder
+Frostwyrm	Frost Wyrm
+Elder Tojanida	Elder Tojanida
+Light Phasm	Light Phasm
+Spirit Naga	Spirit Naga
+Night Hag	Night Hag
+Tendriculos	Tendriculos
+Winter Wolf	Winter Wolf
+Taskmaster's Curse	Taskmaster's Curse
+Mythslayer	Mythslayer
+Sunblighter	Sunblighter
+Dwarven Honor	Dwarven Honor
+Ravid's Bite	Ravid's Bite
+Brittlequick	Brittlequick
+Ogre's Breath	Ogre's Breath
+Shapeshifter	Shapeshifter
+Dyer's Eve	Dyer's Eve
+Heroes Welcome	Heroes Welcome
+Hero's Welcome	Hero's Welcome
+Nameless Horror	Nameless Horror
+Epee of Speed	Epee of Speed
+Anadek's Sword	Anadek's Sword
+Sajorn Jinx	Sajorn Jinx
+Qikadar's Laughter	Qikadar's Laughter
+Quartz Star	Quartz Star
+Omni-Slash	Omni-Slash
+Honor Guard	Honor Guard
+Orc Slayer	Orc Slayer
+Bridge of Pain	Bridge of Pain
+Cursebreaker	Cursebreaker
+Deathfoe	Deathfoe
+Deathfriend	Deathfriend
+Demolisher	Demolisher
+Fleshbleeder	Fleshbleeder
+Lord of Riddles	Lord of Riddles
+Rhyme of the Bard	Rhyme of the Bard
+Despicable Behavior	Despicable Behavior
+Darkkon	Darkkon
+Locathah	Locathah
+Pseudodragon	Pseudodragon
+Grimlock	Grimlock
+Troglodyte	Troglodyte
+Sahuagin	Sahuagin
+Celestial Lion	Celestial Lion
+Badger's Bite	Badger's Bite
+Wight's Touch	Wight's Touch
+Rhinoceros Strength	Rhinoceros Strength
+Megladon's Bite	Megladon's Bite
+Owlbear's Attack	Owlbear's Attack
+Cloaker Beast	Cloaker Beast
+Blink Dog	Blink Dog
+Celestial Tiger	Celestial Tiger
+Ettercap	Ettercap
+Yuan-Ti's Venom	Yuan-Ti's Venom
+Cheetah Speed	Cheetah Speed
+Hollowed Ground	Hollowed Ground
+Thoqqua's Slipper	Thoqqua's Slipper
+Lachdonnan's Bracers	Lachdonnan's Bracers
+Lachdonnan's Wrap	Lachdonnan's Wrap
+Lachdonnan's Heart	Lachdonnan's Heart
+Lachdonnan's Guard	Lachdonnan's Guard
+Barbazu's Smile	Barbazu's Smile
+Harpy's Call	Harpy's Call
+Satyr's Speech	Satyr's Speech
+Crocodile Wrap	Crocodile Wrap
+Mephisto's Claw	Mephisto's Claw
+Baal's Wing	Baal's Wing
+Diablo's Scale	Diablo's Scale
+Hippogriff Wing	Hippogriff Wing
+Kuo-Toa's Spear	Kuo-Toa's Spear
+Ice Mephit	Ice Mephit
+Fire Mephit	Fire Mephit
+Dragon Mephit	Dragon Mephit
+Assassin Vine	Assassin Vine
+Kiss of the Vampire	Kiss of the Vampire
+Pegasus Wing	Pegasus Wing
+Celestial Unicorn	Celestial Unicorn
+Will-O'-Wisp	Will-O'-Wisp
+Na-Krul's Power	Na-Krul's Power
+Gharbad's Cry	Gharbad's Cry
+Shirotachi	Shirotachi
+Thunderclap	Thunderclap
+The Mangler	The Mangler
+Black Razor	Black Razor
+Thundercall	Thundercall
+Dragon's Breach	Dragon's Breach
+Blade of Conan	Blade of Conan
+Split Skull	Splitting Skulls
+Deadly Hunter	Deadly Hunter
+Nightscape	Nightscape
+Falcon Talon	Falcon Talon
+Staff of Shadows	Staff of Shadows
+Gillian's Brazier	Gillian's Brazier
+The Defiler's Flesh	The Defiler's Flesh
+Ogden's Shroud	Ogden's Shroud
+Armor of Gloom	Armor of Gloom
+Scavanger's Carapace	Scavanger's Carapace
+Torn Flesh of Souls	Torn Flesh of Souls
+Rainbow Cloak	Rainbow Cloak
+Demonspike Coat	Demonspike Coat
+Overlord's Helm	Overlord's Helm
+Gotterdamerung	Gotterdamerung
+Fool's Crest	Fool's Crest
+Pepin's Blessing	Pepin's Blessing
+Gillian's Hairpin	Gillian's Tiara
+Ogden's Wisdom	Ogden's Wisdom
+Gillian's Boots	Gillian's Boots
+Pepin's Grace	Pepin's Grace
+Gryphon's Claw	Gryphon's Claw
+Wisdom's Wrap	Wisdom's Wrap
+Royal Circlet	Royal Diadam
+Gnat Sting	Gnat Sting
+Hammer of Jholm	Hammer of Jholm
+Gladiator's Strike	Gladiator's Strike
+Eater of Souls	Eater of Souls
+Gornnagal's Dirk	Gornnagal's Dirk
+Acolyte's Wand	Acolyte's Wand
+Bow of the Dead	Bow of the Dead
+Astral Dreadnought	Astral Dreadnought
+Doom Avatar	Doom Avatar
+Bramble Oak	Bramble Oak
+Troll's Nail	Troll's Nail
+Dawn of Skeon	Dawn of Skeon
+Umbral's Bat	Umbral's Bat
+Stirgi's Club	Stirgi's Club
+Famorian's Club	Famorian's Club
+Hill Giant's Bludgeon	Hill Giant's Bludgeon
+Konnan's Maul	Konnan's Maul
+Hycandra	Hycandra
+Dawn's Mist	Dawn's Mist
+Cat Tail	Cat Tail
+Comet's Tail	Comet's Tail
+Genoa's Trust	Genoa's Trust
+Star Dust	Star Dust
+Efreeti's Eye	Efreeti's Eye
+Avenger's Honor	Avenger's Honor
+Crusader's Wrath	Crusader's Wrath
+Runestar	Runestar
+Trianthalon's Sprinkler	Trianthalon's Sprinkler
+Celestial Knight	Celestial Knight
+Vampire's Fang	Vampire's Fang
+Dragon Talon	Dragon Talon
+Moonsea Razor	Moonsea Razor
+Cyan Bloodbane	Cyan Bloodbane
+Chimera's Claw	Chimera's Claw
+Rattlesnake Bite	Rattlesnake Bite
+Halfling's Blade	Halfling's Blade
+Thieve's Lockpicker	Thieve's Lockpicker
+Basalisk's Touch	Basalisk's Touch
+Lich Dagger	Lich Dagger
+Elven Mystral	Elven Mystral
+Dagger of Kara'Tir	Dagger of Kara'Tir
+Sleepthorn	Sleepthorn
+Mako's Pierce	Mako's Pierce
+Spear of Hydragoon	Spear of Hydragoon
+Dragon Turtle	Dragon Turtle
+Footman's Picket	Footman's Picket
+Old Wolf	Old Wolf
+Mandrake	Mandrake
+Flametongue	Flametongue
+Frostband	Frostband Tine
+Dragoon's Shank	Dragoon's Shank
+Dragon Soul	Dragon Soul
+Imperial Dragonlance	Imperial Dragonlance
+Spirit of Lachdonan	Spirit of Lachdonnan
+Hylocan Axe	Hylocan Axe
+Simpering Edge	Simpering Edge
+Slayer of Fields	Slayer of Fields
+Axe of Sytherdan	Axe of Sytherdan
+Snowy Sky	Snowy Sky
+Sommerstrike Edge	Sommerstrike Edge
+Count Kidran's Scythe	Count Kidran's Axe
+Griefspawn Touch	Griefspawn Touch
+Harbormaster's Victory	Harbormaster's Victory
+Moonlight Edge	Moonlight Edge
+Kritchan's Ire	Kritchan's Ire
+Killer's Glee	Killer's Glee
+Dawn of the Dead	Dawn of the Dead
+Ogre Cheiftain's Law	Ogre Cheiftain's Law
+Titan's Reach	Titan's Reach
+Winter Solstice	Winter Solstice
+Cloud Giant's Axe	Cloud Giant's Axe
+Kraken's Backlash	Kraken's Backlash
+Warmth of Ash	Warmth of Ash
+Arctic Frost	Arctic Frost
+Touch of Evil	Touch of Evil
+Staff of the Arch-Magus	Staff of the Arch-Magus
+Wizard's Rule	Wizard's Rule
+Ter'Angreal	Ter'Angreal
+Staff of Valere	Staff of Valere
+Knight's Prophet	Knight's Prophet
+Arcane Protection	Arcane Protection
+Wand of Fireballs	Wand of Fireballs
+Ladrina's Enchantment	Ladrina's Enchantment
+Dracolich Fang	Dracolich Fang
+Skeleton's Claw	Skeleton's Claw
+Apoclypse Fire	Apoclypse Fire
+Medusa's Gaze	Medusa's Gaze
+Gravedancer's Union	Gravedancer's Union
+Asylum's Ward	Asylum's Ward
+Huclavee's Flinch	Huclavee's Flinch
+Centaur's Bow	Target's
+Freedom's Flight	Freedom's Flight
+Elven Bow of Duadon	Elven Bow of Duadon
+Silver Oak Bow	Silver Oak Bow
+Adamantine Bow	Adamantine Bow
+Nine Lives Stealer	Nine Lives Stealer
+Oathbow	Oathbow
+Sylvan Battle Bow	Sylvan Battle Bow
+Shayira's Flight	Shayira's Flight
+Kirre Strike	Kirre Strike
+Telena's War Bow	Telena's War Bow
+Teldicia's Sting	Teldicia's Sting
+Sadira	Sadira
+Fatima Ravenclaw	Fatima Ravenclaw
+Larissa's Aim	Larissa's Aim
+Hailstrike	Hailstrike
+Heartseeker	Heartseeker
+Dune Runner	Dune Runner
+Remorhaz	Remorhaz
+Ghost Mount	Ghost Mount
+Arachnid's Bite	Arachnid's Bite
+Foxfire Leaf	Foxfire Leaf
+Golgomere	Golgomere
+Rethral	Rethral Bolt
+Piercing Bolt	Piercing Bolt
+Harpo Bogglinn	Harpo Bogglinn
+Synthalus	Synthalus
+Kyuss' Crossbow	Kyuss' Crossbow
+Garlana Firebolt	Garlana Firebolt
+Giant Hair Crossbow	Giant Hair Crossbow
+Raven Myst	Raven Myst
+Whyte Stag	Whyte Stag
+Senmet's Boltcaster	Senmet's Boltcaster
+Ashira's Stunbeam	Ashira's Stunbeam
+Stoneblaster	Stoneblaster
+Wightslayer	Wightslayer
+Bluebeard	Bluebeard
+Thor's Bolt	Thor's Bolt
+Jaguar's Claw	Jaguar's Claw
+Amazon's Kiss	Amazon's Kiss
+Cadin'Sor	Cadin'Sor
+Aiel Javelins	Aiel Javelins
+Artimus's Spiculum	Artimus's Spiculum
+Dancing Scarecrow	Dancing Scarecrow
+Gnomebane	Gnomebane
+Silver-Tipped Harpoons	Silver-Tipped Harpoons
+Confusion Flight	Flight of Confusion
+Clockwork Horror	Clockwork Horror
+Serpent Lord	Serpent Lord
+Spectral Slayer	Spectral Slayer
+Invisible Stalker	Invisible Stalker
+Oakplume	Oakplume
+Banshee's Cry	Banshee's Cry
+Winged Serpent	Winged Serpent
+Axes of Jahadra	Axes of Jahadra
+Golden Wyndlass	Golden Wyndlass
+Ravenstar	Ravenstar
+Fallen Glory	Fallen Glory
+Silt Runner	Silt Runner
+Swarming Blades	Swarming Blades
+Sheera's Knives	Sheera's Knives
+Deadly Needle	Deadly Needle
+Darts of Evermeet	Darts of Evermeet
+Spirit of the Land	Spirit of the Land
+Scarab of Protection	Scarab of Protection
+Frostbite Shard	Frostbite Shard
+The Shadowed One	The Shadowed One
+Red Dragon Scails	Red Dragon Scails
+Ghosly Chainmail	Ghosly Chainmail
+Breastplate of Gond	Breastplate of Gond
+Adamantine Plate	Adamantine Plate
+Adamantine Mail	Adamantine Mail
+Zaratan Hide	Zaratan Hide
+Drow Chainmail	Drow Mesh
+Starsong	Starsong
+Greyhawk Dragon	Greyhawk Dragon
+Armor of Warmth	Armor of Warmth
+Dreamscape	Dreamscape
+A Knight's Tale	A Knight's Tale
+Kaz's Battle Armor	Kaz's Battle Armor
+Weightless Grace	Weightless Grace
+Anaconda Skin	Anaconda Skin
+Shambling Mound	Shambling Mound
+Royal Plate	Royal Plate
+Heartbane	Heartbane
+Weakest Link	The Strongest Link
+Tesla's Cuirass	Tesla's Cuirass
+Brimstone Hearth	Brimstone Hearth
+Bloodlust Frenzy	Bloodlust Frenzy
+Plate of Fistindantalas	Plate of Fistindantalas
+Wyrmbane	Wyrmbane
+Ancient Dragon	Ancient Dragon
+Gaiden's Loss	Gaiden's Loss
+Neonate's Sallet	Neonate's Sallet
+Helm of Ra	Helm of Ra
+Knight's Crest	Knight's Crest
+Skull of Fistindantalas	Skull of Fistindantalas
+Bane's Dark Wisdom	Bane's Dark Wisdom
+Lilith's Crest	Lilith's Crest
+Lolith's Crest	Lolith's Crest
+Conch of Dismay	Conch of Dismay
+King Conan's Rule	King Conan's Rule
+Mystic Angel	Mystic Angel
+Golgomere's Shield	Golgomere's Shield
+Crest of the Horned Society	Crest of the Horned Society
+Undead Buckler	Undead Buckler
+Fanged Shield	Fanged Strike
+Crest of Avalon	Crest of Avalon
+Bigby's Crushing Fist	Bigby's Crushing Fist
+Pathfinder	Pathfinder
+Yemista's Defender	Yemista's Defender
+Mongolian Trust	Mongolian Trust
+Savant Sin	Savant Sin
+Shieldmaiden's Shield	Shieldmaiden's Pavise
+Under Dragon's Wing	Under Dragon's Wing
+Crusader's Wall	Crusader's Wall
+Adamantine Shield	Adamantine Shield
+Raptarfang	Raptar Fang
+Razorbite Deflecter	Razorbite Deflecter
+Chill of Winter	Chill of Winter
+Solar Eclipse	Solar Eclipse
+Shield of Myth	Shield of Myth
+Healing Touch	Healing Touch
+Horseman's Gloves	Horseman's Gloves
+Prismatic Gauntlets	Prismatic Gauntlets
+Viridian Gloves	Viridian Gloves
+Marauder's Claw	Marauder's Claw
+Spikefiend Bracers	Spikefiend Bracers
+Warlock's Touch	Warlock's Touch
+Burning Soul	Burning Soul
+Paladin's Quest	Paladin's Quest
+Black Lotus	Black Lotus
+Dawn Scion	Dawn Scion
+Dark Familiar	Dark Familiar
+Halbu's Gift	Halbu's Gift
+Asheara's Slippers	Asheara's Slippers
+River Stalker	River Stalker
+Meshif's Coil	Meshif's Coil
+Kashya's Ward	Kashya's Ward
+Ratman's Rope	Ratman's Rope
+Warriv's Coin	Warriv's Snakeskin
+Belt of Evil	Belt of Evil
+Megladon Wrap	Megladon Wrap
+Kashya's Retort	Kashya's Retort
+Abyssal Torment	Abyssal Torment
+Laurana's Elven Bow	Laurana's Elven Bow
+Distance Strike	Distance Strike
+Shieldmaiden's Toss	Shieldmaiden's Toss
+Amanda's Point	Amanda's Point
+Valkyrie's Calling	Valkyrie's Calling
+Vile Temptress	Vile Temptress
+Stygian Harlot	Stygian Harlot
+Drehya's Globe	Drehya's Globe
+Nihlathak's Spirit	Nihlathak's Spirit
+Putrid Defiler	Putrid Defiler
+Venomlord's Visage	Venomlord's Visage
+Death Mauler	Death Mauler
+Steel Weevil	Steel Weevil
+King Tut	King Tut
+Fallen Hero's Disgrace	Fallen Hero's Disgrace
+Crusader's Will	Crusader's Will
+Defender of Innocence	Defender of Innocence
+Knight's Holy Sigil	Knight's Holy Sigil
+King's Guard	King's Guard
+Bastion of Hope	Bastion of Hope
+Felix's Brace	Felix's Brace
+Swiftfoot Slash	Swiftfoot Slash
+Kygragond	Kygragond
+Invader's Glee	Invader's Glee
+Helms Deep	Helms Deep
+Death Knight's Mask	Death Knight's Mask
+Primal Lust	Primal Lust
+Hanabal's Crown	Hanabal's Crown
+Wasteland Visage	Wasteland Visage
+Eagle Eyes	Eagle Eyes
+Centaur's Sight	Centaur's Sight
+Yamanda's Token	Yamanda's Token
+Swift Slaughter	Swift Decent
+Voltar's Feather	Voltar's Feather
+Hidden Death	Hidden Death
+Razorspine	Razorspine
+Spirit Hawk	Spirit Hawk
+Samantha's Fist	Samantha's Fist
+Flaming Fist	Flaming Fist
+Androsphinx	Androsphinx
+Lynx Talon	Lynx Talon
+Nightmare Glove	Nightmare Razors
+Martial Law	Martial Law
+Storm Demon's Glair	Storm Demon's Glair
+Sabertooth	Sabertooth
+Wight Claw	Wight Claw
+Wakazashi	Wakazashi
+Razor Knuckle	Razor Knuckle
+Chi Strike	Chi Strike
+Adamantine Razors	Adamantine Razors
+Death Slaad	Death Slaad
+Spellfist	Enchanted Blades
+Ring of Engagement	Ring of Engagement
+Planatar Enlightenment	Planatar Enlightenment
+Vampiric Regeneration	Vampiric Regeneration
+Elven Heartband	Elven Heartband
+Eye of Kahn	Eye of Kahn
+Amulet of Warding	Amulet of Warding
+Adamantine Facet	Adamantine Facet
+Quartz Facet	Quartz Facet
+Reign of Deceit	Reign of Deceit
+Blanched Death	Blanched Death
+Replenishing Quiver	Barbed Arrows
+Replenishing Bolt Case	Barbed Bolts
+Bolt Case of Piercing	Bolts of Piercing
+Quiver of Piercing	Arrows of Piercing
+Quiver of Slaying	Arrows of Slaying
+Bolt Case of Slaying	Bolts of Slaying
+Dreadwall	Dreadwall
+Doubleshot Machine	Doubleshot Machine
+Target's	Target Practice
+Adamantine Links	Adamantine Links
+Midnight Calling	Midnight Calling
+Jakira's Strike	Jakira's Strike
+Jakira's Braces	Jakira's Braces
+Jakira's Hood	Jakira's Hood
+Jakira's Leather Jerkin	Jakira's Leather Jerkin
+Nature's Grove	Nature's Grove
+Peace Ring	Peace Ring
+Balance of Power	Balance of Power
+Calming Embrace	Calming Embrace
+Animal Kinship	Animal Kinship
+Grimlock's Grave	Grimlock's Grave
+Grimlock's Skull	Grimlock's Skull
+Grimlock's Wand	Grimlock's Wand
+Grimlock's Shroud	Grimlock's Shroud
+Grimlock's Belt	Grimlock's Belt
+Corgina's Element	Corgina's Element
+Corgina's Orb	Corgina's Orb
+Corgina's Plate	Corgina's Plate
+Corgina's Ward	Corgina's Ward
+Corgina's Slippers	Corgina's Slippers
+Sheena's Grace	Sheena's Grace
+Sheena's Heartwood	Sheena's Heartseeker
+Sheena's Choker	Sheena's Choker
+Sheena's Elven Mail	Sheena's Elven Scales
+Sheena's Band	Sheena's Band
+Talonrage's Fury	Talonrage's Fury
+Berserker's Howl	Berserker's Howl
+Chaos Heart	Chaos Heart
+Warlord's Pike	Warlord's Pike
+Shattering Fist	Shattering Fist
+Greyhawk's Mantle	Greyhawk's Mantle
+Greyhawk's Wing	Greyhawk's Wing
+Greyhawk's Icebrand	Greyhawk's Icebrand
+Greyhawk's Deflector	Greyhawk's Deflector
+Greyhawk's Viser	Greyhawk's Visor
+Silent Runnings	Nature's Kingdom
+Dragon Flanks	Dragon's Scale Shield
+Ferrit's Paw	Ferrit's Paw
+Turtle's Shell	Turtle's Shell
+Wolf Pelt	Wolf Pelt
+Beast Collar	Sabertooth Skull
+Snowmane's Jewelry	Snowmane's Jewelry
+Jeweled Circlet	Jeweled Circlet
+Jeweled Belt	Jeweled Belt
+Ruby Ring	Ruby Ring
+Diamond Necklace	Diamond Necklace
+Four Seasons	Four Seasons
+Winter's Heart	Winter's Heart
+Spring Dawning	Spring Dawning
+Summer Flame	Summer Flame
+Autumn's Decay	Autumn's Decay
+Forgotten Treasures	Forgotten Treasures
+Fernandez' Plate	Fernandez' Plate
+Katriana's Mask	Katriana's Mask
+Luther's Cord	Luther's Cord
+Janis' Gloves	Janis' Gloves
+Xavier's Greaves	Xavier's Greaves
+Quincy's Shield	Quincy's Shield
+Insight of Brother Laz	Mishy's Crusade
+Power of Brother Laz	Mishy's Power
+Prayer of Brother Laz	Mishy's Prayer
+Brother Laz' Holy Symbol	Mishy's Holy Symbol
+Wrath of Brother Laz	Mishy's Holy Pillars
+Brother Laz' Faith	Mishy's Faith
+Hades' Underworld	Hades' Underworld
+Afterlife	Afterlife
+Dracolich	Dracolich
+Vampire's Crusade	Vampire's Crusade
+The River Stix	The River Stix
+Lord Hades' Throne	Throne of Hades'
+Darque's Cabal	Cabal of Aggression
+Secret Sociaty	Secret Sociaty
+Fallen Angels	Fallen Angels
+Savant Fury	Savant Fury
+Dawn's Blessing	Dawn's Blessing
+Red Havoc's Challenge	Red Havoc's Challenge
+Cry of the Wolf	Werewolf Visage
+Full Moon Frenzy	Full Moon Frenzy
+Torment of Innocence	Torment of Innocence
+Drawing Out the Beast	Drawing Out the Beast
+Mishy's Avatar	Alkalund's Avatar
+Elven Grace	Elven Grace
+Woodland Protector	Woodland Protector
+Silent Whisper	Silent Whisper
+Warder's Bond	Warder's Bond
+Trent's Caster	Centaur's Gift
+Maiden's Kiss	Maiden's Touch
+Joel's Sanctuary	Joel's Arcane Lore
+Eye of the Trent	Elemental Tempest
+Power of Fire	Creeping Lava
+Power of Ice	Winter's Blast
+Power of Lightning	Thunder's Calling
+JBouley's Scion	JBouley's Nightmare
+Shadow Ninja	Shadow Ninja
+Night's Caress	Night's Caress
+Mystic Blades	Mystic Blades
+Fade to Black	Fade to Black
+Heaven DeClineD	Heaven Declined
+Fall From Grace	Fall From Grace
+Tyrial's Grief	Tyrial's Grief
+Redemption Denied	Redemption Denied
+Hell's Embrace	Hell's Embrace
+Volf's Undead Legion	Volf's Undead Legion
+Spectral Knight's Unholy Shield	Spectral Knight's Unholy Shield
+Death Knight's Demon Blade	Death Knight's Demon Blade
+Skeleton Warrior's Corpse Plate	Skeleton Warrior's Corpse Plate
+Legacy of Vashna	Legacy of Vashna
+Dagger of Vashna	Dagger of Vashna
+Mask of Vashna	Mask of Vashna
+Robes of Vashna	Robes of Vashna
+Salander's Tirade	Salander's Tirade
+Lancer's Reach	Salander's Lance
+Salander's Mail	Salander's Mail
+Salander's Visor	Salander's Visor
+Jerik's Dragon Armor	Jerik's Dragon Hide
+Red Dragon Scale Mail	Red Dragon Scale Mail
+Black Dragon Hide Shield	Black Dragon Hide Shield
+Green Dragon Mask	Green Dragon Mask
+Lich's Cranium	Lich's Evil Grin
+Onyx's Primal Rage	Onyx's Horrid Transformation
+Onyx' Fallen Star	Onyx' Demonic Stride
+Onyx' Solar Flair	Onyx' Lamant of Innocence
+Onyx' Super Nova	Onyx' Shattered Children
+Onyx' Meteor Shower	Onyx' Soul Reaper
+Onyx' Celestial Rage	Onyx' Visage of Decay
+Brother Laz' Calling	Teachings of Brother Laz
+Teachings of Brother Laz	Spiritual Teachings
+Holy Aura	Holy Aura
+Retribution	Retribution
+Glory of Salvation	Salvation and Glory
+Angel's Touch	Angel's Touch
+The Mysterious Spin	The Mysterious Spin
+Spin's Enigma	Spin's Enigma
+Spin's Paradox	Spin's Paradox
+Spin's Mystery	Spin's Mystery
+Spin's Conundrum	Spin's Conundrum
+Spin's Perplexing Puzzle	Spin's Mystification
+Darkmage's Astral Projection	Darkmage's Astral Projection
+Dark1	Darkmage's Falling Star
+Dark2	Darkmage's Solar Flair
+Dark3	Darkmage's Super Nova
+Dark4	Darkmage's Meteor Shower
+Dark5	Darkmage's Celestial Fury
+Phrozen Heart's Mysticism	Phrozen Heart's Mysticism
+Cryptic Claws	Cryptic Claws
+Way of the Shadow	Way of the Shadow
+Dawns Mist	Dawns Mist
+Featherfoot	Featherfoot
+Winter's Discourd	Winter's Discourd
+Chaos Energy	Chaos Energy
+Soulstone of Power	Soulstone of Power
+Guiding Focus	Guiding Focus
+Chaotic Shield	Chaotic Shield
+Treads of Energy	Treads of Energy
+Band of Mysticism	Secrets of Mysticism
+Aiel Shieldmaiden	Maiden of the Spear
+Chiad's Lances	Chiad's Lances
+Chiad's Wall	Chiad's Wall
+Chiad's Heartbane	Chiad's Heartbane
+Chiad's Halo	Chiad's Halo
+Chiad's Valor	Chiad's Valor
+Myhrginoc's Warbreeder	Myhrginoc's Warbreeder
+Myhrginoc's Headhunter	Myhrginoc's Headhunter
+Myhrginoc's Black Rain	Myhrginoc's Black Rain
+Myhrginoc's Crimson Crusader	Myhrginoc's Crimson Crusader
+Myhrginoc's Deathmonger	Myhrginoc's Deathmonger
+Nefarius Ways	Nefarius Ways
+Sin and Greed	Sin and Greed
+wicked Impulse	Wicked Impulse
+Evil Reputation	Evil Reputation
+Noxious Wispers	Noxious Wispers
+Kraj's Memorial	Kraj's Memorial
+Eternal Sleep	Eternal Sleep
+Calming Peace	Calming Peace
+Silk Shroud	Burial Shroud
+Temple Guardian	Temple Guardian
+The Darkest Weaves	The Darkest Weaves
+Sundered Heart	Sundered Heart
+Soulreaver	Soul Reaver
+Throws of Hatred	Throws of Hatred
+Blood Raven's Dispair	Blood Raven's Dispair
+Blood Raven's Pain	Blood Raven's Pain
+Blood Raven's Curse	Blood Raven's Curse
+Blood Raven's Redemption	Blood Raven's Redemption
+Narrow Path Between Light and Darkness	Narrow Path Between Light and Darkness
+Char's Grimace of Death	Char's Grimace of Death
+Char's Annulus of Obscurity	Char's Annulus of Obscurity
+Char's Blessed Reflection	Char's Blessed Reflection
+Char's Hand of Blessed Light	Char's Blessed Light
+Kingpin's Set	Kingpin's Unique Set
+King1	Kingpin's Upgraded Goldwrap
+King2	Kingpin's War Traveler
+King3	Kingpin' Skullder's Ire
+King4	Kingpin's Nagelring
+King5	Kingpin's Harlequin Crest
+King6	Kingpin's Blade of Ali Baba
+Char's Carapice	Char's Carapice
+Yohann's Savant	Yohann's Savant Grace
+Wiseman's Cap	Wiseman's Crown
+Sage's Leather	Sage's Demonspike Leather
+Arcane Battlestaff	Arcane Battlestaff
+Gloves of Knowledge	Bracers of Lore
+Zhoulomcrist's Dread	Zhoulomcrist's Dread
+Unholy Desires	Unholy Desires
+Darkest Wishes	Deadly Wishes
+Shadowed Plate	Shadowed Plate
+Draven Coil	Draven Coil
+The Warlord of Blood	The Warlord of Blood
+Tortured Soul Gauntlets	Tortured Soul
+Hell's Torment Greaves	Hell's Torment
+Bloody Visage Helm	Bloody Visage
+Vengeance Unleashed	Vengeance Unleashed
+Elysian Fields	Elysian Fields
+Death and Decay	Death and Decay
+Darque Necromancy	Darque Necromancy
+Dying Curses	Dying Curses
+Lich's Rites	Lich's Rites
+Twilight of Evil	Twilight Fading
+Dark Rituals	Dark Rituals
+Legacy in Blood	Legacy in Blood
+Marhawkman's Disquise	Marhawkman's Disquise
+Andariel's Claw	Andariel's Claws
+Andariel's Hooves	Andariel's Hooves
+Andariel's Mask	Andariel's Mask
+Andariel's Breastbone	Andariel's Breastbone
+Set1	Aragorn's Scorn
+Set2	Bogrot's Magic
+Set3	Cedric's Jinx
+Set4	Dragon Reborn
+Set5	Soldier's Cairn
+Set6	Gweibret's Rule
+Set7	Haunted Asylum
+Set8	Alyssa's Archery
+Set9	Forbidden Lore
+Set10	Hanabal's Demise
+Set11	Wrath of Vengeance
+Set12	Servitude or Rebellion
+Set13	Kaldorn's Majesty
+Set14	Warlock's Exploration
+Set15	Amaunator's Peace
+Set16	Tika's Request
+Set17	Corthala Family Heirlooms
+Set18	Knight's Gallantry
+Set19	Lord Sith's Province
+Set20	Kai Lord's Valiance
+Set21	Path of Bravery
+Set22	Terror of the Deep
+Set23	Celestial Hierarchy
+Set24	Lords of Hell
+Set25	Curruption Coils
+Set1.1	Aragorn's Contempt
+Set1.2	Aragorn's Derision
+Set1.3	Aragorn's Indignation
+Set1.4	Aragorn's Disdain
+Set2.1	Winter's Embrace
+Set2.2	Baptism by Fire
+Set2.3	Between Fire and Ice
+Set3.1	Call of Gylandra
+Set3.2	Return to Hydrakal
+Set3.3	Neprida's Kiss
+Set4.1	Warder's Vest
+Set4.2	Heron-Branded Blade
+Set4.3	Ter'Angreal Ring
+Set4.4	Ser'Angreal Necklace
+Set4.5	Taint of Saidin
+Set4.6	Aviendha's Gift
+Set5.1	Heroes Stand
+Set5.2	Warrior's Heroism
+Set5.3	Martyr's Principle
+Set6.1	Judicial Decree
+Set6.2	Regime of Regulation
+Set6.3	King's Prescript
+Set6.4	Born Supremacy
+Set6.5	Dominion's Thesis
+Set7.1	Astral Body
+Set7.2	Apparition of Malice
+Set7.3	Phantasm of Horror
+Set7.4	Haunted Wisdom
+Set7.5	Revenant's Claw
+Set8.1	Alyssa's Essence
+Set8.2	Alyssa's Leafblighter
+Set8.3	Alyssa's Sandals
+Set9.1	Unholy Vows
+Set9.2	Vampirebone Dagger
+Set9.3	Wall of Modius
+Set9.4	Death's Door
+Set10.1	Hanabal's Shattered Plate
+Set10.2	Hanabal's Final Flight
+Set10.3	Hanabal's Blurred Vision
+Set10.4	Hanabal's Bending Knee
+Set11.1	Shroud of Anger
+Set11.2	Holy Fury
+Set11.3	Harvest of Cruelty
+Set11.4	Guiding Force
+Set11.5	Embracing Hatred
+Set12.1	Slave to Anarchy
+Set12.2	Bound by Honor
+Set12.3	Equilibrium
+Set13.1	Firecam Gilded Plate
+Set13.2	Axe of Arvoreen
+Set13.3	Windspar Mask
+Set13.4	Waterwyrd's Talon
+Set13.5	Daystar Wrap
+Set14.1	Incarnadine Elven Plate
+Set14.2	Staff of Elemental Mastery
+Set14.3	Lilarcor Cap
+Set14.4	Teleomortis' Gloves
+Set14.5	Citadel Belt
+Set15.1	Holy Shroud of Amaunator
+Set15.2	Holy Cleaver of Amaunator
+Set15.3	Holy Buckler of Amaunator
+Set15.4	Holy Ring of Amaunator
+Set15.5	Holy Boots of Amaunator
+Set15.6	Holy Sash of Amaunator
+Set16.1	Frostwyrm Hide
+Set16.2	Hallowed Redeemer
+Set16.3	Draconian Mask
+Set16.4	Girdle of Kitthix
+Set16.5	Gauntlets of Quietus
+Set17.1	Sir Tylan's Sylvan Mail
+Set17.2	Prince Karnd's Abomination
+Set17.3	Yavin's Infernal Visage
+Set17.4	Prince Gwar's Bracers
+Set17.5	Lady Daan's Celeritous Jambeau
+Set18.1	Mail of Courageousness
+Set18.2	Baton of Intrepidity
+Set18.3	Wall of Bravery
+Set18.4	Helm of Chivalry
+Set18.5	Belt of Temerity
+Set19.1	Ebony Plate of Evil
+Set19.2	Deflector of Light
+Set19.3	Dark Cataclysm
+Set19.4	Malignant Rod
+Set20.1	Helshazag
+Set20.2	Summerswerd
+Set20.3	Helghast Waistband
+Set20.4	Hallowed Greaves
+Set20.5	Sunspear Deflector
+Set21.1	Imperial Plate
+Set21.2	Imperial Helm
+Set21.3	Imperial Girdle
+Set21.4	Imperial Greaves
+Set21.5	Imperial Gauntlets
+Set21.6	Imperial Scepter
+Set22.1	Great White Terror
+Set22.2	Feeding Frenzy
+Set22.3	Mako's Quickness
+Set22.4	Hammerhead's Persistance
+Set23.1	Angels
+Set23.2	Principality
+Set23.3	Virtue
+Set23.4	Dominion
+Set23.5	Cherubim
+Set23.6	Seraphim
+Set24.1	Mephisto's Misty Aura
+Set24.2	Diablo's Soulstone Ring
+Set24.3	Baal's Cryptic Amulet
+Set24.4	Heaven's Lances
+Set25.1	Demonic Chuckle
+Set25.2	Evil Humor
+Set25.3	Temptation's Death
+Dame	Dame
+Lady	Lady
+Baroness	Baroness
+Countess	Countess
+Duchess	Duchess
+Queen	Queen
+Sir	Sir
+Lord	Lord
+Baron	Baron
+Count	Count
+Duke	Duke
+King	King
+Mastersmith's1	Mastersmith's
+Crusader's1	Crusader's
+Overlord's1	Overlord's
+Highmaster's1	Highmaster's
+Paradox's1	Paradox's
+Consecrated1	Consecrated
+Hallowed1	Hallowed
+Precise1	Precise
+Fastidious1	Fastidious
+Meticulous1	Meticulous
+Veracious1	Veracious
+gnostics1	Gnostics
+Sage's1	Sage's
+omniscient1	Omniscient
+Impacting1	Impacting
+Fracturing1	Fracturing
+Crushing1	Crushing
+deadly1	Deadly
+lethal1	Lethal
+fatal1	Fatal
+Elemental1	Elemental
+Sharp1	Deadly Sharp
+Sharp2	Sharp Crushing
+Fine1	Deadly Fine
+Fine2	Fine Crushing
+Mastersmith's2	Mastersmith's Deadly
+Mastersmith's3	Mastersmith's Crushing
+Warrior's1	Warrior's Deadly
+Warrior's2	Warrior's Crushing
+Soldier's1	Soldier's Deadly
+Soldier's2	Soldier's Crushing
+Crusader's2	Crusader's Deadly
+Crusader's3	Crusader's Crushing
+Knight's1	Knight's Deadly
+Knight's1	Knight's Crushing
+Lord's1	Lord's Deadly
+Lord's2	Lord's Crushing
+Overlord's2	Overlord's Deadly
+Overlord's3	Overlord's Crushing
+King's1	King's Deadly
+King's2	King's Crushing
+Master's1	Master's Deadly
+Master's2	Master's Crushing
+Highmaster's2	Highmaster's Deadly
+Highmaster's3	Highmaster's Crushing
+Grandmaster's1	Grandmaster's Deadly
+Grandmaster's2	Grandmaster's Crushing
+Sharp3	Sharp Wounding
+Fine3	Fine Wounding
+Mastersmith's4	Mastersmith's Wounding
+Warrior's3	Warrior's Wounding
+Soldier's3	Soldier's Wounding
+Crusader's4	Crusader's Wounding
+Knight's3	Knight's Wounding
+Lord's3	Lord's Wounding
+Overlord's4	Overlord's Wounding
+King's3	King's Wounding
+Master's3	Master's Wounding
+Highmaster's4	Highmaster's Wounding
+Grandmaster's3	Grandmaster's Wounding
+of the Lich1	of the Lich
+of the Sky1	of the Sky
+of the Stars1	of the Stars
+of the Heavens1	of the Heavens
+of the Zodiac1	of the Zodiac
+of Defense1	of Defense
+of Guarding1	of Guarding
+Heartless1	Heartless
+Loremaster's1	Loremaster's
+Sage's2	Sage's
+Master Sage's1	Master Sage's
+of Fire Coalescence1	of Fire Coalescence
+of Lightning Coalescence1	of Lightning Coalescence
+of Chilling Coalescence1	of Chilling Coalescence
+of Bartering1	of Bartering
+of Haggling1	of Haggling
+of Charming1	of Charming
+Loremaster's2	Loremaster's Enchanted
+Sage's3	Sage's Enchanted
+Master Sage's2	Master Sage's Enchanted
+Bronze-Wrought	Bronze-Wrought
+Iron-Wrought	Iron-Wrought
+Steel-Wrought	Steel-Wrought
+Silver-Wrought	Silver-Wrought
+Platimum-Wrought	Platimum-Wrought
+Titanium-Wrought	Titanium-Wrought
+Mithril-Wrought	Mithril-Wrought
+Adamantine-Wrought	Adamantine-Wrought
+Aureole	Aureole
+Ghostly1	Ghostly
+Spectral1	Spectral
+Phantom1	Phantom
+Wraithly1	Wraithly
+Strengthened1	Treated
+Reinforced1	Strengthened
+Fortified1	Reinforced
+Hardened1	Hardened
+Tempered1	Tempered
+Treated1	Fortified
+Invulnerable1	Invulnerable
+Sapping1	of Sapping
+Stunning1	of Stunning
+Paralysis1	of Paralysis
+of Blindness1	of Blindness
+of Reanimation1	of Reanimation
+of Winter2	of Winter's Chill
+of Summer2	of Summer Flame
+of Spring2	of Spring Storms
+of Autumn2	of Autumn's Decay
+of Vampiric Essence2	of Vampiric Essence
+of the Wight2	of the Wight
+of the Dragon's Spirit2	of the Dragon's Spirit
+of the Soul2	of the Soul
+of the Four Seasons2	of the Four Seasons
+Frost Wyrm's2	Frost Wyrm's
+Zeus's2	Zeus's
+Manticore's2	Manticore's
+Pyromaniac's2	Pyromaniac's
+Charged1	Charged
+of Burst of Speed2	of Burst of Speed
+of Cloak of Shadows2	of Cloak of Shadows
+of Fading2	of Fading
+of Mind Blasting2	of Mind Blasting
+of Blade Shield2	of Blade Shield
+of Venom2	of Venom
+strength_percent	Enhanced Strength
+dexterity_percent	Enhanced Dexterity
+vitality_percent	Enhanced Vitality
+energy_percent	Enhanced Energy
+of Power2	of Power
+of Agility2	of Agility
+of Endurance2	of Endurance
+of Spirit2	of Spirit
+Izuals Chamber	Izuals Chamber
+To Izuals Chamber	To Izuals Chamber
+Spirit of Diablo	Spirit of Diablo
+Spirit of Duriel	Spirit of Duriel
+Spirit of Mephisto	Spirit of Mephisto
+Spirit of Andariel	Spirit of Andariel
+Guardian Angel	Guardian Angel
+Yar the Mad	Yar the Mad
+Savahna Silvershank	Savahna Silvershank
+Slaad the Warrior	Slaad the Warrior
+Rotten Fleshthing	Crypt King
+Fangskin2	Deadly Adder
+Blood Swarm	Deadly Swarm
+Krull the Deviant	Krull the Deviant
+Garbad the Weak	Garbad the Weak
+Reaver of Souls	Reaver of Souls
+Venom Tork	Venom Tork
+Geleb Flamefinger1	Spectral Demon
+Geleb Flamefinger2	Myric Fireflash
+Geleb Flamefinger3	Lord Dracon
+Geleb Flamefinger4	Kyril Venomgland
+Geleb Flamefinger5	Yaziik Novastrike
+Geleb Flamefinger6	Warpfang the Currupted
+Geleb Flamefinger7	The Borg
+Geleb Flamefinger8	Ethereal Jadetalon
+Geleb Flamefinger9	Pukerott the Maggot
+Geleb Flamefinger10	Hydral the Frozen
+Shaman Elite	Shaman Elite
+Dreadfear the Wicked	Dreadfear the Wicked
+Geleb Flamefinger11	Shangg'ti the Deceiver
+Taintbreeder1	Goospittle the Delver
+Taintbreeder2	Gumbrul the Ugly
+Taintbreeder3	Branskeal of the Dark
+Taintbreeder4	Baron Yanti'sha Uth Lebrik
+Taintbreeder5	Shadowspawn the Vampyre
+Taintbreeder6	Deathstalker
+Taintbreeder7	Askerdia Darkheart
+Taintbreeder8	Hellboar the Crazed
+Frostbite Snake	Frostbite Icefang
+Hells Torment Level 1	Hells Torment Level 1
+Hells Torment Level 2	Hells Torment Level 2
+Hells Torment Level 3	Hells Torment Level 3
+Hells Torment Level 4	Hells Torment Level 4
+Hells Torment Level 5	Hells Torment Level 5
+Hells Torment Level 6	Hells Torment Level 6
+Hells Torment Level 7	Hells Torment Level 7
+Hells Torment Level 8	Hells Torment Level 8
+Hells Torment Level 9	Hells Torment Level 9
+Hells Torment Level 10	Hells Torment Level 10
+Hells Torment Level 11	Hells Torment Level 11
+Hells Torment Level 12	Hells Torment Level 12
+Hells Torment Level 13	Hells Torment Level 13
+Hells Torment Level 14	Hells Torment Level 14
+Hells Torment Level 15	Hells Torment Level 15
+Hells Torment Level 16	Hells Torment Level 16
+Hells Torment Level 17	Hells Torment Level 17
+Hells Torment Level 18	Hells Torment Level 18
+Hells Torment Level 19	Hells Torment Level 19
+Hells Torment Level 20	Hells Torment Level 20
+Hells Torment Level 21	Hells Torment Level 21
+Hells Torment Level 22	Hells Torment Level 22
+Hells Torment Level 23	Hells Torment Level 23
+Hells Torment Level 24	Hells Torment Level 24
+Hells Torment Level 25	Hells Torment Level 25
+Hells Torment Level 26	Hells Torment Level 26
+Hells Torment Level 27	Hells Torment Level 27
+Hells Torment Level 28	Hells Torment Level 28
+Hells Torment Level 29	Hells Torment Level 29
+Hells Torment Level 30	Hells Torment Level 30
+Hells Torment Level 31	Hells Torment Level 31
+Hells Torment Level 32	Hells Torment Level 32
+Hells Torment Level 33	Hells Torment Level 33
+Hells Torment Level 34	Hells Torment Level 34
+Hells Torment Level 35	Hells Torment Level 35
+Hells Torment Level 36	Hells Torment Level 36
+Hells Torment Level 37	Hells Torment Level 37
+Hells Torment Level 38	Hells Torment Level 38
+Hells Torment Level 39	Hells Torment Level 39
+Hells Torment Level 40	Hells Torment Level 40
+Hells Torment Level 41	Hells Torment Level 41
+Hells Torment Level 42	Hells Torment Level 42
+Hells Torment Level 43	Hells Torment Level 43
+Hells Torment Level 44	Hells Torment Level 44
+Hells Torment Level 45	Hells Torment Level 45
+Hells Torment Level 46	Hells Torment Level 46
+Hells Torment Level 47	Hells Torment Level 47
+Hells Torment Level 48	Hells Torment Level 48
+Hells Torment Level 49	Hells Torment Level 49
+Hells Torment Level 50	Hells Torment Level 50
+To Hells Torment Level 1	To Hells Torment Level 1
+To Hells Torment Level 2	To Hells Torment Level 2
+To Hells Torment Level 3	To Hells Torment Level 3
+To Hells Torment Level 4	To Hells Torment Level 4
+To Hells Torment Level 5	To Hells Torment Level 5
+To Hells Torment Level 6	To Hells Torment Level 6
+To Hells Torment Level 7	To Hells Torment Level 7
+To Hells Torment Level 8	To Hells Torment Level 8
+To Hells Torment Level 9	To Hells Torment Level 9
+To Hells Torment Level 10	To Hells Torment Level 10
+To Hells Torment Level 11	To Hells Torment Level 11
+To Hells Torment Level 12	To Hells Torment Level 12
+To Hells Torment Level 13	To Hells Torment Level 13
+To Hells Torment Level 14	To Hells Torment Level 14
+To Hells Torment Level 15	To Hells Torment Level 15
+To Hells Torment Level 16	To Hells Torment Level 16
+To Hells Torment Level 17	To Hells Torment Level 17
+To Hells Torment Level 18	To Hells Torment Level 18
+To Hells Torment Level 19	To Hells Torment Level 19
+To Hells Torment Level 20	To Hells Torment Level 20
+To Hells Torment Level 21	To Hells Torment Level 21
+To Hells Torment Level 22	To Hells Torment Level 22
+To Hells Torment Level 23	To Hells Torment Level 23
+To Hells Torment Level 24	To Hells Torment Level 24
+To Hells Torment Level 25	To Hells Torment Level 25
+To Hells Torment Level 26	To Hells Torment Level 26
+To Hells Torment Level 27	To Hells Torment Level 27
+To Hells Torment Level 28	To Hells Torment Level 28
+To Hells Torment Level 29	To Hells Torment Level 29
+To Hells Torment Level 30	To Hells Torment Level 30
+To Hells Torment Level 31	To Hells Torment Level 31
+To Hells Torment Level 32	To Hells Torment Level 32
+To Hells Torment Level 33	To Hells Torment Level 33
+To Hells Torment Level 34	To Hells Torment Level 34
+To Hells Torment Level 35	To Hells Torment Level 35
+To Hells Torment Level 36	To Hells Torment Level 36
+To Hells Torment Level 37	To Hells Torment Level 37
+To Hells Torment Level 38	To Hells Torment Level 38
+To Hells Torment Level 39	To Hells Torment Level 39
+To Hells Torment Level 40	To Hells Torment Level 40
+To Hells Torment Level 41	To Hells Torment Level 41
+To Hells Torment Level 42	To Hells Torment Level 42
+To Hells Torment Level 43	To Hells Torment Level 43
+To Hells Torment Level 44	To Hells Torment Level 44
+To Hells Torment Level 45	To Hells Torment Level 45
+To Hells Torment Level 46	To Hells Torment Level 46
+To Hells Torment Level 47	To Hells Torment Level 47
+To Hells Torment Level 48	To Hells Torment Level 48
+To Hells Torment Level 49	To Hells Torment Level 49
+To Hells Torment Level 50	To Hells Torment Level 50
+Hells Icechamber Level 1	Death's Cellar
+Hells Icechamber Level 2	Hells Icy Wasteland
+Hells Icechamber Level 3	Cave of Shattered Souls
+Hells Icechamber Level 4	Pit of Misery
+Hells Icechamber Level 5	Caverns of Hatred
+Hells Icechamber Level 6	Realm of Atrocious Desires
+Hells Icechamber Level 7	Heart's Bane
+Hells Icechamber Level 8	Fear and Loathing
+Hells Icechamber Level 9	The Currupt Armory
+Hells Icechamber Level 10	The  Warlord's Den
+Hells Icechamber Level 11	Cabal of Sin
+Hells Icechamber Level 12	Halls of Wanton Lust
+Hells Icechamber Level 13	Cave of Sinful Delights
+Hells Icechamber Level 14	Death's Clutches
+Hells Icechamber Level 15	Nightmare Cave
+Hells Icechamber Level 16	Decent into Evil
+Hells Icechamber Level 17	Cavern of Wicked Cruelty
+Hells Icechamber Level 18	The Chambers of Sin
+Hells Icechamber Level 19	The Cave of Sorrow
+Hells Icechamber Level 20	The Den of Ill Fortune
+Hells Icechamber Level 21	Pit of Unholy Retribution
+Hells Icechamber Level 22	Cave of Affliction
+Hells Icechamber Level 23	The Cavity of Lust
+Hells Icechamber Level 24	The Grotto of Suffering
+Hells Icechamber Level 25	The Chambers of Shadar'Logath
+Hells Icechamber Level 26	The Torturer's Faith
+Hells Icechamber Level 27	The Subterranean Wastes
+Hells Icechamber Level 28	The Den of Cruelty
+Hells Icechamber Level 29	The Caverns of Naut
+Hells Icechamber Level 30	The Cave of Savant Demise
+Hells Icechamber Level 31	The Realm of Hollowed Horrors
+Hells Icechamber Level 32	The Dimensions of the Nether
+Hells Icechamber Level 33	The Dominion of Vileness
+Hells Icechamber Level 34	The Domain of Disaster
+Hells Icechamber Level 35	The Empire of Diabolism
+Hells Icechamber Level 36	The Kingdom of the Antediluvians
+Hells Icechamber Level 37	Sphere of Primeval Tears
+Hells Icechamber Level 38	Archaic Turpitude
+Hells Icechamber Level 39	Halls of the Ancients
+Hells Icechamber Level 40	Grotto of Perversity
+Hells Icechamber Level 41	Ill Omens
+Hells Icechamber Level 42	Sea of Frozen Souls
+Hells Icechamber Level 43	Winters Discourd
+Hells Icechamber Level 44	Realms of the Undead
+Hells Icechamber Level 45	Dominion of Malocchio
+Hells Icechamber Level 46	Cavity of Repulsion
+Hells Icechamber Level 47	Lost Eternity
+Hells Icechamber Level 48	Seven Deadly Sins
+Hells Icechamber Level 49	Reaper of Souls
+Hells Icechamber Level 50	Barony of Evil
+Hells Icechamber Level 51	Hells End - Rise of Fallen Angels
+To Hells Icechamber Level 1	To Death's Cellar
+To Hells Icechamber Level 2	To Hells Icy Wasteland
+To Hells Icechamber Level 3	To The Cave of Shattered Souls
+To Hells Icechamber Level 4	To The Pit of Misery
+To Hells Icechamber Level 5	To The Caverns of Hatred
+To Hells Icechamber Level 6	To The Realm of Atrocious Desires
+To Hells Icechamber Level 7	To Heart's Bane
+To Hells Icechamber Level 8	To Fear and Loathing
+To Hells Icechamber Level 9	To The Currupt Armory
+To Hells Icechamber Level 10	To The  Warlord's Den
+To Hells Icechamber Level 101	To Hells End - The Rise of Fallen Angels
+To Hells Icechamber Level 11	To Hells Cabal of Sin
+To Hells Icechamber Level 12	To The Halls of Wanton Lust
+To Hells Icechamber Level 13	To The Cave of Sinful Delights
+To Hells Icechamber Level 14	To Death's Clutches
+To Hells Icechamber Level 15	To The Nightmare Cave
+To Hells Icechamber Level 16	The Decent into Evil
+To Hells Icechamber Level 17	To The Cavern of Wicked Cruelty
+To Hells Icechamber Level 18	To The Chambers of Sin
+To Hells Icechamber Level 19	To The Cave of Sorrow
+To Hells Icechamber Level 20	To The Den of Ill Fortune
+To Hells Icechamber Level 21	To The Pit of Unholy Retribution
+To Hells Icechamber Level 22	To The Cave of Affliction
+To Hells Icechamber Level 23	To The Cavity of Lust
+To Hells Icechamber Level 24	To The Grotto of Suffering
+To Hells Icechamber Level 25	To The Chambers of Shadar'Logath
+To Hells Icechamber Level 26	The Torturer's Faith
+To Hells Icechamber Level 27	To The Subterranean Wastes
+To Hells Icechamber Level 28	To The Den of Cruelty
+To Hells Icechamber Level 29	To The Caverns of Naut
+To Hells Icechamber Level 30	To The Cave of Savant Demise
+To Hells Icechamber Level 31	To The Realm of Hollowed Horrors
+To Hells Icechamber Level 32	Into The Dimensions of the Nether
+To Hells Icechamber Level 33	To The Dominion of Vileness
+To Hells Icechamber Level 34	To The Domain of Disaster
+To Hells Icechamber Level 35	To The Empire of Diabolism
+To Hells Icechamber Level 36	To The Kingdom of the Antediluvians
+To Hells Icechamber Level 37	To the Sphere of Primeval Tears
+To Hells Icechamber Level 38	To Archaic Turpitude
+To Hells Icechamber Level 39	To the Halls of the Ancients
+To Hells Icechamber Level 40	To the Grotto of Perversity
+To Hells Icechamber Level 41	To Ill Omens
+To Hells Icechamber Level 42	To the Sea of Frozen Souls
+To Hells Icechamber Level 43	To Winters Discourd
+To Hells Icechamber Level 44	To Realms of the Undead
+To Hells Icechamber Level 45	To Dominion of Malocchio
+To Hells Icechamber Level 46	To the Cavity of Repulsion
+To Hells Icechamber Level 47	To Lost Eternity
+To Hells Icechamber Level 48	To Hells Seven Deadly Sins
+To Hells Icechamber Level 49	To Reaper of Souls
+To Hells Icechamber Level 50	To Barony of Evil
+To Hells Icechamber Level 51	To Hells End - Rise of Fallen Angels
+Super1	Mendolin Nightweaver
+Super2	Alia Al-Karim
+Super3	Wemick Foxfire
+Super4	Golgomere
+Super5	Allaranzal the Shy
+Super6	Synthalus the Chained
+Super7	Ogut'jal
+Super8	Balian Rockhammer
+Super9	Son of Kyuss
+Super10	Cha'thrang
+Super11	Noro Amoto
+Super12	Dolara the Deadly
+Super13	Avenel Whytstagg
+Super14	Senmet of the Myste
+Super15	Cirillo Fayheart
+Super16	Dyreth Shadowstalker
+Super17	Foucault of Gyra
+Super18	Cistern Fiend
+Super19	La'Kaa Erdland
+Super20	Tiyet Bluebeard
+Super21	Artimus the Wight
+Super22	Valen Westguard
+Super23	Nariako of the Frost
+Super24	Storm Silverhand
+Super25	Nymara Sheiron
+Super26	Tarda of Thrax
+Super27	Lodok Romidan the Crazed
+Super28	Clockwork Horror
+Super29	Feesu the Grey
+Super30	Kaleen the Quick
+Super31	Hannibil the Stout
+Super32	Barnus the Scag
+Super33	Ratha Rann the Dead
+Super34	Tar the Cold
+Super35	Nyral Sunsdottir
+Super36	Morin Granitefist
+Super37	Flynn Oakplume
+Super38	Flowfiend the Choker
+Super39	Kirren Tigertooth
+Super40	Korm the Crusher
+Super41	Karali Poisonfang
+Super42	Ceryx Ravenstar
+Super43	Darkon Moonshadow
+Super44	Vel the Traveler
+Super45	Knag the Finder
+Super46	Lucia Dracolich
+Super47	Charissa Nightwing
+Super48	Ahmintam the Ferret
+Super49	The Shadowed One
+Super50	Spirit of the Land
+Spirit of Diablo2	Diablo - Lord of Terror
+Spirit of Baal2	Baal - Lord of Destruction
+Spirit of Mephisto2	Mephisto - Lord of Hatred
+Khalem's Burial Chamber	Khalem's Burial Chamber
+To Khalem's Burial Chamber	To Khalem's Burial Chamber
+Super51	Templar Knight Guardian
+SkfptReq	
+SkptReq	
+skstrStatReq	\yellow;Requires 
+skstrStr	Str %d
+skstrDex	Dex %d
+skstrVit	Vit %d
+skstrEnr	Enr %d
+skstrComma	, 
+skstrTerm	\grey;
+act5a	Act 5
+act5b	Act 5
+act5c	Act 5
+playstr	(Increases with Strength Attribute)
+playdex	(Increases with Dexterity Attribute)
+playvit	(Increases with Vitality Attribute)
+playenr	(Increases with Energy Attribute)
+ModStrcoldskill	to Cold Skills
+ModStrlightningskill	to Lightning Skills
+ModStrpoisonskill	to Poison Skills
+ModStrmagicskill	to Magic Skills
+ModStrblinded	chance Attacker is Blinded
+ModStrfear	chance Attacker will Flee in Fear
+ModStrfirethorns	Attacker takes Fire Damage of
+ModStrcoldthorns	Attacker takes Cold Damage of
+ModResMaxAllZero	Sets all Resistances to 0
+Road to Perdition1	Road to Perdition
+Rainbow Facet1	Rainbow Facet
+Rainbow Facet2	Rainbow Facet
+Rainbow Facet3	Rainbow Facet
+Rainbow Facet4	Rainbow Facet
+Rainbow Facet5	Rainbow Facet
+Rainbow Facet6	Rainbow Facet
+Rainbow Facet7	Rainbow Facet
+Saphire Facet1	Sapphire Facet
+Medusa's Gaze1	Medusa's Gaze
+Death Slaad1	Death Slaad
+t1 Splash Charm	Collin's Lesser Might
+cm4	Splash Charm
+t2 Splash Charm	Collin's Minor Might
+t3 Splash Charm	Collin's Might
+z01	Barbed Arrows
+z01	Barbed Arrows
+stt	Item Grabber
+sto	Storage
+ModAttStrPercent	%d increased Strength
+ModAttDexPercent	%d increased Dexterity
+ModAttVitPercent	%d increased Vitality
+ModAttEnrPercent	%d increased Energy
+Searing Moon	Searing Moon
+Barilzar's Mazed Band	Barilzar's Mazed Band
+Duriel's Fang	Duriel's Fang
+Radament's Bite	Radament's Bite
+Butcher's Paring Knives	Butcher's Paring Knives
+Quiver of Pestilence	Quiver of Pestilence
+Bolt Case of Pestilence	Bolt Case of Pestilence
+Gem Cluster	Gem Cluster

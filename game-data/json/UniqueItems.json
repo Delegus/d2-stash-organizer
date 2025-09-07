@@ -6558,7 +6558,7 @@
     ]
   },
   {
-    "name": "The Minotaur1",
+    "name": "The Minotaur",
     "enabled": true,
     "code": "9gi",
     "qlevel": 53,
@@ -7421,7 +7421,7 @@
       },
       {
         "prop": "skilltab",
-        "param": 13,
+        "param": 12,
         "min": 2,
         "max": 2
       },
@@ -7870,7 +7870,7 @@
     ]
   },
   {
-    "name": "The Atlantean1",
+    "name": "The Atlantean",
     "enabled": true,
     "code": "9wd",
     "qlevel": 50,
@@ -8803,7 +8803,7 @@
       },
       {
         "prop": "skilltab",
-        "param": 13,
+        "param": 12,
         "min": 3,
         "max": 3
       },
@@ -10495,7 +10495,7 @@
     ]
   },
   {
-    "name": "Skin of the Flayed One1",
+    "name": "Skin of the Flayed One",
     "enabled": true,
     "code": "xla",
     "qlevel": 39,
@@ -11071,7 +11071,7 @@
     ]
   },
   {
-    "name": "Que-Hegan's Wisdom1",
+    "name": "Que-Hegan's Wisdom",
     "enabled": true,
     "code": "xtp",
     "qlevel": 59,
@@ -11165,7 +11165,7 @@
     ]
   },
   {
-    "name": "Moser's Blessed Circle1",
+    "name": "Moser's Blessed Circle",
     "enabled": true,
     "code": "xml",
     "qlevel": 39,
@@ -11345,7 +11345,7 @@
     ]
   },
   {
-    "name": "Gerke's Sanctuary1",
+    "name": "Gerke's Sanctuary",
     "enabled": true,
     "code": "xow",
     "qlevel": 52,
@@ -14999,7 +14999,7 @@
     ]
   },
   {
-    "name": "Death's Web1",
+    "name": "Death's Web",
     "enabled": true,
     "code": "7gw",
     "qlevel": 74,
@@ -17747,7 +17747,7 @@
     ]
   },
   {
-    "name": "Gheed's Fortune",
+    "name": "ÿc4Gheed's Fortune",
     "enabled": true,
     "code": "cm3",
     "qlevel": 60,
@@ -18718,7 +18718,7 @@
     ]
   },
   {
-    "name": "Annihilus",
+    "name": "ÿc4Annihilusÿc1",
     "enabled": true,
     "code": "cm1",
     "qlevel": 110,
@@ -19274,7 +19274,7 @@
     ]
   },
   {
-    "name": "Spring Facet",
+    "name": "ÿc4Spring Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -19306,7 +19306,7 @@
     ]
   },
   {
-    "name": "Winter Facet",
+    "name": "ÿc4Winter Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -19338,7 +19338,7 @@
     ]
   },
   {
-    "name": "Summer Facet",
+    "name": "ÿc4Summer Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -19370,17 +19370,11 @@
     ]
   },
   {
-    "name": "Autumn Facet",
+    "name": "ÿc4Autumn Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
     "modifiers": [
-      {
-        "prop": "dmg-pois",
-        "param": 50,
-        "min": 187,
-        "max": 187
-      },
       {
         "prop": "pierce-pois",
         "param": 0,
@@ -19402,7 +19396,7 @@
     ]
   },
   {
-    "name": "Thunder Facet",
+    "name": "ÿc4Thunder Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -19434,7 +19428,7 @@
     ]
   },
   {
-    "name": "Rime Facet",
+    "name": "ÿc4Rime Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -19466,7 +19460,7 @@
     ]
   },
   {
-    "name": "Burnt Facet",
+    "name": "ÿc4Burnt Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -19498,17 +19492,11 @@
     ]
   },
   {
-    "name": "Toxic Facet",
+    "name": "ÿc4Toxic Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
     "modifiers": [
-      {
-        "prop": "dmg-pois",
-        "param": 50,
-        "min": 187,
-        "max": 187
-      },
       {
         "prop": "pierce-pois",
         "param": 0,
@@ -19530,7 +19518,7 @@
     ]
   },
   {
-    "name": "Hellfire Torch",
+    "name": "ÿc4Hellfire Torchÿc1",
     "enabled": false,
     "code": "cm2",
     "qlevel": 75,
@@ -19732,7 +19720,7 @@
       },
       {
         "prop": "skilltab",
-        "param": 13,
+        "param": 12,
         "min": 1,
         "max": 3
       },
@@ -22303,7 +22291,7 @@
     ]
   },
   {
-    "name": "Hero's Welcome",
+    "name": "Heroes Welcome",
     "enabled": true,
     "code": "7ga",
     "qlevel": 75,
@@ -25012,7 +25000,7 @@
       },
       {
         "prop": "skilltab",
-        "param": 13,
+        "param": 12,
         "min": 1,
         "max": 3
       },
@@ -34225,7 +34213,7 @@
     ]
   },
   {
-    "name": "Serpent Lord1",
+    "name": "Serpent Lord",
     "enabled": true,
     "code": "lst",
     "qlevel": 1,
@@ -41510,9 +41498,9 @@
       },
       {
         "prop": "hit-skill",
-        "param": 44,
-        "min": 100,
-        "max": 6
+        "param": 407,
+        "min": 5,
+        "max": 1
       },
       {
         "prop": "aura",
@@ -44376,7 +44364,7 @@
       },
       {
         "prop": "skilltab",
-        "param": 12,
+        "param": 13,
         "min": 1,
         "max": 3
       },
@@ -50233,7 +50221,7 @@
     ]
   },
   {
-    "name": "Lolith's Crest",
+    "name": "Lilith's Crest",
     "enabled": true,
     "code": "usk",
     "qlevel": 70,
@@ -53700,7 +53688,7 @@
       },
       {
         "prop": "skilltab",
-        "param": 13,
+        "param": 12,
         "min": 1,
         "max": 3
       }
@@ -55199,7 +55187,7 @@
     ]
   },
   {
-    "name": "Road to Perdition1",
+    "name": "Road to Perdition",
     "enabled": true,
     "code": "xvb",
     "qlevel": 28,
@@ -65961,7 +65949,7 @@
         "max": 4
       },
       {
-        "prop": "dmg",
+        "prop": "dmg-norm",
         "param": 0,
         "min": 30,
         "max": 60
@@ -70191,7 +70179,7 @@
     ]
   },
   {
-    "name": "Autumn's Avatar",
+    "name": "ÿc4Autumn's Avatar",
     "enabled": true,
     "code": "cm1",
     "qlevel": 12,
@@ -70229,7 +70217,7 @@
     ]
   },
   {
-    "name": "Remembrance of Glory",
+    "name": "ÿc4Remembrance of Glory",
     "enabled": true,
     "code": "cm1",
     "qlevel": 81,
@@ -70267,7 +70255,7 @@
     ]
   },
   {
-    "name": "Argo's Anchor",
+    "name": "ÿc4Argo's Anchor",
     "enabled": true,
     "code": "cm1",
     "qlevel": 48,
@@ -70305,7 +70293,7 @@
     ]
   },
   {
-    "name": "Ogre King's Bowl",
+    "name": "ÿc4Ogre King's Bowl",
     "enabled": true,
     "code": "cm2",
     "qlevel": 60,
@@ -70343,7 +70331,7 @@
     ]
   },
   {
-    "name": "Peacemaker",
+    "name": "ÿc4Peacemaker",
     "enabled": true,
     "code": "cm1",
     "qlevel": 15,
@@ -70381,7 +70369,7 @@
     ]
   },
   {
-    "name": "Life & Death",
+    "name": "ÿc4Life & Death",
     "enabled": true,
     "code": "cm2",
     "qlevel": 55,
@@ -70419,7 +70407,7 @@
     ]
   },
   {
-    "name": "Throne of Power",
+    "name": "ÿc4Throne of Power",
     "enabled": true,
     "code": "cm2",
     "qlevel": 81,
@@ -70463,7 +70451,7 @@
     ]
   },
   {
-    "name": "Nightshade",
+    "name": "ÿc4Nightshade",
     "enabled": true,
     "code": "cm3",
     "qlevel": 6,
@@ -70501,7 +70489,7 @@
     ]
   },
   {
-    "name": "Queen's Call",
+    "name": "ÿc4Queen's Call",
     "enabled": true,
     "code": "cm3",
     "qlevel": 81,
@@ -70551,7 +70539,7 @@
     ]
   },
   {
-    "name": "Tiger Eye",
+    "name": "ÿc4Tiger Eye",
     "enabled": true,
     "code": "jew",
     "qlevel": 58,
@@ -70565,45 +70553,45 @@
       {
         "prop": "dmg-min",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 10,
+        "max": 10
       },
       {
-        "prop": "deadly",
+        "prop": "dmg-max",
         "param": 0,
-        "min": 5,
-        "max": 8
+        "min": 20,
+        "max": 20
       }
     ]
   },
   {
-    "name": "Jade Facet",
+    "name": "ÿc4Jade Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 58,
     "modifiers": [
       {
-        "prop": "dmg%",
+        "prop": "dmg-min",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 10,
+        "max": 15
       },
       {
         "prop": "dmg-max",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 25,
+        "max": 30
       },
       {
-        "prop": "crush",
+        "prop": "openwounds",
         "param": 0,
-        "min": 5,
-        "max": 8
+        "min": 3,
+        "max": 5
       }
     ]
   },
   {
-    "name": "Topaz Facet",
+    "name": "ÿc4Topaz Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 49,
@@ -70635,7 +70623,7 @@
     ]
   },
   {
-    "name": "Emerald Facet",
+    "name": "ÿc4Emerald Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 38,
@@ -70667,7 +70655,7 @@
     ]
   },
   {
-    "name": "Quartz Facet",
+    "name": "ÿc4Quartz Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 43,
@@ -70693,7 +70681,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70725,7 +70713,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70757,7 +70745,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70789,7 +70777,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70821,7 +70809,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70853,7 +70841,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70885,7 +70873,7 @@
     ]
   },
   {
-    "name": "Rainbow Facet",
+    "name": "ÿc4Rainbow Facet",
     "enabled": false,
     "code": "jew",
     "qlevel": 49,
@@ -70917,7 +70905,7 @@
     ]
   },
   {
-    "name": "Sapphire Facet",
+    "name": "ÿc4Sapphire Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 58,
@@ -70955,7 +70943,7 @@
     ]
   },
   {
-    "name": "Spinel Facet",
+    "name": "ÿc4Spinel Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 58,
@@ -70967,21 +70955,15 @@
         "max": 40
       },
       {
-        "prop": "dmg-min",
+        "prop": "att",
         "param": 0,
-        "min": 15,
-        "max": 15
-      },
-      {
-        "prop": "pierce",
-        "param": 0,
-        "min": 5,
-        "max": 8
+        "min": 50,
+        "max": 50
       }
     ]
   },
   {
-    "name": "Diamond Facet",
+    "name": "ÿc4Diamond Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 67,
@@ -71013,7 +70995,7 @@
     ]
   },
   {
-    "name": "Adamantine Facet",
+    "name": "ÿc4Adamantine Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 71,
@@ -71045,7 +71027,7 @@
     ]
   },
   {
-    "name": "Star Facet",
+    "name": "ÿc4Star Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 76,
@@ -71053,8 +71035,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 45,
+        "max": 50
       },
       {
         "prop": "swing1",
@@ -71063,15 +71045,15 @@
         "max": 15
       },
       {
-        "prop": "dmg-max",
+        "prop": "all-stats",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 5,
+        "max": 5
       }
     ]
   },
   {
-    "name": "Heaven Facet",
+    "name": "ÿc4Heaven Facet",
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
@@ -71097,7 +71079,7 @@
     ]
   },
   {
-    "name": "t1 Splash Charm",
+    "name": "ÿc4Collin's Lesser Mightÿc3",
     "enabled": true,
     "code": "cm4",
     "qlevel": 1,
@@ -71123,7 +71105,7 @@
     ]
   },
   {
-    "name": "t2 Splash Charm",
+    "name": "ÿc4Collin's Minor Mightÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
@@ -71149,7 +71131,7 @@
     ]
   },
   {
-    "name": "t3 Splash Charm",
+    "name": "ÿc4Collin's Mightÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
@@ -71292,7 +71274,7 @@
     "modifiers": []
   },
   {
-    "name": "t4 Splash Charm",
+    "name": "ÿc4Collin's Greater Mightÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
@@ -71318,7 +71300,7 @@
     ]
   },
   {
-    "name": "t5 Splash Charm",
+    "name": "ÿc4Collin's Furyÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
@@ -71344,14 +71326,14 @@
     ]
   },
   {
-    "name": "t6 Splash Charm",
+    "name": "ÿc4Collin's Empowered Furyÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
     "modifiers": [
       {
-        "prop": "splashfour",
-        "param": 375,
+        "prop": "splashthree",
+        "param": 374,
         "min": 100,
         "max": 1
       },
@@ -71370,7 +71352,7 @@
     ]
   },
   {
-    "name": "t7 Splash Charm",
+    "name": "ÿc4Collin's Devastationÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
@@ -71396,7 +71378,7 @@
     ]
   },
   {
-    "name": "t8 Splash Charm",
+    "name": "ÿc4Collin's Furious Devastationÿc3",
     "enabled": false,
     "code": "cm4",
     "qlevel": 1,
@@ -71422,7 +71404,7 @@
     ]
   },
   {
-    "name": "t9 Splash Charm",
+    "name": "ÿc4Collin's Destructionÿc3",
     "enabled": true,
     "code": "cm5",
     "qlevel": 1,
@@ -71442,7 +71424,7 @@
     ]
   },
   {
-    "name": "Cold Rupture",
+    "name": "ÿc4Cold Rupture",
     "enabled": false,
     "code": "cm3",
     "qlevel": 69,
@@ -71468,7 +71450,7 @@
     ]
   },
   {
-    "name": "Flame Rift",
+    "name": "ÿc4Flame Rift",
     "enabled": false,
     "code": "cm3",
     "qlevel": 69,
@@ -71494,7 +71476,7 @@
     ]
   },
   {
-    "name": "Crack of the Heavens",
+    "name": "ÿc4Crack of the Heavens",
     "enabled": false,
     "code": "cm3",
     "qlevel": 69,
@@ -71520,7 +71502,7 @@
     ]
   },
   {
-    "name": "Rotting Fissure",
+    "name": "ÿc4Rotting Fissure",
     "enabled": false,
     "code": "cm3",
     "qlevel": 69,
@@ -71546,7 +71528,7 @@
     ]
   },
   {
-    "name": "Bone Break",
+    "name": "ÿc4Bone Break",
     "enabled": false,
     "code": "cm3",
     "qlevel": 69,
@@ -71572,7 +71554,7 @@
     ]
   },
   {
-    "name": "Black Cleft",
+    "name": "ÿc4Black Cleft",
     "enabled": false,
     "code": "cm3",
     "qlevel": 69,
@@ -71798,7 +71780,7 @@
     ]
   },
   {
-    "name": "Black Soulstone",
+    "name": "ÿc4Black Soulstoneÿc1",
     "enabled": false,
     "code": "cm1",
     "qlevel": 85,
@@ -71848,7 +71830,7 @@
     ]
   },
   {
-    "name": "Obsidian Beacon",
+    "name": "ÿc4Obsidian Beaconÿc1",
     "enabled": false,
     "code": "cm3",
     "qlevel": 85,
@@ -71892,7 +71874,7 @@
     ]
   },
   {
-    "name": "Valknut",
+    "name": "ÿc4Valknut",
     "enabled": true,
     "code": "cm2",
     "qlevel": 20,
@@ -71930,7 +71912,7 @@
     ]
   },
   {
-    "name": "Triskelion",
+    "name": "ÿc4Triskelion",
     "enabled": true,
     "code": "cm3",
     "qlevel": 30,
@@ -71962,7 +71944,7 @@
     ]
   },
   {
-    "name": "Web of Wyrd",
+    "name": "ÿc4Web of Wyrd",
     "enabled": true,
     "code": "cm3",
     "qlevel": 50,
@@ -72000,7 +71982,7 @@
     ]
   },
   {
-    "name": "Conclave of Elements",
+    "name": "ÿc4Conclave of Elements",
     "enabled": true,
     "code": "cm3",
     "qlevel": 81,

@@ -1475,8 +1475,8 @@
     "descPriority": 122,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "%+d Weapon Damage",
-    "descNeg": "%+d Weapon Damage",
+    "descPos": "%+d Damage",
+    "descNeg": "%+d Damage",
     "descAdditional": ""
   },
   {
@@ -4235,8 +4235,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "50%% Melee Splash Damage",
-    "descNeg": "50%% Melee Splash Damage",
+    "descPos": "Splash 50%% of Melee Damage",
+    "descNeg": "Splash 50%% of Melee Damage",
     "descAdditional": ""
   },
   {
@@ -4248,8 +4248,8 @@
     "descPriority": 129,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrPlayerMinDmgPercent",
-    "descNeg": "ModStrPlayerMinDmgPercent",
+    "descPos": "%+d%% Extra Maximum Weapon Damage",
+    "descNeg": "%+d%% Extra Maximum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -4261,8 +4261,8 @@
     "descPriority": 130,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrPlayerMaxDmgPercent",
-    "descNeg": "ModStrPlayerMaxDmgPercent",
+    "descPos": "%+d%% Extra Minimum Weapon Damage",
+    "descNeg": "%+d%% Extra Minimum Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -4443,8 +4443,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "55%% Melee Splash Damage",
-    "descNeg": "55%% Melee Splash Damage",
+    "descPos": "Splash 50%% of Melee Damage",
+    "descNeg": "Splash 50%% of Melee Damage",
     "descAdditional": ""
   },
   {
@@ -4456,8 +4456,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "65%% Melee Splash Damage",
-    "descNeg": "65%% Melee Splash Damage",
+    "descPos": "Splash 75%% of Melee Damage",
+    "descNeg": "Splash 75%% of Melee Damage",
     "descAdditional": ""
   },
   {
@@ -4469,8 +4469,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "75%% Melee Splash Damage",
-    "descNeg": "75%% Melee Splash Damage",
+    "descPos": "Splash 100%% of Melee Damage",
+    "descNeg": "Splash 100%% of Melee Damage",
     "descAdditional": ""
   },
   {
@@ -4495,8 +4495,8 @@
     "descPriority": 160,
     "descFunc": 15,
     "descVal": 0,
-    "descPos": "85%% Melee Splash Damage",
-    "descNeg": "85%% Melee Splash Damage",
+    "descPos": "Splash 100%% of Melee Damage",
+    "descNeg": "Splash 100%% of Melee Damage",
     "descAdditional": ""
   },
   {
@@ -4612,8 +4612,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 2ÿc0",
-    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 2ÿc0",
+    "descPos": "ÿc4Upgrades: ÿc0%d / 2",
+    "descNeg": "ÿc4Upgrades: ÿc0%d / 2",
     "descAdditional": ""
   },
   {
@@ -4625,8 +4625,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 3ÿc0",
-    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 3ÿc0",
+    "descPos": "ÿc4Upgrades: ÿc0%d / 3",
+    "descNeg": "ÿc4Upgrades: ÿc0%d / 3",
     "descAdditional": ""
   },
   {
@@ -4638,8 +4638,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 5ÿc0",
-    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 5ÿc0",
+    "descPos": "ÿc4Upgrades: ÿc0%d / 5",
+    "descNeg": "ÿc4Upgrades: ÿc0%d / 5",
     "descAdditional": ""
   },
   {
@@ -4651,8 +4651,8 @@
     "descPriority": 301,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ÿc4Upgrades:ÿc4 ÿc0%d / 10ÿc0",
-    "descNeg": "ÿc4Upgrades:ÿc4 ÿc0%d / 10ÿc0",
+    "descPos": "ÿc4Upgrades: ÿc0%d / 10",
+    "descNeg": "ÿc4Upgrades: ÿc0%d / 10",
     "descAdditional": ""
   },
   {
@@ -4885,8 +4885,8 @@
     "descPriority": 67,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModAttStrPercent",
-    "descNeg": "ModAttStrPercent",
+    "descPos": "%+d%% to Strength",
+    "descNeg": "%+d%% to Strength",
     "descAdditional": ""
   },
   {
@@ -4898,8 +4898,8 @@
     "descPriority": 67,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModAttDexPercent",
-    "descNeg": "ModAttDexPercent",
+    "descPos": "%+d%% to Dexterity",
+    "descNeg": "%+d%% to Dexterity",
     "descAdditional": ""
   },
   {
@@ -4911,8 +4911,8 @@
     "descPriority": 67,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModAttVitPercent",
-    "descNeg": "ModAttVitPercent",
+    "descPos": "%+d%% to Vitality",
+    "descNeg": "%+d%% to Vitality",
     "descAdditional": ""
   },
   {
@@ -4924,8 +4924,8 @@
     "descPriority": 67,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModAttEnrPercent",
-    "descNeg": "ModAttEnrPercent",
+    "descPos": "%+d%% to Energy",
+    "descNeg": "%+d%% to Energy",
     "descAdditional": ""
   },
   {
@@ -4937,8 +4937,8 @@
     "descPriority": 129,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrPlayerMinThrowDmgPercent",
-    "descNeg": "ModStrPlayerMinThrowDmgPercent",
+    "descPos": "%+d%% Extra Minimum Throwing Weapon Damage",
+    "descNeg": "%+d%% Extra Minimum Throwing Weapon Damage",
     "descAdditional": ""
   },
   {
@@ -4950,8 +4950,8 @@
     "descPriority": 130,
     "descFunc": 19,
     "descVal": 0,
-    "descPos": "ModStrPlayerMaxThrowDmgPercent",
-    "descNeg": "ModStrPlayerMaxThrowDmgPercent",
+    "descPos": "%+d%% Extra Maximum Throwing Weapon Damage",
+    "descNeg": "%+d%% Extra Maximum Throwing Weapon Damage",
     "descAdditional": ""
   }
 ]

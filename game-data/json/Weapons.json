@@ -1,6 +1,6 @@
 {
   "hax": {
-    "name": "Hand Axe",
+    "name": "Hand Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 2,
@@ -13,7 +13,7 @@
     "levelReq": 0
   },
   "axe": {
-    "name": "Axe",
+    "name": "Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 4,
@@ -26,7 +26,7 @@
     "levelReq": 0
   },
   "2ax": {
-    "name": "Double Axe",
+    "name": "Double Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 5,
@@ -39,7 +39,7 @@
     "levelReq": 0
   },
   "mpi": {
-    "name": "Military Pick",
+    "name": "Military Pick [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 6,
@@ -52,7 +52,7 @@
     "levelReq": 0
   },
   "wax": {
-    "name": "War Axe",
+    "name": "War Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 6,
@@ -65,7 +65,7 @@
     "levelReq": 0
   },
   "lax": {
-    "name": "Large Axe",
+    "name": "Large Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 4,
@@ -78,7 +78,7 @@
     "levelReq": 0
   },
   "bax": {
-    "name": "Broad Axe",
+    "name": "Broad Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 5,
@@ -91,7 +91,7 @@
     "levelReq": 0
   },
   "btx": {
-    "name": "Battle Axe",
+    "name": "Battle Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 5,
@@ -104,7 +104,7 @@
     "levelReq": 0
   },
   "gax": {
-    "name": "Great Axe",
+    "name": "Great Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 6,
@@ -117,7 +117,7 @@
     "levelReq": 0
   },
   "gix": {
-    "name": "Giant Axe",
+    "name": "Giant Axe [N]",
     "type": "axe",
     "tier": 0,
     "maxSockets": 6,
@@ -130,7 +130,7 @@
     "levelReq": 0
   },
   "wnd": {
-    "name": "Wand",
+    "name": "Wand [N]",
     "type": "wand",
     "tier": 0,
     "maxSockets": 1,
@@ -143,7 +143,7 @@
     "levelReq": 0
   },
   "ywn": {
-    "name": "Yew Wand",
+    "name": "Yew Wand [N]",
     "type": "wand",
     "tier": 0,
     "maxSockets": 1,
@@ -156,7 +156,7 @@
     "levelReq": 0
   },
   "bwn": {
-    "name": "Bone Wand",
+    "name": "Bone Wand [N]",
     "type": "wand",
     "tier": 0,
     "maxSockets": 2,
@@ -169,7 +169,7 @@
     "levelReq": 0
   },
   "gwn": {
-    "name": "Grim Wand",
+    "name": "Grim Wand [N]",
     "type": "wand",
     "tier": 0,
     "maxSockets": 2,
@@ -182,7 +182,7 @@
     "levelReq": 0
   },
   "clb": {
-    "name": "Club",
+    "name": "Club [N]",
     "type": "club",
     "tier": 0,
     "maxSockets": 2,
@@ -195,7 +195,7 @@
     "levelReq": 0
   },
   "scp": {
-    "name": "Scepter",
+    "name": "Scepter [N]",
     "type": "scep",
     "tier": 0,
     "maxSockets": 2,
@@ -208,7 +208,7 @@
     "levelReq": 0
   },
   "gsc": {
-    "name": "Grand Scepter",
+    "name": "Grand Scepter [N]",
     "type": "scep",
     "tier": 0,
     "maxSockets": 3,
@@ -221,7 +221,7 @@
     "levelReq": 0
   },
   "wsp": {
-    "name": "War Scepter",
+    "name": "War Scepter [N]",
     "type": "scep",
     "tier": 0,
     "maxSockets": 5,
@@ -234,7 +234,7 @@
     "levelReq": 0
   },
   "spc": {
-    "name": "Spiked Club",
+    "name": "Spiked Club [N]",
     "type": "club",
     "tier": 0,
     "maxSockets": 2,
@@ -247,7 +247,7 @@
     "levelReq": 0
   },
   "mac": {
-    "name": "Mace",
+    "name": "Mace [N]",
     "type": "mace",
     "tier": 0,
     "maxSockets": 2,
@@ -260,7 +260,7 @@
     "levelReq": 0
   },
   "mst": {
-    "name": "Morning Star",
+    "name": "Morning Star [N]",
     "type": "mace",
     "tier": 0,
     "maxSockets": 3,
@@ -273,7 +273,7 @@
     "levelReq": 0
   },
   "fla": {
-    "name": "Flail",
+    "name": "Flail [N]",
     "type": "mace",
     "tier": 0,
     "maxSockets": 5,
@@ -286,7 +286,7 @@
     "levelReq": 0
   },
   "whm": {
-    "name": "War Hammer",
+    "name": "War Hammer [N]",
     "type": "hamm",
     "tier": 0,
     "maxSockets": 4,
@@ -299,7 +299,7 @@
     "levelReq": 0
   },
   "mau": {
-    "name": "Maul",
+    "name": "Maul [N]",
     "type": "hamm",
     "tier": 0,
     "maxSockets": 6,
@@ -312,7 +312,7 @@
     "levelReq": 0
   },
   "gma": {
-    "name": "Great Maul",
+    "name": "Great Maul [N]",
     "type": "hamm",
     "tier": 0,
     "maxSockets": 6,
@@ -325,7 +325,7 @@
     "levelReq": 0
   },
   "ssd": {
-    "name": "Short Sword",
+    "name": "Short Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 2,
@@ -338,7 +338,7 @@
     "levelReq": 0
   },
   "scm": {
-    "name": "Scimitar",
+    "name": "Scimitar [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 2,
@@ -351,7 +351,7 @@
     "levelReq": 0
   },
   "sbr": {
-    "name": "Sabre",
+    "name": "Sabre [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 2,
@@ -364,7 +364,7 @@
     "levelReq": 0
   },
   "flc": {
-    "name": "Falchion",
+    "name": "Falchion [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 2,
@@ -377,7 +377,7 @@
     "levelReq": 0
   },
   "crs": {
-    "name": "Crystal Sword",
+    "name": "Crystal Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 6,
@@ -390,7 +390,7 @@
     "levelReq": 0
   },
   "bsd": {
-    "name": "Broad Sword",
+    "name": "Broad Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 4,
@@ -403,7 +403,7 @@
     "levelReq": 0
   },
   "lsd": {
-    "name": "Long Sword",
+    "name": "Long Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 4,
@@ -416,7 +416,7 @@
     "levelReq": 0
   },
   "wsd": {
-    "name": "War Sword",
+    "name": "War Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 3,
@@ -429,7 +429,7 @@
     "levelReq": 0
   },
   "2hs": {
-    "name": "Two-Handed Sword",
+    "name": "Two-Handed Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 3,
@@ -442,7 +442,7 @@
     "levelReq": 0
   },
   "clm": {
-    "name": "Claymore",
+    "name": "Claymore [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 4,
@@ -455,7 +455,7 @@
     "levelReq": 0
   },
   "gis": {
-    "name": "Giant Sword",
+    "name": "Giant Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 4,
@@ -468,7 +468,7 @@
     "levelReq": 0
   },
   "bsw": {
-    "name": "Bastard Sword",
+    "name": "Bastard Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 4,
@@ -481,7 +481,7 @@
     "levelReq": 0
   },
   "flb": {
-    "name": "Flamberge",
+    "name": "Flamberge [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 5,
@@ -494,7 +494,7 @@
     "levelReq": 0
   },
   "gsd": {
-    "name": "Great Sword",
+    "name": "Great Sword [N]",
     "type": "swor",
     "tier": 0,
     "maxSockets": 6,
@@ -507,7 +507,7 @@
     "levelReq": 0
   },
   "dgr": {
-    "name": "Dagger",
+    "name": "Dagger [N]",
     "type": "knif",
     "tier": 0,
     "maxSockets": 1,
@@ -520,7 +520,7 @@
     "levelReq": 0
   },
   "dir": {
-    "name": "Dirk",
+    "name": "Dirk [N]",
     "type": "knif",
     "tier": 0,
     "maxSockets": 1,
@@ -533,7 +533,7 @@
     "levelReq": 0
   },
   "kri": {
-    "name": "Kris",
+    "name": "Kris [N]",
     "type": "knif",
     "tier": 0,
     "maxSockets": 2,
@@ -546,7 +546,7 @@
     "levelReq": 0
   },
   "bld": {
-    "name": "Blade",
+    "name": "Blade [N]",
     "type": "knif",
     "tier": 0,
     "maxSockets": 2,
@@ -559,7 +559,7 @@
     "levelReq": 0
   },
   "tkf": {
-    "name": "Throwing Knife",
+    "name": "Throwing Knife [N]",
     "type": "tkni",
     "tier": 0,
     "maxSockets": 0,
@@ -572,7 +572,7 @@
     "levelReq": 0
   },
   "tax": {
-    "name": "Throwing Axe",
+    "name": "Throwing Axe [N]",
     "type": "taxe",
     "tier": 0,
     "maxSockets": 0,
@@ -585,7 +585,7 @@
     "levelReq": 0
   },
   "bkf": {
-    "name": "Balanced Knife",
+    "name": "Balanced Knife [N]",
     "type": "tkni",
     "tier": 0,
     "maxSockets": 0,
@@ -598,7 +598,7 @@
     "levelReq": 0
   },
   "bal": {
-    "name": "Balanced Axe",
+    "name": "Balanced Axe [N]",
     "type": "taxe",
     "tier": 0,
     "maxSockets": 0,
@@ -611,7 +611,7 @@
     "levelReq": 0
   },
   "jav": {
-    "name": "Javelin",
+    "name": "Javelin [N]",
     "type": "jave",
     "tier": 0,
     "maxSockets": 0,
@@ -624,7 +624,7 @@
     "levelReq": 0
   },
   "pil": {
-    "name": "Pilum",
+    "name": "Pilum [N]",
     "type": "jave",
     "tier": 0,
     "maxSockets": 0,
@@ -637,7 +637,7 @@
     "levelReq": 0
   },
   "ssp": {
-    "name": "Short Spear",
+    "name": "Short Spear [N]",
     "type": "jave",
     "tier": 0,
     "maxSockets": 0,
@@ -650,7 +650,7 @@
     "levelReq": 0
   },
   "glv": {
-    "name": "Glaive",
+    "name": "Glaive [N]",
     "type": "jave",
     "tier": 0,
     "maxSockets": 0,
@@ -663,7 +663,7 @@
     "levelReq": 0
   },
   "tsp": {
-    "name": "Throwing Spear",
+    "name": "Throwing Spear [N]",
     "type": "jave",
     "tier": 0,
     "maxSockets": 0,
@@ -676,7 +676,7 @@
     "levelReq": 0
   },
   "spr": {
-    "name": "Spear",
+    "name": "Spear [N]",
     "type": "spea",
     "tier": 0,
     "maxSockets": 3,
@@ -689,7 +689,7 @@
     "levelReq": 0
   },
   "tri": {
-    "name": "Trident",
+    "name": "Trident [N]",
     "type": "spea",
     "tier": 0,
     "maxSockets": 4,
@@ -702,7 +702,7 @@
     "levelReq": 0
   },
   "brn": {
-    "name": "Brandistock",
+    "name": "Brandistock [N]",
     "type": "spea",
     "tier": 0,
     "maxSockets": 5,
@@ -715,7 +715,7 @@
     "levelReq": 0
   },
   "spt": {
-    "name": "Spetum",
+    "name": "Spetum [N]",
     "type": "spea",
     "tier": 0,
     "maxSockets": 6,
@@ -728,7 +728,7 @@
     "levelReq": 0
   },
   "pik": {
-    "name": "Pike",
+    "name": "Pike [N]",
     "type": "spea",
     "tier": 0,
     "maxSockets": 6,
@@ -741,7 +741,7 @@
     "levelReq": 0
   },
   "bar": {
-    "name": "Bardiche",
+    "name": "Bardiche [N]",
     "type": "pole",
     "tier": 0,
     "maxSockets": 3,
@@ -754,7 +754,7 @@
     "levelReq": 0
   },
   "vou": {
-    "name": "Voulge",
+    "name": "Voulge [N]",
     "type": "pole",
     "tier": 0,
     "maxSockets": 4,
@@ -767,7 +767,7 @@
     "levelReq": 0
   },
   "scy": {
-    "name": "Scythe",
+    "name": "Scythe [N]",
     "type": "pole",
     "tier": 0,
     "maxSockets": 5,
@@ -780,7 +780,7 @@
     "levelReq": 0
   },
   "pax": {
-    "name": "Poleaxe",
+    "name": "Poleaxe [N]",
     "type": "pole",
     "tier": 0,
     "maxSockets": 5,
@@ -793,7 +793,7 @@
     "levelReq": 0
   },
   "hal": {
-    "name": "Halberd",
+    "name": "Halberd [N]",
     "type": "pole",
     "tier": 0,
     "maxSockets": 6,
@@ -806,7 +806,7 @@
     "levelReq": 0
   },
   "wsc": {
-    "name": "War Scythe",
+    "name": "War Scythe [N]",
     "type": "pole",
     "tier": 0,
     "maxSockets": 6,
@@ -819,7 +819,7 @@
     "levelReq": 0
   },
   "sst": {
-    "name": "Short Staff",
+    "name": "Short Staff [N]",
     "type": "staf",
     "tier": 0,
     "maxSockets": 2,
@@ -832,7 +832,7 @@
     "levelReq": 0
   },
   "lst": {
-    "name": "Long Staff",
+    "name": "Long Staff [N]",
     "type": "staf",
     "tier": 0,
     "maxSockets": 3,
@@ -845,7 +845,7 @@
     "levelReq": 0
   },
   "cst": {
-    "name": "Gnarled Staff",
+    "name": "Gnarled Staff [N]",
     "type": "staf",
     "tier": 0,
     "maxSockets": 4,
@@ -858,7 +858,7 @@
     "levelReq": 0
   },
   "bst": {
-    "name": "Battle Staff",
+    "name": "Battle Staff [N]",
     "type": "staf",
     "tier": 0,
     "maxSockets": 4,
@@ -871,7 +871,7 @@
     "levelReq": 0
   },
   "wst": {
-    "name": "War Staff",
+    "name": "War Staff [N]",
     "type": "staf",
     "tier": 0,
     "maxSockets": 6,
@@ -884,7 +884,7 @@
     "levelReq": 0
   },
   "sbw": {
-    "name": "Short Bow",
+    "name": "Short Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 3,
@@ -897,7 +897,7 @@
     "levelReq": 0
   },
   "hbw": {
-    "name": "Hunter's Bow",
+    "name": "Hunter's Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 4,
@@ -910,7 +910,7 @@
     "levelReq": 0
   },
   "lbw": {
-    "name": "Long Bow",
+    "name": "Long Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 5,
@@ -923,7 +923,7 @@
     "levelReq": 0
   },
   "cbw": {
-    "name": "Composite Bow",
+    "name": "Composite Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 4,
@@ -936,7 +936,7 @@
     "levelReq": 0
   },
   "sbb": {
-    "name": "Short Battle Bow",
+    "name": "Short Battle Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 5,
@@ -949,7 +949,7 @@
     "levelReq": 0
   },
   "lbb": {
-    "name": "Long Battle Bow",
+    "name": "Long Battle Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 6,
@@ -962,7 +962,7 @@
     "levelReq": 0
   },
   "swb": {
-    "name": "Short War Bow",
+    "name": "Short War Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 5,
@@ -975,7 +975,7 @@
     "levelReq": 0
   },
   "lwb": {
-    "name": "Long War Bow",
+    "name": "Long War Bow [N]",
     "type": "bow",
     "tier": 0,
     "maxSockets": 6,
@@ -988,7 +988,7 @@
     "levelReq": 0
   },
   "lxb": {
-    "name": "Light Crossbow",
+    "name": "Light Crossbow [N]",
     "type": "xbow",
     "tier": 0,
     "maxSockets": 3,
@@ -1001,7 +1001,7 @@
     "levelReq": 0
   },
   "mxb": {
-    "name": "Crossbow",
+    "name": "Crossbow [N]",
     "type": "xbow",
     "tier": 0,
     "maxSockets": 4,
@@ -1014,7 +1014,7 @@
     "levelReq": 0
   },
   "hxb": {
-    "name": "Heavy Crossbow",
+    "name": "Heavy Crossbow [N]",
     "type": "xbow",
     "tier": 0,
     "maxSockets": 6,
@@ -1027,7 +1027,7 @@
     "levelReq": 0
   },
   "rxb": {
-    "name": "Repeating Crossbow",
+    "name": "Repeating Crossbow [N]",
     "type": "xbow",
     "tier": 0,
     "maxSockets": 5,
@@ -1216,7 +1216,7 @@
     "trackQuestDifficulty": true
   },
   "9ha": {
-    "name": "Hatchet",
+    "name": "Hatchet [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 2,
@@ -1229,7 +1229,7 @@
     "levelReq": 19
   },
   "9ax": {
-    "name": "Cleaver",
+    "name": "Cleaver [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 4,
@@ -1242,7 +1242,7 @@
     "levelReq": 22
   },
   "92a": {
-    "name": "Twin Axe",
+    "name": "Twin Axe [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 5,
@@ -1255,7 +1255,7 @@
     "levelReq": 25
   },
   "9mp": {
-    "name": "Crowbill",
+    "name": "Crowbill [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 6,
@@ -1268,7 +1268,7 @@
     "levelReq": 25
   },
   "9wa": {
-    "name": "Naga",
+    "name": "Naga [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 6,
@@ -1281,7 +1281,7 @@
     "levelReq": 25
   },
   "9la": {
-    "name": "Military Axe",
+    "name": "Military Axe [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 4,
@@ -1294,7 +1294,7 @@
     "levelReq": 22
   },
   "9ba": {
-    "name": "Bearded Axe",
+    "name": "Bearded Axe [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 5,
@@ -1307,7 +1307,7 @@
     "levelReq": 25
   },
   "9bt": {
-    "name": "Tabar",
+    "name": "Tabar [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 5,
@@ -1320,7 +1320,7 @@
     "levelReq": 25
   },
   "9ga": {
-    "name": "Gothic Axe",
+    "name": "Gothic Axe [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 6,
@@ -1333,7 +1333,7 @@
     "levelReq": 25
   },
   "9gi": {
-    "name": "Ancient Axe",
+    "name": "Ancient Axe [X]",
     "type": "axe",
     "tier": 1,
     "maxSockets": 6,
@@ -1346,7 +1346,7 @@
     "levelReq": 25
   },
   "9wn": {
-    "name": "Burnt Wand",
+    "name": "Burnt Wand [X]",
     "type": "wand",
     "tier": 1,
     "maxSockets": 1,
@@ -1359,7 +1359,7 @@
     "levelReq": 19
   },
   "9yw": {
-    "name": "Petrified Wand",
+    "name": "Petrified Wand [X]",
     "type": "wand",
     "tier": 1,
     "maxSockets": 2,
@@ -1372,7 +1372,7 @@
     "levelReq": 25
   },
   "9bw": {
-    "name": "Tomb Wand",
+    "name": "Tomb Wand [X]",
     "type": "wand",
     "tier": 1,
     "maxSockets": 2,
@@ -1385,7 +1385,7 @@
     "levelReq": 25
   },
   "9gw": {
-    "name": "Grave Wand",
+    "name": "Grave Wand [X]",
     "type": "wand",
     "tier": 1,
     "maxSockets": 2,
@@ -1398,7 +1398,7 @@
     "levelReq": 25
   },
   "9cl": {
-    "name": "Cudgel",
+    "name": "Cudgel [X]",
     "type": "club",
     "tier": 1,
     "maxSockets": 2,
@@ -1411,7 +1411,7 @@
     "levelReq": 18
   },
   "9sc": {
-    "name": "Rune Scepter",
+    "name": "Rune Scepter [X]",
     "type": "scep",
     "tier": 1,
     "maxSockets": 2,
@@ -1424,7 +1424,7 @@
     "levelReq": 19
   },
   "9qs": {
-    "name": "Holy Water Sprinkler",
+    "name": "Holy Water Sprinkler [X]",
     "type": "scep",
     "tier": 1,
     "maxSockets": 3,
@@ -1437,7 +1437,7 @@
     "levelReq": 25
   },
   "9ws": {
-    "name": "Divine Scepter",
+    "name": "Divine Scepter [X]",
     "type": "scep",
     "tier": 1,
     "maxSockets": 5,
@@ -1450,7 +1450,7 @@
     "levelReq": 25
   },
   "9sp": {
-    "name": "Barbed Club",
+    "name": "Barbed Club [X]",
     "type": "club",
     "tier": 1,
     "maxSockets": 3,
@@ -1463,7 +1463,7 @@
     "levelReq": 20
   },
   "9ma": {
-    "name": "Flanged Mace",
+    "name": "Flanged Mace [X]",
     "type": "mace",
     "tier": 1,
     "maxSockets": 2,
@@ -1476,7 +1476,7 @@
     "levelReq": 23
   },
   "9mt": {
-    "name": "Jagged Star",
+    "name": "Jagged Star [X]",
     "type": "mace",
     "tier": 1,
     "maxSockets": 3,
@@ -1489,7 +1489,7 @@
     "levelReq": 25
   },
   "9fl": {
-    "name": "Knout",
+    "name": "Knout [X]",
     "type": "mace",
     "tier": 1,
     "maxSockets": 5,
@@ -1502,7 +1502,7 @@
     "levelReq": 25
   },
   "9wh": {
-    "name": "Battle Hammer",
+    "name": "Battle Hammer [X]",
     "type": "hamm",
     "tier": 1,
     "maxSockets": 4,
@@ -1515,7 +1515,7 @@
     "levelReq": 25
   },
   "9m9": {
-    "name": "War Club",
+    "name": "War Club [X]",
     "type": "hamm",
     "tier": 1,
     "maxSockets": 6,
@@ -1528,7 +1528,7 @@
     "levelReq": 25
   },
   "9gm": {
-    "name": "Martel de Fer",
+    "name": "Martel de Fer [X]",
     "type": "hamm",
     "tier": 1,
     "maxSockets": 6,
@@ -1541,7 +1541,7 @@
     "levelReq": 25
   },
   "9ss": {
-    "name": "Gladius",
+    "name": "Gladius [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 2,
@@ -1554,7 +1554,7 @@
     "levelReq": 18
   },
   "9sm": {
-    "name": "Cutlass",
+    "name": "Cutlass [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 2,
@@ -1567,7 +1567,7 @@
     "levelReq": 25
   },
   "9sb": {
-    "name": "Shamshir",
+    "name": "Shamshir [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 2,
@@ -1580,7 +1580,7 @@
     "levelReq": 23
   },
   "9fc": {
-    "name": "Tulwar",
+    "name": "Tulwar [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 2,
@@ -1593,7 +1593,7 @@
     "levelReq": 25
   },
   "9cr": {
-    "name": "Dimensional Blade",
+    "name": "Dimensional Blade [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 6,
@@ -1606,7 +1606,7 @@
     "levelReq": 25
   },
   "9bs": {
-    "name": "Battle Sword",
+    "name": "Battle Sword [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 4,
@@ -1619,7 +1619,7 @@
     "levelReq": 25
   },
   "9ls": {
-    "name": "Rune Sword",
+    "name": "Rune Sword [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 4,
@@ -1632,7 +1632,7 @@
     "levelReq": 25
   },
   "9wd": {
-    "name": "Ancient Sword",
+    "name": "Ancient Sword [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 3,
@@ -1645,7 +1645,7 @@
     "levelReq": 25
   },
   "92h": {
-    "name": "Espandon",
+    "name": "Espandon [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 3,
@@ -1658,7 +1658,7 @@
     "levelReq": 25
   },
   "9cm": {
-    "name": "Dacian Falx",
+    "name": "Dacian Falx [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 4,
@@ -1671,7 +1671,7 @@
     "levelReq": 25
   },
   "9gs": {
-    "name": "Tusk Sword",
+    "name": "Tusk Sword [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 4,
@@ -1684,7 +1684,7 @@
     "levelReq": 25
   },
   "9b9": {
-    "name": "Gothic Sword",
+    "name": "Gothic Sword [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 4,
@@ -1697,7 +1697,7 @@
     "levelReq": 25
   },
   "9fb": {
-    "name": "Zweihander",
+    "name": "Zweihander [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 5,
@@ -1710,7 +1710,7 @@
     "levelReq": 25
   },
   "9gd": {
-    "name": "Executioner Sword",
+    "name": "Executioner Sword [X]",
     "type": "swor",
     "tier": 1,
     "maxSockets": 6,
@@ -1723,7 +1723,7 @@
     "levelReq": 25
   },
   "9dg": {
-    "name": "Poignard",
+    "name": "Poignard [X]",
     "type": "knif",
     "tier": 1,
     "maxSockets": 2,
@@ -1736,7 +1736,7 @@
     "levelReq": 19
   },
   "9di": {
-    "name": "Rondel",
+    "name": "Rondel [X]",
     "type": "knif",
     "tier": 1,
     "maxSockets": 2,
@@ -1749,7 +1749,7 @@
     "levelReq": 24
   },
   "9kr": {
-    "name": "Cinquedeas",
+    "name": "Cinquedeas [X]",
     "type": "knif",
     "tier": 1,
     "maxSockets": 3,
@@ -1762,7 +1762,7 @@
     "levelReq": 25
   },
   "9bl": {
-    "name": "Stiletto",
+    "name": "Stiletto [X]",
     "type": "knif",
     "tier": 1,
     "maxSockets": 3,
@@ -1775,7 +1775,7 @@
     "levelReq": 25
   },
   "9tk": {
-    "name": "Battle Dart",
+    "name": "Battle Dart [X]",
     "type": "tkni",
     "tier": 1,
     "maxSockets": 0,
@@ -1788,7 +1788,7 @@
     "levelReq": 19
   },
   "9ta": {
-    "name": "Francisca",
+    "name": "Francisca [X]",
     "type": "taxe",
     "tier": 1,
     "maxSockets": 0,
@@ -1801,7 +1801,7 @@
     "levelReq": 22
   },
   "9bk": {
-    "name": "War Dart",
+    "name": "War Dart [X]",
     "type": "tkni",
     "tier": 1,
     "maxSockets": 0,
@@ -1814,7 +1814,7 @@
     "levelReq": 25
   },
   "9b8": {
-    "name": "Hurlbat",
+    "name": "Hurlbat [X]",
     "type": "taxe",
     "tier": 1,
     "maxSockets": 0,
@@ -1827,7 +1827,7 @@
     "levelReq": 25
   },
   "9ja": {
-    "name": "War Javelin",
+    "name": "War Javelin [X]",
     "type": "jave",
     "tier": 1,
     "maxSockets": 0,
@@ -1840,7 +1840,7 @@
     "levelReq": 18
   },
   "9pi": {
-    "name": "Great Pilum",
+    "name": "Great Pilum [X]",
     "type": "jave",
     "tier": 1,
     "maxSockets": 0,
@@ -1853,7 +1853,7 @@
     "levelReq": 25
   },
   "9s9": {
-    "name": "Simbilan",
+    "name": "Simbilan [X]",
     "type": "jave",
     "tier": 1,
     "maxSockets": 0,
@@ -1866,7 +1866,7 @@
     "levelReq": 25
   },
   "9gl": {
-    "name": "Spiculum",
+    "name": "Spiculum [X]",
     "type": "jave",
     "tier": 1,
     "maxSockets": 0,
@@ -1879,7 +1879,7 @@
     "levelReq": 25
   },
   "9ts": {
-    "name": "Harpoon",
+    "name": "Harpoon [X]",
     "type": "jave",
     "tier": 1,
     "maxSockets": 0,
@@ -1892,7 +1892,7 @@
     "levelReq": 25
   },
   "9sr": {
-    "name": "War Spear",
+    "name": "War Spear [X]",
     "type": "spea",
     "tier": 1,
     "maxSockets": 3,
@@ -1905,7 +1905,7 @@
     "levelReq": 21
   },
   "9tr": {
-    "name": "Fuscina",
+    "name": "Fuscina [X]",
     "type": "spea",
     "tier": 1,
     "maxSockets": 4,
@@ -1918,7 +1918,7 @@
     "levelReq": 24
   },
   "9br": {
-    "name": "War Fork",
+    "name": "War Fork [X]",
     "type": "spea",
     "tier": 1,
     "maxSockets": 5,
@@ -1931,7 +1931,7 @@
     "levelReq": 25
   },
   "9st": {
-    "name": "Yari",
+    "name": "Yari [X]",
     "type": "spea",
     "tier": 1,
     "maxSockets": 6,
@@ -1944,7 +1944,7 @@
     "levelReq": 25
   },
   "9p9": {
-    "name": "Lance",
+    "name": "Lance [X]",
     "type": "spea",
     "tier": 1,
     "maxSockets": 6,
@@ -1957,7 +1957,7 @@
     "levelReq": 25
   },
   "9b7": {
-    "name": "Lochaber Axe",
+    "name": "Lochaber Axe [X]",
     "type": "pole",
     "tier": 1,
     "maxSockets": 3,
@@ -1970,7 +1970,7 @@
     "levelReq": 21
   },
   "9vo": {
-    "name": "Bill",
+    "name": "Bill [X]",
     "type": "pole",
     "tier": 1,
     "maxSockets": 4,
@@ -1983,7 +1983,7 @@
     "levelReq": 25
   },
   "9s8": {
-    "name": "Battle Scythe",
+    "name": "Battle Scythe [X]",
     "type": "pole",
     "tier": 1,
     "maxSockets": 5,
@@ -1996,7 +1996,7 @@
     "levelReq": 25
   },
   "9pa": {
-    "name": "Partizan",
+    "name": "Partizan [X]",
     "type": "pole",
     "tier": 1,
     "maxSockets": 5,
@@ -2009,7 +2009,7 @@
     "levelReq": 23
   },
   "9h9": {
-    "name": "Bec-de-Corbin",
+    "name": "Bec-de-Corbin [X]",
     "type": "pole",
     "tier": 1,
     "maxSockets": 6,
@@ -2022,7 +2022,7 @@
     "levelReq": 25
   },
   "9wc": {
-    "name": "Grim Scythe",
+    "name": "Grim Scythe [X]",
     "type": "pole",
     "tier": 1,
     "maxSockets": 6,
@@ -2035,7 +2035,7 @@
     "levelReq": 25
   },
   "8ss": {
-    "name": "Jo Staff",
+    "name": "Jo Staff [X]",
     "type": "staf",
     "tier": 1,
     "maxSockets": 2,
@@ -2048,7 +2048,7 @@
     "levelReq": 18
   },
   "8ls": {
-    "name": "Quarterstaff",
+    "name": "Quarterstaff [X]",
     "type": "staf",
     "tier": 1,
     "maxSockets": 3,
@@ -2061,7 +2061,7 @@
     "levelReq": 23
   },
   "8cs": {
-    "name": "Cedar Staff",
+    "name": "Cedar Staff [X]",
     "type": "staf",
     "tier": 1,
     "maxSockets": 4,
@@ -2074,7 +2074,7 @@
     "levelReq": 25
   },
   "8bs": {
-    "name": "Gothic Staff",
+    "name": "Gothic Staff [X]",
     "type": "staf",
     "tier": 1,
     "maxSockets": 4,
@@ -2087,7 +2087,7 @@
     "levelReq": 25
   },
   "8ws": {
-    "name": "Rune Staff",
+    "name": "Rune Staff [X]",
     "type": "staf",
     "tier": 1,
     "maxSockets": 6,
@@ -2100,7 +2100,7 @@
     "levelReq": 25
   },
   "8sb": {
-    "name": "Edge Bow",
+    "name": "Edge Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 3,
@@ -2113,7 +2113,7 @@
     "levelReq": 18
   },
   "8hb": {
-    "name": "Razor Bow",
+    "name": "Razor Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 4,
@@ -2126,7 +2126,7 @@
     "levelReq": 21
   },
   "8lb": {
-    "name": "Cedar Bow",
+    "name": "Cedar Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 5,
@@ -2139,7 +2139,7 @@
     "levelReq": 23
   },
   "8cb": {
-    "name": "Double Bow",
+    "name": "Double Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 4,
@@ -2152,7 +2152,7 @@
     "levelReq": 25
   },
   "8s8": {
-    "name": "Short Siege Bow",
+    "name": "Short Siege Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 5,
@@ -2165,7 +2165,7 @@
     "levelReq": 25
   },
   "8l8": {
-    "name": "Large Siege Bow",
+    "name": "Large Siege Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 6,
@@ -2178,7 +2178,7 @@
     "levelReq": 25
   },
   "8sw": {
-    "name": "Rune Bow",
+    "name": "Rune Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 5,
@@ -2191,7 +2191,7 @@
     "levelReq": 25
   },
   "8lw": {
-    "name": "Gothic Bow",
+    "name": "Gothic Bow [X]",
     "type": "bow",
     "tier": 1,
     "maxSockets": 6,
@@ -2204,7 +2204,7 @@
     "levelReq": 25
   },
   "8lx": {
-    "name": "Arbalest",
+    "name": "Arbalest [X]",
     "type": "xbow",
     "tier": 1,
     "maxSockets": 3,
@@ -2217,7 +2217,7 @@
     "levelReq": 22
   },
   "8mx": {
-    "name": "Siege Crossbow",
+    "name": "Siege Crossbow [X]",
     "type": "xbow",
     "tier": 1,
     "maxSockets": 4,
@@ -2230,7 +2230,7 @@
     "levelReq": 25
   },
   "8hx": {
-    "name": "Ballista",
+    "name": "Ballista [X]",
     "type": "xbow",
     "tier": 1,
     "maxSockets": 6,
@@ -2243,7 +2243,7 @@
     "levelReq": 25
   },
   "8rx": {
-    "name": "Chu-Ko-Nu",
+    "name": "Chu-Ko-Nu [X]",
     "type": "xbow",
     "tier": 1,
     "maxSockets": 5,
@@ -2284,7 +2284,7 @@
     "trackQuestDifficulty": true
   },
   "ktr": {
-    "name": "Katar",
+    "name": "Katar [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 2,
@@ -2297,7 +2297,7 @@
     "levelReq": 0
   },
   "wrb": {
-    "name": "Wrist Blade",
+    "name": "Wrist Blade [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 2,
@@ -2310,7 +2310,7 @@
     "levelReq": 0
   },
   "axf": {
-    "name": "Hatchet Hands",
+    "name": "Hatchet Hands [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 2,
@@ -2323,7 +2323,7 @@
     "levelReq": 0
   },
   "ces": {
-    "name": "Cestus",
+    "name": "Cestus [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 2,
@@ -2336,7 +2336,7 @@
     "levelReq": 0
   },
   "clw": {
-    "name": "Claws",
+    "name": "Claws [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 3,
@@ -2349,7 +2349,7 @@
     "levelReq": 0
   },
   "btl": {
-    "name": "Blade Talons",
+    "name": "Blade Talons [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 3,
@@ -2362,7 +2362,7 @@
     "levelReq": 0
   },
   "skr": {
-    "name": "Scissors Katar",
+    "name": "Scissors Katar [N]",
     "type": "h2h",
     "tier": 0,
     "maxSockets": 3,
@@ -2375,7 +2375,7 @@
     "levelReq": 0
   },
   "9ar": {
-    "name": "Quhab",
+    "name": "Quhab [X]",
     "type": "h2h",
     "tier": 1,
     "maxSockets": 3,
@@ -2388,7 +2388,7 @@
     "levelReq": 21
   },
   "9wb": {
-    "name": "Wrist Spike",
+    "name": "Wrist Spike [X]",
     "type": "h2h",
     "tier": 1,
     "maxSockets": 2,
@@ -2401,7 +2401,7 @@
     "levelReq": 24
   },
   "9xf": {
-    "name": "Fascia",
+    "name": "Fascia [X]",
     "type": "h2h",
     "tier": 1,
     "maxSockets": 2,
@@ -2414,7 +2414,7 @@
     "levelReq": 27
   },
   "9cs": {
-    "name": "Hand Scythe",
+    "name": "Hand Scythe [X]",
     "type": "h2h2",
     "tier": 1,
     "maxSockets": 2,
@@ -2427,7 +2427,7 @@
     "levelReq": 30
   },
   "9lw": {
-    "name": "Greater Claws",
+    "name": "Greater Claws [X]",
     "type": "h2h2",
     "tier": 1,
     "maxSockets": 3,
@@ -2440,7 +2440,7 @@
     "levelReq": 33
   },
   "9tw": {
-    "name": "Greater Talons",
+    "name": "Greater Talons [X]",
     "type": "h2h2",
     "tier": 1,
     "maxSockets": 3,
@@ -2453,7 +2453,7 @@
     "levelReq": 37
   },
   "9qr": {
-    "name": "Scissors Quhab",
+    "name": "Scissors Quhab [X]",
     "type": "h2h2",
     "tier": 1,
     "maxSockets": 3,
@@ -2466,7 +2466,7 @@
     "levelReq": 40
   },
   "7ar": {
-    "name": "Suwayyah",
+    "name": "Suwayyah [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 3,
@@ -2479,7 +2479,7 @@
     "levelReq": 44
   },
   "7wb": {
-    "name": "Wrist Sword",
+    "name": "Wrist Sword [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 3,
@@ -2492,7 +2492,7 @@
     "levelReq": 46
   },
   "7xf": {
-    "name": "War Fist",
+    "name": "War Fist [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 2,
@@ -2505,7 +2505,7 @@
     "levelReq": 51
   },
   "7cs": {
-    "name": "Battle Cestus",
+    "name": "Battle Cestus [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 2,
@@ -2518,7 +2518,7 @@
     "levelReq": 54
   },
   "7lw": {
-    "name": "Feral Claws",
+    "name": "Feral Claws [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 3,
@@ -2531,7 +2531,7 @@
     "levelReq": 58
   },
   "7tw": {
-    "name": "Runic Talons",
+    "name": "Runic Talons [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 3,
@@ -2544,7 +2544,7 @@
     "levelReq": 60
   },
   "7qr": {
-    "name": "Scissors Suwayyah",
+    "name": "Scissors Suwayyah [E]",
     "type": "h2h2",
     "tier": 2,
     "maxSockets": 3,
@@ -2557,7 +2557,7 @@
     "levelReq": 64
   },
   "7ha": {
-    "name": "Tomahawk",
+    "name": "Tomahawk [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 2,
@@ -2570,7 +2570,7 @@
     "levelReq": 40
   },
   "7ax": {
-    "name": "Small Crescent",
+    "name": "Small Crescent [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 4,
@@ -2583,7 +2583,7 @@
     "levelReq": 45
   },
   "72a": {
-    "name": "Ettin Axe",
+    "name": "Ettin Axe [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 5,
@@ -2596,7 +2596,7 @@
     "levelReq": 52
   },
   "7mp": {
-    "name": "War Spike",
+    "name": "War Spike [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 6,
@@ -2609,7 +2609,7 @@
     "levelReq": 59
   },
   "7wa": {
-    "name": "Berserker Axe",
+    "name": "Berserker Axe [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 6,
@@ -2622,7 +2622,7 @@
     "levelReq": 64
   },
   "7la": {
-    "name": "Feral Axe",
+    "name": "Feral Axe [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 4,
@@ -2635,7 +2635,7 @@
     "levelReq": 42
   },
   "7ba": {
-    "name": "Silver-edged Axe",
+    "name": "Silver-edged Axe [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 5,
@@ -2648,7 +2648,7 @@
     "levelReq": 48
   },
   "7bt": {
-    "name": "Decapitator",
+    "name": "Decapitator [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 5,
@@ -2661,7 +2661,7 @@
     "levelReq": 54
   },
   "7ga": {
-    "name": "Champion Axe",
+    "name": "Champion Axe [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 6,
@@ -2674,7 +2674,7 @@
     "levelReq": 61
   },
   "7gi": {
-    "name": "Glorious Axe",
+    "name": "Glorious Axe [E]",
     "type": "axe",
     "tier": 2,
     "maxSockets": 6,
@@ -2687,7 +2687,7 @@
     "levelReq": 66
   },
   "7wn": {
-    "name": "Polished Wand",
+    "name": "Polished Wand [E]",
     "type": "wand",
     "tier": 2,
     "maxSockets": 2,
@@ -2700,7 +2700,7 @@
     "levelReq": 41
   },
   "7yw": {
-    "name": "Ghost Wand",
+    "name": "Ghost Wand [E]",
     "type": "wand",
     "tier": 2,
     "maxSockets": 2,
@@ -2713,7 +2713,7 @@
     "levelReq": 48
   },
   "7bw": {
-    "name": "Lich Wand",
+    "name": "Lich Wand [E]",
     "type": "wand",
     "tier": 2,
     "maxSockets": 2,
@@ -2726,7 +2726,7 @@
     "levelReq": 56
   },
   "7gw": {
-    "name": "Unearthed Wand",
+    "name": "Unearthed Wand [E]",
     "type": "wand",
     "tier": 2,
     "maxSockets": 2,
@@ -2739,7 +2739,7 @@
     "levelReq": 64
   },
   "7cl": {
-    "name": "Truncheon",
+    "name": "Truncheon [E]",
     "type": "club",
     "tier": 2,
     "maxSockets": 2,
@@ -2752,7 +2752,7 @@
     "levelReq": 39
   },
   "7sc": {
-    "name": "Mighty Scepter",
+    "name": "Mighty Scepter [E]",
     "type": "scep",
     "tier": 2,
     "maxSockets": 2,
@@ -2765,7 +2765,7 @@
     "levelReq": 46
   },
   "7qs": {
-    "name": "Seraph Rod",
+    "name": "Seraph Rod [E]",
     "type": "scep",
     "tier": 2,
     "maxSockets": 3,
@@ -2778,7 +2778,7 @@
     "levelReq": 57
   },
   "7ws": {
-    "name": "Caduceus",
+    "name": "Caduceus [E]",
     "type": "scep",
     "tier": 2,
     "maxSockets": 5,
@@ -2791,7 +2791,7 @@
     "levelReq": 66
   },
   "7sp": {
-    "name": "Tyrant Club",
+    "name": "Tyrant Club [E]",
     "type": "club",
     "tier": 2,
     "maxSockets": 3,
@@ -2804,7 +2804,7 @@
     "levelReq": 42
   },
   "7ma": {
-    "name": "Reinforced Mace",
+    "name": "Reinforced Mace [E]",
     "type": "mace",
     "tier": 2,
     "maxSockets": 2,
@@ -2817,7 +2817,7 @@
     "levelReq": 47
   },
   "7mt": {
-    "name": "Devil Star",
+    "name": "Devil Star [E]",
     "type": "mace",
     "tier": 2,
     "maxSockets": 3,
@@ -2830,7 +2830,7 @@
     "levelReq": 52
   },
   "7fl": {
-    "name": "Scourge",
+    "name": "Scourge [E]",
     "type": "mace",
     "tier": 2,
     "maxSockets": 5,
@@ -2843,7 +2843,7 @@
     "levelReq": 57
   },
   "7wh": {
-    "name": "Legendary Mallet",
+    "name": "Legendary Mallet [E]",
     "type": "hamm",
     "tier": 2,
     "maxSockets": 4,
@@ -2856,7 +2856,7 @@
     "levelReq": 61
   },
   "7m7": {
-    "name": "Ogre Maul",
+    "name": "Ogre Maul [E]",
     "type": "hamm",
     "tier": 2,
     "maxSockets": 6,
@@ -2869,7 +2869,7 @@
     "levelReq": 51
   },
   "7gm": {
-    "name": "Thunder Maul",
+    "name": "Thunder Maul [E]",
     "type": "hamm",
     "tier": 2,
     "maxSockets": 6,
@@ -2882,7 +2882,7 @@
     "levelReq": 65
   },
   "7ss": {
-    "name": "Falcata",
+    "name": "Falcata [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 2,
@@ -2895,7 +2895,7 @@
     "levelReq": 42
   },
   "7sm": {
-    "name": "Ataghan",
+    "name": "Ataghan [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 2,
@@ -2908,7 +2908,7 @@
     "levelReq": 45
   },
   "7sb": {
-    "name": "Elegant Blade",
+    "name": "Elegant Blade [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 2,
@@ -2921,7 +2921,7 @@
     "levelReq": 47
   },
   "7fc": {
-    "name": "Hydra Edge",
+    "name": "Hydra Edge [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 2,
@@ -2934,7 +2934,7 @@
     "levelReq": 51
   },
   "7cr": {
-    "name": "Phase Blade",
+    "name": "Phase Blade [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 6,
@@ -2947,7 +2947,7 @@
     "levelReq": 54
   },
   "7bs": {
-    "name": "Conquest Sword",
+    "name": "Conquest Sword [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 4,
@@ -2960,7 +2960,7 @@
     "levelReq": 58
   },
   "7ls": {
-    "name": "Cryptic Sword",
+    "name": "Cryptic Sword [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 4,
@@ -2973,7 +2973,7 @@
     "levelReq": 61
   },
   "7wd": {
-    "name": "Mythical Sword",
+    "name": "Mythical Sword [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 3,
@@ -2986,7 +2986,7 @@
     "levelReq": 66
   },
   "72h": {
-    "name": "Legend Sword",
+    "name": "Legend Sword [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 3,
@@ -2999,7 +2999,7 @@
     "levelReq": 44
   },
   "7cm": {
-    "name": "Highland Blade",
+    "name": "Highland Blade [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 4,
@@ -3012,7 +3012,7 @@
     "levelReq": 49
   },
   "7gs": {
-    "name": "Balrog Blade",
+    "name": "Balrog Blade [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 4,
@@ -3025,7 +3025,7 @@
     "levelReq": 53
   },
   "7b7": {
-    "name": "Champion Sword",
+    "name": "Champion Sword [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 4,
@@ -3038,7 +3038,7 @@
     "levelReq": 57
   },
   "7fb": {
-    "name": "Colossus Sword",
+    "name": "Colossus Sword [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 5,
@@ -3051,7 +3051,7 @@
     "levelReq": 60
   },
   "7gd": {
-    "name": "Colossus Blade",
+    "name": "Colossus Blade [E]",
     "type": "swor",
     "tier": 2,
     "maxSockets": 6,
@@ -3064,7 +3064,7 @@
     "levelReq": 63
   },
   "7dg": {
-    "name": "Bone Knife",
+    "name": "Bone Knife [E]",
     "type": "knif",
     "tier": 2,
     "maxSockets": 1,
@@ -3077,7 +3077,7 @@
     "levelReq": 43
   },
   "7di": {
-    "name": "Mithril Point",
+    "name": "Mithril Point [E]",
     "type": "knif",
     "tier": 2,
     "maxSockets": 1,
@@ -3090,7 +3090,7 @@
     "levelReq": 52
   },
   "7kr": {
-    "name": "Fanged Knife",
+    "name": "Fanged Knife [E]",
     "type": "knif",
     "tier": 2,
     "maxSockets": 3,
@@ -3103,7 +3103,7 @@
     "levelReq": 62
   },
   "7bl": {
-    "name": "Legend Spike",
+    "name": "Legend Spike [E]",
     "type": "knif",
     "tier": 2,
     "maxSockets": 3,
@@ -3116,7 +3116,7 @@
     "levelReq": 66
   },
   "7tk": {
-    "name": "Flying Knife",
+    "name": "Flying Knife [E]",
     "type": "tkni",
     "tier": 2,
     "maxSockets": 0,
@@ -3129,7 +3129,7 @@
     "levelReq": 48
   },
   "7ta": {
-    "name": "Flying Axe",
+    "name": "Flying Axe [E]",
     "type": "taxe",
     "tier": 2,
     "maxSockets": 0,
@@ -3142,7 +3142,7 @@
     "levelReq": 42
   },
   "7bk": {
-    "name": "Winged Knife",
+    "name": "Winged Knife [E]",
     "type": "tkni",
     "tier": 2,
     "maxSockets": 0,
@@ -3155,7 +3155,7 @@
     "levelReq": 57
   },
   "7b8": {
-    "name": "Winged Axe",
+    "name": "Winged Axe [E]",
     "type": "taxe",
     "tier": 2,
     "maxSockets": 0,
@@ -3168,7 +3168,7 @@
     "levelReq": 60
   },
   "7ja": {
-    "name": "Hyperion Javelin",
+    "name": "Hyperion Javelin [E]",
     "type": "jave",
     "tier": 2,
     "maxSockets": 0,
@@ -3181,7 +3181,7 @@
     "levelReq": 40
   },
   "7pi": {
-    "name": "Stygian Pilum",
+    "name": "Stygian Pilum [E]",
     "type": "jave",
     "tier": 2,
     "maxSockets": 0,
@@ -3194,7 +3194,7 @@
     "levelReq": 46
   },
   "7s7": {
-    "name": "Balrog Spear",
+    "name": "Balrog Spear [E]",
     "type": "jave",
     "tier": 2,
     "maxSockets": 0,
@@ -3207,7 +3207,7 @@
     "levelReq": 53
   },
   "7gl": {
-    "name": "Ghost Glaive",
+    "name": "Ghost Glaive [E]",
     "type": "jave",
     "tier": 2,
     "maxSockets": 0,
@@ -3220,7 +3220,7 @@
     "levelReq": 59
   },
   "7ts": {
-    "name": "Winged Harpoon",
+    "name": "Winged Harpoon [E]",
     "type": "jave",
     "tier": 2,
     "maxSockets": 0,
@@ -3233,7 +3233,7 @@
     "levelReq": 65
   },
   "7sr": {
-    "name": "Hyperion Spear",
+    "name": "Hyperion Spear [E]",
     "type": "spea",
     "tier": 2,
     "maxSockets": 3,
@@ -3246,7 +3246,7 @@
     "levelReq": 43
   },
   "7tr": {
-    "name": "Stygian Pike",
+    "name": "Stygian Pike [E]",
     "type": "spea",
     "tier": 2,
     "maxSockets": 4,
@@ -3259,7 +3259,7 @@
     "levelReq": 49
   },
   "7br": {
-    "name": "Mancatcher",
+    "name": "Mancatcher [E]",
     "type": "spea",
     "tier": 2,
     "maxSockets": 5,
@@ -3272,7 +3272,7 @@
     "levelReq": 55
   },
   "7st": {
-    "name": "Ghost Spear",
+    "name": "Ghost Spear [E]",
     "type": "spea",
     "tier": 2,
     "maxSockets": 6,
@@ -3285,7 +3285,7 @@
     "levelReq": 62
   },
   "7p7": {
-    "name": "War Pike",
+    "name": "War Pike [E]",
     "type": "spea",
     "tier": 2,
     "maxSockets": 6,
@@ -3298,7 +3298,7 @@
     "levelReq": 66
   },
   "7o7": {
-    "name": "Ogre Axe",
+    "name": "Ogre Axe [E]",
     "type": "pole",
     "tier": 2,
     "maxSockets": 3,
@@ -3311,7 +3311,7 @@
     "levelReq": 45
   },
   "7vo": {
-    "name": "Colossus Voulge",
+    "name": "Colossus Voulge [E]",
     "type": "pole",
     "tier": 2,
     "maxSockets": 4,
@@ -3324,7 +3324,7 @@
     "levelReq": 48
   },
   "7s8": {
-    "name": "Thresher",
+    "name": "Thresher [E]",
     "type": "pole",
     "tier": 2,
     "maxSockets": 5,
@@ -3337,7 +3337,7 @@
     "levelReq": 53
   },
   "7pa": {
-    "name": "Cryptic Axe",
+    "name": "Cryptic Axe [E]",
     "type": "pole",
     "tier": 2,
     "maxSockets": 5,
@@ -3350,7 +3350,7 @@
     "levelReq": 59
   },
   "7h7": {
-    "name": "Great Poleaxe",
+    "name": "Great Poleaxe [E]",
     "type": "pole",
     "tier": 2,
     "maxSockets": 6,
@@ -3363,7 +3363,7 @@
     "levelReq": 63
   },
   "7wc": {
-    "name": "Giant Thresher",
+    "name": "Giant Thresher [E]",
     "type": "pole",
     "tier": 2,
     "maxSockets": 6,
@@ -3376,7 +3376,7 @@
     "levelReq": 66
   },
   "6ss": {
-    "name": "Walking Stick",
+    "name": "Walking Stick [E]",
     "type": "staf",
     "tier": 2,
     "maxSockets": 2,
@@ -3389,7 +3389,7 @@
     "levelReq": 43
   },
   "6ls": {
-    "name": "Stalagmite",
+    "name": "Stalagmite [E]",
     "type": "staf",
     "tier": 2,
     "maxSockets": 3,
@@ -3402,7 +3402,7 @@
     "levelReq": 49
   },
   "6cs": {
-    "name": "Elder Staff",
+    "name": "Elder Staff [E]",
     "type": "staf",
     "tier": 2,
     "maxSockets": 4,
@@ -3415,7 +3415,7 @@
     "levelReq": 55
   },
   "6bs": {
-    "name": "Shillelagh",
+    "name": "Shillelagh [E]",
     "type": "staf",
     "tier": 2,
     "maxSockets": 4,
@@ -3428,7 +3428,7 @@
     "levelReq": 62
   },
   "6ws": {
-    "name": "Archon Staff",
+    "name": "Archon Staff [E]",
     "type": "staf",
     "tier": 2,
     "maxSockets": 6,
@@ -3441,7 +3441,7 @@
     "levelReq": 66
   },
   "6sb": {
-    "name": "Spider Bow",
+    "name": "Spider Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 3,
@@ -3454,7 +3454,7 @@
     "levelReq": 41
   },
   "6hb": {
-    "name": "Blade Bow",
+    "name": "Blade Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 4,
@@ -3467,7 +3467,7 @@
     "levelReq": 45
   },
   "6lb": {
-    "name": "Shadow Bow",
+    "name": "Shadow Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 5,
@@ -3480,7 +3480,7 @@
     "levelReq": 47
   },
   "6cb": {
-    "name": "Great Bow",
+    "name": "Great Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 4,
@@ -3493,7 +3493,7 @@
     "levelReq": 51
   },
   "6s7": {
-    "name": "Diamond Bow",
+    "name": "Diamond Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 5,
@@ -3506,7 +3506,7 @@
     "levelReq": 54
   },
   "6l7": {
-    "name": "Crusader Bow",
+    "name": "Crusader Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 6,
@@ -3519,7 +3519,7 @@
     "levelReq": 57
   },
   "6sw": {
-    "name": "Ward Bow",
+    "name": "Ward Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 5,
@@ -3532,7 +3532,7 @@
     "levelReq": 60
   },
   "6lw": {
-    "name": "Hydra Bow",
+    "name": "Hydra Bow [E]",
     "type": "bow",
     "tier": 2,
     "maxSockets": 6,
@@ -3545,7 +3545,7 @@
     "levelReq": 63
   },
   "6lx": {
-    "name": "Pellet Bow",
+    "name": "Pellet Bow [E]",
     "type": "xbow",
     "tier": 2,
     "maxSockets": 3,
@@ -3558,7 +3558,7 @@
     "levelReq": 42
   },
   "6mx": {
-    "name": "Gorgon Crossbow",
+    "name": "Gorgon Crossbow [E]",
     "type": "xbow",
     "tier": 2,
     "maxSockets": 4,
@@ -3571,7 +3571,7 @@
     "levelReq": 50
   },
   "6hx": {
-    "name": "Colossus Crossbow",
+    "name": "Colossus Crossbow [E]",
     "type": "xbow",
     "tier": 2,
     "maxSockets": 6,
@@ -3584,7 +3584,7 @@
     "levelReq": 56
   },
   "6rx": {
-    "name": "Demon Crossbow",
+    "name": "Demon Crossbow [E]",
     "type": "xbow",
     "tier": 2,
     "maxSockets": 5,
@@ -3597,7 +3597,7 @@
     "levelReq": 63
   },
   "ob1": {
-    "name": "Eagle Orb",
+    "name": "Eagle Orb [N]",
     "type": "orb",
     "tier": 0,
     "maxSockets": 2,
@@ -3610,7 +3610,7 @@
     "levelReq": 0
   },
   "ob2": {
-    "name": "Sacred Globe",
+    "name": "Sacred Globe [N]",
     "type": "orb",
     "tier": 0,
     "maxSockets": 2,
@@ -3623,7 +3623,7 @@
     "levelReq": 0
   },
   "ob3": {
-    "name": "Smoked Sphere",
+    "name": "Smoked Sphere [N]",
     "type": "orb",
     "tier": 0,
     "maxSockets": 2,
@@ -3636,7 +3636,7 @@
     "levelReq": 8
   },
   "ob4": {
-    "name": "Clasped Orb",
+    "name": "Clasped Orb [N]",
     "type": "orb",
     "tier": 0,
     "maxSockets": 2,
@@ -3649,7 +3649,7 @@
     "levelReq": 13
   },
   "ob5": {
-    "name": "Jared's Stone",
+    "name": "Jared's Stone [N]",
     "type": "orb",
     "tier": 0,
     "maxSockets": 3,
@@ -3662,7 +3662,7 @@
     "levelReq": 18
   },
   "am1": {
-    "name": "Stag Bow",
+    "name": "Stag Bow [N]",
     "type": "abow",
     "tier": 0,
     "maxSockets": 5,
@@ -3675,7 +3675,7 @@
     "levelReq": 14
   },
   "am2": {
-    "name": "Reflex Bow",
+    "name": "Reflex Bow [N]",
     "type": "abow",
     "tier": 0,
     "maxSockets": 5,
@@ -3688,7 +3688,7 @@
     "levelReq": 20
   },
   "am3": {
-    "name": "Maiden Spear",
+    "name": "Maiden Spear [N]",
     "type": "aspe",
     "tier": 0,
     "maxSockets": 6,
@@ -3701,7 +3701,7 @@
     "levelReq": 14
   },
   "am4": {
-    "name": "Maiden Pike",
+    "name": "Maiden Pike [N]",
     "type": "aspe",
     "tier": 0,
     "maxSockets": 6,
@@ -3714,7 +3714,7 @@
     "levelReq": 20
   },
   "am5": {
-    "name": "Maiden Javelin",
+    "name": "Maiden Javelin [N]",
     "type": "ajav",
     "tier": 0,
     "maxSockets": 0,
@@ -3727,7 +3727,7 @@
     "levelReq": 17
   },
   "ob6": {
-    "name": "Glowing Orb",
+    "name": "Glowing Orb [X]",
     "type": "orb",
     "tier": 1,
     "maxSockets": 2,
@@ -3740,7 +3740,7 @@
     "levelReq": 24
   },
   "ob7": {
-    "name": "Crystalline Globe",
+    "name": "Crystalline Globe [X]",
     "type": "orb",
     "tier": 1,
     "maxSockets": 2,
@@ -3753,7 +3753,7 @@
     "levelReq": 27
   },
   "ob8": {
-    "name": "Cloudy Sphere",
+    "name": "Cloudy Sphere [X]",
     "type": "orb",
     "tier": 1,
     "maxSockets": 2,
@@ -3766,7 +3766,7 @@
     "levelReq": 30
   },
   "ob9": {
-    "name": "Sparkling Ball",
+    "name": "Sparkling Ball [X]",
     "type": "orb",
     "tier": 1,
     "maxSockets": 2,
@@ -3779,7 +3779,7 @@
     "levelReq": 34
   },
   "oba": {
-    "name": "Swirling Crystal",
+    "name": "Swirling Crystal [X]",
     "type": "orb",
     "tier": 1,
     "maxSockets": 3,
@@ -3792,7 +3792,7 @@
     "levelReq": 37
   },
   "am6": {
-    "name": "Ashwood Bow",
+    "name": "Ashwood Bow [X]",
     "type": "abow",
     "tier": 1,
     "maxSockets": 5,
@@ -3805,7 +3805,7 @@
     "levelReq": 29
   },
   "am7": {
-    "name": "Ceremonial Bow",
+    "name": "Ceremonial Bow [X]",
     "type": "abow",
     "tier": 1,
     "maxSockets": 5,
@@ -3818,7 +3818,7 @@
     "levelReq": 35
   },
   "am8": {
-    "name": "Ceremonial Spear",
+    "name": "Ceremonial Spear [X]",
     "type": "aspe",
     "tier": 1,
     "maxSockets": 6,
@@ -3831,7 +3831,7 @@
     "levelReq": 32
   },
   "am9": {
-    "name": "Ceremonial Pike",
+    "name": "Ceremonial Pike [X]",
     "type": "aspe",
     "tier": 1,
     "maxSockets": 6,
@@ -3844,7 +3844,7 @@
     "levelReq": 38
   },
   "ama": {
-    "name": "Ceremonial Javelin",
+    "name": "Ceremonial Javelin [X]",
     "type": "ajav",
     "tier": 1,
     "maxSockets": 0,
@@ -3857,7 +3857,7 @@
     "levelReq": 26
   },
   "obb": {
-    "name": "Heavenly Stone",
+    "name": "Heavenly Stone [E]",
     "type": "orb",
     "tier": 2,
     "maxSockets": 2,
@@ -3870,7 +3870,7 @@
     "levelReq": 44
   },
   "obc": {
-    "name": "Eldritch Orb",
+    "name": "Eldritch Orb [E]",
     "type": "orb",
     "tier": 2,
     "maxSockets": 2,
@@ -3883,7 +3883,7 @@
     "levelReq": 50
   },
   "obd": {
-    "name": "Demon Heart",
+    "name": "Demon Heart [E]",
     "type": "orb",
     "tier": 2,
     "maxSockets": 2,
@@ -3896,7 +3896,7 @@
     "levelReq": 56
   },
   "obe": {
-    "name": "Vortex Orb",
+    "name": "Vortex Orb [E]",
     "type": "orb",
     "tier": 2,
     "maxSockets": 2,
@@ -3909,7 +3909,7 @@
     "levelReq": 63
   },
   "obf": {
-    "name": "Dimensional Shard",
+    "name": "Dimensional Shard [E]",
     "type": "orb",
     "tier": 2,
     "maxSockets": 3,
@@ -3922,7 +3922,7 @@
     "levelReq": 66
   },
   "amb": {
-    "name": "Matriarchal Bow",
+    "name": "Matriarchal Bow [E]",
     "type": "abow",
     "tier": 2,
     "maxSockets": 5,
@@ -3935,7 +3935,7 @@
     "levelReq": 39
   },
   "amc": {
-    "name": "Grand Matron Bow",
+    "name": "Grand Matron Bow [E]",
     "type": "abow",
     "tier": 2,
     "maxSockets": 5,
@@ -3948,7 +3948,7 @@
     "levelReq": 58
   },
   "amd": {
-    "name": "Matriarchal Spear",
+    "name": "Matriarchal Spear [E]",
     "type": "aspe",
     "tier": 2,
     "maxSockets": 6,
@@ -3961,7 +3961,7 @@
     "levelReq": 45
   },
   "ame": {
-    "name": "Matriarchal Pike",
+    "name": "Matriarchal Pike [E]",
     "type": "aspe",
     "tier": 2,
     "maxSockets": 6,
@@ -3974,7 +3974,7 @@
     "levelReq": 60
   },
   "amf": {
-    "name": "Matriarchal Javelin",
+    "name": "Matriarchal Javelin [E]",
     "type": "ajav",
     "tier": 2,
     "maxSockets": 0,

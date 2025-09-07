@@ -2484,7 +2484,7 @@
     ]
   },
   {
-    "name": "Fortitude (Dummy)",
+    "name": "Fortitude (Removed)",
     "enabled": true,
     "runes": [
       "r01",
@@ -2494,7 +2494,14 @@
     ],
     "word": "r01r12r14r28",
     "levelReq": 59,
-    "modifiers": []
+    "modifiers": [
+      {
+        "prop": "light",
+        "param": 0,
+        "min": -1,
+        "max": -1
+      }
+    ]
   },
   {
     "name": "Fortune's Favor",
@@ -3384,7 +3391,7 @@
     ]
   },
   {
-    "name": "Hustle (Torso)",
+    "name": "Hustle",
     "enabled": true,
     "runes": [
       "r13",
@@ -3421,7 +3428,7 @@
     ]
   },
   {
-    "name": "Hustle (Weapon)",
+    "name": "Hustle",
     "enabled": true,
     "runes": [
       "r13",
@@ -9289,7 +9296,7 @@
     ]
   },
   {
-    "name": "Arcane2",
+    "name": "Arcane",
     "enabled": true,
     "runes": [
       "r26",
@@ -10249,6 +10256,25 @@
         "param": 0,
         "min": 50,
         "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Rain Reimagined (Removed)",
+    "enabled": true,
+    "runes": [
+      "r30",
+      "r32",
+      "r30"
+    ],
+    "word": "r30r32r30",
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "light",
+        "param": 0,
+        "min": -1,
+        "max": -1
       }
     ]
   }

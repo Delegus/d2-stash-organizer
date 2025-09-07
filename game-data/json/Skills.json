@@ -410,7 +410,7 @@
   },
   {
     "code": "Poison Explosion",
-    "name": "Poison Explosion",
+    "name": "Poison Volley",
     "charClass": 2
   },
   {
@@ -630,17 +630,17 @@
   },
   {
     "code": "Melee Mastery",
-    "name": "Sword Mastery",
+    "name": "Melee Mastery",
     "charClass": 4
   },
   {
     "code": "Shield Mastery",
-    "name": "Axe Mastery",
+    "name": "Shield Mastery",
     "charClass": 4
   },
   {
     "code": "Deadly Treasures",
-    "name": "Mace Mastery",
+    "name": "Deadly Treasures",
     "charClass": 4
   },
   {
@@ -665,7 +665,7 @@
   },
   {
     "code": "Unstoppable Force",
-    "name": "Pole Arm Mastery",
+    "name": "Unstoppable Force",
     "charClass": 4
   },
   {
@@ -675,7 +675,7 @@
   },
   {
     "code": "Winters Gambit",
-    "name": "Spear Mastery",
+    "name": "Winter's Gambit",
     "charClass": 4
   },
   {
@@ -690,7 +690,7 @@
   },
   {
     "code": "Stun",
-    "name": "Stun",
+    "name": "Tectonic Slam",
     "charClass": 4
   },
   {
@@ -700,7 +700,7 @@
   },
   {
     "code": "Chasm Break",
-    "name": "Increased Stamina",
+    "name": "Chasm Break",
     "charClass": 4
   },
   {
@@ -715,7 +715,7 @@
   },
   {
     "code": "Concentrate",
-    "name": "Concentrate",
+    "name": "Carnage",
     "charClass": 4
   },
   {
@@ -745,7 +745,7 @@
   },
   {
     "code": "Madawcs Fury",
-    "name": "Grim Ward",
+    "name": "Madawc's Fury",
     "charClass": 4
   },
   {
@@ -1027,11 +1027,11 @@
   },
   {
     "code": "Scroll of Townportal",
-    "name": "Scroll of Townportal"
+    "name": "Scroll of Town Portal"
   },
   {
     "code": "Book of Townportal",
-    "name": "Tome of Townportal"
+    "name": "Tome of Town Portal"
   },
   {
     "code": "Raven",
@@ -1040,7 +1040,7 @@
   },
   {
     "code": "Plague Poppy",
-    "name": "Werewolf",
+    "name": "Poison Creeper",
     "charClass": 5
   },
   {
@@ -1140,7 +1140,7 @@
   },
   {
     "code": "Hunger",
-    "name": "Hunger",
+    "name": "Toxic Fangs",
     "charClass": 5
   },
   {
@@ -1647,7 +1647,7 @@
   },
   {
     "code": "TownPortal",
-    "name": "Scroll of Townportal"
+    "name": "Scroll of Town Portal"
   },
   {
     "code": "EmoteWheel",
@@ -1695,7 +1695,7 @@
   },
   {
     "code": "Warp",
-    "name": "SkillNameWarp"
+    "name": "Warp"
   },
   {
     "code": "proc_SplashDamage",
@@ -1719,11 +1719,11 @@
   },
   {
     "code": "Mark of the Bear",
-    "name": "SkillnameMetamorphosisBear"
+    "name": "Mark of the Bear"
   },
   {
     "code": "Mark of the Wolf",
-    "name": "SkillnameMetamorphosisWolf"
+    "name": "Mark of the Wolf"
   },
   {
     "code": "Dsum_Twister",
@@ -1831,10 +1831,14 @@
   },
   {
     "code": "Polar Claws",
-    "name": "Skillname420"
+    "name": "Arctic Claws"
   },
   {
     "code": "Polar Bear",
     "name": "Polar Bear"
+  },
+  {
+    "code": "CTC Frost Nova",
+    "name": "CTC Frost Nova"
   }
 ]

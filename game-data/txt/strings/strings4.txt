@@ -868,8 +868,8 @@ MercX131	Lanth
 MercX132	Eadgils
 MercX133	Onela
 MercX134	Damien
-MercX135	Tryneus
-MercX136	Klar
+MercX135	Erfor
+MercX136	Weohstan
 MercX137	Wulf
 MercX138	Bulwye
 MercX139	Lief
@@ -1016,7 +1016,7 @@ Fiendra	Fiend
 Wraithra	Wraith
 Fiend	Fiend
 Wraith	Wraith
-D2bnetHelp10	ÿc3Blue Textÿc4 represents actions that have been taken by people in the chat Channel.
+D2bnetHelp10	\blue;Blue Text\gold; represents actions that have been taken by people in the chat Channel.
 ItemStats1r	Chance to Block: 
 x	Server is Full
 x	No new games can be created right now, Please Join a game or try later.
@@ -1043,7 +1043,7 @@ StrSkill61	Multiple Hits
 D2bnetHelp13c	/reply
 D2bnethelp13d	Allows you to reply to a whisper without typing the account name
 D2bnetHelp52	/whisper, /msg, /reply
-D2bnetHelp10a	ÿc9 Yellow Textÿc4 represents special messages sent directly from battle.net
+D2bnetHelp10a	\yellow; Yellow Text\gold; represents special messages sent directly from battle.net
 BnetnewGameTime	Game Time:
 D2bnetHelp12c	When using advanced commands, you may also use character names for people in the same Realm, and character names @Realm for people in another Realm.
 D2bnetHelp12d	You must use *account names for anyone on battle.net including people in a different game such as Starcraft.
@@ -1059,13 +1059,13 @@ x	If the current gateway does not best represent your location, select another B
 x	CHANGE REALM
 x	Current Realm
 x	A character named '%s' already exists in this Realm.
-D2bnetHelp6a	ÿc5Gray Textÿc4 also represents actions that have been taken by people in the chat Channel.
-D2bnetHelp10aPatch	ÿc3Blue Textÿc4 represents special messages sent directly from battle.net or messages from a Blizzard Representative.
+D2bnetHelp6a	\dgrey;Gray Text\gold; also represents actions that have been taken by people in the chat Channel.
+D2bnetHelp10aPatch	\blue;Blue Text\gold; represents special messages sent directly from battle.net or messages from a Blizzard Representative.
 x	SEND
 x	PASSWORD WARNING
 x	You cannot send your password to another user on Battle.net. Blizzard will never ask you for your password for any reason.
 x	CONNECTING...
-x	Diablo II was unable to connect to the realm server. The realm you selected may be unavailable or you may be encountering connection issues. Please make sure your internet connection is working properly and/or your firewall has port 6112 opened.
+x	REALM DOWN
 x	More...
 x	You have more than 8 characters on this Diablo II Realm. Only 8 characters can be displayed at a time.
 x	To see more characters, you must delete one of your existing characters. This deletion is permanent. You will not be able to recover the deleted character.
@@ -1142,39 +1142,51 @@ x
 x	
 x	
 x	
-x	A Diablo II character must be played in a game, or it will eventually expire. When you first create a character, it expires 10 days after the last time it was played. Once that character has been played for two hours or more, it will not expire until three months from the time it was last played.
-x	A character that expires is deleted from the realm.
-x	The character '%s' has not been used enough and has expired.
-pk1	Key of Terror
-pk2	Key of Hate
-pk3	Key of Destruction
-dhn	Diablo's Horn
-bey	Baal's Eye
-mbr	Mephisto's Brain
-std	Standard of Heroes
-Hellfire Torch	Hellfire Torch
-Lilith	Lilith
-Pandemonium Run 1	Matron's Den
-Pandemonium Run 2	Forgotten Sands
-Pandemonium Run 3	Furnace of Pain
-ModStre8b	to Assassin Skills
-skillld146	enemies' defense rating and damage\nfearsome cry that decreases
-skillld65	by piercing enemies' resistances to cold\npassive - increases the damage of your cold attacks
-x	The CD-Key you are currently using is disabled from playing realm games. You may continue playing the game in Single Player and Open Battle.net.
-x	Your connection has been temporarily restricted from this realm. Please try to log in at another time.
-toa	Right-click to reset Stat/Skill Points\nToken of Absolution
-tes	Twisted Essence of Suffering
-ceh	Charged Essence of Hatred
-bet	Burning Essence of Terror
-fed	Festering Essence of Destruction
-respec	Reset Stat/Skill Points
-x	Persistent ignoring is now enabled.
-x	Persistent ignoring is now disabled.
-x	%s has been ignored.
-x	Unable to ignore %s
-x	%s has been unignored.
-x	%s is not currently ignored.
-x	Message filter added.
-x	Unable to add message filter.
-x	Message filter removed.
-x	Unable to remove message filter.
+playstr	(based on character strength)
+playdex	(based on character dexterity)
+playvit	(based on character vitality)
+playenr	(based on character energy)
+ModStrcoldskill	to Cold Skills
+ModStrlightningskill	to Lightning Skills
+ModStrpoisonskill	to Poison Skills
+ModStrmagicskill	to Magic Skills
+ModStrfear	Chance Attacker will Flee in Fear
+ModStrblinded	Chance Attacker will be Blinded
+ModStrfirethorns	Attacker takes Fire Damage of
+ModStrcoldthorns	Attacker Takes Cold Damage of
+ModResMaxAllZero	Sets all Resistances to 0
+ModStrcurseresist	Reduces Curse Length by
+playmana	(Based on Mana)
+ModStr1a1	Increases Strength by
+ModStr1d1	Increases Dexterity by
+ModStr1b1	Increases Vitality by
+ModStr1c1	Increases Energy by
+ModStrnh	Decreased Maximum Life by
+ModStr3ddd	Increased Chance to Block
+ModStrFreeze1	Freezes Target for
+ModStrFreeze1a	Seconds (based on character level)
+ModStrFreeze2	Freezes Target for
+ModStrFreeze2a	Seconds (based on character energy)
+ModStrFreeze3	Freezes Target for
+ModStrFreeze3a	Seconds
+ModStr2iaa	Maximum Durability Decreased by
+strModAllResistances	All Resistances %d%
+ModStrAllMaxRes	Increases All Maximum Cap Resistances by +%d%
+ModStrAllMaxResN	Reduces All Maximum Resistance Caps by %d%
+StrModAttrP	All Attributes Increased by %d%
+StrModAttrN	All Attributes Decreased by %d%
+ModStr1a11	Reduces Strength by
+ModStr1b11	Reduces Vitality by
+ModStr1c11	Reduces Energy by
+ModStr1d11	Reduces Dexterity by
+ModStr6eee	(Curse) Increased Stamina Drain by %d%
+ModStr6e	Stamina Drain Reduced by %d%
+ModStr4mn	Reduced Attack Speed
+ModStr4sn	Slower Run/Walk
+ModStr4pn	Slower Hit Recovery
+ModStr4yn	Slower Block Rate
+ModStr4vn	Slower Casting Rate
+ModitemRedVendPN	Increased All Vendor Prices (Curse)
+ModStrcurseresistN	(Curse) length of time your cursed is increased by
+ModStr3rrr	(Curse) length of time your poisoned is increased by
+ModStr2uuu	(Curse) Physical Damage taken increased by

@@ -3421,14 +3421,14 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 50,
+        "max": 50
       },
       {
         "prop": "dex",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "dmg-to-mana",
@@ -3439,8 +3439,14 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 10,
-        "max": 15
+        "min": 30,
+        "max": 40
+      },
+      {
+        "prop": "skill-rand",
+        "param": 2,
+        "min": 36,
+        "max": 65
       }
     ],
     "setModifiers": [
@@ -3448,16 +3454,16 @@
         {
           "prop": "ac",
           "param": 0,
-          "min": 60,
-          "max": 60
+          "min": 100,
+          "max": 100
         }
       ],
       [
         {
           "prop": "cast2",
           "param": 0,
-          "min": 10,
-          "max": 10
+          "min": 15,
+          "max": 15
         }
       ],
       [],
@@ -3499,19 +3505,32 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 42,
-        "max": 42
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "skill-rand",
+        "param": 2,
+        "min": 36,
+        "max": 65
       }
     ],
     "setModifiers": [
-      [],
-      [],
       [
         {
           "prop": "cast2",
           "param": 0,
-          "min": 10,
-          "max": 10
+          "min": 15,
+          "max": 15
+        }
+      ],
+      [],
+      [
+        {
+          "prop": "mag%",
+          "param": 0,
+          "min": 25,
+          "max": 25
         }
       ],
       [],
@@ -3540,32 +3559,32 @@
       {
         "prop": "enr",
         "param": 0,
-        "min": 10,
-        "max": 10
-      },
-      {
-        "prop": "cast3",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
+        "prop": "cast3",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
         "prop": "skill",
         "param": 61,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 5
       },
       {
         "prop": "skill",
         "param": 63,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 5
       },
       {
         "prop": "skill",
         "param": 65,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 5
       },
       {
         "prop": "oskill_hide",
@@ -3585,26 +3604,19 @@
       ],
       [
         {
-          "prop": "pierce-fire",
+          "prop": "sor",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 1,
+          "max": 1
         }
       ],
+      [],
       [
         {
-          "prop": "pierce-ltng",
+          "prop": "pierce-elem",
           "param": 0,
-          "min": 15,
-          "max": 15
-        }
-      ],
-      [
-        {
-          "prop": "extra-cold",
-          "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 20,
+          "max": 20
         }
       ],
       []
@@ -3632,8 +3644,8 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 88,
-        "max": 88
+        "min": 80,
+        "max": 100
       },
       {
         "prop": "res-cold",
@@ -3665,12 +3677,19 @@
         {
           "prop": "cast2",
           "param": 0,
-          "min": 10,
-          "max": 10
+          "min": 15,
+          "max": 15
         }
       ],
       [],
-      [],
+      [
+        {
+          "prop": "hp",
+          "param": 0,
+          "min": 50,
+          "max": 50
+        }
+      ],
       [],
       []
     ]
@@ -3717,12 +3736,32 @@
         "param": 0,
         "min": 10,
         "max": 10
+      },
+      {
+        "prop": "skill-rand",
+        "param": 3,
+        "min": 36,
+        "max": 65
       }
     ],
     "setModifiers": [
+      [
+        {
+          "prop": "balance2",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
       [],
-      [],
-      [],
+      [
+        {
+          "prop": "balance2",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
       [],
       []
     ]
@@ -5934,7 +5973,7 @@
     ]
   },
   {
-    "name": "McAuley's Taboo",
+    "name": "Sander's Taboo",
     "code": "vgl",
     "set": "Sander's Folly",
     "qlevel": 20,
@@ -5974,7 +6013,7 @@
     ]
   },
   {
-    "name": "McAuley's Superstition",
+    "name": "Sander's Superstition",
     "code": "bwn",
     "set": "Sander's Folly",
     "qlevel": 20,
@@ -11424,7 +11463,7 @@
   },
   {
     "name": "Darkmage's Celestial Fury",
-    "code": "dre",
+    "code": "uap",
     "set": "Darkmage's Astral Projection",
     "qlevel": 60,
     "levelReq": 80,
@@ -12615,7 +12654,7 @@
     ]
   },
   {
-    "name": "wicked Impulse",
+    "name": "Wicked Impulse",
     "code": "ult",
     "set": "Nefarious Ways",
     "qlevel": 60,
@@ -21542,7 +21581,7 @@
     ]
   },
   {
-    "name": "Panda's Mitts",
+    "name": "Panda's Mittens",
     "code": "ulg",
     "set": "Panda's Polar Adventure",
     "qlevel": 25,
@@ -21588,7 +21627,7 @@
     ]
   },
   {
-    "name": "Panda's Coat",
+    "name": "Panda's Jacket",
     "code": "uui",
     "set": "Panda's Polar Adventure",
     "qlevel": 70,

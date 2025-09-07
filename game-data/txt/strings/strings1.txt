@@ -695,12 +695,12 @@ D2bnetHelp3	SQUELCH filters out incoming messages from the character that you ha
 D2bnetHelp4	UNSQUELCH allows you to again receive incoming messages from a character that has been squelched.
 D2bnetHelp5	EMOTE lets you perform an action that the whole room can <see> as represented through text.
 D2bnetHelp5a	For example, if Doomhammer wants to greet all the players in the chat Channel, he could type, <waves hello.> and then click the EMOTE button. Everyone in the Channel will then receive the message, <Doomhammer waves hello.> This button is activated as soon as you start typing in the Text Box.
-D2bnetHelp6	ÿc5Gray Textÿc4 indicates when someone Joins or Leaves the chat Channel.
-D2bnetHelp7	ÿc7Gold Textÿc4 indicates the name of the player speaking.
-D2bnetHelp8	ÿc0White Textÿc4 indicates what you or others have said out loud to the entire chat Channel.
-D2bnetHelp9	ÿc2Green Textÿc4 indicates what you have <whispered> to a specific person, or any message that has been <whispered> to you, in the chat Channel.
-D2bnetHelp10	ÿc3Blue Textÿc4 represents actions that have been taken by people in the chat Channel or special messages sent directly from battle.net.
-D2bnetHelp11	ÿc1Red Textÿc4 represents error messages sent directly from battle.net.
+D2bnetHelp6	\dgrey;Gray Text\gold; indicates when someone Joins or Leaves the chat Channel.
+D2bnetHelp7	\tan;Gold Text\gold; indicates the name of the player speaking.
+D2bnetHelp8	\grey;White Text\gold; indicates what you or others have said out loud to the entire chat Channel.
+D2bnetHelp9	\green;Green Text\gold; indicates what you have <whispered> to a specific person, or any message that has been <whispered> to you, in the chat Channel.
+D2bnetHelp10	\blue;Blue Text\gold; represents actions that have been taken by people in the chat Channel or special messages sent directly from battle.net.
+D2bnetHelp11	\red;Red Text\gold; represents error messages sent directly from battle.net.
 D2bnetHelp36	THE DIALOGUE WINDOW
 D2bnetHelp36a	This window on the right side of the screen is used to display and enter both game and profile information. Unlike the Chat Window, this area changes depending on what function you have activated. The buttons for these functions are discussed in detail in the following section:
 D2bnetHelp37	CREATE
@@ -1543,21 +1543,21 @@ ESkillWolves
 ESkillShoots	       
 ESkillTimes	      
 ESkillSpikes2	       
-ob1	      
-ob2	       
-ob3	   
-ob4	      
-ob5	          
-ne1	         
-ne2	          
-ne3	             
-ne4	          
-ne5	         
-dr1	              
-dr2	        
-dr3	        
-dr4	            
-dr5	         
+ob1	Eagle Orb
+ob2	Sacred Globe
+ob3	Smoked Sphere
+ob4	Clasped Orb      
+ob5	Jared's Stone
+ne1	Preserved Head
+ne2	Zombie Head
+ne3	Unraveller Head             
+ne4	Gargoyle Head          
+ne5	Demon Head         
+dr1	Wolf Head              
+dr2	Hawk Helm        
+dr3	Antlers        
+dr4	Falcon Mask            
+dr5	Spirit Mask         
 as1	     
 as2	        
 as3	        
@@ -2068,7 +2068,7 @@ xtb	Battle Boots
 xmb	Mesh Boots
 xvb	Sharkskin Boots
 xlb	Demonhide Boots
-xhg	War Gaunlets
+xhg	War Gauntlets
 xtg	Battle Gauntlets
 xmg	Heavy Bracers
 xvg	Sharkskin Gloves
@@ -2096,7 +2096,7 @@ xea	Serpentskin Armor
 xui	Ghost Armor
 xsk	Death Mask
 xrn	Grand Crown
-xhm	Winged helm
+xhm	Winged Helm
 xhl	Basinet
 xlm	Casque
 xkp	Sallet
@@ -2138,7 +2138,7 @@ xap	War Hat
 9bk	War Dart
 9ta	Francisca
 9tk	Battle Dart
-9bl	Stilleto
+9bl	Stiletto
 9kr	Cinquedeas
 9di	Rondel
 9dg	Poignard
@@ -3504,8 +3504,8 @@ ModStr2c	Elixir of Vitality
 ModStr2d	Elixir of Mana
 ModStr2e	Elixir of Life
 ModStr2f	Sec. Duration
-ModStr2g	Increase Maximum Life
-ModStr2h	Increase Maximum Mana
+ModStr2g	Increased Maximum Life
+ModStr2h	Increased Maximum Mana
 ModStr2i	Increase Maximum Durability
 ModStr2j	Enhanced Maximum Damage
 ModStr2k	Enhanced Minimum Damage
@@ -3580,13 +3580,13 @@ ModStr5c	Chance of Crushing Blow
 ModStr5d	Maximum Stamina
 ModStr5e	Kick Damage
 ModStr5f	to Mana after each Kill
-ModStr5g	Fire Absorb
+ModStr5g	% Fire Absorb
 ModStr5h	Fire Absorb
-ModStr5i	Lightning Absorb
+ModStr5i	% Lightning Absorb
 ModStr5j	Lightning Absorb
-ModStr5k	Magic Absorb
+ModStr5k	% Magic Absorb
 ModStr5l	Magic Absorb
-ModStr5m	Cold Absorb
+ModStr5m	% Cold Absorb
 ModStr5n	Cold Absorb
 ModStr5o	Target Defense
 ModStr5p	Extra Bloody
@@ -3609,7 +3609,7 @@ ModStr6f	chance to reanimate target
 ModStr6g	Piercing Attack
 ModStr6h	Fires Magic Arrows
 ModStr6i	Fires Explosive Arrows or Bolts
-strModAllResistances	All Resistances +%d\n
+strModAllResistances	All Resistances +%d%
 strModAllSkillLevels	+%d to All Skill Levels\n
 strModFireDamage	+%d fire damage\n
 strModFireDamageRange	Adds %d-%d fire damage\n
@@ -3617,9 +3617,9 @@ strModColdDamage	+%d cold damage\n
 strModColdDamageRange	Adds %d-%d cold damage\n
 strModLightningDamage	+%d lightning damage\n
 strModLightningDamageRange	Adds %d-%d lightning damage\n
-strModMagicDamage	+%d magic damage\n
+strModMagicDamage	to Minimum Magic Damage
 strModMagicDamageRange	Adds %d-%d magic damage\n
-strModPoisonDamage	+%d poison damage over %d seconds\n
+strModPoisonDamage	+%d Poison Damage Over %d seconds
 strModPoisonDamageRange	Adds %d-%d poison damage over %d seconds\n
 strModMinDamage	+%d damage\n
 strModMinDamageRange	Adds %d-%d damage\n
@@ -3657,7 +3657,7 @@ chatmsg1	 whispers:
 chatmsg2	 shouts: 
 chatmsg3	(LVL 
 chatmsg3	 )
-strwhisperworked	ÿc0You whispered to ÿc1%sÿc0: %s
+strwhisperworked	\grey;You whispered to \red;%s\grey;: %s
 syswork	Working...
 ShrId0	Null Shrine
 ShrId1	Refilling Shrine
@@ -3993,7 +3993,7 @@ waypointsheader	Choose your destination
 nowaypoints	No Other Waypoints Activated
 max	MAX
 MAX	MAX
-colorcode	ÿc
+colorcode	Ã¿c
 space	 
 dash	-
 colon	:
@@ -4704,10 +4704,10 @@ skillname82	Life Tap
 skillsd82	curse - enemies return life to attacker
 skillld82	damaging them gives the attacker life\ncurses a group of monsters so that
 skillan82	Life Tap
-skillname83	Poison Explosion
+skillname83	Poison Volley
 skillsd83	turns a corpse into a poison gas bomb
 skillld83	that poisons nearby monsters\ntoxic gas is released\ncast on the corpse of a slain monster,
-skillan83	Poison Exp.
+skillan83	Poison Volley
 skillname84	Bone Spear
 skillsd84	summons a deadly spike of bone
 skillld84	summons a deadly spike of bone to impale your enemies
@@ -4948,10 +4948,10 @@ skillname143	Leap Attack
 skillsd143	leaps and attacks target enemy
 skillld143	in one swift assault\nleaps to and attacks target enemy
 skillan143	Leap Attack
-skillname144	Concentrate
+skillname144	Carnage
 skillsd144	attack that is not interruptible
 skillld144	improves attack and defense rating\nattack that is not interruptible and
-skillan144	Concentrate
+skillan144	Carnage
 skillname145	Iron Skin
 skillsd145	passive - improves defense rating
 skillld145	passive - improves defense rating
@@ -5390,3 +5390,925 @@ convertsto	Right click to make
 strNotInBeta	Not in Beta.
 strLevelLoadFailed	No Level Name
 Endthispuppy	End of Beta
+ModStr2uPercent	Physical Damage Reduction
+ItemModifierNonClassSkill	%+d to %s
+ItemModifierClassSkill	%+d to %s %s
+z01	Magic Arrows
+z02	Magic Bolts
+Serpent Lord1	Serpent Lord
+ModStr99a	to Required Level
+splash1	Splash 50% of Melee Damage
+stt	Item Grabber
+sto	Storage
+ModItemMonColdSunder	Nearby Enemies are Cold Sundered
+ModItemMonFireSunder	Nearby Enemies are Fire Sundered
+ModItemMonLightSunder	Nearby Enemies are Lightning Sundered
+ModItemMonPoisonSunder	Nearby Enemies are Poison Sundered
+ModItemMonPhysicalSunder	Nearby Enemies are Physical Sundered
+ModItemMonMagicSunder	Nearby Enemies are Magical Sundered
+ModStr6k	chance for finishing moves to not consume charges\n
+Chance to not consume Quantity	
+ModStr6j	Chance to not consume Quantity\n
+extraspear	Additional Bone Spear Projectiles
+splash2	Splash 50% of Melee Damage
+splash3	Splash 75% of Melee Damage
+splash4	Splash 100% of Melee Damage
+extraholybolt	Additional Holy Bolt Projectiles
+Runeword174	Metamorphosis\n
+t4 Splash Charm	Collin's Greater Might
+t5 Splash Charm	Collin's Fury
+t6 Splash Charm	Collin's Empowered Fury
+Sapphire Facet	Sapphire Facet
+Sapphire Facet1	Sapphire Facet\n
+t7 Splash Charm	Collin's Devastation
+t8 Splash Charm	Collin's Furious Devastation
+t9 Splash Charm	Collin's Destruction
+cm5	Splash Charm
+Runeword179	Bulwark\n
+Runeword175	Ground\n
+Runeword176	Temper\n
+Runeword177	Hearth\n
+Runeword178	Cure\n
+Runeword171	Hustle\n
+Runeword172	Hustle\n
+Runeword173	Mosaic\n
+Runeword201	Flame\n
+Runeword202	Rain Reimagined\n
+Runeword203	Plague Reimagined\n
+Runeword204	Wisdom Reimagined\n
+splash5	Splash 100% of Melee Damage
+Friendship	Friendship
+Ancient's Pledge	Ancient's Pledge
+Armageddon	Armageddon
+Authority	Authority
+Beauty	Beauty
+Bone Reimagined	Bone Reimagined
+Bramble	Bramble
+Brand	Brand
+Breath of the Dying	Breath of the Dying
+Broken Promise	Broken Promise
+Call to Arms	Call to Arms
+Chains of Honor	Chains of Honor
+Chance	Chance
+Friendship	Friendship
+Ancient's Pledge	Ancient's Pledge
+Armageddon	Armageddon
+Authority	Authority
+Beast	Beast
+Beauty	Beauty
+Black	Black
+Blood	Blood
+Bone Reimagined	Bone Reimagined
+Bramble	Bramble
+Brand	Brand
+Breath of the Dying	Breath of the Dying
+Broken Promise	Broken Promise
+Bulwark	Bulwark
+Call to Arms	Call to Arms
+Chains of Honor	Chains of Honor
+Chance	Chance
+Chaos	Chaos
+Crescent Moon	Crescent Moon
+Cure	Cure
+Darkness	Darkness
+Daylight	Daylight
+Death	Death
+Deception	Deception
+Delirium	Delirium
+Desire	Desire
+Despair	Despair
+Destruction	Destruction
+Distortion	Distortion
+Doom	Doom
+Dragon	Dragon
+Dread	Dread
+Dream	Dream
+Duress	Duress
+Edge	Edge
+Elation	Elation
+Enigma	Enigma
+Enlightenment Reimagined	Enlightenment Reimagined
+Envy	Envy
+Eternity	Eternity
+Exile	Exile
+Faith	Faith
+Famine	Famine
+Flame	Flame
+Flickering Flame	Flickering Flame
+Fortitude	Fortitude
+Fortune's Favor	Fortune's Favor
+Fury	Fury
+Gloom	Gloom
+Glory	Glory
+Grief	Grief
+Ground	Ground
+Hand of Justice	Hand of Justice
+Harmony	Harmony
+Hatred	Hatred
+Hearth	Hearth
+Heart of the Oak	Heart of the Oak
+Heaven's Will	Heaven's Will
+Holy Tears	Holy Tears
+Holy Thunder	Holy Thunder
+Honor	Honor
+Humility	Humility
+Hunger	Hunger
+Hustle (Torso)	Hustle
+Hustle (Weapon)	Hustle
+Ice	Ice
+Infinity	Infinity
+Innocence	Innocence
+Insight	Insight
+Jealousy	Jealousy
+Judgement	Judgement
+King's Grace	King's Grace
+Kingslayer	Kingslayer
+Knight's Vigil	Knight's Vigil
+Knowledge	Knowledge
+Last Wish	Last Wish
+Law	Law
+Lawbringer	Lawbringer
+Leaf	Leaf
+Lightning	Lightning
+Lionheart	Lionheart
+Lore	Lore
+Love	Love
+Loyalty	Loyalty
+Lust	Lust
+Madness	Madness
+Malice	Malice
+Melody	Melody
+Memory	Memory
+Metamorphosis	Metamorphosis
+Mist	Mist
+Morning Dew	Morning Dew
+Mosaic	Mosaic
+Mystery	Mystery
+Myth Reimagined	Myth Reimagined
+Nadir	Nadir
+Nature's Kingdom	Nature's Kingdom
+Night	Night
+Oath	Oath
+Obedience	Obedience
+Oblivion	Oblivion
+Obsession	Obsession
+Passion	Passion
+Patience	Patience
+Pattern	Pattern
+Peace Reimagined	Peace Reimagined
+Penitence	Penitence
+Peril	Peril
+Pestilence	Pestilence
+Phoenix	Phoenix
+Piety	Piety
+Pillar of Faith	Pillar of Faith
+Plague	Plague
+Plague Reimagined	Plague Reimagined
+Praise	Praise
+Prayer	Prayer
+Pride	Pride
+Principle Reimagined	Principle Reimagined
+Prowess in Battle	Prowess in Battle
+Prudence	Prudence
+Punishment	Punishment
+Purity	Purity
+Question	Question
+Radiance	Radiance
+Rain	Rain
+Rain Reimagined	Rain Reimagined
+Reason	Reason
+Red	Red
+Revenge	Revenge
+Rhyme	Rhyme
+Rift	Rift
+Sanctuary	Sanctuary
+Serendipity	Serendipity
+Shadow	Shadow
+Shadow of Doubt	Shadow of Doubt
+Silence	Silence
+Siren's Song	Siren's Song
+Smoke	Smoke
+Sorrow	Sorrow
+Spirit	Spirit
+Splendor	Splendor
+Starlight	Starlight
+Stealth	Stealth
+Steel	Steel
+Still Water	Still Water
+Sting	Sting
+Stone	Stone
+Storm	Storm
+Strength	Strength
+Temper	Temper
+Tempest	Tempest
+Temptation	Temptation
+Terror	Terror
+Thirst	Thirst
+Thought	Thought
+Thunder	Thunder
+Time	Time
+Tradition	Tradition
+Treachery	Treachery
+Trust	Trust
+Truth	Truth
+Unbending Will	Unbending Will
+Valor	Valor
+Vengeance	Vengeance
+Venom	Venom
+Victory	Victory
+Voice	Voice
+Voice of Reason	Voice of Reason
+Void	Void
+War	War
+Water	Water
+Wealth	Wealth
+Whisper	Whisper
+White	White
+Wind	Wind
+Wings of Hope	Wings of Hope
+Wisdom	Wisdom
+Wisdom Reimagined	Wisdom Reimagined
+Woe	Woe
+Wonder	Wonder
+Wrath	Wrath
+Youth	Youth
+Zephyr	Zephyr
+Bone	Bone
+Enlightenment	Enlightenment
+Myth	Myth
+Peace	Peace
+Principle	Principle
+Scout	Scout
+Snowdrop	Snowdrop
+Rixot's Keen	Rixot's Keen
+Biggin's Bonnet	Biggin's Bonnet
+Torch of Iro	Torch of Iro
+Nightshade	Nightshade
+Lenymo	Lenymo
+ItemStats2p	To Required Level
+mod_weight	Charm Weight
+weightsystem	Activates Charm Weight System
+StackedGem	Gem Credits
+tkg	Terror Key Grabber
+hkg	Hate Key Grabber
+dkg	Destruction Key Grabber
+agr	Perfect Amethyst Grabber
+tgr	Perfect Topaz Grabber
+sgr	Perfect Sapphire Grabber
+egr	Perfect Emerald Grabber
+mgr	Perfect Diamond Grabber
+rgr	Perfect Ruby Grabber
+kgr	Perfect Skull Grabber
+Axe of Fechmar	Axe of Fechmar
+Dimoak's Hew	Dimoak's Hew
+Light Reaper	Light Reaper
+Skewer of Krintiz	Skewer of Krintiz
+Blinkbat's Form	Blinkbat's Form
+Simpering Sword	Simpering Sword
+Maelstrom	Maelstrom
+Raven Claw	Raven Claw
+Scalp Hunter	Scalp Hunter
+Killer's Watch	Killer's Watch
+Lie Spreader	Lie Spreader
+Swift Descent	Swift Descent
+Griswold's Edge	Griswold's Edge
+Dragon Mask	Dragon Mask
+Spire of Lazarus	Spire of Lazarus
+Auburn Fire	Auburn Fire
+Debt Finisher	Debt Finisher
+The Chieftain	The Chieftain
+Rogue's Bow	Rogue's Bow
+Venom Ward	Venom Ward
+Skull Splitter	Skull Splitter
+The General's Tan Do Li Ga	The General's Tan Do Li Ga
+Conquistador	Conquistador
+Tidrik's Initiator	Tidrik's Initiator
+Kinemil's Awl	Kinemil's Awl
+Bonesnap	Bonesnap
+Spikethrower	Spikethrower
+Cursed Hindsight	Cursed Hindsight
+Spectral Shard	Spectral Shard
+Stormstrike	Stormstrike
+Long Suffering	Long Suffering
+Spirit Crusher	Spirit Crusher
+Rethral Bolt	Rethral Bolt
+Golem's Gain	Golem's Gain
+Elder Curse	Elder Curse
+Chaos Flight	Chaos Flight
+Ume's Lament	Ume's Lament
+Doomslinger	Doomslinger
+Silks of the Victor	Silks of the Victor
+Peasant Crown	Peasant Crown
+Doom Hedge	Doom Hedge
+Humongous	Humongous
+Culwen's Point	Culwen's Point
+The Quickening	The Quickening
+Moon Shadow	Moon Shadow
+Gillian's Tiara	Gillian's Tiara
+Skin of the Flayed One1	Skin of the Flayed One
+Moser's Blessed Circle1	Moser's Blessed Circle
+Final Flight	Final Flight
+Several Kill	Several Kill
+Fair Weather	Fair Weather
+Nightmare Razors	Nightmare Razors
+Iron Pelt	Iron Pelt
+Spirit Forge	Spirit Forge
+Dead World	Dead World
+Pus Spitter	Pus Spitter
+Gloom's Trap	Gloom's Trap
+Rat Lord's Curse	Rat Lord's Curse
+Witchwild String	Witchwild String
+Frostband Tine	Frostband Tine
+Warriv's Snakeskin	Warriv's Snakeskin
+Dreamweaver	Dreamweaver
+Skull Collector	Skull Collector
+Vampire Gaze	Vampire Gaze
+Que-Hegan's Wisdom1	Que-Hegan's Wisdom
+Gerke's Sanctuary1	Gerke's Sanctuary
+Radament's Sphere	Radament's Sphere
+Lava Gout	Lava Gout
+War Traveler	War Traveler
+Gore Rider	Gore Rider
+Thundergod's Vigor	Thundergod's Vigor
+Bul-Kathos' Wedding Band	Bul-Kathos' Wedding Band
+Bartuc's Cut-Throat	Bartuc's Cut-Throat
+Djinn Slayer	Djinn Slayer
+Gut Siphon	Gut Siphon
+Razor's Edge	Razor's Edge
+Demon Limb	Demon Limb
+Steel Shade	Steel Shade
+Death's Web1	Death's Web
+Jade Talon	Jade Talon
+Shadow Dancer	Shadow Dancer
+Cerberus' Bite	Cerberus' Bite
+Soul Drainer	Soul Drainer
+Rune Master	Rune Master
+Death Cleaver	Death Cleaver
+Wisp Projector	Wisp Projector
+Spirit Keeper	Spirit Keeper\n
+Darkforce Spawn	Darkforce Spawn
+Blood Raven's Charge	Blood Raven's Charge
+Shadow Killer	Shadow Killer
+Giant Maimer	Giant Maimer
+Steel Pillar	Steel Pillar
+Steel Carapace	Steel Carapace
+Death's Fathom	Death's Fathom
+Merman's Sprocket	Merman's Sprocket
+Verdungo's Hearty Cord	Verdungo's Hearty Cord
+Siggard's Stealth	Siggard's Stealth
+Giant Skull	Giant Skull
+Astreon's Iron Ward	Astreon's Iron Ward
+Earth Shifter	Earth Shifter
+Wraith Flight	Wraith Flight
+The Redeemer	The Redeemer
+Head Hunter's Glory	Head Hunter's Glory
+Auburn Fire	Auburn Fire
+Long Suffering	Long Suffering
+Marilith Edge	Marilith Edge
+Frost Wyrm	Frost Wyrm
+Simpering Sword	Simpering Sword
+Conquistador	Conquistador
+Dread Blade	Dread Blade
+Elder Curse	Elder Curse
+Splitting Skulls	Splitting Skulls
+Spirit Crusher	Spirit Crusher
+The Quickening	The Quickening
+Sweet Whisper	Sweet Whisper
+Frostband Tine	Frostband Tine
+Spirit of Lachdanan	Spirit of Lachdanan
+Count Kidran's Axe	Count Kidran's Axe
+Ruby Dawn	Ruby Dawn
+Final Flight	Final Flight
+Dead World	Dead World
+Rethral Bolt	Rethral Bolt
+Chaos Flight	Chaos Flight
+Several Kill	Several Kill
+Flight of Confusion	Flight of Confusion
+Tidrik's Initiator	Tidrik's Initiator
+The Strongest Link	The Strongest Link
+Lie Spreader	Lie Spreader
+Cursed Hindsight	Cursed Hindsight
+Arch-Nemesis	Arch-Nemsis
+Fair Weather	Fair Weather
+Gillian's Tiar	Gillian's Tiara
+Royal Diadem	Royal Diadem
+Light Reaper	Light Reaper
+Doom Hedge	Doom Hedge
+Debt Finisher	Debt Finisher
+Shieldmaiden's Pavise	Shieldmaiden's Pavise
+Ghoul Spawner	Ghoul Spawner
+Raptar Fang	Raptar Fang
+The Atlantean1	The Atlantean
+The Minotaur1	The Minotaur
+Pompeii's Wrath	Pompeii's Wrath
+Lenymo	Lenymo
+Valkyrie Wing	Valkyrie Wing
+Drow Mesh	Drow Mesh
+Goldstrike Arch	Goldstrike Arch
+Spring Facet	Spring Facet
+Winter Facet	Winter Facet
+Summer Facet	Summer Facet
+Autumn Facet	Autumn Facet
+Thunder Facet	Thunder Facet
+Rime Facet	Rime Facet
+Burnt Facet	Burn Facet
+Toxic Facet	Toxic Facet
+Key to Hell	Key to Hell
+Life & Death	Life & Death
+Spinel Facet	Spinel Facet
+Diamond Facet	Diamond Facet
+Adamantine Facet	Adamantine Facet
+Star Facet	Star Facet
+Heaven Facet	Heaven Facet
+Full Suffering	Full Suffering
+Enchanted Blades	Enchanted Blades
+Foul Sigil	Foul Sigil
+Sigil of Hope	Sigil of Hope
+Throne of Power	Throne of Power
+Nightshade	Nightshade
+Queen's Call	Queen's Call
+Kuo-Toa's Plague	Kuo-Toa's Plague
+Cold Rupture	Cold Rupture
+Flame Rift	Flame Rift
+Crack of the Heavens	Crack of the Heavens
+Rotting Fissure	Rotting Fissure
+Bone Break	Bone Break
+Black Cleft	Black Cleft
+Quiver of Amplified Slaying	Quiver of Amplified Slaying
+Quiver of Resistance Slaying	Quiver of Resistance Slaying
+Bolt Case of Amplified Slaying	Bolt Case of Amplified Slaying
+Bolt Case of Resistance Slaying	Bolt Case of Resistance Slaying
+Stone of Jordan	Stone of Jordan
+Aldur's Rhythm	Aldur's Rhythm
+Tal Rasha's Fine-Spun Cloth	Tal Rasha's Fine-Spun Cloth
+Tal Rasha's Guardianship	Tal Rasha's Guardianship
+Griswold's Redemption	Griswold's Redemption
+Dark Adherent	Dark Adherent
+Taebaek's Glory	Taebaek's Glory
+Haemosu's Adamant	Haemosu's Adamant
+Whitstan's Guard	Whitstan's Guard
+Hwanin's Blessing	Hwanin's Blessing
+Cow King's Hooves	Cow King's Hooves
+Sander's Paragon	Sander's Paragon
+Sander's Riprap	Sander's Riprap
+Sander's Taboo	Sander's Taboo
+Sander's Superstition	Sander's Superstition
+Jakira's Braces	Jakira's Braces
+Jakira's Hood	Jakira's Hood
+Jakira's Leather Jerkin	Jakira's Leather Jerkin
+Peace Ring	Peace Ring
+Balance of Power	Balance of Power
+Calming Embrace	Calming Embrace
+Animal Kinship	Animal Kinship
+Grimlock's Skull	Grimlock's Skull
+Grimlock's Wand	Grimlock's Wand
+Grimlock's Shroud	Grimlock's Shroud
+Grimlock's Belt	Grimlock's Belt
+Corgina's Orb	Corgina's Orb
+Corgina's Plate	Corgina's Plate
+Corgina's Ward	Corgina's Ward
+Corgina's Slippers	Corgina's Slippers
+Sheena's Heartwood	Sheena's Heartwood
+Sheena's Choker	Sheena's Choker
+Sheena's Elven Mail	Sheena's Elven Mail
+Sheena's Band	Sheena's Band
+Berserker's Howl	Berserker's Howl
+Chaos Heart	Chaos Heart
+Warlord's Pike	Warlord's Pike
+Shattering Fist	Shattering Fist
+Greyhawk's Wing	Greyhawk's Wing
+Greyhawk's Icebrand	Greyhawk's Icebrand
+Greyhawk's Deflector	Greyhawk's Deflector
+Greyhawk's Viser	Greyhawk's Viser
+Dragon's Flank	Dragon's Flank
+Ferrit's Paw	Ferrit's Paw
+Turtle's Shell	Turtle's Shell
+Wolf Pelt	Wolf Pelt
+Beast Collar	Beast Collar
+Jeweled Circlet	Jeweled Circlet
+Jeweled Belt	Jeweled Belt
+Ruby Ring	Ruby Ring
+Diamond Necklace	Diamond Necklace
+Winter's Heart	Winter's Heart
+Spring Dawning	Spring Dawning
+Summer Flame	Summer Flame
+Autumn's Decay	Autumn's Decay
+Fernandez' Plate	Fernandez' Plate
+Katriana's Mask	Katriana's Mask
+Luther's Cord	Luther's Cord
+Janis' Gloves	Janis' Gloves
+Xavier's Greaves	Xavier's Greaves
+Quincy's Shield	Quincy's Shield
+Power of Brother Laz	Power of Brother Laz
+Prayer of Brother Laz	Prayer of Brother Laz
+Brother Laz' Holy Symbol	Brother Laz' Holy Symbol
+Wrath of Brother Laz	Wrath of Brother Laz
+Brother Laz' Faith	Brother Laz' Faith
+Afterlife	Afterlife
+Dracolich	Dracolich
+Vampire's Crusade	Vampire's Crusade
+The River Stix	The River Stix
+Lord Hades' Throne	Lord Hades' Throne
+Secret Society	Secret Society
+Fallen Angels	Fallen Angels
+Savant Fury	Savant Fury
+Dawn's Blessing	Dawn's Blessing
+Cry of the Wolf	Cry of the Wolf
+Full Moon Frenzy	Full Moon Frenzy
+Torment of Innocence	Torment of Innocence
+Drawing Out the Beast	Drawing Out the Beast
+Elven Grace	Elven Grace
+Woodland Protector	Woodland Protector
+Silent Whisper	Silent Whisper
+Warder's Bond	Warder's Bond
+Maiden's Kiss	Maiden's Kiss
+Trent's Caster	Trent's Caster
+Eye of the Trent	Eye of the Trent
+Power of Fire	Power of Fire
+Power of Ice	Power of Ice
+Power of Lightning	Power of Lightning
+Shadow Ninja	Shadow Ninja
+Night's Caress	Night's Caress
+Mystic Blades	Mystic Blades
+Fade to Black	Fade to Black
+Fall From Grace	Fall From Grace
+Tyrael's Grief	Tyrael's Grief
+Redemption Denied	Redemption Denied
+Hell's Embrace	Hell's Embrace
+Spectral Knight's Unholy Shield	Spectral Knight's Unholy Shield
+Death Knight's Demon Blade	Death Knight's Demon Blade
+Lich's Cranium	Lich's Cranium
+Skeleton Warrior's Corpse Plate	Skeleton Warrior's Corpse Plate
+Dagger of Vashna	Dagger of Vashna
+Mask of Vashna	Mask of Vashna
+Robes of Vashna	Robes of Vashna
+Lancer's Reach	Lancer's Reach
+Salander's Mail	Salander's Mail
+Salander's Visor	Salander's Visor
+Red Dragon Scale Mail	Red Dragon Scale Mail
+Black Dragon Hide Shield	Black Dragon Hide Shield
+Green Dragon Mask	Green Dragon Mask
+Onyx's Fallen Star	Onyx's Fallen Star
+Onyx's Solar Flair	Onyx's Solar Flair
+Onyx's Super Nova	Onyx's Super Nova
+Onyx's Meteor Shower	Onyx's Meteor Shower
+Onyx's Celestial Rage	Onyx's Celestial Rage
+Teachings of Brother Laz	Teachings of Brother Laz
+Holy Aura	Holy Aura
+Retribution	Retribution
+Glory of Salvation	Glory of Salvation
+Angel's Touch	Angel's Touch
+Spin's Enigma	Spin's Enigma
+Spin's Paradox	Spin's Paradox
+Spin's Mystery	Spin's Mystery
+Spin's Conundrum	Spin's Conundrum
+Spin's Perplexing Puzzle	Spin's Perplexing Puzzle
+Darkmage's Falling Star	Darkmage's Falling Star
+Darkmage's Solar Flair	Darkmage's Solar Flair
+Darkmage's Super Nova	Darkmage's Super Nova
+Darkmage's Meteor Shower	Darkmage's Meteor Shower
+Darkmage's Celestial Fury	Darkmage's Celestial Fury
+Cryptic Claws	Cryptic Claws
+Way of the Shadow	Way of the Shadow
+Dawns Mist	Dawns Mist
+Featherfoot	Featherfoot
+Winter's Discord	Winter's Discord
+Soulstone of Power	Soulstone of Power
+Guiding Focus	Guiding Focus
+Chaotic Shield	Chaotic Shield
+Treads of Energy	Treads of Energy
+Band of Mysticism	Band of Mysticism
+Chiad's Lances	Chiad's Lances
+Chiad's Wall	Chiad's Wall
+Chiad's Heartbane	Chiad's Heartbane
+Chiad's Halo	Chiad's Halo
+Chiad's Valor	Chiad's Valor
+Myhrginoc's Headhunter	Myhrginoc's Headhunter
+Myhrginoc's Black Rain	Myhrginoc's Black Rain
+Myhrginoc's Crimson Crusader	Myhrginoc's Crimson Crusader
+Myhrginoc's Deathmonger	Myhrginoc's Deathmonger
+Sin and Greed	Sin and Greed
+wicked Impulse	Wicked Impulse
+Evil Reputation	Evil Reputation
+Noxious Whispers	Noxious Whispers
+Eternal Sleep	Eternal Sleep
+Calming Peace	Calming Peace
+Silk Shroud	Silk Shroud
+Temple Guardian	Temple Guardian
+Sundered Heart	Sundered Heart
+Soulreaver	Soulreaver
+Throws of Hatred	Throws of Hatred
+Blood Raven's Pain	Blood Raven's Pain
+Blood Raven's Curse	Blood Raven's Curse
+Blood Raven's Redemption	Blood Raven's Redemption
+Char's Grimace of Death	Char's Grimace of Death
+Char's Annulus of Obscurity	Char's Annulus of Obscurity
+Char's Blessed Reflection	Char's Blessed Reflection
+Char's Hand of Blessed Light	Char's Hand of Blessed Light
+Kingpin's Wrap	Kingpin's Wrap
+Kingpin's Greaves	Kingpin's Greaves
+Kingpin's Ire	Kingpin's Ire
+Kingpin's Signet	Kingpin's Signet
+Kingpin's Crown	Kingpin's Crown
+Kingpin's Blade	Kingpin's Blade
+Char's Carapace	Char's Carapace
+Wiseman's Cap	Wiseman's Cap
+Sage's Leather	Sage's Leather
+Gloves of Knowledge	Gloves of Knowledge
+Arcane Battlestaff	Arcane Battlestaff
+Unholy Desires	Unholy Desires
+Darkest Wishes	Darkest Wishes
+Shadowed Plate	Shadowed Plate
+Draven Coil	Draven Coil
+Tortured Soul Gauntlets	Tortured Soul Gauntlets
+Hell's Torment Greaves	Hell's Torment Greaves
+Bloody Visage Helm	Bloody Visage Helm
+Vengeance Unleashed	Vengeance Unleashed
+Elysian Fields	Elysian Fields
+Death and Decay	Death and Decay
+Dying Curses	Dying Curses
+Lich's Rites	Lich's Rites
+Twilight of Evil	Twilight of Evil
+Dark Rituals	Dark Rituals
+Legacy in Blood	Legacy in Blood
+Andariel's Claw	Andariel's Claw
+Andariel's Hooves	Andariel's Hooves
+Andariel's Mask	Andariel's Mask
+Andariel's Breastbone	Andariel's Breastbone
+Aragorn's Contempt	Aragorn's Contempt
+Aragorn's Derision	Aragorn's Derision
+Aragorn's Indignation	Aragorn's Indignation
+Aragorn's Disdain	Aragorn's Disdain
+Winter's Embrace	Winter's Embrace
+Baptism by Fire	Baptism by Fire
+Between Fire and Ice	Between Fire and Ice
+Call of Gylandra	Call of Gylandra
+Return to Hydrakal	Return to Hydrakal
+Neprida's Kiss	Neprida's Kiss
+Warder's Vest	Warder's Vest
+Heron-Branded Blade	Heron-Branded Blade
+Ter'Angreal Ring	Ter'Angreal Ring
+Ser'Angreal Necklace	Ser'Angreal Necklace
+Taint of Saidin	Taint of Saidin
+Aviendha's Gift	Aviendha's Gift
+Heroes Stand	Heroes Stand
+Warrior's Heroism	Warrior's Heroism
+Martyr's Principle	Martyr's Principle
+Judicial Decree	Judicial Decree
+Regime of Regulation	Regime of Regulation
+King's Prescript	King's Prescript
+Born Supremacy	Born Supremacy
+Dominion's Thesis	Dominion's Thesis
+Astral Body	Astral Body
+Apparition of Malice	Apparition of Malice
+Phantasm of Horror	Phantasm of Horror
+Haunted Wisdom	Haunted Wisdom
+Revenant's Claw	Revenant's Claw
+Alyssa's Essence	Alyssa's Essence
+Alyssa's Leafblighter	Alyssa's Leafblighter
+Alyssa's Sandals	Alyssa's Sandals
+Unholy Vows	Unholy Vows
+Vampirebone Dagger	Vampirebone Dagger
+Wall of Modius	Wall of Modius
+Death's Door	Death's Door
+Hannibal's Shattered Plate	Hannibal's Shattered Plate
+Hannibal's Final Flight	Hannibal's Final Flight
+Hannibal's Blurred Vision	Hannibal's Blurred Vision
+Hannibal's Bending Knee	Hannibal's Bending Knee
+Shroud of Anger	Shroud of Anger
+Holy Fury	Holy Fury
+Harvest of Cruelty	Harvest of Cruelty
+Guiding Force	Guiding Force
+Embracing Hatred	Embracing Hatred
+Slave to Anarchy	Slave to Anarchy
+Bound by Honor	Bound by Honor
+Equilibrium	Equilibrium
+Firecam Gilded Plate	Firecam Gilded Plate
+Axe of Arvoreen	Axe of Arvoreen
+Windspar Mask	Windspar Mask
+Waterwyrd's Talon	Waterwyrd's Talon
+Daystar Wrap	Daystar Wrap
+Incarnadine Elven Plate	Incarnadine Elven Plate
+Staff of Elemental Mastery	Staff of Elemental Mastery
+Lilarcor Cap	Lilarcor Cap
+Teleomortis' Gloves	Teleomortis' Gloves
+Citadel Belt	Citadel Belt
+Holy Shroud of Amaunator	Holy Shroud of Amaunator
+Holy Cleaver of Amaunator	Holy Cleaver of Amaunator
+Holy Buckler of Amaunator	Holy Buckler of Amaunator
+Holy Ring of Amaunator	Holy Ring of Amaunator
+Holy Boots of Amaunator	Holy Boots of Amaunator
+Holy Sash of Amaunator	Holy Sash of Amaunator
+Frostwyrm Hide	Frostwyrm Hide
+Hallowed Redeemer	Hallowed Redeemer
+Draconian Mask	Draconian Mask
+Girdle of Kitthix	Girdle of Kitthix
+Gauntlets of Quietus	Gauntlets of Quietus
+Sir Tylan's Sylvan Mail	Sir Tylan's Sylvan Mail
+Prince Karnd's Abomination	Prince Karnd's Abomination
+Yavin's Infernal Visage	Yavin's Infernal Visage
+Prince Gwar's Bracers	Prince Gwar's Bracers
+Lady Daan's Celeritous Jambeau	Lady Daan's Celeritous Jambeau
+Mail of Courageousness	Mail of Courageousness
+Baton of Intrepidity	Baton of Intrepidity
+Wall of Bravery	Wall of Bravery
+Helm of Chivalry	Helm of Chivalry
+Belt of Temerity	Belt of Temerity
+Ebony Plate of Evil	Ebony Plate of Evil
+Deflector of Light	Deflector of Light
+Dark Cataclysm	Dark Cataclysm
+Malignant Rod	Malignant Rod
+Helshazag	Helshazag
+Summerswerd	Summerswerd
+Helghast Waistband	Helghast Waistband
+Hallowed Greaves	Hallowed Greaves
+Sunspear Deflector	Sunspear Deflector
+Imperial Plate	Imperial Plate
+Imperial Helm	Imperial Helm
+Imperial Girdle	Imperial Girdle
+Imperial Greaves	Imperial Greaves
+Imperial Gauntlets	Imperial Gauntlets
+Imperial Scepter	Imperial Scepter
+Great White Terror	Great White Terror
+Feeding Frenzy	Feeding Frenzy
+Mako's Quickness	Mako's Quickness
+Hammerhead's Persistence	Hammerhead's Persistence
+Angels	Angels
+Principality	Principality
+Virtue	Virtue
+Dominion	Dominion
+Cherubim	Cherubim
+Seraphim	Seraphim
+Mephisto's Misty Aura	Mephisto's Misty Aura
+Diablo's Soulstone Ring	Diablo's Soulstone Ring
+Baal's Cryptic Amulet	Baal's Cryptic Amulet
+Heaven's Lances	Heaven's Lances
+Demonic Chuckle	Demonic Chuckle
+Evil Humor	Evil Humor
+Temptation's Death	Temptation's Death
+ravensetwolf	+ Max Ravens, - Max Wolves
+ravenhits	to Raven Hits
+ravendmg	+50% to Raven Damage
+MinorUpgrades	
+MediumUpgrades	
+MajorUpgrades	
+UberCharmLargeUpgrades	
+UberCharmSmallUpgrades	
+UberUpgrades	
+uber_weight	Uber Charm Weight
+uber_mod	Uber Charm Weight
+Blood Moon	Blood Moon
+Winter Moon	Winter Moon
+Harvest Moon	Harvest Moon
+Full Moon	Full Moon
+Old Ben's Walking Stick	Old Ben's Walking Stick
+Rune Pliers	Rune Pliers
+Jewel Pliers	Jewel Pliers
+Red Dragon Scales	Red Dragon Scales
+Plantar Enlightenment	Plantar Enlightenment
+Megalodon's Bite	Megalodon's Bite
+Kraken's Lash	Kraken's Lash
+Hell's Messenger	Hell's Messenger
+Ogre Chieftain's Law	Ogre Chieftain's Law
+Kraken's Fury	Kraken's Fury
+Apocalypse Fire	Apocalypse Fire
+Spectral Image	Spectral Image
+Centaur's Arc	Centaur's Arc
+Ravenclaw	Ravenclaw
+Killing Spree	Killing Spree
+Aphrodite's Girdle	Aphrodite's Girdle
+Shield of Osiris	Shield of Osiris
+Raptor Fang	Raptor Fang
+Leash of Cerberus	Leash of Cerberus
+Megaladon Wrap	Megaladon Wrap
+Storm Demon's Glare	Storm Demon's Glare
+kch	Keychain
+rup	Rune Pliers
+jwp	Jewel Pliers
+Black Soulstone	Black Soulstone
+Obsidian Beacon	Obsidian Beacon
+Valknut	Valknut
+Triskelion	Triskelion
+Web of Wyrd	Web of Wyrd
+Conclave of Elements	Conclave of Elements
+Fist of Lachdanan	Fist of Lachdanan
+Basilisk's Touch	Basilisk's Touch
+Thief's Lockpicker	Thief's Lockpicker
+Artemis's Spiculum	Artemis's Spiculum
+Plate of Fistandantilus	Plate of Fistandantilus
+Lachdanan's Heart	Lachdanan's Heart
+Skull of Fistandantilus	Skull of Fistandantilus
+Razorbite Deflector	Razorbite Deflector\n
+Lachdanan's Guard	Lachdanan's Guard
+Lachdanan's Bracers	Lachdanan's Bracers
+Lachdanan's Wrap	Lachdanan's Wrap
+Quandary of the Queen	Quandary of the Queen
+Hannibal's Crown	Hannibal's Crown
+Dark Demesne	Dark Demesne
+Maadi's Silence	Maadi's Silence
+Maadi's Vision	Maadi's Vision
+Maadi's Spirit	Maadi's Spirit
+Maadi's Torch	Maadi's Torch
+Maadi's Soul	Maadi's Soul
+The Raven's Talons	The Raven's Talons
+The Raven's Feet	The Raven's Feet
+The Raven's Wing	The Raven's Wing
+The Raven's Beak	The Raven's Beak
+The Raven's Feathers	The Raven's Feathers
+Hand of the Vindicator	Hand of the Vindicator
+Bulwark of the Vindicator	Bulwark of the Vindicator
+Belt of the Vindicator	Belt of the Vindicator
+fadeDescription	You feel incorporeal...
+Ghostly Chainmail	Ghostly Chainmail
+ModStr3h2	Requirements Increased By
+Forbidden Rites	Forbidden Rites
+Fury of the Owlbear	Fury of the Owlbear
+Skaadi's Claws	Skaadi's Claws
+allelemskilldmg	to All Elemental Skill Damage
+DyeWhite	DyeWhite
+DyeBlack	DyeBlack
+DyeBlue	DyeBlue
+DyeRed	DyeRed
+DyeGreen	DyeGreen
+DyeYellow	DyeYellow
+DyePurple	DyePurple
+DyeOrange	DyeOrange
+PenetrateElePen	to All Enemy Elemental Resistances
+Rathma's Husk	Rathma's Husk
+Gloomform	Gloomform
+Mantle of Lazarus	Mantle of Lazarus
+Heartpiercer	Heartpiercer
+Fortitude (Dummy)	Fortitude (Helm Removed)
+Obsidian Husk	Obsidian Husk
+Qual-Kehk's Oath	Qual-Kehk's Oath
+Windrunner	Windrunner
+Mail of the Askari	Mail of the Askari
+Askarian Grips	Askarian Grips
+Eclipse	Eclipse
+Distant Thunder	Distant Thunder
+Akarat's Devotion	Akarat's Devotion
+Bark of the Great Oak	Bark of the Great Oak
+Will of the Zakarum	Will of the Zakarum
+Arcane2	Arcane
+Rotbranch	Rotbranch
+Natalya's Shroud	Natalya's Shroud
+Grip of the Faithful	Grip of the Faithful
+Jordan's Sigil	Jordan's Sigil
+Panda's Pelt	Panda's Pelt
+Panda's Sled	Panda's Sled
+Panda's Mitts	Panda's Mitts
+Panda's Coat	Panda's Coat
+Panda's Sash	Panda's Sash
+ModStrAllMaxRes	+%d to All Maximum Resistances
+Moditem2allattrib	+%d to All Attributes
+ModStrPlayerMinDmgPercent	%+d%% Extra Minimum Weapon Damage
+ModStrPlayerMaxDmgPercent	%+d%% Extra Maximum Weapon Damage
+ModStrPlayerDmgPercent	%+d%% Extra Weapon Damage
+ModStrPlayerMinThrowDmgPercent	%+d%% Extra Minimum Throwing Weapon Damage
+ModStrPlayerMaxThrowDmgPercent	%+d%% Extra Maximum Throwing Weapon Damage
+ModStrPlayerThrowDmgPercent	%+d%% Extra Throwing Weapon Damage
+Cerebus' Bite	Cerebus' Bite
+Spirit of Lachdonnan	Spirit of Lachdonnan
+Royal Diadam	Royal Diadam
+Stone Of Jordan	Stone Of Jordan
+Kingpin's Upgraded Goldwrap	Kingpin's Upgraded Goldwrap
+Kingpin's War Traveler	Kingpin's War Traveler
+Kingpin' Skullder's Ire	Kingpin' Skullder's Ire
+Kingpin's Nagelring	Kingpin's Nagelring
+Kingpin's Harlequin Crest	Kingpin's Harlequin Crest
+Kingpin's Blade of Ali Baba	Kingpin's Blade of Ali Baba
+Hanabal's Shattered Plate	Hanabal's Shattered Plate
+Hanabal's Final Flight	Hanabal's Final Flight
+Hanabal's Blurred Vision	Hanabal's Blurred Vision
+Hanabal's Bending Knee	Hanabal's Bending Knee
+Hammerhead's Persistance	Hammerhead's Persistance
+Beast1	Beast
+Black1	Black
+Blood1	Blood
+Bramble1	Bramble
+Chaos1	Chaos
+Death1	Death
+Doom1	Doom
+Dragon1	Dragon
+Dread1	Dread
+Night1	Night
+Plague1	Plague
+Red1	Red
+Rift1	Rift
+Shadow1	Shadow
+Spirit1	Spirit
+Steel1	Steel
+Stone1	Stone
+Storm1	Storm
+Wind1	Wind
+Wrath1	Wrath
+Bone1	Bone
+Life and Death	Life & Death
+Collin's Destruction	Collin's Destruction
+Swift Decent	Swift Decent
+extratraps	to Maximum Traps
+extraShadowMasters	to Maximum Shadow Masters
+Judge's Helmet	Judge's Helmet
+The Saboteur's Bandolier	The Saboteur's Bandolier
+Ragnarok	Ragnarok
+The Gambler's Fallacy	The Gambler's Fallacy
